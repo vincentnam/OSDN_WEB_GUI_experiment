@@ -1,0 +1,22 @@
+.root_page{
+    flex:1;
+    /*background-color: red;*/
+    flex-direction: row;
+    display: flex;
+}
+.sidebar_root{
+
+    width: 15rem;
+    height: 100%;
+    /*flex:1;*/
+    /*background-color: #eeb004;*/
+}
+.root_page > .page_body {
+    /*flex: 1;*/
+
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
