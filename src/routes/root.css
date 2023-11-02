@@ -1,22 +1,38 @@
 .root_page{
     flex:1;
     /*background-color: red;*/
+
     flex-direction: row;
     display: flex;
 }
+/*.sidebar_div{*/
+/*    min-height: 100%;*/
+/*    !*height: 140%;*!*/
+/*    background-color: blue;*/
+/*}*/
 .sidebar_root{
-
-    width: 15rem;
-    height: 100%;
+    /*min-height: 100%;*/
+    /*width: 15rem;*/
+    /*height: 100%;*/
     /*flex:1;*/
     /*background-color: #eeb004;*/
 }
 .root_page > .page_body {
     /*flex: 1;*/
 
-    background-color: red;
-    height: 100%;
-    width: 100%;
-    padding: 1rem;
+    /*background-color: red;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*padding: 1rem;*/
 }
+#info_div {
+    /*background-color: #eeb004;*/
+    display: flex;
+    height: 100%;
+    flex-direction: row;
 
+    /*justify-content: center;*/
+}
+#platform_tree_list {
+    padding-left: 1rem;
+}

@@ -1,41 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Root from "./routes/root";
 import reportWebVitals from './reportWebVitals';
-import {
-    createBrowserRouter,
-    RouterProvider,
-} from "react-router-dom";
+import App from "./App";
+import {Provider} from 'react-redux';
+import reducer from "./reducer/index_store";
+import {applyMiddleware, createStore} from "@reduxjs/toolkit";
+import thunk from "redux-thunk";
 
-import ErrorPage from "./error-page";
-import Root_page from "./routes/root";
-
-
-const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Root_page />,
-        errorElement: <ErrorPage />,
-    },
-    {
-        path: "/",
-        element: <Root_page />,
-        errorElement: <ErrorPage />,
-    },
-    {
-        path: "/",
-        element: <Root_page />,
-        errorElement: <ErrorPage />,
-    },
-]);
-
+const store =  createStore(reducer, applyMiddleware(thunk));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<App />*/}
-      <RouterProvider router={router} />
+      <Provider store={store}>
+          <App />
+      </Provider>
+
 
 
   </React.StrictMode>
