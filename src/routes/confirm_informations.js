@@ -5,10 +5,12 @@ import Paper from '@mui/material/Paper';
 import {DataTable} from "mantine-datatable";
 import {useState} from "react";
 import Button from '@mui/material/Button';
-import {generateUuid} from "uuid-by-string";
+
 import register_platform from "../tools/register_platform_request";
+import {Alert, message} from "antd";
+import {logDOM} from "@testing-library/react";
+import {duration} from "@mui/material";
 function ConfirmInformationsPage(props) {
-    console.log(props.root_reducer.platform)
     const platform_name_display = {platform_name:"Platform name :", platform_URL:"Platform URL :",
         mandatory_platform_to_connect_to:"Mandatory platform selected :", platform_to_connect_to:"Chosen platform selected :",
     model_cascader:"Model used :"}
@@ -78,8 +80,7 @@ function ConfirmInformationsPage(props) {
         },
 
     ]);
-    console.log("COUCOU")
-    console.log(props)
+
     const [matchesList, setMatchesList] = useState(props.root_reducer.matches? props.root_reducer.matches : []);
     const [sortStatusMatches, setSortStatusMatches] = useState({ columnAccessor: 'name', direction: 'asc' });
 
@@ -119,9 +120,26 @@ function ConfirmInformationsPage(props) {
                 <Paper className="paper_header" >
                     <Button variant="outlined" color="success" onClick={() => {
                         const uuid = require("uuid-by-string");
-                        const test = props.root_reducer.platform.platform_name + Date.now();
+                        var model_id;
+                        var platform_id;
+                        if (localStorage.getItem("model_id")) {
+                            model_id = localStorage.getItem("model_id");
+                        }
+                        else {
+                            model_id = uuid(props.root_reducer.modelName+Date.now()).toString();
+                            localStorage.setItem("model_id",model_id)
+                        }
+                        if (localStorage.getItem("platform_id")) {
+                            platform_id = localStorage.getItem("platform_id");
+                        }
+                        else {
+                            platform_id = uuid(props.root_reducer.platform.platform_name + Date.now());
+                            localStorage.setItem("platform_id",platform_id)
+
+                        }
                         // console.log(test)
-                        const headers = {"platform-id":uuid(test )};
+                        const headers = {"Content-Type":"application/json","platform-id":platform_id,
+                            "registry-version":Date.now().toString(), "Platforms-Visited":""};
                         const model_link = [];
                         var is_custom_model_added = false;
                         // console.log(headers)
@@ -138,23 +156,54 @@ function ConfirmInformationsPage(props) {
                             if (model_link) {
                                 headers["existing-model-id"]=model_link;
                             }
-                            // console.log(props.root_reducer.platform)
-                            // if (props.root_reducer.platform.model_cascader.includes(["Custom model"])) {
-                            //     headers["existing-model-id"] = ;
-                            // }
+
                         }
-                        console.log(headers)
                         const body = {};
-                        if (is_custom_model_added) {
+
+                        body["models"] = {};
+                        if ((is_custom_model_added) && (props.root_reducer?.model !==[])) {
                             // console.log(body["models"])
 
-                            body["models"] = {};
-                            body["models"][uuid(props.root_reducer.modelName+Date.now()).toString()]=props.root_reducer.model;
+                            body["models"][model_id]={};
+                            body["models"][model_id]["keys"]=props.root_reducer.model;
+                            body["models"][model_id]["name"]=props.root_reducer.modelName
+                            body["models"][model_id]["platforms"]=[platform_id]
                         }
-                        console.log(body)
+
+                        body["platforms"]={};
+                        body["platforms"][platform_id]={}
+                        body["platforms"][platform_id]["name"]=props.root_reducer.platform.platform_name;
+                        body["platforms"][platform_id]["URL"]=props.root_reducer.platform.platform_URL;
+                        body["platforms"][platform_id]["links"]=props.root_reducer.platform.mandatory_platform_to_connect_to.map((el)=>el[0]).concat(props.root_reducer.platform.platform_to_connect_to.map((el)=>el[0]));
                         // console.log(register_platform(localStorage.getItem("PlatformURL"), headers, body ))
 
+                        body["matchs"]={}
+                        props.root_reducer.matches.map((el)=>{
+                                console.log(el);
+                                body["matchs"][platform_id+el.id]={keyA:el.ConceptA, keyB:el.ConceptB, modelA:el.ModelA, modelB:el.ModelB, type:"manual", platform_review:[], score:""};
+                            }
+                        )
+                        // console.log("COUCOU")
+                        register_platform(localStorage.getItem("PlatformURL"), headers, JSON.stringify(body)).then((el) => {
+                            if (el[0] === 204) {
+                                message.success("Platform successfully registered.", 5)
+                                localStorage.removeItem("platform_id");
+                                localStorage.removeItem("model_id");
+                                localStorage.removeItem("state");
+                                setDataFile([]);
+                            }
+                            else {
+                                // console.log(el)
+                                message.error("Error : " + el, 5)
+                            }
+                        }).catch((response) => {
+                                // console.log(response)
+                                // console.log("TA MERE")
+                                message.error("Error : " + response, 5)
+                            }
+                        );
 
+                        console.log(localStorage)
                     }}
                     >Register all</Button>
                     <Button variant="outlined" color="success" onClick={() => {
@@ -164,6 +213,14 @@ function ConfirmInformationsPage(props) {
 
                     }}
                     >Add model only</Button>
+                    <Button variant="outlined" color="success" onClick={() => {
+
+                        localStorage.removeItem("model_id");
+                        localStorage.removeItem("platform_id")
+
+
+                    }}
+                    >reset</Button>
                     <Button variant="outlined" color="success" onClick={() => {
 
                         console.log("Button cliqué")

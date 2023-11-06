@@ -28,8 +28,6 @@ function CreateModelPage(props) {
 
         ]);
     const [sortStatus, setSortStatus] = useState({ columnAccessor: 'name', direction: 'asc' });
-    console.log("PROPS : ")
-    console.log(props)
     useEffect(() => {
         const data = sortBy(dataFile, sortStatus.columnAccessor);
 

@@ -1,5 +1,5 @@
 import './register_platform.css';
-import {Checkbox, Form, Input, Button, Cascader} from 'antd';
+import {Form, Input, Button, Cascader} from 'antd';
 import {connect} from "react-redux";
 import {React, useEffect, useState} from 'react';
 import get_mandatory_platform_to_connect_to from "../tools/get_mandatory_platform";
@@ -30,17 +30,8 @@ function RegisterPlatformPage(props) {
         model_options = Object.keys(props.context.models).map((key) => {
             return {label: props.context?.models[key]?.name, value:key}
         });
-        model_options.unshift({label:"Custom model", value:"Custom model"})
+        model_options.unshift({label:"New model (see 'Register model page')", value:"Custom model"})
     }
-    console.log(model_options)
-    console.log(props.context)
-    const onFinish = (values) => {
-        console.log('Success:', values);
-    };
-
-    const onFinishFailed = (errorInfo) => {
-        console.log('Failed:', errorInfo);
-    };
 
     const mandatory_options = mandatory_platform?.map((key, index)=>{
         return {label: props.context?.platforms[key]?.name, value: key}
@@ -49,9 +40,7 @@ function RegisterPlatformPage(props) {
     const onValueChangeForm = (value, allvalues)=>{
 
         setPlatformData(allvalues);
-        // console.log(allvalues)
-        // Object.keys(value).map((el)=>(setPlatformData({...platformData, el:value[el]})))
-        // console.log(platformData)
+
     }
 
     return (
@@ -74,8 +63,7 @@ function RegisterPlatformPage(props) {
                     wrapperCol={{ span: 16 }}
                     style={{ maxWidth: 600 }}
                     initialValues={{ remember: true }}
-                    onFinish={onFinish}
-                    onFinishFailed={onFinishFailed}
+
                     autoComplete="off"
                     onValuesChange={onValueChangeForm}
                 >
@@ -137,7 +125,7 @@ function RegisterPlatformPage(props) {
 
                     {/*</div>*/}
                     <Form.Item
-                        label="Use model already in registry"
+                        label="Model used"
                         name="model_cascader"
                         className="model_checkbox_div"
                         rules={[{ required: true, message: 'URL to message the platform needed.' }]}

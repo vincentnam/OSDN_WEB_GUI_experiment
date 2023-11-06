@@ -1,4 +1,5 @@
 {
+  "registry-version": 1,
   "network": {
     "node_number": 3,
     "degrees_distribution": [["1","2","3"],[]]

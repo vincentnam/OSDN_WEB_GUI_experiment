@@ -13,6 +13,8 @@ from flask import Flask
 from flask import request
 from flask_cors import CORS
 #### Custom gateway to data management system
+import json
+import pprint
 
 
 app = Flask(__name__)
@@ -20,7 +22,6 @@ cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 app.config["PLATFORM-ID"] = os.environ["PLATFORM-ID"]
 app.config["REQUEST-ID-LIST"] = []
-app.config["REGISTRY-VERSION"] = "1"
 
 if app.config["PLATFORM-ID"] == "1":
     app.config["registry"] = pickle.loads(open("registry_ODATIS.dict", "rb").read())
@@ -31,6 +32,10 @@ if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4":
 if app.config["PLATFORM-ID"] == "3":
     app.config["registry"] = pickle.loads(open("registry_FHIR.dict", "rb").read())
 
+pprint.pprint(app.config["registry"],stream=sys.stderr)
+
+# print(app.config["registry"],file=sys.stderr)
+app.config["REGISTRY-VERSION"] = app.config["registry"]["registry-version"]
 
 # @app.route("/data")
 # def hello_world():
@@ -45,6 +50,11 @@ def modify_platform_id():
 
 @app.route('/registry', methods=['POST'])
 def overwrite_registry():
+    pprint.pprint(request, stream=sys.stderr)
+
+    pprint.pprint(request.headers, stream=sys.stderr)
+
+    pprint.pprint(request.get_json(), stream=sys.stderr)
     if request.headers["registry-version"] == app.config["REGISTRY-VERSION"]:
         return flask.Response(status=208)
     else:
@@ -52,16 +62,29 @@ def overwrite_registry():
     data = request.get_json(force=True)
     with open("registry.dict", "wb") as fp:
         pickle.dump((data), fp)
-        app.config["registry"] = data
+        for key in app.config["registry"]:
+            if key !="registry-version" and key !="network":
+                pprint.pprint("KEY",stream=sys.stderr)
+                pprint.pprint(key,stream=sys.stderr)
+                pprint.pprint(data[key],stream=sys.stderr)
+                app.config["registry"][key] = {**app.config["registry"][key], **data[key]}
 
     aux_header = dict(request.headers)
 
     aux_header["Platform-Visited"] = aux_header["Platforms-Visited"] + "," + app.config["PLATFORM-ID"]
+    pprint.pprint("COUCOU", stream=sys.stderr)
+    pprint.pprint(app.config["registry"], stream=sys.stderr)
+
+
+
+    # pprint.pprint(app.config["registry"]["platforms"])
+
     for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
         if platform_id not in request.headers["platforms-visited"] and platform_id != request.headers["platform-id"]:
-            req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
-                     data=json.dumps(data), timeout=5)
-    return flask.Response(status=204)
+#             req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
+#                      data=json.dumps(data), timeout=5)
+            pass
+    return flask.Response({},status=204)
 
 
 @app.route('/registry', methods=['GET'])
@@ -329,7 +352,9 @@ def link_platforms():
     platform_toadd_id = request.headers["platform-id"]
     platform_tolinkto_id = request.headers["platform-tolink"]
     data = request.get_json()
+    pprint.pprint(app.config["registry"]["models"],stream=sys.stderr)
     app.config["registry"]["platforms"][platform_toadd_id] = data["platforms"][platform_toadd_id]
+
     if "existing-model-id" in request.headers:
         app.config["registry"]["models"][request.headers["existing-model-id"]]["platforms"].append(platform_toadd_id)
     else:
