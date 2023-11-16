@@ -5,3 +5,4 @@ pymongo
 dicttoxml
 mysqlclient
 Flask-CORS
+pandas

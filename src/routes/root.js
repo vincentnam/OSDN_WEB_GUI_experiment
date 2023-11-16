@@ -1,6 +1,7 @@
 import './root.css';
+import {connect} from "react-redux";
 
-export default function RootPage(props) {
+function RootPage(props) {
     return (
             <div className="root_page">
                 <div className="page_body">
@@ -8,3 +9,9 @@ export default function RootPage(props) {
             </div>
     );
 }
+
+function mapStateToProps(state) {
+    return state
+}
+
+export default connect(mapStateToProps)(RootPage)

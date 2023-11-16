@@ -19,6 +19,12 @@
       "name": "FHIR platform",
       "URL": ["http://193.168.1.12:5000"],
       "links": ["1","2"]
+    },
+
+    "002126f1-ddc6-5e1b-92b7-8baa0523d244": {
+      "URL": "http://193.168.1.14:5000",
+      "links": ["1", "2"],
+      "name": "test"
     }
   },
   "models": {

@@ -45,15 +45,15 @@ export default function Sidebar(props) {
                              <a  href={`/confirm_informations`}>Confirm registration</a>
                          </li>
                          <p>Registry visualization</p>
-                         <li>
-                             <a  href={`/browse_platforms`}>Browse platforms</a>
+                         <li className="disabled">
+                             <a  className="disabled" >Browse platforms</a>
                          </li>
-                         <li>
-                             <a  href={`/browse_models`}>Browse models and matches</a>
+                         <li className="disabled">
+                             <a className="disabled" aria-disabled="true">Browse models and matches</a>
                          </li>
                          <p>Information research</p>
                          <li>
-                             <a  href={`/research`}>Research datasets in OSDN</a>
+                             <a  href={`/research_data`}>Research datasets in OSDN</a>
                          </li>
 
 

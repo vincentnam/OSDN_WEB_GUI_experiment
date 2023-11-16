@@ -9,7 +9,7 @@ import flask
 import pymongo
 import requests as req
 from bson import json_util
-from flask import Flask
+from flask import Flask, make_response
 from flask import request
 from flask_cors import CORS
 #### Custom gateway to data management system
@@ -23,16 +23,17 @@ cors = CORS(app, resources={r"/*": {"origins": "*"}})
 app.config["PLATFORM-ID"] = os.environ["PLATFORM-ID"]
 app.config["REQUEST-ID-LIST"] = []
 
+# pprint.pprint(app.config, stream=sys.stderr)
 if app.config["PLATFORM-ID"] == "1":
     app.config["registry"] = pickle.loads(open("registry_ODATIS.dict", "rb").read())
 
-if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4":
+if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
     app.config["registry"] = pickle.loads(open("registry_AERIS.dict", "rb").read())
 
 if app.config["PLATFORM-ID"] == "3":
     app.config["registry"] = pickle.loads(open("registry_FHIR.dict", "rb").read())
 
-pprint.pprint(app.config["registry"],stream=sys.stderr)
+# pprint.pprint(app.config["registry"],stream=sys.stderr)
 
 # print(app.config["registry"],file=sys.stderr)
 app.config["REGISTRY-VERSION"] = app.config["registry"]["registry-version"]
@@ -47,14 +48,31 @@ def modify_platform_id():
     rep.set_data(app.config["PLATFORM-ID"])
     return rep
 
+@app.route("/test_registry")
+def update_state_registry():
+    # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
+    # UPDATE NETWORK
+    # UPDATE MODELS PART
+    for id_plat in app.config["registry"]["platforms"]:
+        # print(id_plat, file=sys.stderr)
+        for link in app.config["registry"]["platforms"][id_plat]["links"]:
+            if id_plat not in app.config["registry"]["platforms"][link]["links"]:
+                app.config["registry"]["platforms"][link]["links"].append(id_plat)
+
+
+    # app.config["registry"]["platforms"]
+    # pprint.pprint('app.config["registry"]["platforms"]', stream=sys.stderr)
+
+    # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
+    # return "ok"
 
 @app.route('/registry', methods=['POST'])
 def overwrite_registry():
-    pprint.pprint(request, stream=sys.stderr)
+    # pprint.pprint(request, stream=sys.stderr)
 
-    pprint.pprint(request.headers, stream=sys.stderr)
+    # pprint.pprint(request.headers, stream=sys.stderr)
 
-    pprint.pprint(request.get_json(), stream=sys.stderr)
+    # pprint.pprint(request.get_json(), stream=sys.stderr)
     if request.headers["registry-version"] == app.config["REGISTRY-VERSION"]:
         return flask.Response(status=208)
     else:
@@ -63,17 +81,22 @@ def overwrite_registry():
     with open("registry.dict", "wb") as fp:
         pickle.dump((data), fp)
         for key in app.config["registry"]:
-            if key !="registry-version" and key !="network":
-                pprint.pprint("KEY",stream=sys.stderr)
-                pprint.pprint(key,stream=sys.stderr)
-                pprint.pprint(data[key],stream=sys.stderr)
+            if key !="registry-version" and key !="network" and key!="models":
+                # pprint.pprint("KEY",stream=sys.stderr)
+                # pprint.pprint(key,stream=sys.stderr)
+                # pprint.pprint(data[key],stream=sys.stderr)
                 app.config["registry"][key] = {**app.config["registry"][key], **data[key]}
-
+                # UPDATE LE REGISTRY AVEC LES LINKS
+                update_state_registry()
+    # if "models" in data:
+    #     for key in data["models"]:
+    #         if key in app.config["registry"]["models"]:
+    #             app.config["registry"][key]["platforms"].append(data["platform"])
     aux_header = dict(request.headers)
 
     aux_header["Platform-Visited"] = aux_header["Platforms-Visited"] + "," + app.config["PLATFORM-ID"]
-    pprint.pprint("COUCOU", stream=sys.stderr)
-    pprint.pprint(app.config["registry"], stream=sys.stderr)
+#     pprint.pprint("COUCOU", stream=sys.stderr)
+#     pprint.pprint(app.config["registry"], stream=sys.stderr)
 
 
 
@@ -81,9 +104,9 @@ def overwrite_registry():
 
     for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
         if platform_id not in request.headers["platforms-visited"] and platform_id != request.headers["platform-id"]:
-#             req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
-#                      data=json.dumps(data), timeout=5)
-            pass
+            req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
+                     data=json.dumps(data), timeout=5)
+#             pass
     return flask.Response({},status=204)
 
 
@@ -105,7 +128,7 @@ def operator_list_def(operator_var):
         with open("operator_list_xml.dict", "rb") as fp:
             test = pickle.load(fp)[operator_var]
             return (eval(test))
-    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4":
+    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
         with open("operator_list_mongo.dict", "rb") as fp:
             return pickle.load(fp)[operator_var]
     if app.config["PLATFORM-ID"] == "3":
@@ -113,7 +136,7 @@ def operator_list_def(operator_var):
             return pickle.load(fp)[operator_var]
 
 
-def get_metadata(key, model, operator, operand, dicttoxml=None):
+def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
     '''
     Get metadata from request : gateway technical interoperability function
     :param key:
@@ -122,12 +145,105 @@ def get_metadata(key, model, operator, operand, dicttoxml=None):
     :param operand:
     :return: Results of request as list of objects
     '''
+
+    print(query.split("#_#SEPARATOR#_#"), file=sys.stderr)
+
+
+
     # ISO 19115 / ODATIS
     if app.config["PLATFORM-ID"] == "1":
-
+        # return []
         import xml.etree.ElementTree as ET
+        import re
+        import pandas as pd
         root = ET.parse("ODATIS/metadata.xml").getroot()
-        aux_key = key.replace("@", "")
+
+
+        def XML_to_dict(xml):
+            xml_tag = re.sub("{.*}", "", xml.tag)
+            res_dict = {xml_tag: {}}
+            path = [xml_tag]
+
+            def tree_walk(xml, path):
+                aux_path = path
+                for child in list(xml):
+                    child_tag = re.sub("{.*}", "", child.tag)
+                    aux = res_dict
+                    for i in path:
+                        aux = aux[i]
+                    if child_tag in aux:
+                        for attr in child.attrib:
+
+                            if re.sub("{.*}", "", attr) in aux[child_tag]:
+
+                                if isinstance(aux[child_tag][re.sub("{.*}", "", attr)], list):
+                                    aux[child_tag][re.sub("{.*}", "", attr)].append(child.attrib[attr])
+                                else:
+                                    aux[child_tag][re.sub("{.*}", "", attr)] = [aux[child_tag][
+                                                                                    re.sub("{.*}", "", attr)]] + [
+                                                                                   child.attrib[attr]]
+                            else:
+                                aux[child_tag][re.sub("{.*}", "", attr)] = child.attrib[attr]
+                        if isinstance(child.text, str):
+                            if child.text.strip():
+                                if "@value" in aux[child_tag]:
+                                    if isinstance(aux[child_tag]["@value"], list):
+
+                                        aux[child_tag]["@value"].append(child.text)
+                                    else:
+                                        aux[child_tag]["@value"] = [aux[child_tag]["@value"]] + [child.text]
+                                else:
+                                    aux[child_tag]["@value"] = child.text
+                    else:
+                        aux[child_tag] = {}
+                        for attr in child.attrib:
+                            aux[child_tag][re.sub("{.*}", "", attr)] = child.attrib[attr]
+                        if isinstance(child.text, str):
+                            if child.text.strip():
+                                aux[child_tag]["@value"] = child.text
+                    tree_walk(child, aux_path + [child_tag])
+
+            for child in list(xml):
+                child_tag = re.sub("{.*}", "", child.tag)
+                if child_tag in res_dict[xml_tag]:
+                    for attr in child.attrib:
+                        if re.sub("{.*}", "", attr) in res_dict[xml_tag][child_tag]:
+                            if isinstance(res_dict[xml_tag][child_tag][re.sub("{.*}", "", attr)], list):
+                                res_dict[xml_tag][child_tag][re.sub("{.*}", "", attr)].append(child.attrib[attr])
+                            else:
+                                res_dict[xml_tag][child_tag][re.sub("{.*}", "", attr)] = [res_dict[xml_tag][child_tag][
+                                                                                              re.sub("{.*}", "",
+                                                                                                     attr)]] + [
+                                                                                             child.attrib[attr]]
+                        else:
+                            res_dict[xml_tag][child_tag][re.sub("{.*}", "", attr)] = child.attrib[attr]
+                    if isinstance(child.text, str):
+                        if child.text.strip():
+                            if "@value" in res_dict[xml_tag][child_tag]:
+                                if isinstance(res_dict[xml_tag][child_tag]["@value"], list):
+                                    res_dict[xml_tag][child_tag]["@value"].append(child.text)
+                                else:
+                                    res_dict[xml_tag][child_tag]["@value"] = [res_dict[xml_tag][child_tag][
+                                                                                  "@value"]] + [child.text]
+                            else:
+                                res_dict[xml_tag][child_tag]["@value"] = child.text
+                else:
+                    res_dict[xml_tag][child_tag] = {}
+                    for attr in child.attrib:
+                        res_dict[xml_tag][child_tag][re.sub("{.*}", "", attr)] = child.attrib[attr]
+                    if isinstance(child.text, str):
+                        if child.text.strip():
+                            if "@value" in res_dict[xml_tag][child_tag]:
+                                if isinstance(res_dict[xml_tag][child_tag]["@value"], list):
+                                    res_dict[xml_tag][child_tag]["@value"].append(child.text.strip())
+                                else:
+                                    res_dict[xml_tag][child_tag]["@value"] = res_dict[xml_tag][child_tag]["@value"] + [
+                                        child.text]
+
+                            else:
+                                res_dict[xml_tag][child_tag]["@value"] = child.text
+                tree_walk(child, path + [child_tag])
+            return res_dict
 
         def walk_tree(key, root, operator, operand):
             bool = False
@@ -147,35 +263,92 @@ def get_metadata(key, model, operator, operand, dicttoxml=None):
 
                     bool = walk_tree(".".join(aux), i, operator, operand)
             if bool:
-                return [root]
+                return root
             else:
                 return []
 
         try:
-
-
-            return (walk_tree(aux_key, root, operator_list_def(operator), operand))
+            aux_query = query.split("#_#SEPARATOR#_#")
+            aux_key = aux_query[0].replace("@", "")
+            data = (walk_tree(aux_key, root, operator_list_def(aux_query[1]), aux_query[2]))
+            if data != []:
+                # print("coucou \n\n\n", file=sys.stderr)
+                # print(pd.json_normalize(XML_to_dict(root), sep=".").to_dict(), file=sys.stderr)
+                return XML_to_dict(root)
+            else :
+                # print((data), file=sys.stderr)
+                return []
+            # print(data,file=sys.stderr)
+            return data
         except Exception as e:
+            print(data, file=sys.stderr)
+            print(e, file=sys.stderr)
             return []
     # AERIS
-    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4":
-        if app.config["registry"]["models"][model]["keys"][key] == "integer":
-            return (list(pymongo.MongoClient("database_json:27017").AERIS.metadata.find(
-                {key: {operator_list_def(operator): float(operand)}}, {"_id": False})))
-        else:
-            return (list(pymongo.MongoClient("database_json:27017").AERIS.metadata.find(
-                {key: {operator_list_def(operator): operand}}, {"_id": False})))
+    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
+        aux_query={}
+        multiple = False
+        logical_operator = ""
+        splitted_query = query.split("#_#SEPARATOR#_#")
 
+        while(splitted_query):
+
+            if multiple:
+                logical_operator = splitted_query.pop(0)
+            key = splitted_query.pop(0)
+            operator = splitted_query.pop(0)
+            operand = splitted_query.pop(0)
+            if multiple:
+                if isinstance(*aux_query, list):
+                    if app.config["registry"]["models"][model]["keys"][key] == "integer":
+
+                        aux_query = {
+                            "$" + logical_operator.lower(): [aux_query, {key: {operator_list_def(operator): float(operand)}}]}
+                else :
+                    aux_query = {"$"+logical_operator.lower():[aux_query, {key:{operator_list_def(operator):operand}}]}
+            else :
+                aux_query = {key:{operator_list_def(operator):operand}}
+            multiple=True
+        return (list(pymongo.MongoClient("database_json:27017").AERIS.metadata.find(
+                aux_query, {"_id": False})))
     # # FHIR
     if app.config["PLATFORM-ID"] == "3":
         import MySQLdb
-        aux_key = key.replace(".", "_")
 
+        aux_query = ""
+        multiple=False
+
+        splitted_query = query.split("#_#SEPARATOR#_#")
+
+        while (splitted_query):
+
+            if multiple:
+                logical_operator = splitted_query.pop(0)
+            key = splitted_query.pop(0).replace(".", "_")
+            operator = splitted_query.pop(0)
+            operand = splitted_query.pop(0)
+            if multiple:
+                aux_query += " " + logical_operator + " " + key + " " + operator_list_def(operator) + " " + operand
+
+            else:
+                aux_query += key + operator_list_def(operator) + operand
+            multiple = True
+        # print(aux_query, file=sys.stderr)
         db = MySQLdb.connect("database_sql", database="FHIR")
         db_cursor = db.cursor()
-        db_cursor.execute("SELECT * FROM Location_hl7east WHERE " + aux_key + operator_list_def(operator) + operand + " ;")
+        db_cursor.execute("SELECT * FROM Location_hl7east WHERE " + aux_query + " ;")
         ret = db_cursor.fetchall()
-        return ret
+        ret_list = []
+        name = [i[0].replace("_",".") for i in db_cursor.description]
+        for res_req in ret :
+            dict_ret = {}
+
+            for index,col_name in enumerate(name):
+                # print(col_name,index, file=sys.stderr)
+                dict_ret[col_name]=res_req[index]
+            ret_list.append(dict_ret)
+        # print(ret_list, file=sys.stderr)
+        return ret_list
 
 
 @app.route('/request', methods=['GET'])
@@ -189,26 +362,30 @@ def request_metadata():
     "value": value for the request
     :return:
     '''
+    # pprint.pprint(app.config["registry"],stream=sys.stderr)
+#     pprint.pprint(request.headers,stream=sys.stderr)
+#     pprint.pprint("initiator" in request.headers,stream=sys.stderr)
     if "initiator" not in request.headers:
-        return ("initiator header variable not defined (platform id that initiate the request), "
-                "needed for request routage")
+        return flask.Response("initiator header variable not defined (platform id that initiate the request), "
+                                              "needed for request routage",status=400)
     if "key" not in request.headers:
-        return "key from the model header variable not defined, needed for request and match finding"
+        return flask.Response("key from the model header variable not defined, needed for request and match finding",status=400)
     if "model" not in request.headers:
-        return "model header variable not defined, needed for request and match finding"
+        return flask.Response("model header variable not defined, needed for request and match finding",status=400)
     if "jump" not in request.headers:
-        return "jump (inverse of time to live) header variable not defined ; needed for routing"
+        return flask.Response("jump (inverse of time to live) header variable not defined ; needed for routing",status=400)
     if "platforms-visited" not in request.headers:
-        return "platforms-visited header variable not defined ; needed for routing"
+        return flask.Response("platforms-visited header variable not defined ; needed for routing",status=400)
     if "operator" not in request.headers:
-        return "operator header variable not defined ; needed for request"
+        return flask.Response("operator header variable not defined ; needed for request",status=400)
     if "operand" not in request.headers:
-        return "operand header variable not defined ; needed for request"
+        return flask.Response("operand header variable not defined ; needed for request",status=400)
     if "request-id" not in request.headers:
-        return "request-id header variable not defined; needed to avoid loop"
+        return flask.Response("request-id header variable not defined; needed to avoid loop",status=400)
     # Platform id of the request creator
     if "platform-id" not in request.headers:
-        return "platform-id header variable not defined; needed for routing"
+        return flask.Response("platform-id header variable not defined; needed for routing",status=400)
+
 
     ret = {}
     if (request.headers["request-id"] in app.config["REQUEST-ID-LIST"]
@@ -216,9 +393,9 @@ def request_metadata():
         return flask.Response(status=208)
     else:
         app.config["REQUEST-ID-LIST"].append(request.headers["request-id"])
-    ret[app.config["PLATFORM-ID"]] = len(get_metadata(key=request.headers["key"], model=request.headers["model"],
+    ret[app.config["PLATFORM-ID"]] = (get_metadata(key=request.headers["key"], model=request.headers["model"],
                                                       operator=request.headers["operator"],
-                                                      operand=request.headers["operand"]))
+                                                      operand=request.headers["operand"], query=request.headers["query"]))
     # ret[app.config["PLATFORM-ID"]] = 0
     matchs = []
     for match_id in app.config["registry"]["matchs"]:
@@ -226,36 +403,117 @@ def request_metadata():
             matchs.append((app.config["registry"]["matchs"][match_id]["keyB"],
                            app.config["registry"]["matchs"][match_id]["modelB"],
                            app.config["registry"]["models"][app.config["registry"]["matchs"][match_id]["modelB"]][
-                               "platforms"]))
+                               "platforms"],
+                           app.config["registry"]["matchs"][match_id]["keyA"]
+                           ))
         if app.config["registry"]["matchs"][match_id]["keyB"] == request.headers["key"]:
             matchs.append((app.config["registry"]["matchs"][match_id]["keyA"],
                            app.config["registry"]["matchs"][match_id]["modelA"],
                            app.config["registry"]["models"][app.config["registry"]["matchs"][match_id]["modelA"]][
-                               "platforms"]))
-    for match, model, platform_list in matchs:
-        for platform_id in platform_list:
-            if platform_id in app.config["registry"]["platforms"][app.config.get("PLATFORM-ID")]["links"]:
-                if (platform_id not in request.headers["platforms-visited"]
-                        and platform_id != request.headers["platform-id"]):
+                               "platforms"],
+                           app.config["registry"]["matchs"][match_id]["keyB"],
+                           ))
+    print(matchs, file=sys.stderr)
+    no_match_plat_list = []
 
-                    rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
-                                  headers={"platforms-visited":
-                                               request.headers["platforms-visited"] + ","
-                                               + app.config.get("PLATFORM-ID"),
-                                           "jump": str(int(request.headers["jump"]) + 1),
-                                           "key": match,
-                                           "model": model,
-                                           "operator": request.headers["operator"],
-                                           "operand": request.headers["operand"],
-                                           "platform-id": app.config["PLATFORM-ID"],
-                                           "initiator": request.headers["initiator"],
-                                           "request-id": request.headers["request-id"]}
-                                  , timeout=5)
 
-                    if rep.status_code == 200:
-                       ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
-    return flask.jsonify(ret)
+    #  MATCHES problem :
+    # S'il y a plusieurs valeurs matchés dans une seule requêtes, comment on gère ? On change toutes les valeurs ou juste pour un match ?
+    # S'il y a plusieurs matchs, est-ce qu'on fait 1 requêtes pour chaque matchs ?
+    # TODO : Reconstruction de requêtes
+    # Fonction de reconstruction de la requête
+    # Puis envoie à chaque plateforme la requête correspondante
 
+
+    for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
+        match_found = False
+        for match, model, match_platform_list, concept in matchs :
+            if platform_id in match_platform_list:
+                print(match,model,match_platform_list, file=sys.stderr)
+                match_found = True
+                rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
+                              headers={"platforms-visited":
+                                           request.headers["platforms-visited"] + ","
+                                           + app.config.get("PLATFORM-ID"),
+                                       "jump": str(int(request.headers["jump"]) + 1),
+                                       "key": match,
+                                       "model": model,
+                                       "operator": request.headers["operator"],
+                                       "operand": request.headers["operand"],
+                                       "platform-id": app.config["PLATFORM-ID"],
+                                       "initiator": request.headers["initiator"],
+                                       "request-id": request.headers["request-id"],
+                                       'Content-type': 'application/json',
+                                       'Accept': 'application/json',
+                                       'query':request.headers["query"].replace(concept,match)
+                                       }
+                              , timeout=5)
+                if rep.status_code == 200:
+                    try :
+                    # print(rep.text, file=sys.stderr)
+                    # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
+                       ret = {**ret, **json.loads(rep.text)}
+                    except Exception as e :
+                        print(e, file=sys.stderr)
+
+
+        if not match_found:
+            no_match_plat_list.append(platform_id)
+    for platform_id in no_match_plat_list:
+        rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
+                      headers={"platforms-visited":
+                                   request.headers["platforms-visited"] + ","
+                                   + app.config.get("PLATFORM-ID"),
+                               "jump": str(int(request.headers["jump"]) + 1),
+                               "key": request.headers["key"],
+                               "model": request.headers["model"],
+                               "operator": request.headers["operator"],
+                               "operand": request.headers["operand"],
+                               "platform-id": app.config["PLATFORM-ID"],
+                               "initiator": request.headers["initiator"],
+                               "request-id": request.headers["request-id"],
+                               'Content-type': 'application/json',
+                               'Accept': 'application/json',
+                               'query':request.headers["query"]
+                               }
+                      , timeout=5)
+        if rep.status_code == 200:
+
+            # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
+            # print(rep.text, file=sys.stderr)
+            # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
+            ret = {**ret, **json.loads(rep.text)}
+
+
+
+    # for match, model, platform_list in matchs:
+    #     for platform_id in platform_list:
+    #         if platform_id in app.config["registry"]["platforms"][app.config.get("PLATFORM-ID")]["links"]:
+    #             if (platform_id not in request.headers["platforms-visited"]
+    #                     and platform_id != request.headers["platform-id"]):
+    #
+    #                 rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
+    #                               headers={"platforms-visited":
+    #                                            request.headers["platforms-visited"] + ","
+    #                                            + app.config.get("PLATFORM-ID"),
+    #                                        "jump": str(int(request.headers["jump"]) + 1),
+    #                                        "key": match,
+    #                                        "model": model,
+    #                                        "operator": request.headers["operator"],
+    #                                        "operand": request.headers["operand"],
+    #                                        "platform-id": app.config["PLATFORM-ID"],
+    #                                        "initiator": request.headers["initiator"],
+    #                                        "request-id": request.headers["request-id"]}
+    #                               , timeout=5)
+    #
+    #                 if rep.status_code == 200:
+    #                    ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
+    # response = flask.jsonify(data=ret,mimetype='application/json')
+    # response.headers={"Access-Control-Allow-Origin":"*"}
+    # pprint.pprint(ret, stream=sys.stderr)
+    # return response
+    return ret
+#     return flask.Response({"answer":ret},status=204)
 
 
 def get_node_nearest_from_distribution():
@@ -354,9 +612,13 @@ def link_platforms():
     data = request.get_json()
     pprint.pprint(app.config["registry"]["models"],stream=sys.stderr)
     app.config["registry"]["platforms"][platform_toadd_id] = data["platforms"][platform_toadd_id]
-
+    # STRUCTURATION OF existing-model-id HEADER : "MODEL,MODEL,MODEL"
+    # Splitted by ","
+    print("QLSMDKQSMLDKQSMLDK", file=sys.stderr)
+    print(request.headers["existing-model-id"], file=sys.stderr)
     if "existing-model-id" in request.headers:
-        app.config["registry"]["models"][request.headers["existing-model-id"]]["platforms"].append(platform_toadd_id)
+        for model in request.headers["existing-model-id"].split(","):
+            app.config["registry"]["models"][model]["platforms"].append(platform_toadd_id)
     else:
         for model_id in data["models"]:
             add_model(data["models"], model_id)
@@ -410,7 +672,10 @@ def update_registry(registry_add):
         pickle.dump(app.config["registry"], fp)
 
 
-
+@app.route("/test")
+def test():
+    pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
+    return "ok"
 
 def save_registry():
     import time

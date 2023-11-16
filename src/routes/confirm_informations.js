@@ -10,6 +10,7 @@ import register_platform from "../tools/register_platform_request";
 import {Alert, message} from "antd";
 import {logDOM} from "@testing-library/react";
 import {duration} from "@mui/material";
+import uuid from "uuid-by-string";
 function ConfirmInformationsPage(props) {
     const platform_name_display = {platform_name:"Platform name :", platform_URL:"Platform URL :",
         mandatory_platform_to_connect_to:"Mandatory platform selected :", platform_to_connect_to:"Chosen platform selected :",
@@ -119,7 +120,7 @@ function ConfirmInformationsPage(props) {
             <div className="header">
                 <Paper className="paper_header" >
                     <Button variant="outlined" color="success" onClick={() => {
-                        const uuid = require("uuid-by-string");
+
                         var model_id;
                         var platform_id;
                         if (localStorage.getItem("model_id")) {
@@ -129,14 +130,16 @@ function ConfirmInformationsPage(props) {
                             model_id = uuid(props.root_reducer.modelName+Date.now()).toString();
                             localStorage.setItem("model_id",model_id)
                         }
-                        if (localStorage.getItem("platform_id")) {
-                            platform_id = localStorage.getItem("platform_id");
-                        }
-                        else {
-                            platform_id = uuid(props.root_reducer.platform.platform_name + Date.now());
-                            localStorage.setItem("platform_id",platform_id)
-
-                        }
+                        console.log(props)
+                        platform_id = props.config.ID_PLATFORM
+                        // if (localStorage.getItem("platform_id")) {
+                        //     platform_id = localStorage.getItem("platform_id");
+                        // }
+                        // else {
+                        //     platform_id = props.config.ID_PLATFORM;
+                        //     localStorage.setItem("platform_id",platform_id)
+                        //
+                        // }
                         // console.log(test)
                         const headers = {"Content-Type":"application/json","platform-id":platform_id,
                             "registry-version":Date.now().toString(), "Platforms-Visited":""};
@@ -184,7 +187,7 @@ function ConfirmInformationsPage(props) {
                             }
                         )
                         // console.log("COUCOU")
-                        register_platform(localStorage.getItem("PlatformURL"), headers, JSON.stringify(body)).then((el) => {
+                        register_platform(props.config.URL, headers, JSON.stringify(body)).then((el) => {
                             if (el[0] === 204) {
                                 message.success("Platform successfully registered.", 5)
                                 localStorage.removeItem("platform_id");

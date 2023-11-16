@@ -1,3 +1,25 @@
+# Configure the app 
+
+Modify "config.json":
+    
+    - "URL" : The URL to the module to request (deployed as a part of the newly registered platform) 
+    - "ID_PLATFORM" : An unique identifier to be registered as in the registry; used ID in demonstration are based on platform_name and timestamp ("uuid(platform_name+Data.now())")
+
+
+
+PROBLEME : 
+
+- Update le state du registry (model, network), regarder la fonction "update_state_registry"
+- Ajouter l'enregistrement sur la plateforme actuelle (uniquement envoyé au voisin, probablement sauvegardé par les links)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

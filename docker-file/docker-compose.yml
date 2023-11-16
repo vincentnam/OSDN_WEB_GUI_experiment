@@ -1,20 +1,20 @@
 services:
-#  odatis:
-#    build:
-#      context: .
-#      dockerfile: ./Dockerfile
-##    ports:
-##      - "5000:5000"
-#    networks:
-#      frontend:
-#        ipv4_address: 193.168.1.10
-#    environment:
-#      - PLATFORM-ID=1
-#    volumes:
-#      - ./:/code
-#    links:
-#      - "database_json"
-#
+  odatis:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+#    ports:
+#      - "5000:5000"
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.10
+    environment:
+      - PLATFORM-ID=1
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
 
 
 
@@ -22,15 +22,33 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-#    ports:
-#      - "5000:5000"
+    #    ports:
+    #      - "5000:5000"
 
     networks:
       frontend_demo:
-          ipv4_address: 193.168.2.11
+        ipv4_address: 193.168.1.11
 
     environment:
       - PLATFORM-ID=2
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  new_platform:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.14
+
+    environment:
+      - PLATFORM-ID=002126f1-ddc6-5e1b-92b7-8baa0523d244
     volumes:
       - ./:/code
     links:
@@ -41,44 +59,48 @@ services:
 
 
 
-#  fhir:
-#    build:
-#      context: .
-#      dockerfile: ./Dockerfile
-#    networks:
-#      frontend:
-#        ipv4_address: 193.168.1.12
-#    environment:
-#      - PLATFORM-ID=3
-#
-#
-#    volumes:
-#      - ./:/code
-#    links:
-#      - "database_sql"
-#
-#
-#
-#
-#
-#  aeris2:
-#    build:
-#      context: .
-#      dockerfile: ./Dockerfile
-#    #    ports:
-#    #      - "5000:5000"
-#
-#    networks:
-#      frontend:
-#        ipv4_address: 193.168.1.13
-#    environment:
-#      - PLATFORM-ID=4
-#    volumes:
-#      - ./:/code
-#    links:
-#      - "database_json"
-#
-#
+
+
+
+
+  fhir:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.12
+    environment:
+      - PLATFORM-ID=3
+
+
+    volumes:
+      - ./:/code
+    links:
+      - "database_sql"
+
+
+
+
+
+  aeris2:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.13
+    environment:
+      - PLATFORM-ID=4
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
 
 
 
@@ -91,20 +113,22 @@ services:
       frontend_demo:
         ipv4_address: 193.168.2.20
 
-#  database_sql:
-#    image: mysql:latest
-#    ports:
-#      - "3306:3306"
-#    environment:
-#      - MYSQL_ALLOW_EMPTY_PASSWORD=True
-#
-#    networks:
-#      frontend:
-#        ipv4_address: 193.168.1.21
-#    volumes:
-#      - "./FHIR/examples/Location-hl7east.sql:/docker-entrypoint-initdb.d/1.sql"
+  database_sql:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=True
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.21
+    volumes:
+      - "./FHIR/examples/Location-hl7east.sql:/docker-entrypoint-initdb.d/1.sql"
 networks:
   frontend_demo:
+
     ipam:
+      driver: default
       config:
-        - subnet: 193.168.2.0/24
+        - subnet: 193.168.0.0/16

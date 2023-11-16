@@ -15,11 +15,14 @@ function RegisterPlatformPage(props) {
     var model_options = [];
     useEffect(() => {
         const dataFetch = async () => {
-            const data = await (get_mandatory_platform_to_connect_to("http://193.168.2.11:5000"));
+            const data = await (get_mandatory_platform_to_connect_to(localStorage.getItem("PlatformURL")));
             setMandatoryPlatform(data);
                     };
         dataFetch();
     }, []);
+
+
+
 
     if (props.context?.platforms){
         options = Object.keys(props.context.platforms).filter((el)=> !(mandatory_platform.includes(el)) ).map((key) => {
@@ -79,6 +82,7 @@ function RegisterPlatformPage(props) {
                         label="Platform URL "
                         name="platform_URL"
                         rules={[{ required: true, message: 'URL to message the platform needed.' }]}
+                        initialValue={props.config.URL}
                     >
                         <Input placeholder='Examples : www.platform.com/osdn_api, 192.168.0.1:5000..'/>
                     </Form.Item>

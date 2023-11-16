@@ -9,9 +9,9 @@ import CreateMatchPage from "./routes/create_match";
 import RegisterPlatformPage from "./routes/register_platform";
 import CreateModelPage from "./routes/create_model"
 import ConfirmInformationsPage from "./routes/confirm_informations";
-
-
-
+import ResearchDataPage from "./routes/research_data";
+import uuid from "uuid-by-string";
+import config from "./config.json";
 
 
 
@@ -19,9 +19,16 @@ import ConfirmInformationsPage from "./routes/confirm_informations";
 export default function App(props) {
     const [context, setData] = useState();
     const [PlatformURL, setPlatformURL] = useState(localStorage.getItem("PlatformURL")!==null?localStorage.getItem("PlatformURL"):"");
+    var config = require("./config.json");
+    console.log(config)
+    // console.log(uuid("test"+Date.now().toString()));
+    // if (!(Object.keys(config).includes("ID_PLATFORM"))){
+        // const uuid = require("uuid-by-string");
 
-    console.log("COUCOU")
-    console.log(PlatformURL)
+        // config["ID_PLATFORM"] =   uuid(Date.now().toString());
+
+    // }
+
     useEffect(() => {
         //
         const dataFetch = async () => {
@@ -53,12 +60,17 @@ export default function App(props) {
 
         {
             path: "/register_platform",
-            element: <RegisterPlatformPage context={context}/>,
+            element: <RegisterPlatformPage context={context} config={config}/>,
             errorElement: <ErrorPage />,
         },
         {
             path: "/confirm_informations",
-            element: <ConfirmInformationsPage context={context}/>,
+            element: <ConfirmInformationsPage context={context} config={config}/>,
+            errorElement: <ErrorPage />,
+        },
+        {
+            path: "/research_data",
+            element: <ResearchDataPage context={context} config={config}/>,
             errorElement: <ErrorPage />,
         },
     ]);
