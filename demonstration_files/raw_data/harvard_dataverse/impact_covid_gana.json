@@ -1,0 +1,929 @@
+{
+  "id": 6165490,
+  "identifier": "DVN/ZKGPQO",
+  "persistentUrl": "https://doi.org/10.7910/DVN/ZKGPQO",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2022-05-19",
+  "storageIdentifier": "s3://10.7910/DVN/ZKGPQO",
+  "metadataLanguage": "undefined",
+  "datasetVersion": {
+    "id": 324317,
+    "datasetId": 6165490,
+    "datasetPersistentId": "doi:10.7910/DVN/ZKGPQO",
+    "storageIdentifier": "s3://10.7910/DVN/ZKGPQO",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "distributionDate": "2022",
+    "productionDate": "2021",
+    "UNF": "UNF:6:Aag58ZnTc2o3KMvFZBnEng==",
+    "lastUpdateTime": "2022-05-19T17:16:30Z",
+    "releaseTime": "2022-05-19T17:16:30Z",
+    "createTime": "2022-04-07T17:34:22Z",
+    "termsOfUse": "<h3>IFPRI Datasets Terms of Use Statement</h3>\n<h4>(December 2019)</h4>\n<p> <strong>1. Description </strong></p>\n<p>The International Food Policy Research Institute (IFPRI) views the products of its research including\nresearch dataset(s) as global public goods and is committed to enabling their widespread distribution\nand use by providing unrestricted public access. This is in keeping with the <a href=\"https://www.ifpri.org/cdmref/p15738coll2/id/133308/filename/133517.pdf\">IFPRI Research Data\nManagement and Open Access (RDMOA) Policy</a> and the <a href=\"https://cgspace.cgiar.org/bitstream/handle/10947/4488/Open%20Access%20Data%20Management%20Policy.pdf?sequence=1&isAllowed=y\">CGIAR Open Access and Data Management\nPolicy </a> (each, a “Policy” and together, the “Policies”).</p>\n<p>IFPRI makes all its research data publicly available through the “IFPRI Dataverse.” The IFPRI Dataverse\nhouses and is comprised of datasets collected during the course of IFPRI research, including data tables\nin various standard formats, survey instruments, codebooks, metadata, and other associated\ndocumentation. IFPRI Dataverse is a network member of Harvard Dataverse, which is a repository for\nresearch data hosted at <a href=\"https://dataverse.harvard.edu/\">Institute for Quantitative Social Science (IQSS)</a>, Harvard University.</p>\n<p>IFPRI is the owner of the “IFPRI Dataverse” (sometimes referred to in these Terms of Use as the “Site”).\nThe Communications and Public Affairs (CPA) division of IFPRI operates this Site on behalf of IFPRI. For\nquestions pertaining to these terms of use, licenses, or concerns, please contact <a href=\"mailto:IFPRI-Data@cgiar.org\">IFPRI-Data@cgiar.org</a>.</p>\n<p>In the event of any conflict between these Terms of Use and either of the Policies, the terms of the\napplicable Policy shall control with respect to, and to the extent of, any such conflicting terms.</p>\n\n<p> <strong>2. Adoption, Acceptance, and Changes to Terms of Use </strong></p>\n<p>By using this Site, downloading or otherwise accessing any dataset or other materials or content made\navailable through it, you (“you” or “user”), acknowledge that you understand and intend these Terms of\nUse to be the legal equivalent of a signed, written contract and equally binding, and that you accept the\nterms of and agree to be legally bound by these Terms of Use. IFPRI may change these Terms of Use\nwithout prior notification. However, any modifications to the Terms of Use will only be effective for the\ndownload/use of this Site subsequent to such modification. Your continued download of datasets or any\nother use of this Site subsequent to reasonable notice of such modification will be conclusively deemed\nacceptance of any such modification to these Terms of Use. You agree that notice of changes to these\nTerms of Use posted on this Site constitutes reasonable and sufficient notice. We consider it is\nincumbent upon users to read these terms to be aware of changes. At all times, you are bound by the\nthen-current version of these Terms of Use and all applicable laws. Accordingly, we highly recommend\nthat you review these Terms of Use from time to time to ensure that you are familiar with the most\nrecent version. </p>\n\n<p> <strong>3. Use of the Materials/Site </strong></p>\n<p>By using this Site or downloading, or otherwise accessing the IFPRI Dataverse, users acknowledge:</p>\n<ol>\n<li>The dataset or any other materials made available through the site will be used solely for\nreporting aggregated information, and not for investigation of specific individuals or organizations.</li>\n<li>IFPRI will not be responsible or held accountable for any interpretations or conclusions that\nusers may arrive from the use of dataset or materials available on the Site.</li>\n<li>No attempt will made to re-identify research subjects from the data or materials that are\naccessed from the site, and no use will be made of the identify of any person, institutions or\nestablishment discovered inadvertently. If user becomes aware of any violation of the foregoing,\nuser will immediately report it to <a href=\"mailto:IFPRI-Data@cgiar.org\"> IFPRI-Data</a>.</li>\n<li>No attempt will be made to produce links among datasets, datafiles or any other materials that\nare available through this site; and the datasets, datafiles, and other materials from this site and\nother existing datasets/materials that are available from other organizations or accessible over the\ninternet to identify individuals, organizations or establishments, not limited to research subjects.</li>\n<li>No attempt will be made to extract information from the materials in the Site that could help\nuser to find means of contacting any research subjects of the dataset already known to the User.\n<li>Any publications resulting from the use of data will cite IFPRI as the source of data in accordance\nwith the Citation Requirement provided within each dataset.</li></ol>\n<p>In addition, you may not use Content in any manner that suggests the endorsement or association of\nany third-party entity, person, product or service by IFPRI unless express written permission has been\ngiven by IFPRI in advance. Except as expressly permitted hereunder in Section 4, you may not under any\ncircumstances: (a) copy, print or download in any medium all or substantially all of the Content; (b)\nmodify any Content; or (c) copy, distribute, or reverse engineer any underlying software code for this\nSite and/or Content. Unless and except as otherwise expressly permitted by these Terms of Use, you\nmay not access, copy, reproduce, modify, create derivative works of, alter, publicly distribute, republish,\nupload, post, transmit, publicly perform or display, license, transfer, sell, mirror, frame, “deep link,”\n“scrape,” data mine, or otherwise use any information or material obtained from or through this Site,\nwithout written permission from IFPRI. You may not remove or obscure any copyright notices or other\nnotices of intellectual property rights from this Site or any content available on or through this Site. Any\nunauthorized use of this Site or the Content will terminate the permission granted by these Terms of\nUse and may violate applicable laws, including copyright, trademark, database laws, and commercial\nregulations and statutes.</p>\n<p>In addition to Third-Party Materials (as described in Section 6), there may be certain Content that may\nhave more restrictive terms of use (e.g., particular datasets, including those related to the “Africa\nRISING” program, that may have timing and other restrictions, such as when IFPRI may first make the\nrelevant data generally publicly available). In such case, users shall at all times comply with any and all\nsuch additional restrictions, and shall not attempt to circumvent any relevant technical, administrative\nor other security measures, or otherwise seek to obtain unauthorized access to such Content. </p>\n\n<p> <strong>4. Copyright and Licenses</strong></p>\n<p>IFPRI is the owner of the datasets that are produced by IFPRI. In addition, IFPRI is the owner of this Site,\nand the data, datasets, and other content provided on this Site (all such content collectively, the\n“Content”) are the exclusive property of IFPRI and/or its affiliates, or are used with permission from\nthird-party licensors, and are protected by law, including United States copyright, database, trade\nsecret, and trademark law, as well as other state, national, and international laws and regulations. Except as expressly provided in these Terms of Use, IFPRI does not grant any express or implied rights to\nyou. IFPRI owns copyright rights in this Site as a collective work and/or compilation, and in its datasets\naccessible on or through this Site.</p>\n\n<p>Except where there is a statement that a non-CC license is being used, materials will be made available\nunder the <strong>Creative Commons Attribution 4.0 International</strong> (<a href=\"https://creativecommons.org/licenses/by/4.0/deed.ast\">CC-BY-4.0</a>). This license contains permission\nto reuse, distribute, and reproduce content even for commercial purposes. IFPRI grants this license\nunder the condition that any reuse will contain attribution of the content to IFPRI and any named\nauthors of the dataset in the form of citations as per applicable industry standards and best practices for\nciting data, or as otherwise acceptable to IFPRI in its reasonable discretion. Notwithstanding the\nforegoing, IFPRI reserves the right, in its reasonable discretion to choose not to be associated with\ncertain reports and other products that cite the relevant data, and in any such event, IFPRI may notify\nthe user, and the user shall promptly comply with IFPRI’s requests related thereto.</p>\n\n\n<p> <strong>5. Attribution for Adaptations and Derivatives</strong></p>\n<ol>\n<li><strong> Attribution</strong>: Regardless of any other license terms governing the use of a dataset, any use of the dataset or\ntheir content must be attributed with proper citation according to recognized citation format\nstandards to include: authorship, year, title of the dataset, publisher, and reference URI\n(Uniform Resource Identifier).</li>\n<li><strong>Adaptations</strong>:Except as otherwise specified by IFPRI, if you use a dataset from this Site under CC BY or any\nother license that permits you to make adaptations, you must add (after the attribution\nlanguage) the following explanation to the adaptation that you create:\n<p><i>“This data was provided by the International Food Policy Research Institute (IFPRI). IFPRI bears\nno responsibility for the analyses or interpretations of the data presented here.”</i></p>\n</ol>\n\n\n<p> <strong>6. Third Parties</strong></p>\n<p>In general, no matter what license applies to each particular dataset, there may be links or references on\nthis Site to third parties and material owned (in whole or in part) by third parties, including datasets that\nmay have more restrictive terms of use. IFPRI therefore does not warrant that the use of any third-party-owned datasets, individual components/elements, data, or other material contained or otherwise\nmade available on or through this Site (collectively “Third-Party Materials”) will not infringe on or\notherwise violate the copyright or other rights of third parties. The risk of claims resulting from such\ninfringement or other violation or unauthorized use rests solely with users of this Site. If you wish to re-use any such Third-Party Materials, it is your responsibility to determine whether permission is needed\nfor that re-use and to obtain permission from the applicable owner. Any descriptions of, references to,\nor links to third parties or third-party products, publications or services does not imply endorsements of\nany kind, unless expressly stated by IFPRI. IFPRI expressly disclaims any responsibility for the content,\nthe accuracy of the information, and/or quality of products or services provided by or otherwise made\navailable by such third parties (including the Third-Party Materials, and any information and materials\non any third-party sites).</p>\n\n<p> <strong>7. Non-endorsement</strong></p>\n<p>Nothing in these Terms of Use or on this Site shall be construed as granting you any right or license to\nuse any trademarks, service marks or logos displayed on the Site. Unless otherwise noted,\nINTERNATIONAL FOOD POLICY RESEARCH INSTITUTE, IFPRI, IFPRI DATAVERSE, , and other brands and\nlogos featured on this Site constitute IFPRI’s trade/service marks. You agree not to: (a) use or register\nany name, logo or insignia of IFPRI or any of its projects for any purpose including publicity releases,\nadvertising or email communications or in any other manner, including customer lists, without securing\nprior written approval of the Communications and Public Affairs (CPA) Director or Director General (DG)\nof IFPRI; (b) challenge or contest the validity or IFPRI’s ownership of such trademarks, any of the\nContent, or any other IFPRI intellectual property; or (c) assist any third party in doing so. </p>\n<p>\nThis Site may also include the product, service and company names, as well as logos, of third parties.\nSuch third-party designations are the trade/service marks of their respective owners, and may not be\nused without the prior written permission of their respective owners.</p>\n\n<p> <strong>8. Indemnification</strong></p>\n<p>The user shall indemnify and hold harmless IFPRI, its affiliates and related organizations, and each of\ntheir respective officers, directors, employees, legal representatives, agents, successors and assigns,\nfrom and against any damages, liabilities, judgments, settlements, costs and expenses (including\nreasonable attorneys’ and professionals’ fees and court costs arising out of any third-party claims based\non (a) the use or misuse of this Site or data or any other materials or Content made available through\nthis Site; (b) any changes made by the user to the downloaded data; (c) any breach by the user of any of\nthe term and conditions of these Terms of Use; (d) ) infringement by you, or any third party using your\naccount, of any intellectual property or other right of any person or entity, including but not limited to\nany breach by you of these Terms of Use.</p>\n\n<p> <strong>9. Disclaimers and Limitation of Liability</strong></p>\n<p>IFPRI PROVIDES THE DATA AND OTHER MATERIALS ON THE IFPRI DATAVERSE AND ALL CONTENT ON AN\n“AS IS,” AND “AS AVAILABLE” BASIS, AND IFPRI EXPRESSLY DISCLAIMS ALL WARRANTIES\nREPRESENTATIONS, INDEMNITIES AND GUARANTEES, WHETHER EXPRESS OR IMPLIED, ARISING BY LAW,\nCUSTOM, PRIOR ORAL OR WRITTEN STATEMENTS BY IFPRI, WITH RESPECT TO ALL SUCH DATA AND\nOTHER CONTENT (INCLUDING, BUT NOT LIMITED TO ANY WARRANTY OF SATISFACTORY QUALITY,\nMERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT, ACCURACY,\nTIMELINESS, AND COMPLETENESS) TO THE MAXIMUM EXTENT ALLOWED BY LAW. IFPRI FURTHER\nDISCLAIMS, AND SHALL HAVE NO LIABILITY FOR, ANY ERRORS, OMISSIONS, INACCURACIES, OR\nINTERRUPTIONS IN THE DATA, ANY OTHER CONTENT, OR THIS SITE. USERS SHALL NOT MAKE ANY\nSTATEMENT REGARDING THE USE OF THE IFPRI DATAVERSE THAT IS CONTRADICTORY TO OR\nINCONSISTENT WITH THE FOREGOING STATEMENTS. IN NO EVENT SHALL IFPRI BE LIABLE FOR\nINDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE DAMAGES ARISING UNDER\nOR RELATING TO THESE TERMS OF USE, OR FOR LOST PROFITS, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGES. IFPRI SHALL NOT BE LIABLE TO ANY THIRD PARTIES FOR ANY CLAIM OR DEMAND\nBASED ON OR RELATING TO THESE TERMS OF USE, OR USE OF THE IFPRI DATAVERSE. </p>\n<p>TO THE EXTENT PERMITTED BY LAW, IFPRI DISCLAIMS LIABILITY FOR ANY DIRECT DAMAGES BASED ON\nYOUR ACCESS OR USE OF THIS SITE AND ITS CONTENT.</p>\n\n<p> <strong>10. Misuse</strong></p>\n<p>\nIFPRI reserves the right in its sole discretion to cancel or suspend access to the dataset or any material in\nthe IFPRI Dataverse or any other Content, or terminate these Terms of Use, at any time and for any\nreason, including but not limited to the following reasons: violation of these Terms of Use; violation of\nintellectual property rights; misrepresentation of identity; protection of this Site from perceived threats\nelectronic or otherwise; and illegal activity on this Site. \n</p>\n\n<p> <strong>11. Use of Your Data</strong></p>\n<p>\nThe IFPRI Dataverse is a network member of the <a href=\"https://dataverse.harvard.edu/\"> Harvard Dataverse</a>. <a href=\"http://best-practices.dataverse.org/harvard-policies/harvard-privacy-policy.html\">Harvard Dataverse Privacy Policy</a>\nexplains what information are collected through this application and how this information is handled.\nThis policy also applies to the IFPRI Dataverse and this Site. Further when guestbook feature is activated\nfor the data and materials that you are downloading through the IFPRI Dataverse, users are required to\nprovide some information including name and email. This information resides in the server of Harvard\nUniversity and is also available to IFPRI (e.g., the Dataverse administrator and curator). IFPRI will\nimplement and maintain procedures to protect your information that is downloaded from the\nguestbook. IFPRI is fully committed to safeguarding the privacy of our users. Please see <a href=\"https://www.ifpri.org/privacy-cookie-policy\">IFPRI’s Privacy\nPolicy </a>for information regarding the use and handling of personal information. These privacy policies\nare made a part of, and incorporated by reference into, these Terms of Use.</p>\n\n<p><strong>12. Miscellaneous</strong></p>\n\n<p>Except as permitted under Section 4, the user may not assign, transfer or delegate any of its rights and\nobligations hereunder without consent. No agency, partnership, joint venture, or employment\nrelationship is created as a result of these Terms of Use and neither party has any authority of any kind\nto bind the other in any respect outside of the terms described within these Terms of Use. In any action\nor proceeding to enforce rights under these Terms of Use, the prevailing party will be entitled to recover\ncosts and attorneys’ fees.</p>\n\n<p>Failure to insist on strict performance of any of the provisions of these Terms of Use will not operate as\na waiver of any subsequent default or failure of performance. No waiver by IFPRI of any right under\nthese Terms of Use will be deemed to be either a waiver of any other right or provision or a waiver of\nthat same right or provision at any other time. Any rights not expressly granted under these Terms of\nUse are reserved by IFPRI. These Terms of Use shall be governed by the laws of the District of Columbia\nwithout reference to its conflict of law principles. The parties hereby consent to the jurisdiction of the\ncourts located in Washington, D.C. in any action arising out of or relating to these Terms of Use, and\nagree that any action arising out of or relating to these Terms of Use shall be maintained in the same\njurisdiction. </p>\n\n<p>No joint venture, partnership, employment, agency or other relationship exists between you and IFPRI\nas a result of these Terms of Use or your use of this Site. If any provision of these Terms of User is held\nunlawful, void or unenforceable for any reason by a court or tribunal of competent jurisdiction, that\nprovision shall be enforced to the maximum extent permissible so as to effect the intent of the parties,\nand the remainder of these Terms of Use shall continue in full force and effect. </p>\n\n",
+    "citationRequirements": "International Food Policy Research Institute (IFPRI). 2022. COVID-19 Impact on Rural Men and Women in Ghana, Round 6. Washington, DC: IFPRI [dataset]. <a href=\"https://doi.org/10.7910/DVN/ZKGPQO\">https://doi.org/10.7910/DVN/ZKGPQO</a>. Harvard Dataverse. Version 1.",
+    "disclaimer": "<p>IFPRI adheres to the principle of unrestricted public access to its own final research outputs and will make such outputs freely available. The Institute encourages the use of the <b>COVID-19 Impact on Rural Men and Women in Ghana, Round 6</b> dataset; for detailed information on its use, please refer to <a href=\"https://www.ifpri.org/intellectual-property-policy\">IFPRI’s Intellectual Property Policy</a>. The data files in this dataset are unit record or ‘raw’ data files. Information that would allow survey respondents to be identified has been deleted from the files, but all other information remains. IFPRI’s decision not to alter the contents of the data files means that the user of these files will need to take care in handling missing observations, outliers, and violations of logical consistency. </p><p>The data are provided ‘as is’ and in no event shall IFPRI be liable for any damages resulting from the use of the data. While great effort was taken to obtain high-quality data, the accuracy or reliability of the data is not guaranteed or warranted in any way.</p>",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "COVID-19 Impact on Rural Men and Women in Ghana, Round 6"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Food Policy Research Institute (IFPRI)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IFPRI-Data"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Food Policy Research Institute (IFPRI)"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IFPRI-DATA@cgiar.org"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset is the result of a phone survey set up to measure the impact of COVID-19 on rural people in Ghana. As most governments have urged the population to stay at home to slow down the transmission of the disease, the impact of COVID-19 can affect women and men in different ways: as an income shock (directly or indirectly); as a health and caring shock; as a shock of mobility (affecting access to water, food, firewood, schooling); and as a risk of increased domestic conflict and violence. To capture these various effects on household welfare, this phone survey was conducted with (around) 500 individuals randomly drawn from an existing list of phone numbers collected from previous household surveys with an equal proportion of women and men. The same individuals were also interviewed during other rounds to generate a longitudinal panel allowing for analysis of the impact of COVID-19 through time."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_4ad07701"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rural areas"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_6699"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "men"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_4733"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "women"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_8420"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "health"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_3511"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "shock"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_36490"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GHANA"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_3253"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "WEST AFRICA"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_8355"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AFRICA SOUTH OF SAHARA"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_166"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AFRICA"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_165"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_4ad07701"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gender"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_34835"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Health"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AGROVOC"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://aims.fao.org/aos/agrovoc/c_3511"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alvi, Muzna Fatima; Gupta, Shweta; and Barooah, Prapti. 2021. Assessing the Impact of COVID-19 on Rural Women and Men in Northern Ghana. GCAN COVID-19 Impact Fact Sheet 1. Washington, DC: International Food Policy Research Institute (IFPRI)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.2499/p15738coll2.134446"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.2499/p15738coll2.134446"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Food Policy Research Institute (IFPRI)"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ifpri.org"
+                },
+                "producerLogoURL": {
+                  "typeName": "producerLogoURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ifpri.org/sites/all/themes/custom/serenity/logo.png"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Washington, DC"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ringler, Claudia (International Food Policy Research Institute (IFPRI))"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bryan, Elizabeth (International Food Policy Research Institute (IFPRI))"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jeoffreys, Shirley (Finmark)"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alvi, Muzna (International Food Policy Research Institute (IFPRI))"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gupta, Shweta (International Food Policy Research Institute (IFPRI))"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Barooah, Prapti (International Food Policy Research Institute (IFPRI))"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Other"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CGIAR Gender Platform"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Other"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CGIAR Research Program on Climate Change, Agriculture, and Food Security (CCAFS)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "United States Agency for International Development (USAID)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Food Policy Research Institute (IFPRI)"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.ifpri.org"
+                },
+                "distributorLogoURL": {
+                  "typeName": "distributorLogoURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ifpri.org/sites/all/themes/custom/serenity/logo.png"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "IFPRI-KM"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-04-07"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "sample survey data (SSD)"
+            ]
+          },
+          {
+            "typeName": "series",
+            "multiple": false,
+            "typeClass": "compound",
+            "value": {
+              "seriesName": {
+                "typeName": "seriesName",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Household- and Community-level Surveys"
+              }
+            }
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "STATA"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "17"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://agrilinks.org/post/toward-resilient-livelihoods-food-security-and-nutrition-all-gendered-impacts-covid-19\">Toward Resilient Livelihoods, Food Security and Nutrition for All: Gendered Impacts of COVID-19</a>"
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.7910/DVN/H4VR8V\">COVID-19 Impact on Rural Men and Women in Ghana, Round 1</a>",
+              "</p>\n<a href=\"https://doi.org/10.7910/DVN/7DOZ0N\">COVID-19 Impact on Rural Men and Women in Ghana, Round 2</a>",
+              "</p>\n<a href=\"https://doi.org/10.7910/DVN/LOQQTH\">COVID-19 Impact on Rural Men and Women in Ghana, Round 3</a>",
+              "</p>\n<a href=\"https://doi.org/10.7910/DVN/B91DHB\">COVID-19 Impact on Rural Men and Women in Ghana, Round 4</a>",
+              "</p>\n<a href=\"https://doi.org/10.7910/DVN/WY0QGZ\">COVID-19 Impact on Rural Men and Women in Ghana, Round 5</a>"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Ghana"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Village"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Individual",
+              "Household"
+            ]
+          },
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Rural households in the region of Northern Ghana"
+            ]
+          },
+          {
+            "typeName": "timeMethod",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "cross-section; panel"
+          },
+          {
+            "typeName": "samplingProcedure",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A sample of about 470 individuals were drawn using systematic random sampling from an existing list of phone numbers from previous household surveys which were conducted in the Northern region of Ghana. This region was also the Feed the Future zones of influence. The fifth wave of phone survey was conducted in June 2021 with 500 respondents. Female respondents represent about 50 percent of the sample. The study sample was drawn using systematic random sampling from earlier in-person surveys conducted by IFPRI. Phone surveys done over phone."
+          },
+          {
+            "typeName": "collectionMode",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Telephone interview"
+            ]
+          },
+          {
+            "typeName": "researchInstrument",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Structured questionnaire"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Ghana_COVID19_R6_codebook_choices.tab",
+        "restricted": false,
+        "version": 4,
+        "datasetVersionId": 324317,
+        "categories": [
+          "Codebook",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 6166084,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Ghana_COVID19_R6_codebook_choices.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 22099,
+          "storageIdentifier": "s3://dvn-cloud:1800ac1a5a7-79d9df1ca228",
+          "originalFileFormat": "text/comma-separated-values",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 19794,
+          "originalFileName": "Ghana_COVID19_R6_codebook_choices.csv",
+          "UNF": "UNF:6:CVKB7ibKDGWHxy5EH2nuMg==",
+          "rootDataFileId": -1,
+          "md5": "33fe797513daa899bcc6ab3cca6c0b9c",
+          "checksum": {
+            "type": "MD5",
+            "value": "33fe797513daa899bcc6ab3cca6c0b9c"
+          },
+          "creationDate": "2022-04-08"
+        }
+      },
+      {
+        "label": "Ghana_COVID19_R6_codebook.tab",
+        "restricted": false,
+        "version": 4,
+        "datasetVersionId": 324317,
+        "categories": [
+          "Codebook",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 6166086,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Ghana_COVID19_R6_codebook.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 20059,
+          "storageIdentifier": "s3://dvn-cloud:1800ac198b9-eb75d1117409",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 18692,
+          "originalFileName": "Ghana_COVID19_R6_codebook.csv",
+          "UNF": "UNF:6:kRH9K/NGooXmcWqfaAKnfw==",
+          "rootDataFileId": -1,
+          "md5": "8a06d6a93d4acf09e9cfda4aac5ffc2f",
+          "checksum": {
+            "type": "MD5",
+            "value": "8a06d6a93d4acf09e9cfda4aac5ffc2f"
+          },
+          "creationDate": "2022-04-08"
+        }
+      },
+      {
+        "label": "Ghana_COVID19_R6_questionnaire.pdf",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 324317,
+        "categories": [
+          "Documentation",
+          "Questionnaire"
+        ],
+        "dataFile": {
+          "id": 6166087,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Ghana_COVID19_R6_questionnaire.pdf",
+          "contentType": "application/pdf",
+          "filesize": 307483,
+          "storageIdentifier": "s3://dvn-cloud:1800ac1b29e-e6fb2328bca9",
+          "rootDataFileId": -1,
+          "md5": "7aed67848030c4b499dad97f798a2b4d",
+          "checksum": {
+            "type": "MD5",
+            "value": "7aed67848030c4b499dad97f798a2b4d"
+          },
+          "creationDate": "2022-04-08"
+        }
+      },
+      {
+        "label": "Ghana_COVID19_R6.tab",
+        "restricted": false,
+        "version": 4,
+        "datasetVersionId": 324317,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 6166085,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Ghana_COVID19_R6.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 239541,
+          "storageIdentifier": "s3://dvn-cloud:1800ac18ce0-70b630261b4d",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 351098,
+          "originalFileName": "Ghana_COVID19_R6.dta",
+          "UNF": "UNF:6:/k6s7f13LGCzFDHUON340Q==",
+          "rootDataFileId": -1,
+          "md5": "6eb0d5211d453476b8849ede6716c1c6",
+          "checksum": {
+            "type": "MD5",
+            "value": "6eb0d5211d453476b8849ede6716c1c6"
+          },
+          "tabularTags": [
+            "Panel",
+            "Survey"
+          ],
+          "creationDate": "2022-04-08"
+        }
+      }
+    ],
+    "citation": "International Food Policy Research Institute (IFPRI), 2022, \"COVID-19 Impact on Rural Men and Women in Ghana, Round 6\", https://doi.org/10.7910/DVN/ZKGPQO, Harvard Dataverse, V1, UNF:6:Aag58ZnTc2o3KMvFZBnEng== [fileUNF]"
+  }
+}

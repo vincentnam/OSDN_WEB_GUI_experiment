@@ -1,10 +1,13 @@
 import ast
+import datetime
 import json
 import math
 import os
 import pickle
 import sys
 import operator
+import time
+
 import flask
 import pymongo
 import requests as req
@@ -12,22 +15,26 @@ from bson import json_util
 from flask import Flask, make_response
 from flask import request
 from flask_cors import CORS
+import datetime
+
+
 #### Custom gateway to data management system
 import json
 import pprint
-
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 app.config["PLATFORM-ID"] = os.environ["PLATFORM-ID"]
 app.config["REQUEST-ID-LIST"] = []
+app.config["COLLECTION"] = os.environ["COLLECTION"]
+app.config["MODEL"] = os.environ["MODEL"]
 
 # pprint.pprint(app.config, stream=sys.stderr)
 if app.config["PLATFORM-ID"] == "1":
     app.config["registry"] = pickle.loads(open("registry_ODATIS.dict", "rb").read())
 
-if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
+if app.config["PLATFORM-ID"] != "1" and app.config["PLATFORM-ID"] != "3":
     app.config["registry"] = pickle.loads(open("registry_AERIS.dict", "rb").read())
 
 if app.config["PLATFORM-ID"] == "3":
@@ -37,6 +44,7 @@ if app.config["PLATFORM-ID"] == "3":
 
 # print(app.config["registry"],file=sys.stderr)
 app.config["REGISTRY-VERSION"] = app.config["registry"]["registry-version"]
+
 
 # @app.route("/data")
 # def hello_world():
@@ -48,17 +56,28 @@ def modify_platform_id():
     rep.set_data(app.config["PLATFORM-ID"])
     return rep
 
+
 @app.route("/test_registry")
 def update_state_registry():
     # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
-    # UPDATE NETWORK
-    # UPDATE MODELS PART
+    # TODO :UPDATE NETWORK
+    # TODO :UPDATE MODELS PART
+    print(app.config["registry"]["platforms"], file=sys.stderr)
     for id_plat in app.config["registry"]["platforms"]:
         # print(id_plat, file=sys.stderr)
         for link in app.config["registry"]["platforms"][id_plat]["links"]:
             if id_plat not in app.config["registry"]["platforms"][link]["links"]:
                 app.config["registry"]["platforms"][link]["links"].append(id_plat)
-
+    # distrib[0] = 2-degree nodes
+    new_degree_distrib_list = [[], []]
+    for id_plat in app.config["registry"]["platforms"]:
+        # if (len(app.config["registry"]["platforms"][id_plat]["links"])-2+1)>len(new_degree_distrib_list):
+        # -2 because first degree = 2; +1 because it is needed to have a empty list for k_max+1
+        while (len(app.config["registry"]["platforms"][id_plat]["links"])) > len(new_degree_distrib_list):
+            new_degree_distrib_list.append([])
+        new_degree_distrib_list[len(app.config["registry"]["platforms"][id_plat]["links"]) - 2].append(id_plat)
+    app.config["registry"]["network"]["degrees_distribution"] = new_degree_distrib_list
+    app.config["registry"]["network"]["node_number"] = len(app.config["registry"]["platforms"].keys())
 
     # app.config["registry"]["platforms"]
     # pprint.pprint('app.config["registry"]["platforms"]', stream=sys.stderr)
@@ -66,13 +85,14 @@ def update_state_registry():
     # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
     # return "ok"
 
+
 @app.route('/registry', methods=['POST'])
 def overwrite_registry():
     # pprint.pprint(request, stream=sys.stderr)
 
-    # pprint.pprint(request.headers, stream=sys.stderr)
+    pprint.pprint(request.headers, stream=sys.stderr)
 
-    # pprint.pprint(request.get_json(), stream=sys.stderr)
+    pprint.pprint(request.get_json(), stream=sys.stderr)
     if request.headers["registry-version"] == app.config["REGISTRY-VERSION"]:
         return flask.Response(status=208)
     else:
@@ -80,25 +100,31 @@ def overwrite_registry():
     data = request.get_json(force=True)
     with open("registry.dict", "wb") as fp:
         pickle.dump((data), fp)
-        for key in app.config["registry"]:
-            if key !="registry-version" and key !="network" and key!="models":
-                # pprint.pprint("KEY",stream=sys.stderr)
-                # pprint.pprint(key,stream=sys.stderr)
-                # pprint.pprint(data[key],stream=sys.stderr)
-                app.config["registry"][key] = {**app.config["registry"][key], **data[key]}
-                # UPDATE LE REGISTRY AVEC LES LINKS
-                update_state_registry()
-    # if "models" in data:
-    #     for key in data["models"]:
-    #         if key in app.config["registry"]["models"]:
-    #             app.config["registry"][key]["platforms"].append(data["platform"])
+        if "only-matches" in request.headers and "matchs" in data:
+            app.config["registry"]["matchs"]={**app.config["registry"]["matchs"], **data["matchs"]}
+            update_state_registry()
+        else:
+            for key in app.config["registry"]:
+                if key != "registry-version" and key != "network" and key != "models":
+                    # pprint.pprint("KEY",stream=sys.stderr)
+                    # pprint.pprint(key,stream=sys.stderr)
+                    # pprint.pprint(data[key],stream=sys.stderr)
+                    app.config["registry"][key] = {**app.config["registry"][key], **data[key]}
+                    # UPDATE LE REGISTRY AVEC LES LINKS
+
+                    update_state_registry()
+    print(data, file=sys.stderr)
+    if "models" in data:
+        for key in data["models"]:
+            if key in app.config["registry"]["models"]:
+                app.config["registry"]["models"][key]["platforms"].append(data["platform"])
+            else:
+                app.config["registry"]["models"] = {**app.config["registry"]["models"], **data["models"]}
     aux_header = dict(request.headers)
 
     aux_header["Platform-Visited"] = aux_header["Platforms-Visited"] + "," + app.config["PLATFORM-ID"]
-#     pprint.pprint("COUCOU", stream=sys.stderr)
-#     pprint.pprint(app.config["registry"], stream=sys.stderr)
-
-
+    #     pprint.pprint("COUCOU", stream=sys.stderr)
+    #     pprint.pprint(app.config["registry"], stream=sys.stderr)
 
     # pprint.pprint(app.config["registry"]["platforms"])
 
@@ -106,37 +132,76 @@ def overwrite_registry():
         if platform_id not in request.headers["platforms-visited"] and platform_id != request.headers["platform-id"]:
             req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
                      data=json.dumps(data), timeout=5)
-#             pass
-    return flask.Response({},status=204)
+    #             pass
+    return flask.Response({}, status=204)
 
 
 @app.route('/registry', methods=['GET'])
 def get_registry():
-#     print(flask.jsonify(open("registry.dict", "r").read()))
-#     return flask.jsonify(open("registry.dict", "r").read())
-#     response =  flask.Response(status=200)
-#     response.set_data(flask.jsonify(app.config["registry"]))
+    #     print(flask.jsonify(open("registry.dict", "r").read()))
+    #     return flask.jsonify(open("registry.dict", "r").read())
+    #     response =  flask.Response(status=200)
+    #     response.set_data(flask.jsonify(app.config["registry"]))
     response = flask.jsonify(data=app.config["registry"])
-    response.headers={"Access-Control-Allow-Origin":"*"}
+    response.headers = {"Access-Control-Allow-Origin": "*"}
     return response
 
 
 # A voir plus tard si nécessaire
 def operator_list_def(operator_var):
     if app.config["PLATFORM-ID"] == "1":
-
         with open("operator_list_xml.dict", "rb") as fp:
             test = pickle.load(fp)[operator_var]
             return (eval(test))
-    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
-        with open("operator_list_mongo.dict", "rb") as fp:
-            return pickle.load(fp)[operator_var]
+
     if app.config["PLATFORM-ID"] == "3":
         with open("operator_list_sql.dict", "rb") as fp:
             return pickle.load(fp)[operator_var]
+    with open("operator_list_mongo.dict", "rb") as fp:
+        return pickle.load(fp)[operator_var]
 
 
-def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
+# Transform a date to standard format
+def format_date(date):
+    # Transform a string date into a standard format by trying each
+    # date format. If you want to add a format, add a try/except in the
+    # last except
+    # date : str : the date to transform
+    # return : m : timedata : format is YYYY-MM-DD HH:MM:SS
+    date_str = date
+    #
+    date_str = date_str.replace("st","").replace("th","")\
+        .replace("nd","").replace("rd","").replace(" Augu "," Aug ")
+    m = None
+    try:
+        m = datetime.datetime.strptime(date_str, "%d %B %Y")
+    except ValueError:
+        try:
+            m = datetime.datetime.strptime(date_str, "%d %b %Y")
+        except ValueError:
+            try:
+                m = datetime.datetime.strptime(date_str, "%Y/%m/%d")
+            except ValueError:
+                try:
+                    m = datetime.datetime\
+                        .strptime(date_str,"%d/%m/%Y %H:%M:%S")
+                except ValueError:
+                    try:
+                        m = datetime.datetime\
+                            .strptime(date_str, "%Y-%m-%d %H:%M:%S")
+                    except ValueError:
+                        try :
+                            m = datetime.datetime.strptime(date_str,
+                                                       "%d %m %Y")
+                        except ValueError:
+                            # HERE ADD A FORMAT TO CHECK
+                            print("Format not recognised. \nConsider "
+                                  "adding a date format "
+                                  "in the function \"format_date\".")
+
+    return m
+
+def get_metadata(model, query, dicttoxml=None):
     '''
     Get metadata from request : gateway technical interoperability function
     :param key:
@@ -145,8 +210,8 @@ def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
     :param operand:
     :return: Results of request as list of objects
     '''
-
-    print(query.split("#_#SEPARATOR#_#"), file=sys.stderr)
+    # TODO: Handle $in operator and other not fully implemented + data type handling
+    # print(query.split("#_#SEPARATOR#_#"), file=sys.stderr)
 
 
 
@@ -157,7 +222,6 @@ def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
         import re
         import pandas as pd
         root = ET.parse("ODATIS/metadata.xml").getroot()
-
 
         def XML_to_dict(xml):
             xml_tag = re.sub("{.*}", "", xml.tag)
@@ -275,52 +339,25 @@ def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
                 # print("coucou \n\n\n", file=sys.stderr)
                 # print(pd.json_normalize(XML_to_dict(root), sep=".").to_dict(), file=sys.stderr)
                 return XML_to_dict(root)
-            else :
+            else:
                 # print((data), file=sys.stderr)
                 return []
             # print(data,file=sys.stderr)
-            return data
+            #     return data
         except Exception as e:
-            print(data, file=sys.stderr)
             print(e, file=sys.stderr)
+            # print(data, file=sys.stderr)
             return []
-    # AERIS
-    if app.config["PLATFORM-ID"] == "2" or app.config["PLATFORM-ID"] == "4" or app.config["PLATFORM-ID"] == "002126f1-ddc6-5e1b-92b7-8baa0523d244":
-        aux_query={}
-        multiple = False
-        logical_operator = ""
-        splitted_query = query.split("#_#SEPARATOR#_#")
-
-        while(splitted_query):
-
-            if multiple:
-                logical_operator = splitted_query.pop(0)
-            key = splitted_query.pop(0)
-            operator = splitted_query.pop(0)
-            operand = splitted_query.pop(0)
-            if multiple:
-                if isinstance(*aux_query, list):
-                    if app.config["registry"]["models"][model]["keys"][key] == "integer":
-
-                        aux_query = {
-                            "$" + logical_operator.lower(): [aux_query, {key: {operator_list_def(operator): float(operand)}}]}
-                else :
-                    aux_query = {"$"+logical_operator.lower():[aux_query, {key:{operator_list_def(operator):operand}}]}
-            else :
-                aux_query = {key:{operator_list_def(operator):operand}}
-            multiple=True
-        return (list(pymongo.MongoClient("database_json:27017").AERIS.metadata.find(
-                aux_query, {"_id": False})))
     # # FHIR
     if app.config["PLATFORM-ID"] == "3":
         import MySQLdb
 
         aux_query = ""
-        multiple=False
+        multiple = False
 
         splitted_query = query.split("#_#SEPARATOR#_#")
 
-        while (splitted_query):
+        while (True):
 
             if multiple:
                 logical_operator = splitted_query.pop(0)
@@ -331,25 +368,230 @@ def get_metadata(key, model, operator, operand, query,  dicttoxml=None):
                 aux_query += " " + logical_operator + " " + key + " " + operator_list_def(operator) + " " + operand
 
             else:
-                aux_query += key + operator_list_def(operator) + operand
+                aux_query += key + " " + operator_list_def(operator) + " " + operand
             multiple = True
-        # print(aux_query, file=sys.stderr)
+            if len(splitted_query) == 0:
+                break
+
+        print(aux_query, file=sys.stderr)
         db = MySQLdb.connect("database_sql", database="FHIR")
         db_cursor = db.cursor()
         db_cursor.execute("SELECT * FROM Location_hl7east WHERE " + aux_query + " ;")
         ret = db_cursor.fetchall()
         ret_list = []
-        name = [i[0].replace("_",".") for i in db_cursor.description]
-        for res_req in ret :
+        name = [i[0].replace("_", ".") for i in db_cursor.description]
+        for res_req in ret:
             dict_ret = {}
 
-            for index,col_name in enumerate(name):
+            for index, col_name in enumerate(name):
                 # print(col_name,index, file=sys.stderr)
-                dict_ret[col_name]=res_req[index]
+                dict_ret[col_name] = res_req[index]
             ret_list.append(dict_ret)
         # print(ret_list, file=sys.stderr)
         return ret_list
+    # JSON Database
+    # if app.config["PLATFORM-ID"] != "1" and app.config["PLATFORM-ID"] !="3":
+    aux_query = {}
+    multiple = False
+    logical_operator = ""
+    splitted_query = query.split("#_#SEPARATOR#_#")
+    print(query, file=sys.stderr)
+    while (True):
 
+        if multiple:
+            logical_operator = splitted_query.pop(0)
+        key = splitted_query.pop(0)
+
+        operator = splitted_query.pop(0)
+        operand = splitted_query.pop(0)
+
+
+        print("TA MERE", file=sys.stderr)
+
+
+
+        print(key, file=sys.stderr)
+
+        # print(app.config["registry"]["models"][model]["keys"][key], file=sys.stderr)
+        # print(app.config["registry"]["models"][model]["keys"][key].startswith("list"), file=sys.stderr)
+        print("ALOL :", app.config["registry"]["models"][model]["name"], key, file=sys.stderr)
+        if operator == "in":
+            if multiple:
+                # if isinstance(*aux_query, list):
+                # if app.config["registry"]["models"][model]["keys"][key].startswith("list"):
+                #     if app.config["COLLECTION"] == "opendatasoft":
+                #         key = key.replace(".", "#")
+                #     aux_query = {"$" + logical_operator.lower(): [aux_query, {key: {operator_list_def(operator): operand}}]}
+                # else:
+                if app.config["COLLECTION"] == "opendatasoft":
+                    key = key.replace(".", "#")
+                aux_query = {"$" + logical_operator.lower(): [aux_query, {key: {"$regex": operand, "$options": "i"}}]}
+
+
+
+            else:
+                # if app.config["registry"]["models"][model]["keys"][key].startswith("list"):
+                #     if app.config["COLLECTION"] == "opendatasoft":
+                #         key = key.replace(".", "#")
+                #     aux_query = {key: {operator_list_def(operator): float(operand)}}
+                # else:
+                if app.config["COLLECTION"] == "opendatasoft":
+                    key = key.replace(".", "#")
+                aux_query = {key: {"$regex": operand, "$options": "i"}}
+        else:
+            if multiple:
+                if app.config["registry"]["models"][model]["keys"][key] == "integer":
+                    if app.config["COLLECTION"] == "opendatasoft":
+                        key = key.replace(".", "#")
+                    aux_query = {
+                        "$" + logical_operator.lower(): [aux_query,
+                                                         {key: {operator_list_def(operator): float(operand)}}]}
+                else :
+                    if app.config["registry"]["models"][model]["keys"][key] == "date":
+                        if app.config["COLLECTION"] == "opendatasoft":
+                            key = key.replace(".", "#")
+                        aux_query = {
+                            "$" + logical_operator.lower(): [aux_query,
+                                                             {key: {operator_list_def(operator): (operand)}}]}
+                    else:
+
+
+                        if app.config["COLLECTION"] == "opendatasoft":
+                            key = key.replace(".", "#")
+                        aux_query = {
+                            "$" + logical_operator.lower(): [aux_query, {key: {operator_list_def(operator): operand}}]}
+
+
+            else:
+
+                if app.config["registry"]["models"][model]["keys"][key] == "integer":
+                    if app.config["COLLECTION"] == "opendatasoft":
+                        key = key.replace(".", "#")
+
+                    aux_query = {key: {operator_list_def(operator): float(operand)}}
+                else:
+                    if app.config["COLLECTION"] == "opendatasoft":
+                        key = key.replace(".", "#")
+                    aux_query = {key: {operator_list_def(operator): operand}}
+
+
+
+        multiple = True
+        print("ON EST Là ", aux_query, file=sys.stderr)
+        print("ON EST Là ", aux_query, file=sys.stderr)
+        print("ON EST Là ", aux_query, file=sys.stderr)
+        print(splitted_query, file=sys.stderr)
+
+        if len(splitted_query) == 0:
+            break
+
+
+    print("RESULT REQUEST : ", file=sys.stderr)
+    print(app.config["COLLECTION"] + " : " + str(aux_query), file=sys.stderr)
+    return (
+        list(pymongo.MongoClient("193.168.2.20:27017", maxPoolSize=10)[app.config["COLLECTION"]].interop_metadata.find(
+            aux_query, {"_id": False}).limit(100)))
+
+
+def match_concept_in_query(query, matchs, local_model):
+    '''
+    Transformation function for query based on matches
+    :param query: str: the query to transform
+    :param matchs: (str,str,list,str,float):list of tuple containing match, model, match_platform_list, concept, score
+    :param target_model: str : The model in which the converted concept must originate
+    :param targeted_platform : str (id) : targeted platform that will execute this query
+    :return: transformed query with match applied
+    '''
+    separator = "#_#SEPARATOR#_#"
+    aux_query = ""
+    list_elem_query = query.split(separator)
+    multiple = False
+    while (True):
+
+        if multiple:
+            logical_operator = list_elem_query.pop(0)
+        key_var = list_elem_query.pop(0)
+        operator_var = list_elem_query.pop(0)
+        operand_var = list_elem_query.pop(0)
+
+        match_found = False
+        match_key = ""
+        # For score using, not implemented yet
+        # match_score = - math.inf
+        if key_var in app.config["registry"]["models"][app.config["MODEL"]]["keys"]:
+            print("TA MERE OUAIS", file=sys.stderr)
+            match_found=True
+            match_key = key_var
+        else :
+            for match, match_model, concept, concept_model in matchs:
+
+                if concept == key_var and match_model==local_model:
+                    print(concept, key_var,match, file=sys.stderr)
+                    match_found = True
+                    # if score > match_score:
+                    match_key = match
+                if match == key_var and concept_model == local_model:
+                    match_found = True
+                    # if score > match_score:
+                    match_key = concept
+                if match == key_var and match_model == local_model:
+                    match_found = True
+                    # if score > match_score:
+                    match_key = concept
+                if concept == key_var and concept_model == local_model:
+                    match_found = True
+                    # if score > match_score:
+                    match_key = concept
+
+
+        print("MATCH FOUND : " , match_found,file=sys.stderr)
+
+        if match_found:
+            if multiple:
+                print("JELLO: ",key_var, match_key, app.config["registry"]["models"][local_model]["name"], file=sys.stderr)
+                if aux_query !="":
+
+
+                    aux_query += separator + logical_operator + separator + match_key + separator + operator_var + separator + operand_var
+                else :
+                    aux_query += match_key + separator + operator_var + separator + operand_var
+            else:
+                print("JELLU: ",key_var, match_key, app.config["registry"]["models"][local_model]["name"], file=sys.stderr)
+                aux_query += match_key + separator + operator_var + separator + operand_var
+        else :
+            return ""
+
+        multiple = True
+        if len(list_elem_query) == 0:
+            break
+
+    return aux_query
+
+
+def transitive_closure(matches):
+    '''
+    Transitive closure computing function ; get all matches (based on equality match relationship)
+    :param matches: list[tuples] : list of matches
+    :return:
+    '''
+    closure = set(matches) | set([(x, modelx, y, modely) for y, modely, x, modelx in matches])
+
+    while True:
+
+        new_relations = (set(
+            (i, modeli, w, modelw) for i, modeli, j, modelj in closure for q, modelq, w, modelw in closure if
+            q == j and i != w and modelj != modelq) |
+                         set((i, modeli, q, modelq) for i, modeli, j, modelj in closure for q, modelq, w, modelw in
+                             closure if w == j and i != q and modelj != modelq) |
+                         set((j, modelj, w, modelw) for i, modeli, j, modelj in closure for q, modelq, w, modelw in
+                             closure if q == i and j != w and modelj != modelq) |
+                         set((j, modelj, q, modelq) for i, modeli, j, modelj in closure for q, modelq, w, modelw in
+                             closure if w == i and j != q and modelj != modelq))
+        closure_done = closure | new_relations
+        if closure_done == closure:
+            break
+        closure = closure_done
+    return closure
 
 @app.route('/request', methods=['GET'])
 def request_metadata():
@@ -362,30 +604,33 @@ def request_metadata():
     "value": value for the request
     :return:
     '''
-    # pprint.pprint(app.config["registry"],stream=sys.stderr)
-#     pprint.pprint(request.headers,stream=sys.stderr)
-#     pprint.pprint("initiator" in request.headers,stream=sys.stderr)
+
+    # ONLY FOR DEMONSTRATION, NOT USEFULL IN OTHER CASE, CAN BE REMOVED
+    if app.config["MODEL"]=="":
+        for model_key in app.config["registry"]["models"]:
+            if app.config["registry"]["models"][model_key]["name"] == os.environ["MODEL-NAME"]:
+                app.config["MODEL"] = model_key
     if "initiator" not in request.headers:
         return flask.Response("initiator header variable not defined (platform id that initiate the request), "
-                                              "needed for request routage",status=400)
-    if "key" not in request.headers:
-        return flask.Response("key from the model header variable not defined, needed for request and match finding",status=400)
+                              "needed for request routage", status=400)
     if "model" not in request.headers:
-        return flask.Response("model header variable not defined, needed for request and match finding",status=400)
+        return flask.Response("model header variable not defined, needed for request and match finding", status=400)
+    if "query" not in request.headers:
+        return flask.Response("query not defined, needed for request ", status=400)
     if "jump" not in request.headers:
-        return flask.Response("jump (inverse of time to live) header variable not defined ; needed for routing",status=400)
+        return flask.Response("jump (inverse of time to live) header variable not defined ; needed for routing",
+                              status=400)
     if "platforms-visited" not in request.headers:
-        return flask.Response("platforms-visited header variable not defined ; needed for routing",status=400)
-    if "operator" not in request.headers:
-        return flask.Response("operator header variable not defined ; needed for request",status=400)
-    if "operand" not in request.headers:
-        return flask.Response("operand header variable not defined ; needed for request",status=400)
+        return flask.Response("platforms-visited header variable not defined ; needed for routing", status=400)
+    # if "operator" not in request.headers:
+    #     return flask.Response("operator header variable not defined ; needed for request",status=400)
+    # if "operand" not in request.headers:
+    #     return flask.Response("operand header variable not defined ; needed for request",status=400)
     if "request-id" not in request.headers:
-        return flask.Response("request-id header variable not defined; needed to avoid loop",status=400)
+        return flask.Response("request-id header variable not defined; needed to avoid loop", status=400)
     # Platform id of the request creator
     if "platform-id" not in request.headers:
-        return flask.Response("platform-id header variable not defined; needed for routing",status=400)
-
+        return flask.Response("platform-id header variable not defined; needed for routing", status=400)
 
     ret = {}
     if (request.headers["request-id"] in app.config["REQUEST-ID-LIST"]
@@ -393,128 +638,62 @@ def request_metadata():
         return flask.Response(status=208)
     else:
         app.config["REQUEST-ID-LIST"].append(request.headers["request-id"])
-    ret[app.config["PLATFORM-ID"]] = (get_metadata(key=request.headers["key"], model=request.headers["model"],
-                                                      operator=request.headers["operator"],
-                                                      operand=request.headers["operand"], query=request.headers["query"]))
-    # ret[app.config["PLATFORM-ID"]] = 0
-    matchs = []
-    for match_id in app.config["registry"]["matchs"]:
-        if app.config["registry"]["matchs"][match_id]["keyA"] == request.headers["key"]:
-            matchs.append((app.config["registry"]["matchs"][match_id]["keyB"],
-                           app.config["registry"]["matchs"][match_id]["modelB"],
-                           app.config["registry"]["models"][app.config["registry"]["matchs"][match_id]["modelB"]][
-                               "platforms"],
-                           app.config["registry"]["matchs"][match_id]["keyA"]
-                           ))
-        if app.config["registry"]["matchs"][match_id]["keyB"] == request.headers["key"]:
-            matchs.append((app.config["registry"]["matchs"][match_id]["keyA"],
-                           app.config["registry"]["matchs"][match_id]["modelA"],
-                           app.config["registry"]["models"][app.config["registry"]["matchs"][match_id]["modelA"]][
-                               "platforms"],
-                           app.config["registry"]["matchs"][match_id]["keyB"],
-                           ))
-    print(matchs, file=sys.stderr)
-    no_match_plat_list = []
 
+    local_model = ""
+    for key in app.config["registry"]["models"]:
+        if app.config["PLATFORM-ID"] in app.config["registry"]["models"][key]["platforms"]:
+            local_model = key
 
-    #  MATCHES problem :
-    # S'il y a plusieurs valeurs matchés dans une seule requêtes, comment on gère ? On change toutes les valeurs ou juste pour un match ?
-    # S'il y a plusieurs matchs, est-ce qu'on fait 1 requêtes pour chaque matchs ?
-    # TODO : Reconstruction de requêtes
-    # Fonction de reconstruction de la requête
-    # Puis envoie à chaque plateforme la requête correspondante
+    matchs = [(app.config["registry"]["matchs"][key]["keyB"],
+               app.config["registry"]["matchs"][key]["modelB"],
+               app.config["registry"]["models"][app.config["registry"]["matchs"][key]["modelB"]][
+                   "platforms"],
+               app.config["registry"]["matchs"][key]["keyA"],
+               app.config["registry"]["matchs"][key]["modelA"],
+               app.config["registry"]["models"][app.config["registry"]["matchs"][key]["modelA"]][
+                   "platforms"],
+               app.config["registry"]["matchs"][key]["score"]
 
+               ) for key in app.config["registry"]["matchs"] ]
+
+    matched_query = match_concept_in_query(
+        request.headers["query"],
+        transitive_closure([(keyA, modelA, keyB, modelB) for keyA, modelA, _, keyB, modelB, _, _ in matchs]),
+        app.config["MODEL"])
+    print("hello world" , file=sys.stderr)
+    # print(        transitive_closure([(keyA, modelA, keyB, modelB) for keyA, modelA, _, keyB, modelB, _, _ in matchs]),file=sys.stderr)
+    print(request.headers["query"], file=sys.stderr)
+    print(matched_query, file=sys.stderr)
+    if matched_query != "":
+
+        ret[app.config["PLATFORM-ID"]] = (get_metadata(model=local_model, query= matched_query))
+    else :
+        ret[app.config["PLATFORM-ID"]] = []
 
     for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
-        match_found = False
-        for match, model, match_platform_list, concept in matchs :
-            if platform_id in match_platform_list:
-                print(match,model,match_platform_list, file=sys.stderr)
-                match_found = True
-                rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
-                              headers={"platforms-visited":
-                                           request.headers["platforms-visited"] + ","
-                                           + app.config.get("PLATFORM-ID"),
-                                       "jump": str(int(request.headers["jump"]) + 1),
-                                       "key": match,
-                                       "model": model,
-                                       "operator": request.headers["operator"],
-                                       "operand": request.headers["operand"],
-                                       "platform-id": app.config["PLATFORM-ID"],
-                                       "initiator": request.headers["initiator"],
-                                       "request-id": request.headers["request-id"],
-                                       'Content-type': 'application/json',
-                                       'Accept': 'application/json',
-                                       'query':request.headers["query"].replace(concept,match)
-                                       }
-                              , timeout=5)
-                if rep.status_code == 200:
-                    try :
-                    # print(rep.text, file=sys.stderr)
-                    # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
-                       ret = {**ret, **json.loads(rep.text)}
-                    except Exception as e :
-                        print(e, file=sys.stderr)
-
-
-        if not match_found:
-            no_match_plat_list.append(platform_id)
-    for platform_id in no_match_plat_list:
         rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
                       headers={"platforms-visited":
                                    request.headers["platforms-visited"] + ","
                                    + app.config.get("PLATFORM-ID"),
                                "jump": str(int(request.headers["jump"]) + 1),
-                               "key": request.headers["key"],
                                "model": request.headers["model"],
-                               "operator": request.headers["operator"],
-                               "operand": request.headers["operand"],
                                "platform-id": app.config["PLATFORM-ID"],
                                "initiator": request.headers["initiator"],
                                "request-id": request.headers["request-id"],
                                'Content-type': 'application/json',
                                'Accept': 'application/json',
-                               'query':request.headers["query"]
+                               'query': request.headers["query"],
+                               # 'query_modified':req_aux
                                }
-                      , timeout=5)
+                      , timeout=20)
+
         if rep.status_code == 200:
-
-            # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
-            # print(rep.text, file=sys.stderr)
-            # ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
-            ret = {**ret, **json.loads(rep.text)}
-
-
-
-    # for match, model, platform_list in matchs:
-    #     for platform_id in platform_list:
-    #         if platform_id in app.config["registry"]["platforms"][app.config.get("PLATFORM-ID")]["links"]:
-    #             if (platform_id not in request.headers["platforms-visited"]
-    #                     and platform_id != request.headers["platform-id"]):
-    #
-    #                 rep = req.get(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/request",
-    #                               headers={"platforms-visited":
-    #                                            request.headers["platforms-visited"] + ","
-    #                                            + app.config.get("PLATFORM-ID"),
-    #                                        "jump": str(int(request.headers["jump"]) + 1),
-    #                                        "key": match,
-    #                                        "model": model,
-    #                                        "operator": request.headers["operator"],
-    #                                        "operand": request.headers["operand"],
-    #                                        "platform-id": app.config["PLATFORM-ID"],
-    #                                        "initiator": request.headers["initiator"],
-    #                                        "request-id": request.headers["request-id"]}
-    #                               , timeout=5)
-    #
-    #                 if rep.status_code == 200:
-    #                    ret = {**ret, **ast.literal_eval(rep.content.decode("utf-8"))}
-    # response = flask.jsonify(data=ret,mimetype='application/json')
-    # response.headers={"Access-Control-Allow-Origin":"*"}
-    # pprint.pprint(ret, stream=sys.stderr)
-    # return response
+            try:
+                ret = {**ret, **json.loads(rep.text)}
+            except Exception as e:
+                print(e, file=sys.stderr)
+    print(len(ret),file=sys.stderr)
     return ret
-#     return flask.Response({"answer":ret},status=204)
-
 
 def get_node_nearest_from_distribution():
     '''
@@ -556,8 +735,13 @@ def get_node_nearest_from_distribution():
                 if len(aux) > 0:
                     node_degree = degree
 
+    print(app.config["registry"]["network"], file=sys.stderr)
+    print(node_degree, file=sys.stderr)
     list_of_platform_to_connect_to = list(app.config["registry"]["network"]["degrees_distribution"][node_degree - 2])
-    list_of_platform_to_connect_to.remove(app.config["PLATFORM-ID"])
+    #     try :
+    #         list_of_platform_to_connect_to.remove(app.config["PLATFORM-ID"])
+    #     except:
+    #         pass
     return list_of_platform_to_connect_to
 
 
@@ -577,8 +761,8 @@ def get_node_to_link_to():
     # data = request.get_json()
     print(request.headers, file=sys.stderr)
     if "Platform-Id" not in request.headers:
-#         return "No platform-id header", 400
-        return flask.Response(status=400,  response="No platform-id")
+        #         return "No platform-id header", 400
+        return flask.Response(status=400, response="No platform-id")
     # if "existing-model-id" not in request.headers:
     #     if "models" not in data:
     #         return "No model defined"
@@ -597,25 +781,23 @@ def get_node_to_link_to():
                len(aux_registry["network"]["degrees_distribution"]) - 1]) != 0:
         aux_registry["network"]["degrees_distribution"].append([])
 
-
     response = flask.jsonify(data=get_node_nearest_from_distribution())
-    response.headers={"Access-Control-Allow-Origin":"*"}
+    response.headers = {"Access-Control-Allow-Origin": "*"}
     return response
+
+
 #     response.headers={"Access-Control-Allow-Origin":"*"}
 #     return )
 
 
 @app.route('/inscription', methods=['POST'])
 def link_platforms():
+
     platform_toadd_id = request.headers["platform-id"]
     platform_tolinkto_id = request.headers["platform-tolink"]
     data = request.get_json()
-    pprint.pprint(app.config["registry"]["models"],stream=sys.stderr)
+    # pprint.pprint(app.config["registry"]["models"],stream=sys.stderr)
     app.config["registry"]["platforms"][platform_toadd_id] = data["platforms"][platform_toadd_id]
-    # STRUCTURATION OF existing-model-id HEADER : "MODEL,MODEL,MODEL"
-    # Splitted by ","
-    print("QLSMDKQSMLDKQSMLDK", file=sys.stderr)
-    print(request.headers["existing-model-id"], file=sys.stderr)
     if "existing-model-id" in request.headers:
         for model in request.headers["existing-model-id"].split(","):
             app.config["registry"]["models"][model]["platforms"].append(platform_toadd_id)
@@ -677,18 +859,27 @@ def test():
     pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
     return "ok"
 
-def save_registry():
+
+def save_registry(matchonly=False):
     import time
     with open("registry.dict", "wb") as fp:
         pickle.dump(app.config["registry"], fp)
     for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
-        rep = req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry",
-                       headers={"registry-version": str(time.time()), "Content-Type": "application/json",
-                                "Accept": "application/json", "Platforms-visited": app.config["PLATFORM-ID"],
-                                "Platform-Id": app.config["PLATFORM-ID"]},
-                       data=json.dumps(app.config["registry"]), timeout=5)
+        if matchonly:
+            rep = req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry",
+                           headers={"registry-version": str(time.time()), "Content-Type": "application/json",
+                                    "Accept": "application/json", "Platforms-visited": app.config["PLATFORM-ID"],
+                                    "Platform-Id": app.config["PLATFORM-ID"]},
+                           data=json.dumps(app.config["registry"]), timeout=5)
+        else :
+            rep = req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry",
+                           headers={"registry-version": str(time.time()), "Content-Type": "application/json",
+                                    "Accept": "application/json", "Platforms-visited": app.config["PLATFORM-ID"],
+                                    "Platform-Id": app.config["PLATFORM-ID"], "only-matches":""},
+                           data=json.dumps(app.config["registry"]), timeout=5)
+
         if rep.status_code == 400:
-            print(rep.text,file=sys.stderr)
+            print(rep.text, file=sys.stderr)
 
 
 if __name__ == '__main__':

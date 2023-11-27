@@ -49,7 +49,7 @@ export default function App(props) {
         },
         {
             path: "/register_model",
-            element: <CreateModelPage context={context} />,
+            element: <CreateModelPage context={context} config={config}/>,
             errorElement: <ErrorPage />,
         },
         {

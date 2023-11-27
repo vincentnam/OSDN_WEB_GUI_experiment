@@ -1,0 +1,89 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.6084/m9.figshare.14762238.v1</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">François-Marie Bréon</creatorName>
+    <givenName>François-Marie</givenName>
+    <familyName>Bréon</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Philippe Ciais</creatorName>
+    <givenName>Philippe</givenName>
+    <familyName>Ciais</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Yilong Wang</creatorName>
+    <givenName>Yilong</givenName>
+    <familyName>Wang</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Stijn Dellaert</creatorName>
+    <givenName>Stijn</givenName>
+    <familyName>Dellaert</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Katsumasa Tanaka</creatorName>
+    <givenName>Katsumasa</givenName>
+    <familyName>Tanaka</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Léna Gurriaran</creatorName>
+    <givenName>Léna</givenName>
+    <familyName>Gurriaran</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Yann Françoise</creatorName>
+    <givenName>Yann</givenName>
+    <familyName>Françoise</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Steven J. Davis</creatorName>
+    <givenName>Steven J.</givenName>
+    <familyName>Davis</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Chaopeng Hong</creatorName>
+    <givenName>Chaopeng</givenName>
+    <familyName>Hong</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Josep Penuelas</creatorName>
+    <givenName>Josep</givenName>
+    <familyName>Penuelas</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Ivan Janssens</creatorName>
+    <givenName>Ivan</givenName>
+    <familyName>Janssens</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Michael Obersteiner</creatorName>
+    <givenName>Michael</givenName>
+    <familyName>Obersteiner</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Zhu Deng</creatorName>
+    <givenName>Zhu</givenName>
+    <familyName>Deng</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Zhu Liu</creatorName>
+    <givenName>Zhu</givenName>
+    <familyName>Liu</familyName>
+  </creator>
+</creators>
+<titles><title>Daily natural gas flows</title></titles>
+<publisher>figshare</publisher>
+<publicationYear>2022</publicationYear>
+<subjects>
+  <subject>Natural Gas Consumption</subject>
+  <subject>COVID -19</subject>
+  <subject>Built Environment</subject>
+  <subject>Industry</subject>
+  <subject>Earth Sciences not elsewhere classified</subject>
+</subjects>
+<dates><date dateType="Issued">2022-01-01 02:12:36</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://figshare.com/articles/dataset/Daily_natural_gas_flows/14762238</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;div&gt;Daily natural gas flows towards distribution and final&lt;/div&gt;&lt;div&gt;consumption for Italy, Spain, France, Belgium, Netherlands, UK, Germany and Poland.&lt;/div&gt;&lt;div&gt;The analysis has been published on Earth&#x27;s Future: https://doi.org/10.1029/2021EF002250&lt;/div&gt;</description></descriptions>
+</resource>

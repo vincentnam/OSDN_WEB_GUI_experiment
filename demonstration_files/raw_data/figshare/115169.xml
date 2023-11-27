@@ -1,0 +1,98 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.1371/journal.pone.0052374.s001</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">Florence Le Calvez-Kelm</creatorName>
+    <givenName>Florence</givenName>
+    <familyName>Le Calvez-Kelm</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Javier Oliver</creatorName>
+    <givenName>Javier</givenName>
+    <familyName>Oliver</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Francesca Damiola</creatorName>
+    <givenName>Francesca</givenName>
+    <familyName>Damiola</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Nathalie Forey</creatorName>
+    <givenName>Nathalie</givenName>
+    <familyName>Forey</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Nivonirina Robinot</creatorName>
+    <givenName>Nivonirina</givenName>
+    <familyName>Robinot</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Geoffroy Durand</creatorName>
+    <givenName>Geoffroy</givenName>
+    <familyName>Durand</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Catherine Voegele</creatorName>
+    <givenName>Catherine</givenName>
+    <familyName>Voegele</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Maxime P. Vallée</creatorName>
+    <givenName>Maxime</givenName>
+    <familyName>P. Vallée</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Graham Byrnes</creatorName>
+    <givenName>Graham</givenName>
+    <familyName>Byrnes</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Breast Cancer Family Registry</creatorName>
+    <givenName>Breast</givenName>
+    <familyName>Cancer Family Registry</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">John L. Hopper</creatorName>
+    <givenName>John</givenName>
+    <familyName>L. Hopper</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Melissa C. Southey</creatorName>
+    <givenName>Melissa</givenName>
+    <familyName>C. Southey</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Irene L. Andrulis</creatorName>
+    <givenName>Irene</givenName>
+    <familyName>L. Andrulis</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Esther M. John</creatorName>
+    <givenName>Esther</givenName>
+    <familyName>M. John</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Sean V. Tavtigian</creatorName>
+    <givenName>Sean</givenName>
+    <familyName>V. Tavtigian</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Fabienne Lesueur</creatorName>
+    <givenName>Fabienne</givenName>
+    <familyName>Lesueur</familyName>
+  </creator>
+</creators>
+<titles><title>Table S1 - &lt;em&gt;RAD51&lt;/em&gt; and Breast Cancer Susceptibility: No Evidence for Rare Variant Association in the Breast Cancer Family Registry Study</title></titles>
+<publisher>Public Library of Science</publisher>
+<publicationYear>2012</publicationYear>
+<subjects>
+  <subject>cancer</subject>
+  <subject>variant</subject>
+  <subject>registry</subject>
+  <subject>study</subject>
+</subjects>
+<dates><date dateType="Issued">2012-12-27 01:26:09</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://plos.figshare.com/articles/dataset/_RAD51_and_Breast_Cancer_Susceptibility_No_Evidence_for_Rare_Variant_Association_in_the_Breast_Cancer_Family_Registry_Study__/115169</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;p&gt;Stratified analyses of &lt;i&gt;RAD51&lt;/i&gt; non-coding SNPs on breast cancer risk in the BCFR.&lt;/p&gt; &lt;p&gt;(DOCX)&lt;/p&gt;</description></descriptions>
+</resource>

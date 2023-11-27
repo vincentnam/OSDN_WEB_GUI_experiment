@@ -1,0 +1,330 @@
+{
+  "id": 3821563,
+  "identifier": "DVN/JLXBEA",
+  "persistentUrl": "https://doi.org/10.7910/DVN/JLXBEA",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2020-04-30",
+  "storageIdentifier": "s3://10.7910/DVN/JLXBEA",
+  "datasetVersion": {
+    "id": 194012,
+    "datasetId": 3821563,
+    "datasetPersistentId": "doi:10.7910/DVN/JLXBEA",
+    "storageIdentifier": "s3://10.7910/DVN/JLXBEA",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "lastUpdateTime": "2020-04-30T12:30:21Z",
+    "releaseTime": "2020-04-30T12:30:21Z",
+    "createTime": "2020-04-30T12:28:11Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "COVID-19 Community Assessment Survey"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Aldrich, Daniel"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Northeastern University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4150-995X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Balcioglu, Zeynep"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Northeastern University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-7043-9439"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fraser, Timothy"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Northeastern University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4509-0244"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lee, Juheon"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lafayette College"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4516-8766"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Marion, Summer"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Northeastern University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-5407-6823"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Page-Tan, Courtney"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wesleyan University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3584-3484"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Marion, Summer"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Northeastern University"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "summer_marion@harvard.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The primary aim of this study is to understand the relationships between social ties and COVID-19 infection and mortality rates. We are fielding this survey in six neighborhoods in New York City and Boston. We hypothesize that alongside age, underlying conditions, and other demographic vulnerability factors, social ties are a key predictor of how individuals adapt to lifestyle changes caused by COVID-19. Our survey addresses three types of questions: 1. What are the sources of information about COVID19? 2. Who do survey respondents trust among these sources? 3. How have health, physical distancing, work attendance, and other daily behaviors changed? Funding for this research has been provided by the Northeastern University College of Social Sciences and Humanities and the Natural Hazards Center at the University of Colorado Boulder. "
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-04-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19, social capital, information, trust, behavioral change"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Community assessment survey"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Marion, Summer"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-04-30"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This survey, addressing relationships between social ties and COVID-19 infection and mortality rates, is being fielded in six neighborhoods in New York City and Boston between April and June 2020.",
+        "label": "Aldrich et al COVID Community Assessment Survey.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 194012,
+        "dataFile": {
+          "id": 3821564,
+          "persistentId": "doi:10.7910/DVN/JLXBEA/PIGMGQ",
+          "pidURL": "https://doi.org/10.7910/DVN/JLXBEA/PIGMGQ",
+          "filename": "Aldrich et al COVID Community Assessment Survey.pdf",
+          "contentType": "application/pdf",
+          "filesize": 384390,
+          "description": "This survey, addressing relationships between social ties and COVID-19 infection and mortality rates, is being fielded in six neighborhoods in New York City and Boston between April and June 2020.",
+          "storageIdentifier": "s3://dvn-cloud:171cb085919-dbb6f7942ca4",
+          "rootDataFileId": -1,
+          "md5": "d6e0f656fb54db8aa07069454c255cdb",
+          "checksum": {
+            "type": "MD5",
+            "value": "d6e0f656fb54db8aa07069454c255cdb"
+          },
+          "creationDate": "2020-04-30"
+        }
+      }
+    ],
+    "citation": "Aldrich, Daniel; Balcioglu, Zeynep; Fraser, Timothy; Lee, Juheon; Marion, Summer; Page-Tan, Courtney, 2020, \"COVID-19 Community Assessment Survey\", https://doi.org/10.7910/DVN/JLXBEA, Harvard Dataverse, V1"
+  }
+}

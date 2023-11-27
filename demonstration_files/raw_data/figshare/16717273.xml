@@ -1,0 +1,82 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.16717273.v1</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">Anne Leonore de Bruijn</creatorName>
+    <givenName>Anne Leonore</givenName>
+    <familyName>de Bruijn</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Yuval Feldman</creatorName>
+    <givenName>Yuval</givenName>
+    <familyName>Feldman</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">C.F. Reinders Folmer</creatorName>
+    <givenName>C.F.</givenName>
+    <familyName>Reinders Folmer</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Malouke E. Kuiper</creatorName>
+    <givenName>Malouke E.</givenName>
+    <familyName>Kuiper</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Megan A. Brownlee</creatorName>
+    <givenName>Megan A.</givenName>
+    <familyName>Brownlee</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Emmeke B. Kooistra</creatorName>
+    <givenName>Emmeke B.</givenName>
+    <familyName>Kooistra</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Elke H. Olthuis</creatorName>
+    <givenName>Elke H.</givenName>
+    <familyName>Olthuis</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Adam Fine</creatorName>
+    <givenName>Adam</givenName>
+    <familyName>Fine</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Benjamin van Rooij</creatorName>
+    <givenName>Benjamin</givenName>
+    <familyName>van Rooij</familyName>
+  </creator>
+</creators>
+<titles><title>Cross-Theoretical Compliance: An Integrative Compliance Analysis of COVID-19 Mitigation Responses in Israel</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2021</publicationYear>
+<subjects>
+  <subject>compliance</subject>
+  <subject>compliance theory</subject>
+  <subject>COVID-19</subject>
+  <subject>mitigation measures</subject>
+  <subject>social distancing and stay-at-home orders</subject>
+  <subject>lockdown conditions</subject>
+  <subject>legal knowledge</subject>
+  <subject>rational choice</subject>
+  <subject>deterrence</subject>
+  <subject>punishment</subject>
+  <subject>legitimacy</subject>
+  <subject>Procedural Justice</subject>
+  <subject>obligation to obey the law</subject>
+  <subject>social norms</subject>
+  <subject>capacity to comply</subject>
+  <subject>impulsivity</subject>
+  <subject>strain theory</subject>
+  <subject>negative emotions</subject>
+  <subject>opportunity to violate</subject>
+  <subject>trust in science</subject>
+  <subject>trust in media</subject>
+  <subject>public health</subject>
+  <subject>Israel</subject>
+</subjects>
+<dates><date dateType="Issued">2021-10-07 12:03:52</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/dataset/Cross-Theoretical_Compliance_An_Integrative_Compliance_Analysis_of_COVID-19_Mitigation_Responses_in_Israel/16717273</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;div&gt;Compliance with COVID-19 mitigation measures in Israel. Survey study on compliance with social distancing and lockdown measures and its relationship with predictors from the major compliance theories. Raw data&lt;/div&gt;&lt;div&gt;+ syntax for data prep (SPSS) + treated dataset for analysis (SPSS and Stata) + syntax for analysis (Stata).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The analyses that are reported in the paper were conducted as follows:&lt;/div&gt;&lt;div&gt;(1) descriptive statistics and correlations: SPSS data file + syntax&lt;/div&gt;&lt;div&gt;(2) Analysis (negative binomial regression): Stata syntax&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For more information, please see https://corona-compliance.org/&lt;/div&gt;</description></descriptions>
+</resource>

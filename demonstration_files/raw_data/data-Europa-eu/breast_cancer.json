@@ -1,0 +1,247 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "spdx:algorithm": {
+                "@id": "spdx:checksumAlgorithm_sha1"
+            },
+            "spdx:checksumValue": "755a5dfd9f5ecf075027627728995437775a2e01",
+            "@type": "spdx:Checksum"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/0b07894f-c47b-4c53-ba89-741c90e1dd6f",
+            "dct:issued": {
+                "@value": "2023-11-24T14:44:04.184",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:description": [
+                {
+                    "@language": "mt-t-fr-t0-mtec",
+                    "@value": "kanċer tas-sider reġjonali għall-AKP\n“popolazzjoni” (sħiħa):il-popolazzjoni skont ir-reġjun fl-1 ta’ Jannar 2023\n “żgħażagħ propjetarji”:(float) perċentwal ta’ żgħażagħ bejn 0 u 25 sena\n “25 sena+” tfisser:l-għadd stmat ta’ adulti li għandhom aktar minn 25 sena fl-1 ta’ Jannar.2023\n “impatt” tfisser:każijiet reġjonali ġodda ta’ kanċer tas-sider għal kull 100.000 persuna\n “mortalità”:\nrata ta’ mortalità reġjonali"
+                },
+                {
+                    "@language": "sv-t-fr-t0-mtec",
+                    "@value": "regional bröstcancer för AVS ”population” (hela):\nbefolkning per region per den 1 januari 2023\n”prop_ungdom”: andel ungdomar mellan 0 och 25 år (flytande)\n25 år+:uppskattat antal vuxna över 25 år den 1 januari 2023\npåverkan:\nnya regionala fall av bröstcancer per 100.000 personer\ndödlighet: regional dödlighet regional bröstcancer för AVS ”population” (hela):\nbefolkning per region per den 1 januari 2023  ”prop_ungdom”:\nandel ungdomar mellan 0 och 25 år (flytande)\n\n25 år+:\nuppskattat antal vuxna över 25 år den 1 januari 2023\n\npåverkan:\nnya regionala fall av bröstcancer per 100.000 personer\n\ndödlighet:\nregional dödlighet"
+                },
+                {
+                    "@language": "fi-t-fr-t0-mtec",
+                    "@value": "AKT-valtioiden alueellinen rintasyöpä\n”väestö” (kokonainen): väestö maakunnittain 1.1.2023\n”prop_nuoret”: 0–25-vuotiaiden nuorten (kelluva) prosenttiosuus\n’25 vuotta+’ tarkoittaa: yli 25-vuotiaiden aikuisten arvioitu määrä 1.1.2023\n’vaikutuksella’ uusia alueellisia rintasyöpätapauksia 100.000 ihmistä kohti\n’kuolleisuudella’ alueellinen kuolleisuus"
+                },
+                {
+                    "@language": "sl-t-fr-t0-mtec",
+                    "@value": "regionalni rak dojke za AKP\n„prebivalstvo“ (celotno):\nprebivalstvo po regijah na dan 1. januarja 2023\n„prop_Young People“: (float) odstotek mladih, starih od 0 do 25 let  „25 let+“ pomeni: ocenjeno število odraslih, starejših od 25 let, na dan 1. januarja 2023  „učinek“ pomeni: novi regionalni primeri raka dojke na 100.000 ljudi „smrtnost“:\nregionalna stopnja umrljivostiregionalni rak dojke za AKP\n „prebivalstvo“ (celotno): prebivalstvo po regijah na dan 1. januarja 2023 \n„prop_Young People“:\n(float) odstotek mladih, starih od 0 do 25 let\n\n„25 let+“ pomeni:\nocenjeno število odraslih, starejših od 25 let, na dan 1. januarja 2023\n\n„učinek“ pomeni:\nnovi regionalni primeri raka dojke na 100.000 ljudi\n\n„smrtnost“:\nregionalna stopnja umrljivosti"
+                },
+                {
+                    "@language": "ga-t-fr-t0-mtec",
+                    "@value": "ailse chíche réigiúnach i gcomhair ACC\n“daonra” (iomlán):daonra de réir réigiúin amhail an 1 Eanáir 2023\n ‘daoine príobháideacha’:céatadán na ndaoine óga idir 0 agus 25 bliana d’aois\n Ciallaíonn ‘25 bliana+’:líon measta daoine fásta os cionn 25 bliana d’aois an 1 Eanáir 2023\n ciallaíonn ‘tionchar’:cásanna réigiúnacha nua d’ailse chíche in aghaidh 100.000 duine\n ‘morgáltacht’:\nráta básmhaireachta réigiúnach"
+                },
+                {
+                    "@language": "bg-t-fr-t0-mtec",
+                    "@value": "регионален рак на гърдата за АКТБ\n„популация“ (цяла): население по региони към 1 януари 2023 г.\n„Prop_Young people“: (плаващ) процент на младите хора на възраст между 0 и 25 години\n„25 години+“ означава: приблизителен брой възрастни на възраст над 25 години на 1 януари 2023 г.\n„въздействие“ означава: нови регионални случаи на рак на гърдата на 100.000 души\n„смъртност“: регионална смъртност"
+                },
+                {
+                    "@language": "es-t-fr-t0-mtec",
+                    "@value": "cáncer de mama regional para los países ACP\n«población» (total):población por región al 1 de enero de 2023\n «prop_young people»:\nporcentaje (flotante) de jóvenes entre 0 y 25 años\n\n«25 años+»:\nnúmero estimado de adultos mayores de 25 años el 1 de enero de 2023\n\n«impacto»:\nnuevos casos regionales de cáncer de mama por cada 100.000 personas\n\n«mortalidad»:\ntasa de mortalidad regional"
+                },
+                {
+                    "@language": "lt-t-fr-t0-mtec",
+                    "@value": "regioninis krūties vėžys AKR šalyse\n„gyventojai“ (visi): gyventojų skaičius pagal regionus 2023 m. sausio 1 d.\n\n„prop_young people“:\n(plūduriuoja) 0–25 metų jaunuolių procentinė dalis\n\n„25 metai +“ – tai:\nnumatomas vyresnių nei 25 metų suaugusiųjų skaičius 2023 m. sausio 1 d.\n\n„poveikis“ – tai:\nnauji regioniniai krūties vėžio atvejai 100.000 žmonių\n\n„mirtingumas“:\nregionų mirtingumo lygis"
+                },
+                {
+                    "@language": "lv-t-fr-t0-mtec",
+                    "@value": "reģionāls krūts vēzis ĀKK\n“populācija” (visa):\niedzīvotāju skaits pa reģioniem 2023. gada 1. janvārī\n“prop_jaunieši”: (peldošs) to jauniešu īpatsvars, kuri ir vecumā no 0 līdz 25 gadiem  “25 gadi+” ir: aplēstais pieaugušo skaits, kas vecāki par 25 gadiem, 2023. gada 1. janvārī  “ietekme” ir: jauni reģionāli krūts vēža gadījumi uz 100.000 cilvēkiem “mirstība”:\nreģionālais mirstības rādītājsreģionāls krūts vēzis ĀKK\n “populācija” (visa): iedzīvotāju skaits pa reģioniem 2023. gada 1. janvārī \n“prop_jaunieši”:\n(peldošs) to jauniešu īpatsvars, kuri ir vecumā no 0 līdz 25 gadiem\n\n“25 gadi+” ir:\naplēstais pieaugušo skaits, kas vecāki par 25 gadiem, 2023. gada 1. janvārī\n\n“ietekme” ir:\njauni reģionāli krūts vēža gadījumi uz 100.000 cilvēkiem\n\n“mirstība”:\nreģionālais mirstības rādītājs"
+                },
+                {
+                    "@language": "nl-t-fr-t0-mtec",
+                    "@value": "regionale borstkanker voor ACS\n„bevolking” (helemaal):bevolking per regio per 1 januari 2023\n „prop_young people”:(zwevend) percentage jongeren tussen 0 en 25 jaar oud\n„25 jaar+”:\ngeschat aantal volwassenen ouder dan 25 jaar op 1 januari 2023  „impact”:nieuwe regionale gevallen van borstkanker per 100.000 mensen\n„sterfte”:\nregionaal sterftecijfer regionale borstkanker voor ACS „bevolking” (helemaal):\nbevolking per regio per 1 januari 2023 „prop_young people”:\n(zwevend) percentage jongeren tussen 0 en 25 jaar oud\n„25 jaar+”: geschat aantal volwassenen ouder dan 25 jaar op 1 januari 2023\n\n„impact”:\nnieuwe regionale gevallen van borstkanker per 100.000 mensen\n\n„sterfte”:\nregionaal sterftecijfer"
+                },
+                {
+                    "@language": "hu-t-fr-t0-mtec",
+                    "@value": "regionális emlőrák az AKCS-országokban\n„népesség” (egész):népesség régiónként 2023. január 1-jén\n „prop_young people”:a 0 és 25 év közötti fiatalok százalékos aránya\n „25 év+”:a 25 év feletti felnőttek becsült száma 2023. január 1-jén\n „hatás”:\núj regionális emlőrákos esetek 100.000 főre\n\n„halandóság”:\nregionális halálozási arány"
+                },
+                {
+                    "@language": "pt-t-fr-t0-mtec",
+                    "@value": "cancro da mama regional nos países ACP\n\n«população» (inteira):\npopulação por região em 1 de janeiro de 2023\n\n«pro_jovens»:\npercentagem (flutuante) de jovens com idades compreendidas entre os 0 e os 25 anos\n\n«25 anos+»:\nnúmero estimado de adultos com mais de 25 anos de idade em 1 de janeiro de 2023\n\n«impacto»:\nnovos casos regionais de cancro da mama por 100.000 pessoas\n\n«mortalidade»:\ntaxa de mortalidade regional"
+                },
+                {
+                    "@language": "pl-t-fr-t0-mtec",
+                    "@value": "regionalny rak piersi dla krajów AKP\n„ludność” (cała): liczba ludności według regionu na dzień 1 stycznia 2023 r.\n„prop_young people”: odsetek młodych ludzi w wieku od 0 do 25 lat\n„25 lat+” oznacza: szacunkowa liczba dorosłych powyżej 25 roku życia na dzień 1 stycznia 2023 r.\n„wpływ” oznacza: nowe regionalne przypadki raka piersi na 100.000 osób\n„śmiertelność”: wskaźnik śmiertelności regionalnej"
+                },
+                {
+                    "@language": "da-t-fr-t0-mtec",
+                    "@value": "regional brystkræft til AVS-landene\n\"befolkning\" (hele):befolkning efter region pr. 1. januar 2023\n \"prop_unge\":(float) procentdel af unge mellem 0 og 25 år\n\"25 år+\":\nanslået antal voksne over 25 år pr. 1. januar 2023  \"virkning\":\nnye regionale tilfælde af brystkræft pr. 100.000 mennesker\n\n\"dødelighed\":\nregional dødelighed"
+                },
+                "regional breast cancer for ACP \n\"population\" (entier) : nombre d'habitants par regions au 1er janvier 2023\n\"prop_jeunes\": (float) pourcentage de jeunes entre 0 et 25 ans\n\"25ans+\": estimation du nombre d'adultes de plus de 25ans au 1er jan.2023\n\"incidence\": nouveaux cas régionaux de cancers du sein pour 100.000 personnes\n\"mortalité\": taux de mortalité régional",
+                {
+                    "@language": "sk-t-fr-t0-mtec",
+                    "@value": "regionálna rakovina prsníka pre AKT\n„populácia“ (celé): počet obyvateľov podľa regiónov k 1. januáru 2023\n„prop_mladí ľudia“: percentuálny podiel mladých ľudí vo veku od 0 do 25 rokov\n„25 rokov+“ znamená: odhadovaný počet dospelých starších ako 25 rokov k 1. januáru 2023\n„vplyv“ je: nové regionálne prípady rakoviny prsníka na 100.000 ľudí\n„úmrtnosť“: regionálna úmrtnosť"
+                },
+                {
+                    "@language": "hr-t-fr-t0-mtec",
+                    "@value": "regionalni rak dojke za zemlje AKP-a „populacija” (cijela):\nstanovništvo po regijama na dan 1. siječnja 2023.\n„prop_mladi”: (float) postotak mladih u dobi od 0 do 25 godina\n„25 godina+” znači:procijenjeni broj odraslih osoba starijih od 25 godina 1. siječnja 2023.\n„učinak” znači:\nnovi regionalni slučajevi raka dojke na 100.000 ljudi\n„smrtnost”: regionalna stopa smrtnosti regionalni rak dojke za zemlje AKP-a „populacija” (cijela):\nstanovništvo po regijama na dan 1. siječnja 2023.  „prop_mladi”:\n(float) postotak mladih u dobi od 0 do 25 godina\n\n„25 godina+” znači:\nprocijenjeni broj odraslih osoba starijih od 25 godina 1. siječnja 2023.\n\n„učinak” znači:\nnovi regionalni slučajevi raka dojke na 100.000 ljudi\n\n„smrtnost”:\nregionalna stopa smrtnosti"
+                },
+                {
+                    "@language": "de-t-fr-t0-mtec",
+                    "@value": "Regional Breast Cancer for ACP\n„Bevölkerung“ (ganz): Einwohnerzahl nach Regionen am 1. Januar 2023\n„prop_junge“: (float) Prozentsatz der Jugendlichen zwischen 0 und 25 Jahren\n„25 Jahre+“: geschätzte Anzahl Erwachsener über 25 Jahre am 1. Jan.2023\n„Wirkung“: neue regionale Brustkrebsfälle pro 100.000 Menschen\n„Sterblichkeit“: regionale Sterblichkeitsrate"
+                },
+                {
+                    "@language": "it-t-fr-t0-mtec",
+                    "@value": "cancro al seno regionale per i paesi ACP\n\"popolazione\" (intera): popolazione per regione al 1º gennaio 2023\n\"prop_giovani\": percentuale (float) di giovani di età compresa tra 0 e 25 anni\n\"25 anni+\": numero stimato di adulti di età superiore ai 25 anni al 1º gennaio 2023\n\"impatto\": nuovi casi regionali di cancro al seno per 100.000 persone\n\"mortalità\": tasso di mortalità regionale"
+                },
+                {
+                    "@language": "et-t-fr-t0-mtec",
+                    "@value": "piirkondlik rinnavähk AKV riikides „rahvastik“ (terve):\nrahvaarv piirkondade kaupa 1. jaanuari 2023. aasta seisuga\n„prop_noored“: 0–25aastaste noorte osakaal\n\n„25 aastat+“ –\nüle 25-aastaste täiskasvanute hinnanguline arv 1. jaanuaril 2023\n\n„mõju“ –\nuued piirkondlikud rinnavähijuhtumid 100.000 inimese kohta\n\n„suremus“ –\npiirkondlik suremuse määr"
+                },
+                {
+                    "@language": "ro-t-fr-t0-mtec",
+                    "@value": "cancerul de sân regional pentru ACP „populație” (întreg):\npopulația pe regiuni la 1 ianuarie 2023\n„prop_tineri”: (float) procentajul tinerilor cu vârste cuprinse între 0 și 25 de ani\n„25 de ani+” înseamnă:numărul estimat de adulți cu vârsta peste 25 de ani la 1 ianuarie 2023\n„impact” înseamnă:\nnoi cazuri regionale de cancer mamar la 100.000 de persoane \n„mortalitate”:\nrata mortalității regionale"
+                },
+                {
+                    "@language": "en-t-fr-t0-mtec",
+                    "@value": "regional breast cancer for ACP\n“population” (whole): population by region as at 1 January 2023\n“prop_young people”: (float) percentage of young people between 0 and 25 years old\n‘25 years+’ means: estimated number of adults over 25 years of age on 1 Jan.2023\n‘impact’ means: new regional cases of breast cancer per 100.000 people\n“mortality”: regional mortality rate"
+                },
+                {
+                    "@language": "el-t-fr-t0-mtec",
+                    "@value": "περιφερειακός καρκίνος του μαστού για τις χώρες ΑΚΕ «πληθυσμός» (ολόκληρος):\nπληθυσμός ανά περιφέρεια την 1η Ιανουαρίου 2023\n«prop_young people»: ποσοστό (επιπλέον) νέων μεταξύ 0 και 25 ετών\n«25 έτη+»:εκτιμώμενος αριθμός ενηλίκων άνω των 25 ετών την 1η Ιανουαρίου 2023\n«αντίκτυπος»:\nνέες περιφερειακές περιπτώσεις καρκίνου του μαστού ανά 100.000 άτομα\n«θνησιμότητα»: ποσοστό περιφερειακής θνησιμότητας"
+                },
+                {
+                    "@language": "uk-t-fr-t0-mtec",
+                    "@value": "регіональний рак молочної залози для ACP\n«населення» (всього):населення за регіонами станом на 1 січня 2023 року\n \"prop_young people\":відсоток молодих людей у віці від 0 до 25 років\n«25 років+» означає:\nкількість дорослих старше 25 років на 1 січня 2023 року  «вплив» означає:нові регіональні випадки раку молочної залози на 100.000 чоловік\n«смертність»:\nрегіональний рівень смертності регіональний рак молочної залози для ACP «населення» (всього):\nнаселення за регіонами станом на 1 січня 2023 року  \"prop_young people\":\nвідсоток молодих людей у віці від 0 до 25 років\n\n«25 років+» означає:\nкількість дорослих старше 25 років на 1 січня 2023 року\n\n«вплив» означає:\nнові регіональні випадки раку молочної залози на 100.000 чоловік\n\n«смертність»:\nрегіональний рівень смертності"
+                },
+                {
+                    "@language": "cs-t-fr-t0-mtec",
+                    "@value": "regionální karcinom prsu pro AKT\n„populace“ (celá): počet obyvatel podle regionů k 1. lednu 2023\n„prop_young people“: (plovoucí) procento mladých lidí ve věku od 0 do 25 let\n„25 let +“ se rozumí: odhadovaný počet dospělých starších 25 let k 1. lednu 2023\n„dopadem“ se rozumí: nové regionální případy rakoviny prsu na 100.000 lidí\n„smrtelnost“: regionální úmrtnost"
+                }
+            ],
+            "dct:title": [
+                {
+                    "@language": "pt-t-fr-t0-mtec",
+                    "@value": "regional-mamor-cancro-2023.csv"
+                },
+                {
+                    "@language": "fi-t-fr-t0-mtec",
+                    "@value": "alueellinen rintasyöpä-2023.csv"
+                },
+                {
+                    "@language": "lt-t-fr-t0-mtec",
+                    "@value": "regioninis-krūtų vėžys-2023.csv"
+                },
+                {
+                    "@language": "uk-t-fr-t0-mtec",
+                    "@value": "регіонально-грудний рак-2023.csv"
+                },
+                {
+                    "@language": "lv-t-fr-t0-mtec",
+                    "@value": "reģionālais-krūts vēzis-2023.csv"
+                },
+                {
+                    "@language": "it-t-fr-t0-mtec",
+                    "@value": "regionale-seno-cancro-2023.csv"
+                },
+                {
+                    "@language": "es-t-fr-t0-mtec",
+                    "@value": "regional-cáncer de mama-2023.csv"
+                },
+                {
+                    "@language": "et-t-fr-t0-mtec",
+                    "@value": "piirkondlik-rinnavähk-2023.csv"
+                },
+                {
+                    "@language": "sv-t-fr-t0-mtec",
+                    "@value": "regional-bröstcancer-2023.csv"
+                },
+                {
+                    "@language": "sk-t-fr-t0-mtec",
+                    "@value": "regional-breast-rakovina-2023.csv"
+                },
+                {
+                    "@language": "cs-t-fr-t0-mtec",
+                    "@value": "regionálně-prsa-rakovina-2023.csv"
+                },
+                {
+                    "@language": "en-t-fr-t0-mtec",
+                    "@value": "regional-breast-cancer-2023.csv"
+                },
+                "regional-breast-cancer-2023.csv",
+                {
+                    "@language": "bg-t-fr-t0-mtec",
+                    "@value": "регионален рак на гърдата-2023.csv"
+                },
+                {
+                    "@language": "hr-t-fr-t0-mtec",
+                    "@value": "regionalni rak dojke-2023.csv"
+                },
+                {
+                    "@language": "sl-t-fr-t0-mtec",
+                    "@value": "regionalno-zaprtje-rak-2023.csv"
+                },
+                {
+                    "@language": "pl-t-fr-t0-mtec",
+                    "@value": "regionalny-rak piersi-2023.csv"
+                },
+                {
+                    "@language": "ga-t-fr-t0-mtec",
+                    "@value": "ailse réigiúnach-2023.csv"
+                },
+                {
+                    "@language": "el-t-fr-t0-mtec",
+                    "@value": "περιφερειακός-καρκίνος του μαστού-2023.csv"
+                },
+                {
+                    "@language": "hu-t-fr-t0-mtec",
+                    "@value": "regionális mellrák-2023.csv"
+                },
+                {
+                    "@language": "mt-t-fr-t0-mtec",
+                    "@value": "kanċer reġjonali tas-sider 2023.csv"
+                },
+                {
+                    "@language": "nl-t-fr-t0-mtec",
+                    "@value": "regionaal-borstkanker-2023.csv"
+                },
+                {
+                    "@language": "da-t-fr-t0-mtec",
+                    "@value": "regional-brystkræft-2023.csv"
+                },
+                {
+                    "@language": "ro-t-fr-t0-mtec",
+                    "@value": "regional-cancer la sân-2023.csv"
+                },
+                {
+                    "@language": "de-t-fr-t0-mtec",
+                    "@value": "Regional-breast-cancer-2023.csv"
+                }
+            ],
+            "dcat:mediaType": "text/csv",
+            "dct:modified": {
+                "@value": "2023-11-24T15:19:18.795",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dcat:downloadURL": {
+                "@id": "https://static.data.gouv.fr/resources/breastcancer2023/20231124-151916/regional-breast-cancer-2023.csv"
+            },
+            "dct:rights": "Licence Ouverte / Open Licence version 2.0",
+            "spdx:checksum": {
+                "@id": "_:b0"
+            },
+            "dct:license": {
+                "@id": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
+            },
+            "dct:format": "csv",
+            "dcat:accessURL": {
+                "@id": "https://www.data.gouv.fr/fr/datasets/r/a3e7dcd3-26e0-4b94-9a28-efe45d699453"
+            },
+            "dcat:byteSize": {
+                "@value": "926",
+                "@type": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "a3e7dcd3-26e0-4b94-9a28-efe45d699453"
+        }
+    ],
+    "@context": {
+        "spdx": "http://spdx.org/rdf/terms#",
+        "dct": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#"
+    }
+}

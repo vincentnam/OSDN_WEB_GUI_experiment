@@ -1,0 +1,202 @@
+{
+  "id": 3861798,
+  "identifier": "DVN/BOI0MD",
+  "persistentUrl": "https://doi.org/10.7910/DVN/BOI0MD",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2020-06-05",
+  "storageIdentifier": "s3://10.7910/DVN/BOI0MD",
+  "datasetVersion": {
+    "id": 196903,
+    "datasetId": 3861798,
+    "datasetPersistentId": "doi:10.7910/DVN/BOI0MD",
+    "storageIdentifier": "s3://10.7910/DVN/BOI0MD",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "lastUpdateTime": "2020-06-05T21:27:33Z",
+    "releaseTime": "2020-06-05T21:27:33Z",
+    "createTime": "2020-06-05T21:19:28Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The health, economic, and social effect of COVID-19 and its response on gender and sex: A literature review"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Briggs, Hannah E."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Columbia University, Mailman School of Public Health"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ngo, Thoai D."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Briggs, Hannah E."
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Columbia University, Mailman School of Public Health"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "heb2133@cumc.columbia.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Large-scale emergencies, like the ongoing COVID-19 pandemic, demonstrate pervasive effects across multiple sectors. There is a continually growing body of evidence demonstrating gender and sex differences in COVID-19 disease, as well as its health, social, and economic impacts. While online resources have worked to compile this evidence, there is a need to evaluate and synthesize the available gender- and sex-disaggregated data related to COVID-19. This literature review will systematically assess and compile current literature and evidence from different disciplines. We will include peer reviewed articles, clinical studies and reports, and relevant working papers using secondary data analyses and primary research methodologies. We will synthesize and describe the evidence on multiple outcomes of interest, including gender and sex differences in mortality, severity, treatment outcomes, exposure to violence, mental health and psychosocial support needs, and economic insecurity with COVID-19. These results can be used to inform policy, identify research gaps, and support recommendations for priority interventions."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "pandemic"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "gender"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "sex"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "White, Corinne"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-06-05"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "2020PGY_CovidGenderReviewStudyDescription.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 196903,
+        "dataFile": {
+          "id": 3861799,
+          "persistentId": "doi:10.7910/DVN/BOI0MD/WHNS1T",
+          "pidURL": "https://doi.org/10.7910/DVN/BOI0MD/WHNS1T",
+          "filename": "2020PGY_CovidGenderReviewStudyDescription.pdf",
+          "contentType": "application/pdf",
+          "filesize": 249260,
+          "storageIdentifier": "s3://dvn-cloud:172865a3caa-9cbcb791d02d",
+          "rootDataFileId": -1,
+          "md5": "1674dd80c3515965e014815ca90917a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "1674dd80c3515965e014815ca90917a4"
+          },
+          "creationDate": "2020-06-05"
+        }
+      }
+    ],
+    "citation": "Briggs, Hannah E.; Ngo, Thoai D., 2020, \"The health, economic, and social effect of COVID-19 and its response on gender and sex: A literature review\", https://doi.org/10.7910/DVN/BOI0MD, Harvard Dataverse, V1"
+  }
+}

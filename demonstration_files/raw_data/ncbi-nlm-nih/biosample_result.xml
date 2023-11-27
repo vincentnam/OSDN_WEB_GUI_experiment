@@ -1,0 +1,49 @@
+<BioSampleSet>
+    <BioSample access="public" publication_date="2021-10-09T00:00:00.000" last_update="2021-10-09T01:52:17.993"
+               submission_date="2021-10-08T13:03:03.580" id="22161964" accession="SAMN22161964">
+        <Ids>
+            <Id db="BioSample" is_primary="1">SAMN22161964</Id>
+            <Id db="GEO">GSM5618558</Id>
+        </Ids>
+        <Description>
+            <Title>Covid 39 acute phase Tcells</Title>
+            <Organism taxonomy_id="9606" taxonomy_name="Homo sapiens">
+                <OrganismName>Homo sapiens</OrganismName>
+            </Organism>
+        </Description>
+        <Owner>
+            <Name>Institute of Pathology, Charite Universitätsmedizin Berlin</Name>
+            <Contacts>
+                <Contact email="nils.bluethgen@charite.de">
+                    <Name>
+                        <First>Nils</First>
+                        <Last>Blüthgen</Last>
+                    </Name>
+                </Contact>
+            </Contacts>
+        </Owner>
+        <Models>
+            <Model>Generic</Model>
+        </Models>
+        <Package display_name="Generic">Generic.1.0</Package>
+        <Attributes>
+            <Attribute attribute_name="source_name" harmonized_name="source_name" display_name="source name">CD38+ T
+                cells
+            </Attribute>
+            <Attribute attribute_name="disease  state" harmonized_name="disease" display_name="disease">CV</Attribute>
+            <Attribute attribute_name="patient id">CV_severe_acute_39</Attribute>
+            <Attribute attribute_name="disease phase">acute</Attribute>
+            <Attribute attribute_name="disease severity">severe</Attribute>
+            <Attribute attribute_name="cell type" harmonized_name="cell_type" display_name="cell type">CD38+ T cells
+            </Attribute>
+            <Attribute attribute_name="library">22_39_Tcells_5</Attribute>
+        </Attributes>
+        <Links>
+            <Link type="url" label="GEO Sample GSM5618558">
+                https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5618558
+            </Link>
+            <Link type="entrez" target="bioproject" label="PRJNA732416">732416</Link>
+        </Links>
+        <Status status="live" when="2021-10-09T00:50:11.573"/>
+    </BioSample>
+</BioSampleSet>

@@ -1,0 +1,939 @@
+{
+  "id": 6356914,
+  "identifier": "DVN/3D5LIQ",
+  "persistentUrl": "https://doi.org/10.7910/DVN/3D5LIQ",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2022-06-27",
+  "storageIdentifier": "s3://10.7910/DVN/3D5LIQ",
+  "metadataLanguage": "undefined",
+  "datasetVersion": {
+    "id": 329163,
+    "datasetId": 6356914,
+    "datasetPersistentId": "doi:10.7910/DVN/3D5LIQ",
+    "storageIdentifier": "s3://10.7910/DVN/3D5LIQ",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "UNF": "UNF:6:wQPlwXR/dI1qzjBahJiPYA==",
+    "lastUpdateTime": "2022-06-27T23:18:08Z",
+    "releaseTime": "2022-06-27T23:18:08Z",
+    "createTime": "2022-06-27T21:53:06Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Energy Insecurity in the Time of COVID-19"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "David Konisky"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sanya Carley"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michelle Graff"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Trevor Memmott"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Memmott, Trevor"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "tmemmott@iu.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Raw Files and Cleaning Replication Data for Energy Insecurity in the Time of COVID-19"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "energy insecurity"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Memmott, Trevor"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-06-27"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Cleaning Replication.txt",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356940,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Cleaning Replication.txt",
+          "contentType": "text/plain",
+          "filesize": 3348,
+          "storageIdentifier": "s3://dvn-cloud:181a7465f80-2df337661809",
+          "rootDataFileId": -1,
+          "md5": "29369061fcf70ec6809e947008d8737e",
+          "checksum": {
+            "type": "MD5",
+            "value": "29369061fcf70ec6809e947008d8737e"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "CLEANING_wave1_Indiana.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356935,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "CLEANING_wave1_Indiana.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 41897,
+          "storageIdentifier": "s3://dvn-cloud:181a74661a9-795292fbe971",
+          "rootDataFileId": -1,
+          "md5": "2155ba26192ca9b6626cb2f5d5da468d",
+          "checksum": {
+            "type": "MD5",
+            "value": "2155ba26192ca9b6626cb2f5d5da468d"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "CLEANING_wave1_National.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356927,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "CLEANING_wave1_National.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 47241,
+          "storageIdentifier": "s3://dvn-cloud:181a7466383-c277d74409e5",
+          "rootDataFileId": -1,
+          "md5": "020a3b2423c623d0fc19fed2b924d3dc",
+          "checksum": {
+            "type": "MD5",
+            "value": "020a3b2423c623d0fc19fed2b924d3dc"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "CLEANING_wave2.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356943,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "CLEANING_wave2.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 62814,
+          "storageIdentifier": "s3://dvn-cloud:181a746658c-c6f6bf4001ac",
+          "rootDataFileId": -1,
+          "md5": "683e135aa76661541bb09a5c9f24e783",
+          "checksum": {
+            "type": "MD5",
+            "value": "683e135aa76661541bb09a5c9f24e783"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "CLEANING_wave3.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356945,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "CLEANING_wave3.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 74222,
+          "storageIdentifier": "s3://dvn-cloud:181a746674b-d6858ce78943",
+          "rootDataFileId": -1,
+          "md5": "4833f44ded64231ed5a1c07c580f70af",
+          "checksum": {
+            "type": "MD5",
+            "value": "4833f44ded64231ed5a1c07c580f70af"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "CLEANING_wave4.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356932,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "CLEANING_wave4.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 69167,
+          "storageIdentifier": "s3://dvn-cloud:181a74668fe-c7a79f5a02e3",
+          "rootDataFileId": -1,
+          "md5": "e1e45ebfba0db253dbe3d25ad85b57e2",
+          "checksum": {
+            "type": "MD5",
+            "value": "e1e45ebfba0db253dbe3d25ad85b57e2"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "COMBINED_waves_1234.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356939,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "COMBINED_waves_1234.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 14962313,
+          "storageIdentifier": "s3://dvn-cloud:181a7466ef8-5faad13bde33",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 62269755,
+          "originalFileName": "COMBINED_waves_1234.dta",
+          "UNF": "UNF:6:KnnOcWkmg875O7I4qlbr9A==",
+          "rootDataFileId": -1,
+          "md5": "d9dc2dc93e6754aefa619b5f3d1c9911",
+          "checksum": {
+            "type": "MD5",
+            "value": "d9dc2dc93e6754aefa619b5f3d1c9911"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "COMBINING_waves.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356944,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "COMBINING_waves.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 2337,
+          "storageIdentifier": "s3://dvn-cloud:181a7467209-ee225ec906ec",
+          "rootDataFileId": -1,
+          "md5": "cbef9f96282c9f17273089bb7aaf5cd9",
+          "checksum": {
+            "type": "MD5",
+            "value": "cbef9f96282c9f17273089bb7aaf5cd9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Monthly EI.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356937,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Monthly EI.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 143623,
+          "storageIdentifier": "s3://dvn-cloud:181a74673fa-2d79c639a067",
+          "rootDataFileId": -1,
+          "md5": "cb4e3c94ede76ca44b277f9fed89bae9",
+          "checksum": {
+            "type": "MD5",
+            "value": "cb4e3c94ede76ca44b277f9fed89bae9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "monthly_energy_insecurity.dta",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356928,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "monthly_energy_insecurity.dta",
+          "contentType": "application/x-stata-14",
+          "filesize": 241232879,
+          "storageIdentifier": "s3://dvn-cloud:181a74681e8-dbbee0956b40",
+          "rootDataFileId": -1,
+          "md5": "a2dc9b5444358e8014f648624e752de8",
+          "checksum": {
+            "type": "MD5",
+            "value": "a2dc9b5444358e8014f648624e752de8"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Operational_Data_2018.xlsx",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356941,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Operational_Data_2018.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 492690,
+          "storageIdentifier": "s3://dvn-cloud:181a746887c-42e94498bf41",
+          "rootDataFileId": -1,
+          "md5": "80c183a83622aaf1a9b6bd1ae287dfae",
+          "checksum": {
+            "type": "MD5",
+            "value": "80c183a83622aaf1a9b6bd1ae287dfae"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Raw Files.txt",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356923,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Raw Files.txt",
+          "contentType": "text/plain",
+          "filesize": 1141,
+          "storageIdentifier": "s3://dvn-cloud:181a7270b65-918b0f7c15c6",
+          "rootDataFileId": -1,
+          "md5": "ae474592acf670f27427a621f184c9b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "ae474592acf670f27427a621f184c9b9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave1_Indiana.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356933,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave1_Indiana.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1191071,
+          "storageIdentifier": "s3://dvn-cloud:181a7468ac2-d1f36534fb8e",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 1787455,
+          "originalFileName": "RAW_wave1_Indiana.sav",
+          "UNF": "UNF:6:U4RCuDG/sfIVXnokXjU8Sg==",
+          "rootDataFileId": -1,
+          "md5": "9138dc59e463bf35a9ddf84ac7bb89f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "9138dc59e463bf35a9ddf84ac7bb89f9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave1_Indiana.tab",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 4,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356922,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave1_Indiana.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1191071,
+          "storageIdentifier": "s3://dvn-cloud:181a7270dbe-94ca3bd4d318",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 1787455,
+          "originalFileName": "RAW_wave1_Indiana.sav",
+          "UNF": "UNF:6:U4RCuDG/sfIVXnokXjU8Sg==",
+          "rootDataFileId": -1,
+          "md5": "9138dc59e463bf35a9ddf84ac7bb89f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "9138dc59e463bf35a9ddf84ac7bb89f9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave1_National.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356931,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave1_National.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1418083,
+          "storageIdentifier": "s3://dvn-cloud:181a7468cca-1e9cfa7fb8e2",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2596336,
+          "originalFileName": "RAW_wave1_National.sav",
+          "UNF": "UNF:6:Uhz2cEhkECLEiG4381M+EQ==",
+          "rootDataFileId": -1,
+          "md5": "b5366db2cfa87b4b1810a515c42ed0c0",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5366db2cfa87b4b1810a515c42ed0c0"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave1_National.tab",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 4,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356920,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave1_National.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1418083,
+          "storageIdentifier": "s3://dvn-cloud:181a7271026-f6b216084493",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2596336,
+          "originalFileName": "RAW_wave1_National.sav",
+          "UNF": "UNF:6:Uhz2cEhkECLEiG4381M+EQ==",
+          "rootDataFileId": -1,
+          "md5": "b5366db2cfa87b4b1810a515c42ed0c0",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5366db2cfa87b4b1810a515c42ed0c0"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave2.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356929,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave2.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 8424501,
+          "storageIdentifier": "s3://dvn-cloud:181a7469040-7d582dcae6a4",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 17932334,
+          "originalFileName": "RAW_wave2.sav",
+          "UNF": "UNF:6:DkZIFWwpJl1Je2JfiJU9dA==",
+          "rootDataFileId": -1,
+          "md5": "29df6679d988cada5be5fc045290fee3",
+          "checksum": {
+            "type": "MD5",
+            "value": "29df6679d988cada5be5fc045290fee3"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave2.tab",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 4,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356921,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave2.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 8424501,
+          "storageIdentifier": "s3://dvn-cloud:181a72715ce-f44686a2282b",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 17932334,
+          "originalFileName": "RAW_wave2.sav",
+          "UNF": "UNF:6:DkZIFWwpJl1Je2JfiJU9dA==",
+          "rootDataFileId": -1,
+          "md5": "29df6679d988cada5be5fc045290fee3",
+          "checksum": {
+            "type": "MD5",
+            "value": "29df6679d988cada5be5fc045290fee3"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave3.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356936,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave3.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1820459,
+          "storageIdentifier": "s3://dvn-cloud:181a74692ac-03f71173bbef",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2194193,
+          "originalFileName": "RAW_wave3.sav",
+          "UNF": "UNF:6:vJIQ1vz9nzRKOBwcatfH2w==",
+          "rootDataFileId": -1,
+          "md5": "a10a1f11ba3634a280d8ff3cbf55b222",
+          "checksum": {
+            "type": "MD5",
+            "value": "a10a1f11ba3634a280d8ff3cbf55b222"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave3.tab",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 4,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356917,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave3.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1820459,
+          "storageIdentifier": "s3://dvn-cloud:181a727181c-68da63141766",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2194193,
+          "originalFileName": "RAW_wave3.sav",
+          "UNF": "UNF:6:vJIQ1vz9nzRKOBwcatfH2w==",
+          "rootDataFileId": -1,
+          "md5": "a10a1f11ba3634a280d8ff3cbf55b222",
+          "checksum": {
+            "type": "MD5",
+            "value": "a10a1f11ba3634a280d8ff3cbf55b222"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave4.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356926,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave4.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1550440,
+          "storageIdentifier": "s3://dvn-cloud:181a7469492-80d4a03f3ec7",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 1973451,
+          "originalFileName": "RAW_wave4.sav",
+          "UNF": "UNF:6:32pddNVKd3rVzHdv9q7+GQ==",
+          "rootDataFileId": -1,
+          "md5": "4935d9af40a50540d97ed05ee36e00a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "4935d9af40a50540d97ed05ee36e00a4"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "RAW_wave4.tab",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 4,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356924,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "RAW_wave4.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1550440,
+          "storageIdentifier": "s3://dvn-cloud:181a7271ab4-7d5060eba68e",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 1973451,
+          "originalFileName": "RAW_wave4.sav",
+          "UNF": "UNF:6:32pddNVKd3rVzHdv9q7+GQ==",
+          "rootDataFileId": -1,
+          "md5": "4935d9af40a50540d97ed05ee36e00a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "4935d9af40a50540d97ed05ee36e00a4"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Wave1_Indiana_codebook.pdf",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356919,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Wave1_Indiana_codebook.pdf",
+          "contentType": "application/pdf",
+          "filesize": 95662,
+          "storageIdentifier": "s3://dvn-cloud:181a7271e9c-e62ff0401e59",
+          "rootDataFileId": -1,
+          "md5": "f87fb78fa12ee31b1c8260c14cc69b6e",
+          "checksum": {
+            "type": "MD5",
+            "value": "f87fb78fa12ee31b1c8260c14cc69b6e"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Wave1_National_codebook.pdf",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356925,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Wave1_National_codebook.pdf",
+          "contentType": "application/pdf",
+          "filesize": 92454,
+          "storageIdentifier": "s3://dvn-cloud:181a727222b-39e7ba0c9aee",
+          "rootDataFileId": -1,
+          "md5": "5540373bc6609f7c7315720277c8135d",
+          "checksum": {
+            "type": "MD5",
+            "value": "5540373bc6609f7c7315720277c8135d"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Wave2_codebook.pdf",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356915,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Wave2_codebook.pdf",
+          "contentType": "application/pdf",
+          "filesize": 147525,
+          "storageIdentifier": "s3://dvn-cloud:181a7272544-ef311151a81b",
+          "rootDataFileId": -1,
+          "md5": "67404954d52ea6bf4aad8b3adb9a3206",
+          "checksum": {
+            "type": "MD5",
+            "value": "67404954d52ea6bf4aad8b3adb9a3206"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Wave3_codebook.pdf",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356918,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Wave3_codebook.pdf",
+          "contentType": "application/pdf",
+          "filesize": 148342,
+          "storageIdentifier": "s3://dvn-cloud:181a72728b2-463402f7ecd1",
+          "rootDataFileId": -1,
+          "md5": "d7419bf79a968693495246e2891fd1f1",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7419bf79a968693495246e2891fd1f1"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Wave4_codebook.pdf",
+        "restricted": false,
+        "directoryLabel": "Raw Files",
+        "version": 2,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356916,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Wave4_codebook.pdf",
+          "contentType": "application/pdf",
+          "filesize": 145644,
+          "storageIdentifier": "s3://dvn-cloud:181a7272c76-7dc11cfb8d85",
+          "rootDataFileId": -1,
+          "md5": "65a90cc5fc7fc16818dcadfe2efa0e2e",
+          "checksum": {
+            "type": "MD5",
+            "value": "65a90cc5fc7fc16818dcadfe2efa0e2e"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "Waves EI.do",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 1,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356930,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Waves EI.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 40528,
+          "storageIdentifier": "s3://dvn-cloud:181a74696a8-f8f8013473af",
+          "rootDataFileId": -1,
+          "md5": "84c2da3187800ebbc2474d1fe98fd309",
+          "checksum": {
+            "type": "MD5",
+            "value": "84c2da3187800ebbc2474d1fe98fd309"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "waves_energy_insecurity.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356942,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "waves_energy_insecurity.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 5649976,
+          "storageIdentifier": "s3://dvn-cloud:181a7469ed4-19ff9131c807",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 83237873,
+          "originalFileName": "waves_energy_insecurity.dta",
+          "UNF": "UNF:6:5KPTwnRBl8k4VnoyLwwbyg==",
+          "rootDataFileId": -1,
+          "md5": "0f6233fedeebfde345283e79c181efa9",
+          "checksum": {
+            "type": "MD5",
+            "value": "0f6233fedeebfde345283e79c181efa9"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "weights_national_extra_cmd-2.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356934,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "weights_national_extra_cmd-2.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 64318,
+          "storageIdentifier": "s3://dvn-cloud:181a746a21f-e38f4ae71385",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 67146,
+          "originalFileName": "weights_national_extra_cmd-2.csv",
+          "UNF": "UNF:6:MwehPhJJe5qV0n6XCtlUsA==",
+          "rootDataFileId": -1,
+          "md5": "1a30ba90ae6c23aaaeefae1a3eb59f37",
+          "checksum": {
+            "type": "MD5",
+            "value": "1a30ba90ae6c23aaaeefae1a3eb59f37"
+          },
+          "creationDate": "2022-06-27"
+        }
+      },
+      {
+        "label": "zcta_urban_v2.tab",
+        "restricted": false,
+        "directoryLabel": "Cleaning",
+        "version": 3,
+        "datasetVersionId": 329163,
+        "dataFile": {
+          "id": 6356938,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "zcta_urban_v2.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 662539,
+          "storageIdentifier": "s3://dvn-cloud:181a746a401-7e466a36dc04",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 433956,
+          "originalFileName": "zcta_urban_v2.dta",
+          "UNF": "UNF:6:+8ffo9Y4g+u4jjrNXohcTw==",
+          "rootDataFileId": -1,
+          "md5": "519c16543bbb70120aa1fd04061710e1",
+          "checksum": {
+            "type": "MD5",
+            "value": "519c16543bbb70120aa1fd04061710e1"
+          },
+          "creationDate": "2022-06-27"
+        }
+      }
+    ],
+    "citation": "David Konisky; Sanya Carley; Michelle Graff; Trevor Memmott, 2022, \"Energy Insecurity in the Time of COVID-19\", https://doi.org/10.7910/DVN/3D5LIQ, Harvard Dataverse, V1, UNF:6:wQPlwXR/dI1qzjBahJiPYA== [fileUNF]"
+  }
+}

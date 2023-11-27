@@ -1,0 +1,46 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.13867001.v2</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">J.J. Noordegraaf</creatorName>
+    <givenName>J.J.</givenName>
+    <familyName>Noordegraaf</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">T. Blanke</creatorName>
+    <givenName>T.</givenName>
+    <familyName>Blanke</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Leon van Wissen</creatorName>
+    <givenName>Leon</givenName>
+    <familyName>van Wissen</familyName>
+  </creator>
+</creators>
+<titles><title>Corona in the City dataset</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2021</publicationYear>
+<subjects>
+  <subject>COVID-19</subject>
+  <subject>citizen diaries</subject>
+  <subject>public history</subject>
+  <subject>community archives</subject>
+  <subject>amsterdam</subject>
+  <subject>the Netherlands</subject>
+</subjects>
+<dates><date dateType="Issued">2021-04-19 07:20:02</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/dataset/Corona_in_the_City_dataset/13867001</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">This dataset is a dump made on 14 December 2020 of the metadata of the submissions to the Corona in the City platform, including URLs that link to the submission content, which has been processed by the listed authors. &lt;div&gt;&lt;br&gt;&lt;div&gt;Corona in the City is a project by the Amsterdam Museum,  the museum that documents the
+story of the Dutch capital as it evolved in the past millennium. The museum
+developed an online, bilingual (Dutch-English) platform that was launched on 30
+April 2020 for the collection of contributions from “all inhabitants, visitors
+and lovers of Amsterdam” that document their experiences with the Covid-19
+pandemic. The explicit aim was to present these
+contributions in an online exhibition that opened on 15 May 2020. In order to
+ensure a wide variety of contributions, the museum collaborated with 45 local
+partner institutions, some of which curated their contributions in dedicated
+virtual exhibition rooms. By December 2020 the exhibition counted just over
+3.000 submissions and had drawn 100.000 visitors; it is presently still open
+for contributions and new exhibition rooms are added occasionally.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;In line with the Privacy Policy of our Archiving COVID-19 Communities project (https://covid19communities.humanities.uva.nl/privacy-policy), for which we analyzed this dataset, we anonymized the original datadump by removing names of submitters, phone numbers and IP addresses. Email addresses of submitters have been anonymized by mapping them to unique identifyers. Although both the title of the submissions and summary description columns in many cases also reference person names, we considered that, since all submitters have consented to being mentioned on the Corona in the City website and having their submissions analyzed by the University of Amsterdam for research purposes (see https://www.coronaindestad.nl/en/terms-and-conditions/), these data could remain as received. &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description></descriptions>
+</resource>

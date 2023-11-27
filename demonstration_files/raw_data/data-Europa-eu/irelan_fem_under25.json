@@ -1,0 +1,786 @@
+{
+    "@graph": [
+        {
+            "@id": "http://data.europa.eu/88u/distribution/645d315a-37f3-48c1-a716-72947e056854",
+            "dct:title": [
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Parsisiųsti CSV"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Scarica CSV"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Descărcați CSV"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "CSV letöltése"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Ladda ner CSV"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Завантажити CSV"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Stiahnuť CSV"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Stáhnout CSV"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Lejupielādēt CSV"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Κατεβάστε το CSV"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Baixar CSV"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Télécharger CSV"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Изтегляне на CSV"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Preuzmite CSV"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Niżżel is-CSV"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Pobierz CSV"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                "Download CSV",
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "CSV allalaadimine"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Prenesite CSV"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Lataa CSV"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "CSV herunterladen"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Descargar CSV"
+                }
+            ],
+            "@type": "dcat:Distribution",
+            "dct:description": [
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "dostupno kao CSV"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "erhältlich als CSV"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "доступний як CSV"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "saatavana CSV:nä"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "elérhető CSV-ként"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "pieejams kā CSV"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "saadaval CSV-na"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "διαθέσιμο ως CSV"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "disponibbli bħala CSV"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "k dispozici jako CSV"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "tilgængelig som CSV"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "tillgänglig som CSV"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "disponible como CSV"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "beschikbaar als CSV"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "предлага се като CSV"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "na voljo kot CSV"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "disponible en CSV"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "disponível como CSV"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "dostępne jako CSV"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "k dispozícii ako CSV"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "galima įsigyti kaip CSV"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "disponibile come CSV"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "available as CSV"
+                },
+                "available as CSV",
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "disponibil sub formă de CSV"
+                }
+            ],
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "dct:format": "CSV",
+            "dcat:mediaType": "text/csv",
+            "dct:identifier": "https://data.gov.ie/dataset/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6/resource/d3f3d2e7-8a8f-47ef-a94f-11821d324601",
+            "dcat:accessURL": {
+                "@id": "http://airo.maynoothuniversity.ie/files/dDATASTORE/swo/csv/females_under_25.csv"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "@type": "vcard:Organization",
+            "vcard:fn": "All-Island Research Observatory",
+            "vcard:hasEmail": {
+                "@id": "mailto:airo@nuim.ie"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/dataset/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6",
+            "dct:title": [
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "Alla 25-aastased naised – live register"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Femei sub 25 de ani – Live Register"
+                },
+                "Females Under 25- Live Register",
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Жінки До 25- Живий реєстр"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Vrouwen onder de 25 — Live Registreren"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Frauen unter 25 – Live-Register"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Kvinnor under 25 år – Live Register"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Ženy mladšie ako 25 rokov – Live Registrácia"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Sievietes, kas jaunākas par 25- Live Reģistrēties"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Femmes de moins de 25 ans — Live Register"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Alle 25-vuotiaat naiset – Live-rekisteri"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Mulheres com menos de 25 anos — registo ao vivo"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Жени под 25 години — Регистрация на живо"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Ženy mladší 25 let – Live Register"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Moterys iki 25 metų amžiaus – Registruotis"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Ir-Reġistru tan-Nisa taħt il-25 Live"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Γυναίκες κάτω των 25 ετών — Ζωντανή εγγραφή"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Mujeres menores de 25 años — Registro en vivo"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "25 év alatti nők Regisztráljon"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Women Under 25- Live Register"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Ženske, mlajše od 25 let – register v živo"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Kobiety poniżej 25 roku życia – rejestr na żywo"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Žene mlađe od 25 godina – Registracija uživo"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Kvinder under 25 år — Live Register"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Registro delle donne sotto i 25 anni"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Ez a fájl a civil társadalmi szervezet eredeti változóit tartalmazza a 25 év alatti nőkről, akik az Ír Köztársaság 124 szociális jóléti hivatalában regisztrálnak az Élő Nyilvántartásban. Az adatok 2008 februárja és 2014 júniusa között havonta rendelkezésre állnak."
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Dan il-fajl fih varjabbli oriġinali mis-CSO dwar Females taħt il-25 sena li qed jiffirmaw fir-Reġistru tal-Live f’124 Uffiċċju tal-Għajnuna Soċjali fir-Repubblika tal-Irlanda. Id-data hija disponibbli fuq bażi ta’ kull xahar minn Frar 2008 sa Ġunju 2014. Dan il-fajl fih varjabbli oriġinali mis-CSO dwar Females taħt il-25 sena li qed jiffirmaw fir-Reġistru tal-Live f’124 Uffiċċju tal-Għajnuna Soċjali fir-Repubblika tal-Irlanda. Id-data hija disponibbli fuq bażi ta’ kull xahar minn Frar 2008 sa Ġunju 2014."
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "See fail sisaldab kodanikuühiskonna organisatsiooni esialgseid muutujaid alla 25-aastaste naiste kohta, kes allkirjastavad Iirimaa Vabariigi 124 sotsiaalametis Live registris. Andmed on kättesaadavad igakuiselt 2008. aasta veebruarist kuni 2014. aasta juunini."
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Този файл съдържа оригинални променливи от ОГО по отношение на жени под 25 години, които подписват в регистъра на живо в 124 служби за социално подпомагане в Република Ирландия. Данните са налични ежемесечно от февруари 2008 г. до юни 2014 г. Този файл съдържа оригинални променливи от ОГО по отношение на жени под 25 години, които подписват в регистъра на живо в 124 служби за социално подпомагане в Република Ирландия.\nДанните са налични ежемесечно от февруари 2008 г. до юни 2014 г."
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Este ficheiro contém variáveis originais da OSC relativas a mulheres com menos de 25 anos que estão a assinar no Live Register em 124 serviços de segurança social na República da Irlanda. Os dados estão disponíveis mensalmente de fevereiro de 2008 a junho de 2014. Este ficheiro contém variáveis originais da OSC relativas a mulheres com menos de 25 anos que estão a assinar no Live Register em 124 serviços de segurança social na República da Irlanda. Os dados estão disponíveis mensalmente de fevereiro de 2008 a junho de 2014."
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "This file contains original variables from the CSO regarding Females under 25 who are signing on the Live Register in 124 Social Welfare Offices in the Republic of Ireland. Data is available on a monthly basis from February 2008 to June 2014."
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Tento súbor obsahuje pôvodné premenné od organizácie občianskej spoločnosti týkajúce sa žien mladších ako 25 rokov, ktoré sa podpisujú v živom registri v 124 úradoch sociálneho zabezpečenia v Írskej republike. Údaje sú k dispozícii mesačne od februára 2008 do júna 2014. Tento súbor obsahuje pôvodné premenné od organizácie občianskej spoločnosti týkajúce sa žien mladších ako 25 rokov, ktoré sa podpisujú v živom registri v 124 úradoch sociálneho zabezpečenia v Írskej republike. Údaje sú k dispozícii mesačne od februára 2008 do júna 2014."
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Diese Datei enthält Originalvariablen der Zivilgesellschaft in Bezug auf Frauen unter 25 Jahren, die in 124 Sozialämtern in der Republik Irland im Live-Register unterzeichnen. Die Daten liegen monatlich von Februar 2008 bis Juni 2014 vor. Diese Datei enthält Originalvariablen der Zivilgesellschaft in Bezug auf Frauen unter 25 Jahren, die in 124 Sozialämtern in der Republik Irland im Live-Register unterzeichnen. Die Daten liegen monatlich von Februar 2008 bis Juni 2014 vor. Diese Datei enthält Originalvariablen der Zivilgesellschaft in Bezug auf Frauen unter 25 Jahren, die in 124 Sozialämtern in der Republik Irland im Live-Register unterzeichnen.\nDie Daten liegen monatlich von Februar 2008 bis Juni 2014 vor."
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Цей файл містить оригінальні змінні від ОГС щодо жінок віком до 25 років, які підписуються в Live Register в 124 офісах соціального забезпечення в Республіці Ірландія. Дані доступні щомісяця з лютого 2008 по червень 2014 року. Цей файл містить оригінальні змінні від ОГС щодо жінок віком до 25 років, які підписуються в Live Register в 124 офісах соціального забезпечення в Республіці Ірландія. Дані доступні щомісяця з лютого 2008 по червень 2014 року."
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Tämä tiedosto sisältää kansalaisjärjestön alkuperäisiä muuttujia alle 25-vuotiaista naisista, jotka ovat allekirjoittaneet Live Register -rekisterin 124:ssä Irlannin tasavallan sosiaalitoimistossa. Tiedot ovat saatavilla kuukausittain helmikuusta 2008 kesäkuuhun 2014. Tämä tiedosto sisältää kansalaisjärjestön alkuperäisiä muuttujia alle 25-vuotiaista naisista, jotka ovat allekirjoittaneet Live Register -rekisterin 124:ssä Irlannin tasavallan sosiaalitoimistossa. Tiedot ovat saatavilla kuukausittain helmikuusta 2008 kesäkuuhun 2014."
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Tento soubor obsahuje původní proměnné od organizace občanské společnosti týkající se žen mladších 25 let, které se zapisují do rejstříku živě na 124 úřadech sociální péče v Irské republice. Údaje jsou k dispozici měsíčně od února 2008 do června 2014."
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Ce fichier contient des variables originales de l’OSC concernant les femmes de moins de 25 ans qui signent sur le registre vivant dans 124 bureaux de protection sociale en République d’Irlande. Les données sont disponibles mensuellement de février 2008 à juin 2014."
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Ta datoteka vsebuje izvirne spremenljivke organizacije civilne družbe v zvezi z ženskami, mlajšimi od 25 let, ki se vpisujejo v register v živo v 124 uradih za socialno varstvo v Republiki Irski. Podatki so na voljo mesečno od februarja 2008 do junija 2014."
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Το αρχείο αυτό περιέχει πρωτότυπες μεταβλητές από την ΟΚΠ σχετικά με τις Γυναίκες κάτω των 25 ετών που υπογράφουν στο Live Register σε 124 Γραφεία Κοινωνικής Πρόνοιας στη Δημοκρατία της Ιρλανδίας. Τα στοιχεία είναι διαθέσιμα σε μηνιαία βάση από τον Φεβρουάριο του 2008 έως τον Ιούνιο του 2014."
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Acest dosar conține variabile originale din partea OSC privind femeile sub 25 de ani care se înscriu în Registrul Live în 124 de birouri de asistență socială din Republica Irlanda. Datele sunt disponibile lunar din februarie 2008 până în iunie 2014. Acest dosar conține variabile originale din partea OSC privind femeile sub 25 de ani care se înscriu în Registrul Live în 124 de birouri de asistență socială din Republica Irlanda. Datele sunt disponibile lunar din februarie 2008 până în iunie 2014."
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Šajā datnē ir sākotnējie mainīgie lielumi no pilsoniskās sabiedrības organizācijas par sievietēm, kas jaunākas par 25 gadiem, kuras parakstījušās Tiešsaistes reģistrā 124 sociālās labklājības iestādēs Īrijas Republikā. Dati ir pieejami katru mēnesi no 2008. gada februāra līdz 2014. gada jūnijam."
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Denna fil innehåller originalvariabler från civilsamhällesorganisationen för kvinnor under 25 år som undertecknar Live Register vid 124 Social Welfare Offices i Republiken Irland. Uppgifterna finns tillgängliga månadsvis från februari 2008 till juni 2014. Denna fil innehåller originalvariabler från civilsamhällesorganisationen för kvinnor under 25 år som undertecknar Live Register vid 124 Social Welfare Offices i Republiken Irland.\nUppgifterna finns tillgängliga månadsvis från februari 2008 till juni 2014."
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Dit bestand bevat originele variabelen van de maatschappelijke organisaties met betrekking tot vrouwen jonger dan 25 jaar die zich aanmelden in het Live Register in 124 bureaus voor sociale bescherming in de Republiek Ierland. Gegevens zijn maandelijks beschikbaar van februari 2008 tot juni 2014. Dit bestand bevat originele variabelen van de maatschappelijke organisaties met betrekking tot vrouwen jonger dan 25 jaar die zich aanmelden in het Live Register in 124 bureaus voor sociale bescherming in de Republiek Ierland. Gegevens zijn maandelijks beschikbaar van februari 2008 tot juni 2014."
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Denne fil indeholder originale variabler fra CSO vedrørende kvinder under 25 år, som er tilmeldt Live Register i 124 sociale velfærdskontorer i Irland. Data foreligger månedligt fra februar 2008 til juni 2014. Denne fil indeholder originale variabler fra CSO vedrørende kvinder under 25 år, som er tilmeldt Live Register i 124 sociale velfærdskontorer i Irland. Data foreligger månedligt fra februar 2008 til juni 2014."
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Questo file contiene le variabili originali dell'OSC relative alle donne di età inferiore ai 25 anni che firmano nel registro dal vivo in 124 uffici di assistenza sociale nella Repubblica d'Irlanda. I dati sono disponibili su base mensile da febbraio 2008 a giugno 2014. Questo file contiene le variabili originali dell'OSC relative alle donne di età inferiore ai 25 anni che firmano nel registro dal vivo in 124 uffici di assistenza sociale nella Repubblica d'Irlanda. I dati sono disponibili su base mensile da febbraio 2008 a giugno 2014."
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Ova datoteka sadržava izvorne varijable OCD-a koje se odnose na žene mlađe od 25 godina koje se upisuju u registar uživo u 124 ureda za socijalnu skrb u Republici Irskoj. Podaci su dostupni na mjesečnoj osnovi od veljače 2008. do lipnja 2014."
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Plik ten zawiera oryginalne zmienne organizacji społeczeństwa obywatelskiego dotyczące kobiet poniżej 25 roku życia, które podpisują się w rejestrze na żywo w 124 biurach opieki społecznej w Republice Irlandii. Dane są dostępne co miesiąc od lutego 2008 r. do czerwca 2014 r."
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Šioje byloje yra PVO pateiktų originalių kintamųjų, susijusių su moterimis iki 25 metų, kurios yra prisijungusios prie „Live Register“ 124 Airijos Respublikos socialinės gerovės tarnybose. Duomenys teikiami kas mėnesį nuo 2008 m. vasario mėn. iki 2014 m. birželio mėn. Šioje byloje yra PVO pateiktų originalių kintamųjų, susijusių su moterimis iki 25 metų, kurios yra prisijungusios prie „Live Register“ 124 Airijos Respublikos socialinės gerovės tarnybose. Duomenys teikiami kas mėnesį nuo 2008 m. vasario mėn. iki 2014 m. birželio mėn."
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Este archivo contiene variables originales de la OSC en relación con las mujeres menores de 25 años que están firmando en el Registro en vivo en 124 Oficinas de Bienestar Social en la República de Irlanda. Los datos están disponibles mensualmente desde febrero de 2008 hasta junio de 2014. Este archivo contiene variables originales de la OSC en relación con las mujeres menores de 25 años que están firmando en el Registro en vivo en 124 Oficinas de Bienestar Social en la República de Irlanda. Los datos están disponibles mensualmente desde febrero de 2008 hasta junio de 2014."
+                },
+                "This file contains original variables from the CSO regarding Females under 25  who are signing on the Live Register in 124 Social Welfare Offices in the Republic of Ireland. Data is available on a monthly basis from February 2008 to June 2014."
+            ],
+            "dcat:keyword": [
+                "economy",
+                "unemployment",
+                "employment level effect",
+                "employment",
+                "population distribution - demography",
+                "employment structure",
+                "planningcadastre",
+                "ireland",
+                "society"
+            ],
+            "dcat:landingPage": {
+                "@id": "http://airo.maynoothuniversity.ie/external-content/live-register-office-monitoring-tool"
+            },
+            "dct:spatial": {
+                "@id": "_:b1"
+            },
+            "dct:modified": {
+                "@value": "2023-11-20T14:21:14",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:provenance": "Statement on how the data visualisation was created.",
+            "dct:temporal": {
+                "@id": "_:b2"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/645d315a-37f3-48c1-a716-72947e056854"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/7d2a906b-f1a3-4b86-9a0b-97aea7225e76"
+                }
+            ],
+            "dcat:theme": [
+                {
+                    "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+                },
+                {
+                    "@id": "https://data.gov.ie/Society"
+                }
+            ],
+            "dct:publisher": {
+                "@id": "https://data.gov.ie/organization/all-island-research-observatory"
+            },
+            "dct:issued": {
+                "@value": "2015-02-01T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:conformsTo": "The INSPIRE Directive or INSPIRE lays down a general framework for a Spatial Data Infrastructure (SDI) for the purposes of European Community environmental policies and policies or activities which may have an impact on the environment.",
+            "dcat:contactPoint": {
+                "@id": "_:b0"
+            },
+            "dct:accrualPeriodicity": "Irregular",
+            "dct:rights": {
+                "@id": "_:b3"
+            },
+            "dct:language": "en",
+            "@type": "dcat:Dataset",
+            "dct:identifier": "828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6"
+        },
+        {
+            "@id": "_:b1",
+            "locn:geometry": [
+                {
+                    "@value": "POLYGON ((-10.5000 51.5000, -10.5000 55.5000, -5.5000 55.5000, -5.5000 51.5000, -10.5000 51.5000))",
+                    "@type": "http://replacement.io/ont/geosparql#wktLiteral"
+                },
+                {
+                    "@value": "{\"type\":\"Polygon\",\"coordinates\":[[[-10.5, 51.5],[-10.5, 55.5], [-5.5, 55.5], [-5.5, 51.5], [-10.5, 51.5]]]}",
+                    "@type": "https://replacement.io/assignments/media-types/application/vnd.geo+json"
+                }
+            ],
+            "@type": "dct:Location"
+        },
+        {
+            "@id": "_:b2",
+            "@type": "dct:PeriodOfTime",
+            "schema:startDate": {
+                "@value": "2011-04-01T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "schema:endDate": {
+                "@value": "2011-04-30T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        },
+        {
+            "@id": "https://data.gov.ie/organization/all-island-research-observatory",
+            "@type": "foaf:Organization",
+            "foaf:name": "All-Island Research Observatory"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/7d2a906b-f1a3-4b86-9a0b-97aea7225e76",
+            "dct:description": [
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "dostupno kao html"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "доступний як html"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "k dispozícii ako html"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "disponibile come html"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "erhältlich als html"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "disponível em html"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "saadaval kui html"
+                },
+                "available as html",
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "available as html"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "verkrijgbaar als html"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "dostępne jako html"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "finns som html"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "na voljo kot html"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "предлага се като html"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "disponibbli bħala html"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "elérhető html formátumban"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "disponible en html"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "disponible en html"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "galima įsigyti kaip html"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "dostupné ve formátu html"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "pieejams kā html"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "disponibil sub formă de html"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "saatavana html:nä"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "διαθέσιμο ως html"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "tilgængelig som html"
+                }
+            ],
+            "dct:title": [
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Moduł mapowania"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Mapping Module"
+                },
+                "Mapping Module",
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Module de cartographie"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Модуль відображення"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Kartografavimo modulis"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Module voor het in kaart brengen"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Modulo di mappatura"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Ενότητα χαρτογράφησης"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Módulo de mapeamento"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Kortlægningsmodul"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Modulul de cartografiere"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Modulu tal-immappjar"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Mapping-Modul"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Módulo de mapeo"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Kartēšanas modulis"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Kartläggningsmodul"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Modul za kartiranje"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Modul mapiranja"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Модул за картографиране"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Mapovací modul"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Mapovací modul"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Feltérképező modul"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "Kaardistamismoodul"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Kartoitusmoduuli"
+                }
+            ],
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "dct:format": "HTML",
+            "@type": "dcat:Distribution",
+            "dcat:accessURL": {
+                "@id": "http://airo.maynoothuniversity.ie/external-content/live-register-office-monitoring-tool"
+            },
+            "dct:identifier": "https://data.gov.ie/dataset/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6/resource/99951902-b535-46a4-b1a0-039e8f9bf41d"
+        },
+        {
+            "@id": "_:b3",
+            "skos:prefLabel": "['Creative Commons licence conditions apply', 'http://creativecommons.org/licenses/by/4.0/', 'license']",
+            "@type": "dct:RightsStatement"
+        },
+        {
+            "@id": "_:b4",
+            "@type": "spdx:Checksum",
+            "spdx:algorithm": {
+                "@id": "spdx:checksumAlgorithm_md5"
+            },
+            "spdx:checksumValue": "35fb02341edba301c4b56dd05756153"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/record/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6",
+            "spdx:checksum": {
+                "@id": "_:b4"
+            },
+            "dct:creator": {
+                "@id": "http://piveau.io"
+            },
+            "edp:transStatus": {
+                "@id": "edp:TransCompleted"
+            },
+            "dqv:hasQualityMetadata": {
+                "@id": "http://data.europa.eu/88u/metrics/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6"
+            },
+            "dct:modified": {
+                "@value": "2023-11-20T20:59:25Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:issued": {
+                "@value": "2022-03-16T20:25:47Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "foaf:primaryTopic": {
+                "@id": "http://data.europa.eu/88u/dataset/828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6"
+            },
+            "edp:originalLanguage": "ga",
+            "edp:transReceived": {
+                "@value": "2023-11-20T20:59:25Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "@type": "dcat:CatalogRecord",
+            "edp:transIssued": {
+                "@value": "2023-11-20T20:25:19Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:identifier": "828517bc-f6e5-4fd6-a5d2-2fff5be9b7e6"
+        }
+    ],
+    "@context": {
+        "edp": "https://europeandataportal.eu/voc#",
+        "schema": "http://schema.org/",
+        "dct": "http://purl.org/dc/terms/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "dqv": "http://www.w3.org/ns/dqv#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "locn": "http://www.w3.org/ns/locn#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+}

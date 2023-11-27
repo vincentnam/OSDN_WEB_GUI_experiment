@@ -10,6 +10,8 @@ services:
         ipv4_address: 193.168.1.10
     environment:
       - PLATFORM-ID=1
+      - COLLECTION=ODATIS
+      - MODEL=1
     volumes:
       - ./:/code
     links:
@@ -31,12 +33,34 @@ services:
 
     environment:
       - PLATFORM-ID=2
+      - COLLECTION=AERIS
+      - MODEL=2
     volumes:
       - ./:/code
     links:
       - "database_json"
 
-  new_platform:
+  bv-brc:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.13
+
+    environment:
+      - PLATFORM-ID=bv-brc
+      - COLLECTION=bv-brc
+      - MODEL=f76469c6-a1dd-53cd-832b-330eb723fcaf
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  data-europa:
     build:
       context: .
       dockerfile: ./Dockerfile
@@ -49,6 +73,196 @@ services:
 
     environment:
       - PLATFORM-ID=002126f1-ddc6-5e1b-92b7-8baa0523d244
+      - COLLECTION=data-Europa-eu
+      - MODEL=e7f5b986-585d-5c35-9e80-3f8399d5eb34
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
+
+  emdb:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.15
+
+    environment:
+      - PLATFORM-ID=emdb
+      - COLLECTION=emdb
+      - MODEL=a0d64712-3626-5003-a8d7-27c345bf6f8f
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  figshare:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.16
+
+    environment:
+      - PLATFORM-ID=figshare
+      - COLLECTION=figshare
+      - MODEL=figshare
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
+
+  formater:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.17
+
+    environment:
+      - PLATFORM-ID=formater
+      - COLLECTION=formater
+      - MODEL=cf180ca3-c2e8-5286-93e0-0b788ea43f7d
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
+  humdata:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.18
+
+    environment:
+      - PLATFORM-ID=humdata
+      - COLLECTION=humdata-org
+      - MODEL=30ccae56-7036-59b0-9b89-be9e6a044d97
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  opendatasoft:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.19
+
+    environment:
+      - PLATFORM-ID=opendatasoft
+      - COLLECTION=opendatasoft
+      - MODEL=c2fce206-2411-5862-8ea5-d59d6eca136f
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  theia:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.20
+
+    environment:
+      - PLATFORM-ID=theia
+      - COLLECTION=theia
+      - MODEL=53651fda-5bd2-595b-939c-86d4419dac9a
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+  engmeta:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.23
+
+    environment:
+      - PLATFORM-ID=engmeta
+      - COLLECTION=engmeta
+      - MODEL=bd221f65-995b-5134-9a23-a68393ff8b6c
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
+
+  ncbi_new_platform:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.22
+
+    environment:
+      - PLATFORM-ID=ncbi-nlm-nih
+      - COLLECTION=ncbi-nlm-nih
+      - MODEL=496ecad7-8ae7-5c25-8033-c14667d046d9
+    volumes:
+      - ./:/code
+    links:
+      - "database_json"
+
+
+  harvard_dataverse:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    #    ports:
+    #      - "5000:5000"
+
+    networks:
+      frontend_demo:
+        ipv4_address: 193.168.1.30
+
+    environment:
+      - PLATFORM-ID=harvard-dataverse
+      - COLLECTION=harvard-dataverse
+      - MODEL=d86dc3ee-b851-525c-a621-210c5cc95af7
     volumes:
       - ./:/code
     links:
@@ -73,6 +287,8 @@ services:
     environment:
       - PLATFORM-ID=3
 
+      - COLLECTION=FHIR
+      - MODEL=3
 
     volumes:
       - ./:/code
@@ -82,23 +298,23 @@ services:
 
 
 
-
-  aeris2:
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    #    ports:
-    #      - "5000:5000"
-
-    networks:
-      frontend_demo:
-        ipv4_address: 193.168.1.13
-    environment:
-      - PLATFORM-ID=4
-    volumes:
-      - ./:/code
-    links:
-      - "database_json"
+#
+#  aeris2:
+#    build:
+#      context: .
+#      dockerfile: ./Dockerfile
+#    #    ports:
+#    #      - "5000:5000"
+#
+#    networks:
+#      frontend_demo:
+#        ipv4_address: 193.168.1.13
+#    environment:
+#      - PLATFORM-ID=4
+#    volumes:
+#      - ./:/code
+#    links:
+#      - "database_json"
 
 
 

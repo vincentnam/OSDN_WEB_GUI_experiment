@@ -1,0 +1,15 @@
+concept,type
+Experiment Title,string
+Treatment Duration,string
+Organism,string
+Biosets,integer
+Study Title,string
+Experiment Type,string
+Public Identifier,id
+Treatment Amount,string
+Treatment Type,string
+Study Name,string
+Experiment ID,integer
+Treatment Name,string
+Experiment Name,string
+Strain,string

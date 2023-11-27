@@ -1,0 +1,121 @@
+.research_data{
+    flex:1;
+    /*background-color: red;*/
+    /*background-color: rgba(254, 205, 113, 0.07);*/
+    width: 100vh;
+    height: 100vh;
+    padding: 1rem;
+    margin: 0;
+
+}
+
+.research_data .query_div{
+    /*flex: 1;*/
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    /*background-color: #121212;*/
+}
+.query_div .initial_query{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+.query_div .new_query{
+    padding-top: 1rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.research_data .local_research{
+    height: 40%;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    overflow: auto;
+    /*background-color: #121212;*/
+}
+
+.research_data .local_research .local_research_header{
+    height: 20%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    overflow: auto;
+
+    /*background-color: #121212;*/
+}
+ .research_data .local_research .local_research_table{
+     height: 80%;
+     width: 100%;
+     flex-direction: row;
+     display: flex;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     justify-content: space-around;
+     border: solid 1px #e3e3e3;
+     overflow: auto;
+
+     /*background-color: #121212;*/
+ }
+
+.research_data .external_research{
+    height: 40%;
+
+    flex-direction: column;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    overflow: auto;
+    resize: vertical;
+    /*background-color: #121212;*/
+}
+
+
+.research_data .external_research .external_research_header{
+    height: 30%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    overflow: auto;
+
+    /*background-color: #121212;*/
+}
+
+.query_result_div{
+    height: 90%;
+    overflow: auto;
+}
+
+.research_data .external_research .external_research_table{
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border: solid 1px #e3e3e3;
+    overflow: auto;
+
+    /*background-color: #121212;*/
+}

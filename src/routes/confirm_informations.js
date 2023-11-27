@@ -14,7 +14,7 @@ import uuid from "uuid-by-string";
 function ConfirmInformationsPage(props) {
     const platform_name_display = {platform_name:"Platform name :", platform_URL:"Platform URL :",
         mandatory_platform_to_connect_to:"Mandatory platform selected :", platform_to_connect_to:"Chosen platform selected :",
-    model_cascader:"Model used :"}
+    model_cascader:"Model used :", id_cascader:"Platform ID in registry :"}
 
     var platform_data_components = [];
 
@@ -120,18 +120,21 @@ function ConfirmInformationsPage(props) {
             <div className="header">
                 <Paper className="paper_header" >
                     <Button variant="outlined" color="success" onClick={() => {
-
+                        console.log(props)
                         var model_id;
                         var platform_id;
-                        if (localStorage.getItem("model_id")) {
-                            model_id = localStorage.getItem("model_id");
-                        }
-                        else {
-                            model_id = uuid(props.root_reducer.modelName+Date.now()).toString();
-                            localStorage.setItem("model_id",model_id)
-                        }
-                        console.log(props)
-                        platform_id = props.config.ID_PLATFORM
+                        model_id = props.config["ID_MODEL"]
+                        // if (localStorage.getItem("model_id")) {
+                        //     model_id = localStorage.getItem("model_id");
+                        // }
+                        // else {
+                        //     model_id = uuid(props.root_reducer.modelName+Date.now()).toString();
+                        //     localStorage.setItem("model_id",model_id)
+                        // }
+                        // console.log(props)
+                        // platform_id = props.config.ID_PLATFORM
+                        platform_id = props.root_reducer.platform.id_cascader !== "" ? props.root_reducer.platform.id_cascader : props.config.ID_PLATFORM
+
                         // if (localStorage.getItem("platform_id")) {
                         //     platform_id = localStorage.getItem("platform_id");
                         // }
@@ -164,11 +167,13 @@ function ConfirmInformationsPage(props) {
                         const body = {};
 
                         body["models"] = {};
+                        const model_keys = {}
                         if ((is_custom_model_added) && (props.root_reducer?.model !==[])) {
                             // console.log(body["models"])
 
                             body["models"][model_id]={};
-                            body["models"][model_id]["keys"]=props.root_reducer.model;
+                            Object.keys(props.root_reducer.model).map(key => model_keys[props.root_reducer.model[key].concept]=props.root_reducer.model[key].type)
+                            body["models"][model_id]["keys"]=model_keys;
                             body["models"][model_id]["name"]=props.root_reducer.modelName
                             body["models"][model_id]["platforms"]=[platform_id]
                         }
@@ -176,8 +181,17 @@ function ConfirmInformationsPage(props) {
                         body["platforms"]={};
                         body["platforms"][platform_id]={}
                         body["platforms"][platform_id]["name"]=props.root_reducer.platform.platform_name;
-                        body["platforms"][platform_id]["URL"]=props.root_reducer.platform.platform_URL;
-                        body["platforms"][platform_id]["links"]=props.root_reducer.platform.mandatory_platform_to_connect_to.map((el)=>el[0]).concat(props.root_reducer.platform.platform_to_connect_to.map((el)=>el[0]));
+                        body["platforms"][platform_id]["URL"]=[props.root_reducer.platform.platform_URL];
+
+                        if (props.root_reducer.platform.platform_to_connect_to) {
+
+                            body["platforms"][platform_id]["links"]=props.root_reducer.platform.mandatory_platform_to_connect_to.map((el)=>el[0]).concat(props.root_reducer.platform.platform_to_connect_to?.map((el)=>el[0]));
+                        }
+                        else {
+                            body["platforms"][platform_id]["links"]=props.root_reducer.platform.mandatory_platform_to_connect_to.map((el)=>el[0])
+
+                        }
+
                         // console.log(register_platform(localStorage.getItem("PlatformURL"), headers, body ))
 
                         body["matchs"]={}
@@ -186,7 +200,7 @@ function ConfirmInformationsPage(props) {
                                 body["matchs"][platform_id+el.id]={keyA:el.ConceptA, keyB:el.ConceptB, modelA:el.ModelA, modelB:el.ModelB, type:"manual", platform_review:[], score:""};
                             }
                         )
-                        // console.log("COUCOU")
+                        console.log(props.config.URL)
                         register_platform(props.config.URL, headers, JSON.stringify(body)).then((el) => {
                             if (el[0] === 204) {
                                 message.success("Platform successfully registered.", 5)
@@ -225,8 +239,57 @@ function ConfirmInformationsPage(props) {
                     }}
                     >reset</Button>
                     <Button variant="outlined" color="success" onClick={() => {
+                        console.log(props)
+                        var model_id;
+                        var platform_id;
+                        if (localStorage.getItem("model_id")) {
+                            model_id = localStorage.getItem("model_id");
+                        }
+                        else {
+                            model_id = uuid(props.root_reducer.modelName+Date.now()).toString();
+                            localStorage.setItem("model_id",model_id)
+                        }
+                        // console.log(props)
+                        // platform_id = props.config.ID_PLATFORM
+                        platform_id = props.root_reducer.platform.id_cascader !== "" ? props.root_reducer.platform.id_cascader : props.config.ID_PLATFORM
 
-                        console.log("Button cliqué")
+                        // if (localStorage.getItem("platform_id")) {
+                        //     platform_id = localStorage.getItem("platform_id");
+                        // }
+                        // else {
+                        //     platform_id = props.config.ID_PLATFORM;
+                        //     localStorage.setItem("platform_id",platform_id)
+                        //
+                        // }
+                        // console.log(test)
+                        const headers = {"Content-Type":"application/json","platform-id":platform_id,
+                            "registry-version":Date.now().toString(), "Platforms-Visited":"", "only-matches":""};
+                        const body = {};
+
+                        body["matchs"]={}
+                        props.root_reducer.matches.map((el)=>{
+                                console.log(el);
+                                body["matchs"][platform_id+el.id+Date.now()]={keyA:el.ConceptA, keyB:el.ConceptB, modelA:el.ModelA, modelB:el.ModelB, type:"manual", platform_review:[], score:""};
+                            }
+                        )
+                        register_platform(props.config.URL, headers, JSON.stringify(body)).then((el) => {
+                            if (el[0] === 204) {
+                                message.success("Matches successfully registered.", 5)
+                                localStorage.removeItem("platform_id");
+                                localStorage.removeItem("model_id");
+                                localStorage.removeItem("state");
+                                setDataFile([]);
+                            }
+                            else {
+                                // console.log(el)
+                                message.error("Error : " + el, 5)
+                            }
+                        }).catch((response) => {
+                                // console.log(response)
+                                // console.log("TA MERE")
+                                message.error("Error : " + response, 5)
+                            }
+                        );
 
 
                     }}

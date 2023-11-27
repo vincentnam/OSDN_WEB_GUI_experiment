@@ -1,0 +1,24 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.21666845.v1</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">S.K. Perehudoff</creatorName>
+    <givenName>S.K.</givenName>
+    <familyName>Perehudoff</familyName>
+  </creator>
+</creators>
+<titles><title>Supplemental Information-Human rights framing at WTO for Covid vaccines</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2022</publicationYear>
+<subjects>
+  <subject>World Trade Organization</subject>
+  <subject>Human Rights Law</subject>
+  <subject>Right to Health</subject>
+  <subject>trade negotiations</subject>
+  <subject>COVID-19 (coronavirus disease 2019)</subject>
+</subjects>
+<dates><date dateType="Issued">2022-12-14 15:15:39</date></dates>
+<resourceType resourceTypeGeneral="Other">Online resource</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/online_resource/Supplemental_Information-Human_rights_framing_at_WTO_for_Covid_vaccines/21666845</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;p&gt;The is supplemental information to our published article from this project. It contains the detailed methodology and additional tables.&lt;/p&gt;</description></descriptions>
+</resource>

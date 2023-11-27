@@ -1,0 +1,68 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.13125206.v2</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">C.F. Reinders Folmer</creatorName>
+    <givenName>C.F.</givenName>
+    <familyName>Reinders Folmer</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">B. van Rooij</creatorName>
+    <givenName>B.</givenName>
+    <familyName>van Rooij</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">M.A. Brownlee</creatorName>
+    <givenName>M.A.</givenName>
+    <familyName>Brownlee</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Adam Fine</creatorName>
+    <givenName>Adam</givenName>
+    <familyName>Fine</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">M.E. Kuiper</creatorName>
+    <givenName>M.E.</givenName>
+    <familyName>Kuiper</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">E.H. Olthuis</creatorName>
+    <givenName>E.H.</givenName>
+    <familyName>Olthuis</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">E.B. Kooistra</creatorName>
+    <givenName>E.B.</givenName>
+    <familyName>Kooistra</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">A.L. de Bruijn</creatorName>
+    <givenName>A.L.</givenName>
+    <familyName>de Bruijn</familyName>
+  </creator>
+</creators>
+<titles><title>Social Distancing in America: Compliance with COVID-19 mitigation measures in the United States</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2021</publicationYear>
+<subjects>
+  <subject>COVID-19</subject>
+  <subject>Social distancing</subject>
+  <subject>Adherence</subject>
+  <subject>United States</subject>
+  <subject>Deterrence</subject>
+  <subject>Emotions</subject>
+  <subject>Impulsivity</subject>
+  <subject>Obligation to Obey the Law</subject>
+  <subject>Political Orientation</subject>
+  <subject>Procedural Justice</subject>
+  <subject>Public Health</subject>
+  <subject>Social Norms</subject>
+  <subject>Trust in science</subject>
+  <subject>Trust in media</subject>
+</subjects>
+<dates><date dateType="Issued">2021-06-22 09:18:50</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/dataset/Social_Distancing_in_America_Compliance_with_COVID-19_mitigation_measures_in_the_United_States/13125206</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;div&gt;Adherence to social distancing measures in the United States. Survey study (3 cohorts) on adherence to social distancing measures and its predictors. Raw data&lt;/div&gt;&lt;div&gt;+ syntax for data prep for all 3 surveys (SPSS) + combined dataset Waves 1-3 (SPSS and Stata).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The analyses that are reported in the paper were conducted as follows:&lt;/div&gt;&lt;div&gt;(1) development of adherence and predictors: SPSS W1-W3 data file + syntax&lt;/div&gt;&lt;div&gt;(2) hierarchical regression analysis: Stata W1-W3 data file + syntax&lt;/div&gt;&lt;div&gt;(3) mediation analysis: Stata W1-W3 data file + syntax&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;These materials were revised on 17/6/21 (for journal revision).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;For more information, please see https://corona-compliance.org/&lt;/div&gt;</description></descriptions>
+</resource>

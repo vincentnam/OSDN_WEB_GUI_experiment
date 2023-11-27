@@ -1,0 +1,539 @@
+{
+  "id": 6360577,
+  "identifier": "DVN/GDUOVS",
+  "persistentUrl": "https://doi.org/10.7910/DVN/GDUOVS",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2022-07-01",
+  "storageIdentifier": "s3://10.7910/DVN/GDUOVS",
+  "metadataLanguage": "undefined",
+  "datasetVersion": {
+    "id": 329333,
+    "datasetId": 6360577,
+    "datasetPersistentId": "doi:10.7910/DVN/GDUOVS",
+    "storageIdentifier": "s3://10.7910/DVN/GDUOVS",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "lastUpdateTime": "2022-07-01T14:36:33Z",
+    "releaseTime": "2022-07-01T14:36:33Z",
+    "createTime": "2022-07-01T13:55:16Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Interview Transcripts"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lachman, Henry"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lachman, Henry"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "h.d.lachman@student.vu.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains interview transcripts used as data for a Master's thesis in Societal Resilience. Transcripts cover risk assessment regarding Covid-19 during the January-March 2020 threshold period."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Covid, qualitative, interview"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Lachman, Henry"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-07-01"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "amelia transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360580,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "amelia transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 45376,
+          "storageIdentifier": "s3://dvn-cloud:181b9f749b2-eafecc420529",
+          "rootDataFileId": -1,
+          "md5": "2605e4f3423cb7bb50fbbbe2900cffa5",
+          "checksum": {
+            "type": "MD5",
+            "value": "2605e4f3423cb7bb50fbbbe2900cffa5"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "antonio transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360586,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "antonio transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 41649,
+          "storageIdentifier": "s3://dvn-cloud:181b9fea2c1-02aeb93a99e1",
+          "rootDataFileId": -1,
+          "md5": "6ad581489d6189c17ce1eafddbb7825d",
+          "checksum": {
+            "type": "MD5",
+            "value": "6ad581489d6189c17ce1eafddbb7825d"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "Charles Transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360614,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Charles Transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 38994,
+          "storageIdentifier": "s3://dvn-cloud:181ba24e4f8-017cc315915b",
+          "rootDataFileId": -1,
+          "md5": "7b041ca79e9acb8c8d82972f1c847422",
+          "checksum": {
+            "type": "MD5",
+            "value": "7b041ca79e9acb8c8d82972f1c847422"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "Cynthia Transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360587,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Cynthia Transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 55594,
+          "storageIdentifier": "s3://dvn-cloud:181ba063c86-e87dc09c060e",
+          "rootDataFileId": -1,
+          "md5": "9defb50168ca8063af292a2c07711643",
+          "checksum": {
+            "type": "MD5",
+            "value": "9defb50168ca8063af292a2c07711643"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "Fred transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360585,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Fred transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 53352,
+          "storageIdentifier": "s3://dvn-cloud:181ba00b2b4-79f6762df912",
+          "rootDataFileId": -1,
+          "md5": "5f118396a47a0b1e4ea485c696093abb",
+          "checksum": {
+            "type": "MD5",
+            "value": "5f118396a47a0b1e4ea485c696093abb"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "Hesh transcript edited.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360578,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Hesh transcript edited.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 36185,
+          "storageIdentifier": "s3://dvn-cloud:181b9f5d687-da9606057ba9",
+          "rootDataFileId": -1,
+          "md5": "b9f42dd6fdd907c371eb79857ccb0bfc",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9f42dd6fdd907c371eb79857ccb0bfc"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "jordan transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360616,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "jordan transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 72608,
+          "storageIdentifier": "s3://dvn-cloud:181ba14e1d8-65a48fc1f1bc",
+          "rootDataFileId": -1,
+          "md5": "30020fb6479c65c38218669649172cbe",
+          "checksum": {
+            "type": "MD5",
+            "value": "30020fb6479c65c38218669649172cbe"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "kevin transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360582,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "kevin transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 53101,
+          "storageIdentifier": "s3://dvn-cloud:181ba0b20db-8e7bdb181a34",
+          "rootDataFileId": -1,
+          "md5": "2c304d2068224b0e3b4d57f70a2a8b9a",
+          "checksum": {
+            "type": "MD5",
+            "value": "2c304d2068224b0e3b4d57f70a2a8b9a"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "levi transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360583,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "levi transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 40799,
+          "storageIdentifier": "s3://dvn-cloud:181b9fc2622-d1ed89ef13f5",
+          "rootDataFileId": -1,
+          "md5": "c2f0ef1eec50690d5a26cef97e9db6ae",
+          "checksum": {
+            "type": "MD5",
+            "value": "c2f0ef1eec50690d5a26cef97e9db6ae"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "lilah transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360613,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "lilah transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 38097,
+          "storageIdentifier": "s3://dvn-cloud:181ba1fa254-e204bc1122c0",
+          "rootDataFileId": -1,
+          "md5": "8340213a4155b2cb45b2b5854cda01bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "8340213a4155b2cb45b2b5854cda01bc"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "manassa transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360617,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "manassa transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 47940,
+          "storageIdentifier": "s3://dvn-cloud:181ba1889d3-50e1969b64fe",
+          "rootDataFileId": -1,
+          "md5": "50836b5807a56e44f4760cda392ec731",
+          "checksum": {
+            "type": "MD5",
+            "value": "50836b5807a56e44f4760cda392ec731"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "nicholas transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360611,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "nicholas transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 54789,
+          "storageIdentifier": "s3://dvn-cloud:181ba0e10e0-14bcc2688fc2",
+          "rootDataFileId": -1,
+          "md5": "ae9b0167134458acd39d205ced248f8d",
+          "checksum": {
+            "type": "MD5",
+            "value": "ae9b0167134458acd39d205ced248f8d"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "nora transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360581,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "nora transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 45012,
+          "storageIdentifier": "s3://dvn-cloud:181b9f83b0c-a7f41d2c9ad3",
+          "rootDataFileId": -1,
+          "md5": "a5a52d10fa5c76c9c93fa09bb28e2edb",
+          "checksum": {
+            "type": "MD5",
+            "value": "a5a52d10fa5c76c9c93fa09bb28e2edb"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "paul transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360618,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "paul transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 59991,
+          "storageIdentifier": "s3://dvn-cloud:181ba26c2d1-5f8d2bb2cf57",
+          "rootDataFileId": -1,
+          "md5": "c5374c32279385fa5fb61ce3bfd267d2",
+          "checksum": {
+            "type": "MD5",
+            "value": "c5374c32279385fa5fb61ce3bfd267d2"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "rosa transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360610,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "rosa transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 94695,
+          "storageIdentifier": "s3://dvn-cloud:181ba108660-4284a0b1f3b4",
+          "rootDataFileId": -1,
+          "md5": "399442b3f72236477c0e546537f85083",
+          "checksum": {
+            "type": "MD5",
+            "value": "399442b3f72236477c0e546537f85083"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "sarah transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360612,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "sarah transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 46527,
+          "storageIdentifier": "s3://dvn-cloud:181ba169eed-7e0a3afb7e1a",
+          "rootDataFileId": -1,
+          "md5": "d1b16d64ae5eed27b09e2a2a38d71d50",
+          "checksum": {
+            "type": "MD5",
+            "value": "d1b16d64ae5eed27b09e2a2a38d71d50"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "siobhan interview.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360615,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "siobhan interview.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 70586,
+          "storageIdentifier": "s3://dvn-cloud:181ba2340dd-a9c6169234e1",
+          "rootDataFileId": -1,
+          "md5": "9de26111e599f703abfe631d207af543",
+          "checksum": {
+            "type": "MD5",
+            "value": "9de26111e599f703abfe631d207af543"
+          },
+          "creationDate": "2022-07-01"
+        }
+      },
+      {
+        "label": "Willow transcript.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 329333,
+        "dataFile": {
+          "id": 6360584,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Willow transcript.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 51465,
+          "storageIdentifier": "s3://dvn-cloud:181ba028c48-912e11a805a5",
+          "rootDataFileId": -1,
+          "md5": "d393e45459b6e6f80de0f8aa675f3b3d",
+          "checksum": {
+            "type": "MD5",
+            "value": "d393e45459b6e6f80de0f8aa675f3b3d"
+          },
+          "creationDate": "2022-07-01"
+        }
+      }
+    ],
+    "citation": "Lachman, Henry, 2022, \"Interview Transcripts\", https://doi.org/10.7910/DVN/GDUOVS, Harvard Dataverse, V1"
+  }
+}

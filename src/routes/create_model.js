@@ -186,9 +186,9 @@ function CreateModelPage(props) {
                         (el)=>
                         {
                             console.log(el);
-
+                            console.log(props)
                             localStorage.setItem("modelName", modelName)
-                            props.dispatch({type:"ADD_MODEL", model:dataFile, modelName:modelName})
+                            props.dispatch({type:"ADD_MODEL", model:dataFile, modelName:modelName, modelID:props.config["ID_MODEL"]})
                         }
                     }
                     >Confirm model</Button>

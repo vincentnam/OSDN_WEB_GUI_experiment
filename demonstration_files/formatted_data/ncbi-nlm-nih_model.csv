@@ -1,0 +1,171 @@
+concept,count,values
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Databases.Database.Table.Statistics.Elements.count,6,"['18036856', '24074033']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.organism,6,['oral metagenome']
+EXPERIMENT_PACKAGE.Organization.Contact.Address.Institution.@value,6,['Shahjalal University of Science and Technology']
+EXPERIMENT_PACKAGE.RUN_SET.spots,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.Pool.Member.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.Read.stdev,6,"['50.30', '51.09', '57.42', '58.40']"
+BioSampleSet.BioSample.Attributes.Attribute.display_name,6,"['cell type', 'disease', 'source name']"
+EXPERIMENT_PACKAGE.EXPERIMENT.STUDY_REF.IDENTIFIERS.PRIMARY_ID.@value,6,['SRP348427']
+EXPERIMENT_PACKAGE.Organization.type,6,['institute']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.Read.index,6,"['0', '1']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.Alternatives.access_type,6,"['Use Cloud Data Delivery', 'anonymous', 'aws identity', 'gcp identity']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.member_name,6,['']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.EXTERNAL_ID.@value,6,"['SAMN21987334', 'SAMN21987335']"
+EXPERIMENT_PACKAGE.Organization.Contact.Address.Department.@value,6,['Genetic Engineering and Biotechnology']
+EXPERIMENT_PACKAGE.Organization.Address.Institution.@value,6,['Shahjalal University of Science and Technology']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.md5,6,"['195d6d65ad6c598b7bdc46d2c3c8026f', '26c6c27bedc00dc295b036f078522188', '435ae12315e201fab8aa56c09be18f94', 'c6ad93249f2ef0807768b239fd77a0a6', 'c71ac11c118c24215a3b16953d70da94', 'dd9c844cf65de6d204ee4af54f74c0da', 'f0fb700997b9d27e17f0bf0b9aac5b5d', 'f79205f53577b503cefac7dc210782ff']"
+EXPERIMENT_PACKAGE.SAMPLE.alias,6,"['COVO142', 'COVO143']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.size,6,"['10178453', '13654857']"
+BioSampleSet.BioSample.access,6,['public']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.cluster,6,['public']
+EXPERIMENT_PACKAGE.Organization.Address.City.@value,6,['Sylhet']
+EXPERIMENT_PACKAGE.RUN_SET.bases,6,"['18036856', '24074033']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.url,6,"['https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-zq-20/SRR017/17066/SRR17066270/SRR17066270.lite.1', 'https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-zq-20/SRR017/17066/SRR17066271/SRR17066271.lite.1', 'https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17066270/SRR17066270', 'https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17066271/SRR17066271']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.CloudFiles.CloudFile.location,6,"['gs.US', 's3.us-east-1']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.semantic_name,6,"['SRA Lite', 'SRA Normalized', 'fastq']"
+EXPERIMENT_PACKAGE.Organization.Address.Department.@value,6,['Genetic Engineering and Biotechnology']
+BioSampleSet.BioSample.Owner.Contacts.Contact.Name.Last.@value,6,['Blüthgen']
+EXPERIMENT_PACKAGE.Organization.Address.Country.@value,6,['Bangladesh']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.nspots,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.STUDY.IDENTIFIERS.PRIMARY_ID.@value,6,['SRP348427']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.Read.average,6,"['277.64', '278.30', '283.96', '284.28']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.EXPERIMENT_REF.IDENTIFIERS.SUBMITTER_ID.@value,6,"['COVID oral_21', 'COVID oral_22']"
+BioSampleSet.BioSample.Ids.Id.is_primary,6,['1']
+EXPERIMENT_PACKAGE.EXPERIMENT.STUDY_REF.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioProject']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_NAME.@value,6,"['COVID oral_21', 'COVID oral_22']"
+EXPERIMENT_PACKAGE.SUBMISSION.IDENTIFIERS.SUBMITTER_ID.namespace,6,['Shahjalal University of Science and Technology']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.accession,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.Pool.Member.tax_id,6,['1227552']
+EXPERIMENT_PACKAGE.Organization.Address.Street.@value,6,['Kumargaon road']
+BioSampleSet.BioSample.publication_date,6,['2021-10-09T00:00:00.000']
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.EXTERNAL_ID.@value,6,"['SAMN21987334', 'SAMN21987335']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Bases.cs_native,6,['false']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_STRATEGY.@value,6,['AMPLICON']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.supertype,6,"['Original', 'Primary ETL']"
+BioSampleSet.BioSample.Ids.Id.db,6,"['BioSample', 'GEO']"
+EXPERIMENT_PACKAGE.STUDY.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioProject']
+EXPERIMENT_PACKAGE.Organization.Contact.Address.City.@value,6,['Sylhet']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.nreads,6,['2']
+EXPERIMENT_PACKAGE.SUBMISSION.IDENTIFIERS.SUBMITTER_ID.@value,6,['SUB10731583']
+EXPERIMENT_PACKAGE.SUBMISSION.alias,6,['SUB10731583']
+EXPERIMENT_PACKAGE.Organization.Contact.sec_email,6,['faisalron04@gmail.com']
+BioSampleSet.BioSample.accession,6,"['SAMN22161963', 'SAMN22161964']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Databases.Database.Table.Statistics.source,6,['meta']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.size,6,"['10180281', '13656684', '20429324', '20472000', '27213016', '27239378', '4712512', '6250443']"
+BioSampleSet.BioSample.Links.Link.target,6,['bioproject']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Bases.Base.value,6,"['A', 'C', 'G', 'N', 'T']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioSample']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.Alternatives.org,6,"['AWS', 'GCP', 'NCBI']"
+EXPERIMENT_PACKAGE.SAMPLE.SAMPLE_ATTRIBUTES.SAMPLE_ATTRIBUTE.TAG.@value,6,"['BioSampleModel', 'collection_date', 'geo_loc_name', 'host', 'isolation_source', 'lat_lon']"
+EXPERIMENT_PACKAGE.EXPERIMENT.alias,6,"['COVID oral_21', 'COVID oral_22']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Bases.count,6,"['18036856', '24074033']"
+BioSampleSet.BioSample.Owner.Contacts.Contact.Name.First.@value,6,['Nils']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.alias,6,"['COVO142_R1.fastq', 'COVO143_R1.fastq']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.spots,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.Pool.Member.spots,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.published,6,"['2021-11-29 13:53:03', '2021-11-29 13:54:47']"
+EXPERIMENT_PACKAGE.Organization.Contact.Name.Last.@value,6,['FOYSAL']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Statistics.Read.count,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.STUDY.DESCRIPTOR.CENTER_PROJECT_NAME.@value,6,['Gut and oral microbiome of healthy control and COVID cases in Bangladesh']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.IDENTIFIERS.EXTERNAL_ID.@value,6,"['SAMN21987334', 'SAMN21987335']"
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.DESIGN_DESCRIPTION.@value,6,['Illumina 16S protocol']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Bases.Base.count,6,"['0', '4220660', '4239004', '4697367', '4879825', '5603363', '5617554', '6293269', '6559847']"
+EXPERIMENT_PACKAGE.SAMPLE.SAMPLE_NAME.SCIENTIFIC_NAME.@value,6,['oral metagenome']
+BioSampleSet.BioSample.Package.@value,6,['Generic.1.0']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.IDENTIFIERS.SUBMITTER_ID.label,6,"['72', '73']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.bases,6,"['18036856', '24074033']"
+BioSampleSet.BioSample.Owner.Contacts.Contact.email,6,['nils.bluethgen@charite.de']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Databases.Database.Table.name,6,['SEQUENCE']
+EXPERIMENT_PACKAGE.Organization.url,6,['http://www.sust.edu/']
+EXPERIMENT_PACKAGE.Pool.Member.organism,6,['oral metagenome']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.accession,6,"['SRR17066270', 'SRR17066271']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.CloudFiles.CloudFile.provider,6,"['gs', 's3']"
+BioSampleSet.BioSample.Attributes.Attribute.harmonized_name,6,"['cell_type', 'disease', 'source_name']"
+BioSampleSet.BioSample.Links.Link.label,6,"['GEO Sample GSM5618557', 'GEO Sample GSM5618558', 'PRJNA732416']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Databases.Database.Table.Statistics.Rows.count,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.Alternatives.free_egress,6,"['-', 'gs.US', 's3.us-east-1', 'worldwide']"
+EXPERIMENT_PACKAGE.RUN_SET.bytes,6,"['10178453', '13654857']"
+EXPERIMENT_PACKAGE.STUDY.DESCRIPTOR.STUDY_TYPE.existing_study_type,6,['Metagenomics']
+BioSampleSet.BioSample.Description.Organism.taxonomy_id,6,['9606']
+BioSampleSet.BioSample.Description.Organism.OrganismName.@value,6,['Homo sapiens']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.date,6,"['2021-11-29 13:49:42', '2021-11-29 13:49:44', '2021-11-29 13:49:47', '2021-11-29 13:49:49', '2021-11-29 13:49:52', '2021-11-29 13:49:58', '2022-07-29 07:36:19', '2022-08-12 13:32:49']"
+EXPERIMENT_PACKAGE.SAMPLE.accession,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.STUDY.IDENTIFIERS.EXTERNAL_ID.@value,6,['PRJNA767939']
+EXPERIMENT_PACKAGE.SUBMISSION.center_name,6,['Shahjalal University of Science and Technology']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.EXPERIMENT.PLATFORM.ILLUMINA.INSTRUMENT_MODEL.@value,6,['Illumina MiSeq']
+EXPERIMENT_PACKAGE.EXPERIMENT.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRX13254968', 'SRX13254969']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.IDENTIFIERS.SUBMITTER_ID.namespace,6,['SUB10731583']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.static_data_available,6,['1']
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioSample']
+BioSampleSet.BioSample.Links.Link.@value,6,"['\n                https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5618558\n            ', '732416', 'https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5618557']"
+EXPERIMENT_PACKAGE.Pool.Member.bases,6,"['18036856', '24074033']"
+BioSampleSet.BioSample.submission_date,6,"['2021-10-08T13:03:03.270', '2021-10-08T13:03:03.580']"
+EXPERIMENT_PACKAGE.Organization.Contact.email,6,['mjfoysal-geb@sust.edu']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.EXPERIMENT_REF.IDENTIFIERS.SUBMITTER_ID.namespace,6,['SUB10731583']
+EXPERIMENT_PACKAGE.STUDY.IDENTIFIERS.EXTERNAL_ID.label,6,['primary']
+BioSampleSet.BioSample.Description.Title.@value,6,"['Covid 39 acute phase Tcells', 'Covid 39 convalescent PBMC']"
+BioSampleSet.BioSample.Status.status,6,['live']
+EXPERIMENT_PACKAGE.Organization.Contact.Name.First.@value,6,['MD JAVED']
+BioSampleSet.BioSample.Owner.Name.@value,6,"['Institute of Pathology, Charite Universitätsmedizin Berlin']"
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRS11177707', 'SRS11177708']"
+BioSampleSet.BioSample.Attributes.Attribute.attribute_name,6,"['cell type', 'disease  state', 'disease phase', 'disease severity', 'library', 'patient id', 'source_name']"
+EXPERIMENT_PACKAGE.STUDY.center_name,6,['BioProject']
+EXPERIMENT_PACKAGE.Pool.Member.accession,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.total_spots,6,"['32444', '42366']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.Alternatives.url,6,"['gs://sra-pub-zq-4/SRR17066270/SRR17066270.lite.1', 'gs://sra-pub-zq-5/SRR17066271/SRR17066271.lite.1', 'https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-zq-20/SRR017/17066/SRR17066270/SRR17066270.lite.1', 'https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos2/sra-pub-zq-20/SRR017/17066/SRR17066271/SRR17066271.lite.1', 'https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17066270/SRR17066270', 'https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR17066271/SRR17066271', 's3://sra-pub-src-10/SRR17066270/COVO143_R1.fastq.1', 's3://sra-pub-src-10/SRR17066270/COVO143_R2.fastq.1', 's3://sra-pub-src-13/SRR17066271/COVO142_R1.fastq.1', 's3://sra-pub-src-13/SRR17066271/COVO142_R2.fastq.1', 's3://sra-pub-zq-5/SRR17066270/SRR17066270.lite.1', 's3://sra-pub-zq-7/SRR17066271/SRR17066271.lite.1']"
+EXPERIMENT_PACKAGE.EXPERIMENT.accession,6,"['SRX13254968', 'SRX13254969']"
+EXPERIMENT_PACKAGE.SAMPLE.SAMPLE_NAME.TAXON_ID.@value,6,['1227552']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.version,6,['1']
+BioSampleSet.BioSample.Links.Link.type,6,"['entrez', 'url']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.sratoolkit,6,"['0', '1']"
+EXPERIMENT_PACKAGE.Pool.Member.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioSample']
+EXPERIMENT_PACKAGE.RUN_SET.runs,6,['1']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.load_done,6,['true']
+EXPERIMENT_PACKAGE.Organization.Contact.Address.Street.@value,6,['Kumargaon road']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.tax_id,6,['1227552']
+EXPERIMENT_PACKAGE.Organization.Address.postal_code,6,['3114']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.EXTERNAL_ID.namespace,6,['BioSample']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SOURCE.@value,6,['METAGENOMIC']
+EXPERIMENT_PACKAGE.Organization.Contact.Address.Country.@value,6,['Bangladesh']
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.SUBMITTER_ID.label,6,['Sample name']
+EXPERIMENT_PACKAGE.Pool.Member.sample_name,6,"['COVO142', 'COVO143']"
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.SAMPLE_DESCRIPTOR.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRS11177707', 'SRS11177708']"
+EXPERIMENT_PACKAGE.SUBMISSION.accession,6,['SRA1336121']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.Pool.Member.sample_name,6,"['COVO142', 'COVO143']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.EXPERIMENT_REF.accession,6,"['SRX13254968', 'SRX13254969']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.CloudFiles.CloudFile.filetype,6,"['fastq', 'run', 'run.zq']"
+BioSampleSet.BioSample.id,6,"['22161963', '22161964']"
+EXPERIMENT_PACKAGE.Pool.Member.member_name,6,['']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.total_bases,6,"['18036856', '24074033']"
+EXPERIMENT_PACKAGE.EXPERIMENT.STUDY_REF.accession,6,['SRP348427']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.cluster_name,6,['public']
+EXPERIMENT_PACKAGE.SAMPLE.SAMPLE_ATTRIBUTES.SAMPLE_ATTRIBUTE.VALUE.@value,6,"['2020-09-29', '2020-09-30', '22.3407 N 91.8377 E', 'Bangladesh: Chattogram', 'Homo sapiens', 'Homo sapiens_COVID oral', 'Metagenome or environmental']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.IDENTIFIERS.PRIMARY_ID.@value,6,"['SRR17066270', 'SRR17066271']"
+BioSampleSet.BioSample.Status.when,6,"['2021-10-09T00:50:11.560', '2021-10-09T00:50:11.573']"
+EXPERIMENT_PACKAGE.STUDY.alias,6,['PRJNA767939']
+EXPERIMENT_PACKAGE.Pool.Member.IDENTIFIERS.EXTERNAL_ID.@value,6,"['SAMN21987334', 'SAMN21987335']"
+BioSampleSet.BioSample.Package.display_name,6,['Generic']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.SAMPLE_DESCRIPTOR.accession,6,"['SRS11177707', 'SRS11177708']"
+BioSampleSet.BioSample.Models.Model.@value,6,['Generic']
+EXPERIMENT_PACKAGE.EXPERIMENT.STUDY_REF.IDENTIFIERS.EXTERNAL_ID.@value,6,['PRJNA767939']
+EXPERIMENT_PACKAGE.SUBMISSION.IDENTIFIERS.PRIMARY_ID.@value,6,['SRA1336121']
+EXPERIMENT_PACKAGE.Organization.Contact.Address.postal_code,6,['3114']
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.SUBMITTER_ID.namespace,6,['pda|faisalron04']
+EXPERIMENT_PACKAGE.EXPERIMENT.TITLE.@value,6,['16S rRNA sequence of oral_COVID']
+EXPERIMENT_PACKAGE.Organization.Name.@value,6,['Shahjalal University of Science and Technology']
+BioSampleSet.BioSample.Ids.Id.@value,6,"['GSM5618557', 'GSM5618558', 'SAMN22161963', 'SAMN22161964']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.is_public,6,['true']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.SRAFiles.SRAFile.filename,6,"['COVO142_R1.fastq', 'COVO142_R2.fastq', 'COVO143_R1.fastq', 'COVO143_R2.fastq', 'SRR17066270', 'SRR17066270.lite', 'SRR17066271', 'SRR17066271.lite']"
+BioSampleSet.BioSample.Description.Organism.taxonomy_name,6,['Homo sapiens']
+EXPERIMENT_PACKAGE.SAMPLE.IDENTIFIERS.SUBMITTER_ID.@value,6,"['COVO142', 'COVO143']"
+EXPERIMENT_PACKAGE.RUN_SET.RUN.has_taxanalysis,6,['1']
+EXPERIMENT_PACKAGE.STUDY.DESCRIPTOR.STUDY_TITLE.@value,6,['Gut and oral microbiome of healthy control and COVID cases in Bangladesh Metagenome']
+EXPERIMENT_PACKAGE.STUDY.accession,6,['SRP348427']
+EXPERIMENT_PACKAGE.RUN_SET.RUN.IDENTIFIERS.SUBMITTER_ID.@value,6,"['COVO142_R1.fastq', 'COVO143_R1.fastq']"
+BioSampleSet.BioSample.last_update,6,"['2021-10-09T01:52:17.612', '2021-10-09T01:52:17.993']"
+BioSampleSet.BioSample.Attributes.Attribute.@value,6,"['22_39_PBMC_5', '22_39_Tcells_5', 'CD38+ T\n                cells\n            ', 'CD38+ T cells\n            ', 'CV', 'CV_severe_acute_39', 'CV_severe_convalescent_39', 'PBMC', 'acute', 'convalescent', 'severe']"
+EXPERIMENT_PACKAGE.SUBMISSION.lab_name,6,['Genetic Engineering and Biotechnology']
+EXPERIMENT_PACKAGE.STUDY.DESCRIPTOR.STUDY_ABSTRACT.@value,6,['Dysbiosis of oral and gut microbiome in SARS-CoV-2 infected patients in Bangladesh: Exploring the role of opportunistic gut microbes']
+EXPERIMENT_PACKAGE.EXPERIMENT.DESIGN.LIBRARY_DESCRIPTOR.LIBRARY_SELECTION.@value,6,['PCR']

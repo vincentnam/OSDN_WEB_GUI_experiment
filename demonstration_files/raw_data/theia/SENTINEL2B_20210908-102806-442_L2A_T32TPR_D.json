@@ -1,0 +1,448 @@
+{
+  "collection": "theia",
+  "hits": [
+    {
+      "md": {
+        "id": "SENTINEL2B_20210908-102806-442_L2A_T32TPR_D",
+        "timestamp": 1631096886000,
+        "geometry": {
+          "type": "Polygon",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            [
+              [
+                10.29253197,
+                46.04626465
+              ],
+              [
+                11.71054459,
+                46.02142334
+              ],
+              [
+                11.6635046,
+                45.03419113
+              ],
+              [
+                10.2700758,
+                45.05819702
+              ],
+              [
+                10.29253197,
+                46.04626465
+              ]
+            ]
+          ]
+        },
+        "centroid": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            10.98416651,
+            45.54146009
+          ]
+        }
+      },
+      "data": {
+        "_isWMSEnabled": true,
+        "_sensorType_en": "OPTICAL",
+        "metadata": {
+          "core": {
+            "temporalCoverage": {
+              "end": "2021-09-08T10:28:06Z",
+              "begin": "2021-09-08T10:28:06Z"
+            },
+            "keywords": [
+              {
+                "origin": "embeded",
+                "type": "continent",
+                "value": "Europe"
+              },
+              {
+                "origin": "embeded",
+                "type": "country",
+                "value": "Italy"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Veneto"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Verona"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Lombardia"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Brescia"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Trentino-Alto Adige"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Trento"
+              },
+              {
+                "origin": "embeded",
+                "type": "location",
+                "value": "Northern"
+              },
+              {
+                "origin": "embeded",
+                "type": "season",
+                "value": "Summer"
+              },
+              {
+                "origin": "embeded",
+                "type": "collection",
+                "value": "SENTINEL2"
+              },
+              {
+                "origin": "embeded",
+                "type": "productType",
+                "value": "REFLECTANCE"
+              },
+              {
+                "origin": "embeded",
+                "type": "processingLevel",
+                "value": "LEVEL2A"
+              },
+              {
+                "origin": "embeded",
+                "type": "platform",
+                "value": "sentinel2b"
+              },
+              {
+                "origin": "embeded",
+                "type": "instrument",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "sensorMode",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "year",
+                "value": "2021"
+              },
+              {
+                "origin": "embeded",
+                "type": "month",
+                "value": "September"
+              },
+              {
+                "origin": "embeded",
+                "type": "day",
+                "value": "08"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Montichiari"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Verona"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Castiglione delle Stiviere"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "San Giovanni Lupatoto"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Desenzano del Garda"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Mantova"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Valdagno"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Montecchio Maggiore"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Legnago"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Villafranca di Verona"
+              }
+            ],
+            "identity": {
+              "lifecycle": {
+                "updateFrequency_en": "asNeeded",
+                "created": "2021-09-08T10:28:06.000Z",
+                "updateFrequency": "asNeeded",
+                "updated": "2022-06-18T13:06:00.000Z",
+                "updateFrequency_fr": "asNeeded"
+              },
+              "collection_fr": "SENTINEL2",
+              "identifier": "SENTINEL2B_20210908-102806-442_L2A_T32TPR_D",
+              "collection_en": "SENTINEL2",
+              "parentIdentifier": "urn:ogc:def:EOP:CNES::SENTINEL2:",
+              "collection": "SENTINEL2",
+              "source": "https://theia.cnes.fr/atdistrib/resto2/api/collections/SENTINEL2/search.json?productIdentifier=SENTINEL2B_20210908-102806-442_L2A_T32TPR_D"
+            },
+            "description": {
+              "processingLevel_fr": "NIVEAU 2A",
+              "processingLevel": "NIVEAU 2A",
+              "resourceTitle": "SENTINEL2B_20210908-102806-442_L2A_T32TPR_D",
+              "processingLevel_en": "LEVEL 2A"
+            },
+            "locations": {
+              "footprint": {
+                "coordinates": [
+                  [
+                    [
+                      10.292531967163,
+                      46.046264648438
+                    ],
+                    [
+                      11.710544586182,
+                      46.021423339844
+                    ],
+                    [
+                      11.663504600525,
+                      45.034191131592
+                    ],
+                    [
+                      10.270075798035,
+                      45.058197021484
+                    ],
+                    [
+                      10.292531967163,
+                      46.046264648438
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              }
+            },
+            "availability": {
+              "archiveid": "0",
+              "status": "ONELINE"
+            },
+            "graphics": {
+              "thumbnail": "https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102806-442_L2A_T32TPR_D_V3-0/SENTINEL2B_20210908-102806-442_L2A_T32TPR_D_V3-0_THB_ALL.png",
+              "quicklook": "https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102806-442_L2A_T32TPR_D_V3-0/SENTINEL2B_20210908-102806-442_L2A_T32TPR_D_V3-0_QKL_ALL.png"
+            },
+            "contacts": {
+              "organisationName": "THEIA"
+            }
+          },
+          "ObservationContext": {
+            "observedProperty_fr": "Reflectance",
+            "observedProperty_en": "Reflectance",
+            "phenomenonTime": {
+              "end": "2021-09-08T10:28:06Z",
+              "begin": "2021-09-08T10:28:06Z"
+            },
+            "observedProperty": "Reflectance",
+            "eo": {
+              "opt": {
+                "cloudCoverPercentage": 24,
+                "snowCoverPercentage": 0,
+                "waterCoverPercentage": 0
+              },
+              "acquisition": {
+                "relativeOrbitNumber": 65,
+                "orbitNumber": 23543
+              }
+            },
+            "processusUsed": {
+              "platform_fr": "SENTINEL 2",
+              "platform_en": "SENTINEL 2",
+              "sensor": {
+                "resolution": {
+                  "uom": "m",
+                  "value": 10
+                }
+              },
+              "platform": "SENTINEL 2"
+            }
+          },
+          "services": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/eb81e99b-b9d6-5b36-8cdf-8660edfac0b7/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102806-442_L2A_T32TPR_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            },
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/eb81e99b-b9d6-5b36-8cdf-8660edfac0b7/download"
+            }
+          ]
+        },
+        "_geometry_wkt": "POLYGON ((0.10292531967163e2 0.46046264648438e2,0.11710544586182e2 0.46021423339844e2,0.11663504600525e2 0.45034191131592e2,0.10270075798035e2 0.45058197021484e2,0.10292531967163e2 0.46046264648438e2))",
+        "_isWMTSEnabled": false,
+        "_services": {
+          "download": [
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/eb81e99b-b9d6-5b36-8cdf-8660edfac0b7/download"
+            }
+          ],
+          "WMS": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/eb81e99b-b9d6-5b36-8cdf-8660edfac0b7/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102806-442_L2A_T32TPR_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            }
+          ]
+        },
+        "_isDataOnLine": true,
+        "harvestuuid": "ca6be0cd-35e5-4ecc-8c63-f65871022a88",
+        "harvestername": "opensearch-theia.cnes.fr-sentinel2-l2a",
+        "_sensorType_fr": "OPTIQUE",
+        "_sensorType": "OPTIQUE",
+        "_isRadar": false,
+        "_attachments": [
+          {
+            "description_fr": "En savoir plus",
+            "description_en": "Learn more",
+            "description": "En savoir plus",
+            "label": "EnSavoirPlus",
+            "url": "https://www.theia-land.fr/donnees-satellitaires/reflectance-sentinelle-2/"
+          }
+        ],
+        "_centroid_wkt": "POINT(10.9841665114325 45.5414600854159)",
+        "catalogueType": "opensearch",
+        "_textLocation": "T32TPR",
+        "harvestdate": "2022-06-19T04:01:08.930Z",
+        "_isDownloadEnabled": true,
+        "_resolution": 10,
+        "_isVisuEnabled": true,
+        "_keywords": {
+          "continent": [
+            "Europe"
+          ],
+          "country": [
+            "Italy"
+          ],
+          "year": [
+            "2021"
+          ],
+          "city": [
+            "Montichiari",
+            "Verona",
+            "Castiglione delle Stiviere",
+            "San Giovanni Lupatoto",
+            "Desenzano del Garda",
+            "Mantova",
+            "Valdagno",
+            "Montecchio Maggiore",
+            "Legnago",
+            "Villafranca di Verona"
+          ],
+          "theme_en": [
+            "Reflectance"
+          ],
+          "instrument": [
+            ""
+          ],
+          "collection": [
+            "SENTINEL2"
+          ],
+          "platform": [
+            "sentinel2b"
+          ],
+          "processingLevel": [
+            "LEVEL2A"
+          ],
+          "month": [
+            "September"
+          ],
+          "season": [
+            "Summer"
+          ],
+          "theme": [
+            "Reflectance"
+          ],
+          "location": [
+            "Northern"
+          ],
+          "state": [
+            "Verona",
+            "Brescia",
+            "Trento"
+          ],
+          "theme_fr": [
+            "Reflectance"
+          ],
+          "region": [
+            "Veneto",
+            "Lombardia",
+            "Trentino-Alto Adige"
+          ],
+          "day": [
+            "08"
+          ],
+          "sensorMode": [
+            ""
+          ],
+          "productType": [
+            "REFLECTANCE"
+          ]
+        },
+        "_isOptique": true,
+        "id": "SENTINEL2B_20210908-102806-442_L2A_T32TPR_D"
+      }
+    }
+  ],
+  "nbhits": 1,
+  "totalnb": 1,
+  "links": {
+    "self": {
+      "href": "https://catalogue.theia-land.fr/arlas/explore/theia/_search?f=metadata.core.identity.identifier%3Aeq%3ASENTINEL2B_20210908-102806-442_L2A_T32TPR_D&righthand=false&pretty=false&flat=false&&&size=1&max-age-cache=120",
+      "method": "GET"
+    }
+  }
+}

@@ -69,6 +69,7 @@ export function rootReducer(state = initialState, action) {
             newState["model"]=action.model;
             newState["modelName"]=action.modelName;
             // newState["id_aux"]=action.id_aux;
+            newState["modelId"]=action.modelID;
 
             console.log(newState)
             saveState(newState)

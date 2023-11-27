@@ -35,7 +35,7 @@ function CreateMatchPage(props) {
                                                     Object.keys(props.context["models"][key]["keys"]).map(
                                                         (concept) =>
                                                         <TreeItem
-                                                            nodeId={props.context["models"][key]["name"] + "." +
+                                                            nodeId={key + "." +
                                                                 key_plat + "." + concept.toString()}
                                                             label={concept.toString()}/>
                                                     )
@@ -62,7 +62,7 @@ function CreateMatchPage(props) {
                     {props.root_reducer.model
                         .sort(function(a,b){return a.concept.localeCompare(b.concept);})
                         .map((el)=>{
-                        return <TreeItem nodeId={el.concept+"custom_model_key"} label={el.concept}/>
+                        return <TreeItem nodeId={props.root_reducer.modelId+".key." + el.concept} label={el.concept}/>
                     })}
                 </TreeItem>
             </TreeItem>
@@ -205,6 +205,9 @@ function CreateMatchPage(props) {
 
                                 const aux_A = conceptA.split(".");
                                 const aux_B = conceptB.split(".");
+                                console.log(conceptA)
+                                console.log("TA MERE")
+                                console.log(aux_B)
                                 if ((aux_A.length >= 3) & (aux_B.length>=3) & ( aux_B[1] === "keys") & ( aux_B[1] === "keys")) {
                                     setId_aux(id_aux+1)
                                     setRows(rows.concat([{
@@ -241,17 +244,17 @@ function CreateMatchPage(props) {
 
                                     }
                             >Confirm matches (all in the table)</Button>
-                            <Button variant="outlined"
-                                    onClick={ () =>{
-                                        // console.log(props.matches);
-                                        // localStorage.setItem("matches", rows);
-                                        // props.setMatches(rows)
-                                        localStorage.setItem("state",JSON.stringify({"matches":[],"id_match":0}))
-                                        // props.matches = rows;
-                                    }
+                            {/*<Button variant="outlined"*/}
+                            {/*        onClick={ () =>{*/}
+                            {/*            // console.log(props.matches);*/}
+                            {/*            // localStorage.setItem("matches", rows);*/}
+                            {/*            // props.setMatches(rows)*/}
+                            {/*            localStorage.setItem("state",JSON.stringify({"matches":[],"id_match":0}))*/}
+                            {/*            // props.matches = rows;*/}
+                            {/*        }*/}
 
-                                    }
-                            >Reset (DEV)</Button>
+                            {/*        }*/}
+                            {/*>Reset (DEV)</Button>*/}
                         </div>
                     </div>
 

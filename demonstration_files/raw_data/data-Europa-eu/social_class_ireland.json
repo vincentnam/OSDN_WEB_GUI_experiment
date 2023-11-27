@@ -1,0 +1,1000 @@
+{
+    "@graph": [
+        {
+            "@id": "http://data.europa.eu/88u/record/2927ae70-551c-4b88-aa7a-4a56bf31d486",
+            "dct:issued": {
+                "@value": "2022-03-16T20:25:47Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:transReceived": {
+                "@value": "2023-11-20T21:00:42Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "spdx:checksum": {
+                "@id": "_:b0"
+            },
+            "edp:transStatus": {
+                "@id": "edp:TransCompleted"
+            },
+            "edp:transIssued": {
+                "@value": "2023-11-20T20:25:19Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "foaf:primaryTopic": {
+                "@id": "http://data.europa.eu/88u/dataset/2927ae70-551c-4b88-aa7a-4a56bf31d486"
+            },
+            "dqv:hasQualityMetadata": {
+                "@id": "http://data.europa.eu/88u/metrics/2927ae70-551c-4b88-aa7a-4a56bf31d486"
+            },
+            "dct:modified": {
+                "@value": "2023-11-20T21:00:42Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "@type": "dcat:CatalogRecord",
+            "dct:identifier": "2927ae70-551c-4b88-aa7a-4a56bf31d486",
+            "edp:originalLanguage": "ga",
+            "dct:creator": {
+                "@id": "http://piveau.io"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "spdx:checksumValue": "b233151ca8bb26bad21f6757c897209f",
+            "@type": "spdx:Checksum",
+            "spdx:algorithm": {
+                "@id": "spdx:checksumAlgorithm_md5"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/dataset/2927ae70-551c-4b88-aa7a-4a56bf31d486",
+            "dct:description": [
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Denna fil innehåller ursprungliga variabler från tema 9 Social Class från folkräkningen 2006 &amp; 2011 och en rad ytterligare variabler producerade av AIRO sådana procentsatser, förhållanden etc. Filen innehåller uppgifter om social klass, socioekonomisk grupp av personer och personer i privata hushåll för 3406 valavdelningar i Republiken Irland."
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Tento súbor obsahuje pôvodné premenné z témy 9 Social Class from Census 2006 &amp; 2011 a sériu dodatočných premenných vytvorených AIRO ako percentuálne sadzby, pomery atď. Súbor obsahuje údaje o sociálnej triede, sociálno-ekonomickej skupine osôb a osôb v súkromných domácnostiach za 3406 volebných divízií v Írskej republike."
+                },
+                "This file contains original variables from Theme 9 Social Class from Census 2006 & 2011 and a series of additional variables produced by AIRO such as percentage rates, ratios etc. The file includes data  on Social Class, Socio-Economic Group of Persons and Persons in Private Households for the 3,406 Electoral Divisions  in the Republic of Ireland.",
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Diese Datei enthält Originalvariablen von Thema 9 Social Class aus der Volkszählung 2006 &amp; 2011 und eine Reihe zusätzlicher Variablen, die von AIRO wie Prozentsätze, Verhältnisse usw. erstellt wurden. Die Datei enthält Daten über die soziale Klasse, die sozioökonomische Gruppe von Personen und Personen in privaten Haushalten für die 3.406 Wahlabteilungen in der Republik Irland."
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Цей файл містить оригінальні змінні з теми 9 соціального класу за переписом 2006 і 2011 років і ряд додаткових змінних, вироблених АІРО такими процентними ставками, співвідношеннями і т.д."
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Dan il-fajl fih varjabbli oriġinali mit-Tema 9 Klassi Soċjali miċ-Ċensiment 2006 &amp; 2011 u serje ta’ varjabbli addizzjonali prodotti minn AIRO tali rati perċentwali, proporzjonijiet eċċ. Il-fajl jinkludi data dwar il-Klassi Soċjali, il-Grupp Soċjoekonomiku ta’ Persuni u Persuni f’unitajiet domestiċi privati għad-Diviżjoni Elettorali 3,406 fir-Repubblika tal-Irlanda."
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Ova datoteka sadrži izvorne varijable iz Teme 9 Socijalne klase iz Popisa 2006 &amp; 2011 i niz dodatnih varijabli koje je izradio AIRO kao postotak stope, omjere itd. Datoteka uključuje podatke o društvenoj klasi, društveno-gospodarskoj skupini osoba i osoba u privatnim kućanstvima za 3.406 izbornih odjela u Republici Irskoj."
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Ta datoteka vsebuje izvirne spremenljivke iz teme 9 Socialni razred iz popisa 2006 in 2011 ter vrsto dodatnih spremenljivk, ki jih je ustvaril AIRO, takšne odstotne stopnje, razmerja itd."
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Questo file contiene variabili originali del Tema 9 classe sociale del censimento 2006 &amp; 2011 e una serie di variabili aggiuntive prodotte da AIRO tali percentuali, rapporti, ecc."
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Dit bestand bevat originele variabelen uit Thema 9 Social Class uit Census 2006 &amp; 2011 en een reeks aanvullende variabelen geproduceerd door AIRO dergelijke percentages, ratio’s enz. Het bestand bevat gegevens over sociale klasse, sociaal-economische groep van personen en personen in particuliere huishoudens voor de 3.406 kiesafdelingen in de Republiek Ierland."
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Този файл съдържа оригинални променливи от Тема 9 Социален клас от преброяване 2006 &amp; 2011 и серия от допълнителни променливи, произведени от AIRO такива проценти, съотношения и т.н. Файлът включва данни за социална класа, социално-икономическа група на лицата и лицата в частни домакинства за 3406 избирателни отдели в Република Ирландия."
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Tämä tiedosto sisältää alkuperäisiä muuttujia teemalta 9 Social Class from Census 2006 &amp; 2011 sekä useita AIRO:n tuottamia lisämuuttujia, kuten prosenttiosuuksia, suhdelukuja jne."
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Ten plik zawiera oryginalne zmienne z Theme 9 Social Class from Census 2006 &amp; 2011 oraz szereg dodatkowych zmiennych wytwarzanych przez AIRO takich stóp procentowych, współczynników itp."
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Ce fichier contient des variables originales du thème 9 de la classe sociale du recensement de 2006 et 2011 ainsi qu’une série de variables supplémentaires produites par l’AIRO telles que les taux de pourcentage, les ratios, etc. Le fichier contient des données sur la classe sociale, le groupe socio-économique de personnes et de personnes dans les ménages privés pour les 3406 divisions électorales de la République d’Irlande."
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "This file contains original variables from Theme 9 Social Class from Census 2006 &amp; 2011 and a series of additional variables produced by AIRO such percentage rates, ratios etc. The file includes data on Social Class, Socio-Economic Group of Persons and Persons in Private households for the 3,406 Electoral Divisions in the Republic of Ireland."
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Ez a fájl tartalmazza az eredeti változókat a Theme 9 Social Class from Census 2006 &amp; 2011 és egy sor további változók által készített AIRO, mint a százalékos arányok, arányok stb. A fájl tartalmazza az adatokat társadalmi osztály, társadalmi-gazdasági csoport személyek és személyek magánháztartások a 3406 választási osztályok az Ír Köztársaságban."
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Šajā datnē ir oriģināli mainīgie lielumi no 9. tēmas Sociālās klases no tautas skaitīšanas 2006 &amp; 2011 un virkne papildu mainīgo, ko ražo AIRO šādas procentuālās likmes, attiecības utt. Datnē ir iekļauti dati par sociālo klasi, personu un personu sociāli ekonomisko grupu privātajās mājsaimniecībās attiecībā uz 3406 vēlēšanu nodaļām Īrijas Republikā."
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Tento soubor obsahuje původní proměnné z tématu 9 Social Class from Census 2006 &amp; 2011 a řadu dalších proměnných vytvořených AIRO tyto procentní sazby, poměry atd. Soubor obsahuje údaje o sociální třídě, sociálně-ekonomické skupině osob a osob v soukromých domácnostech pro 3406 volebních oddělení v Irské republice."
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Το αρχείο αυτό περιέχει πρωτότυπες μεταβλητές από το Theme 9 Social Class from Census 2006 &amp; 2011 και μια σειρά πρόσθετων μεταβλητών που παρήχθησαν από την AIRO τέτοια ποσοστά, αναλογίες κ.λπ. Το αρχείο περιλαμβάνει στοιχεία για την Κοινωνική Τάξη, την Κοινωνικοοικονομική Ομάδα Προσώπων και Προσώπων σε Ιδιωτικά νοικοκυριά για τα 3.406 εκλογικά τμήματα της Δημοκρατίας της Ιρλανδίας."
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Este archivo contiene variables originales de Theme 9 Social Class del Censo 2006 y 2011 y una serie de variables adicionales producidas por AIRO tales tasas porcentuales, ratios, etc. El archivo incluye datos sobre Clase Social, Grupo Socioeconómico de Personas y Personas en Hogares Privados para las 3.406 Divisiones Electorales de la República de Irlanda."
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Este ficheiro contém variáveis originais do Tema 9 Classe Social do Censo 2006 &amp; 2011 e uma série de variáveis adicionais produzidas pela AIRO tais taxas percentuais, rácios, etc. O ficheiro inclui dados sobre Classe Social, Grupo Socioeconómico de Pessoas e Pessoas em Famílias Particulares para as 3.406 Divisões Eleitorais da República da Irlanda."
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "See fail sisaldab algseid muutujaid teemast „Sotsiaalne klass alates rahvaloendusest 2006 ja 2011“ ning AIRO koostatud täiendavaid muutujaid, nagu protsendimäärad, suhtarvud jne. Dokument sisaldab andmeid sotsiaalklassi, sotsiaalmajandusliku isikute ja isikute rühma kohta eramajapidamistes 3406 Iirimaa Vabariigi valimisosakonna kohta."
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Šioje rinkmenoje yra originalūs kintamieji pagal 9 temą „Social Class from Census 2006 &amp; 2011“ ir papildomų kintamųjų, kuriuos parengė AIRO, pvz., procentinės normos, santykiai ir t. t., rinkmenoje pateikiami duomenys apie socialinę klasę, socialinę ir ekonominę asmenų ir asmenų privačiuose namų ūkiuose grupę, skirtą 3406 Airijos Respublikos rinkimų skyriams."
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Acest fișier conține variabile originale din Tema 9 Clasa socială din recensământul 2006 &amp; 2011 și o serie de variabile suplimentare produse de AIRO, astfel de rate procentuale, rapoarte etc. Fișierul include date privind clasa socială, grupul socio-economic de persoane și persoane în gospodării private pentru cele 3.406 secții electorale din Republica Irlanda."
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Denne fil indeholder originale variabler fra Theme 9 Social Class from Census 2006 &amp; 2011 og en række yderligere variabler produceret af AIRO sådanne procentdele, forhold osv. Filen indeholder data om social klasse, socioøkonomisk gruppe af personer og personer i private husstande for 3.406 valgdivisioner i Republikken Irland."
+                }
+            ],
+            "dct:title": [
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Clasa socială (T9) ED"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Soziale Klasse (T9) ED"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Соціальний клас (T9) ED"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Klasa społeczna (T9) ED"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Κοινωνική τάξη (T9) ED"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Clase social (T9) ED"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Classe sociale (T9) ED"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Classe sociale (T9) ED"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Socijalna klasa (T9) ED"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Družbeni razred (T9) ED"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Társadalmi osztály (T9) ED"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Social Class (T9) ED"
+                },
+                "Social Class (T9) ED",
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Klassi Soċjali (T9) ED"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Social klass (T9) ED"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Социална класа (T9) ED"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "Sotsiaalne klass (T9) ED"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Sociální třída (T9) ED"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Sociālā klase (T9) ED"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Classe Social (T9) ED"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Sociálna trieda (T9) ED"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Sosiaaliluokka (T9) ED"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Socialinė klasė (T9) ED"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Social klasse (T9)"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Sociale klasse (T9) ED"
+                }
+            ],
+            "dct:issued": {
+                "@value": "2012-04-01T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dcat:keyword": [
+                "ireland",
+                "planningcadastre",
+                "society",
+                "economy",
+                "population density",
+                "population growth",
+                "population trend",
+                "population distribution - demography",
+                "human population",
+                "population structure",
+                "population distribution"
+            ],
+            "dcat:landingPage": {
+                "@id": "http://airomaps.nuim.ie/publicarcgis/rest/services/Census2011_SAPS/SocialClass/MapServer"
+            },
+            "dct:provenance": "Statement on how the data visualisation was created.",
+            "dcat:contactPoint": {
+                "@id": "_:b1"
+            },
+            "dct:rights": {
+                "@id": "_:b3"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/185c2bff-2328-4866-abdd-bf0cf4dcf7bc"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/8d820db5-24a7-4d76-93ff-454de87c9237"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/b9c9fa19-2dc4-4253-905b-0b27e73047c0"
+                }
+            ],
+            "dct:spatial": {
+                "@id": "_:b4"
+            },
+            "@type": "dcat:Dataset",
+            "dct:publisher": {
+                "@id": "https://data.gov.ie/organization/all-island-research-observatory"
+            },
+            "dcat:theme": [
+                {
+                    "@id": "http://publications.europa.eu/resource/authority/data-theme/SOCI"
+                },
+                {
+                    "@id": "https://data.gov.ie/Society"
+                }
+            ],
+            "dct:temporal": {
+                "@id": "_:b2"
+            },
+            "dct:identifier": "2927ae70-551c-4b88-aa7a-4a56bf31d486",
+            "dct:conformsTo": "The INSPIRE Directive or INSPIRE lays down a general framework for a Spatial Data Infrastructure (SDI) for the purposes of European Community environmental policies and policies or activities which may have an impact on the environment.",
+            "dct:modified": {
+                "@value": "2023-11-20T14:22:56",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:accrualPeriodicity": "Irregular",
+            "dct:language": "en"
+        },
+        {
+            "@id": "_:b1",
+            "vcard:hasEmail": {
+                "@id": "mailto:airo@nuim.ie"
+            },
+            "@type": "vcard:Organization",
+            "vcard:fn": "All-Island Research Observatory"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/b9c9fa19-2dc4-4253-905b-0b27e73047c0",
+            "dct:title": [
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Baixar CSV"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Parsisiųsti CSV"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                "Download CSV",
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Download CSV"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Stiahnuť CSV"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Preuzmite CSV"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Ladda ner CSV"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Niżżel is-CSV"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Lejupielādēt CSV"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Descargar CSV"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Descărcați CSV"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Scarica CSV"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Pobierz CSV"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Завантажити CSV"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Lataa CSV"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "CSV herunterladen"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Stáhnout CSV"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "CSV allalaadimine"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Изтегляне на CSV"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "CSV letöltése"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Prenesite CSV"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Télécharger CSV"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Κατεβάστε το CSV"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "na voljo kot CSV"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "pieejams kā CSV"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "k dispozícii ako CSV"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "disponibile come CSV"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "διαθέσιμο ως CSV"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "galima įsigyti kaip CSV"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "disponibbli bħala CSV"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "disponibil sub formă de CSV"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "k dispozici jako CSV"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "tillgänglig som CSV"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "erhältlich als CSV"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "disponível como CSV"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "disponible como CSV"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "beschikbaar als CSV"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "dostępne jako CSV"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "elérhető CSV-ként"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "saadaval CSV-na"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "dostupno kao CSV"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "tilgængelig som CSV"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "доступний як CSV"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "disponible en CSV"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "saatavana CSV:nä"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "предлага се като CSV"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "available as CSV"
+                },
+                "available as CSV"
+            ],
+            "@type": "dcat:Distribution",
+            "dct:format": "CSV",
+            "dcat:accessURL": {
+                "@id": "http://airo.maynoothuniversity.ie/datastore/social-class-t9-ed"
+            },
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "dct:identifier": "https://data.gov.ie/dataset/2927ae70-551c-4b88-aa7a-4a56bf31d486/resource/0e2ca59a-55f3-4a2a-8337-fd74a3adde44"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/185c2bff-2328-4866-abdd-bf0cf4dcf7bc",
+            "dct:title": [
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Servicio de descanso"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Servizz ta’ mistrieħ"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "Puhketeenused"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Служба за почивка"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Pihenőszolgálat"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Storitev počitka"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Serviciul de odihnă"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Servizio di riposo"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Service de repos"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Služba za odmor"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Służba odpoczynku"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Hviletjeneste"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Rustdienst"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Restservice"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Υπηρεσία ανάπαυσης"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Služba odpočinku"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Služba odpočinku"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Служба відпочинку"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Poilsio paslauga"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Atpūtas pakalpojums"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Vilotjänst"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Serviço de descanso"
+                },
+                "REST Service",
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "REST Service"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Lepopalvelu"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "доступний як html"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "na voljo kot html"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "dostępne jako html"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "dostupné ve formátu html"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "saadaval kui html"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "saatavana html:nä"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "finns som html"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "disponível em html"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "disponibil sub formă de html"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "k dispozícii ako html"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "pieejams kā html"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "διαθέσιμο ως html"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "tilgængelig som html"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "disponibbli bħala html"
+                },
+                "available as html",
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "available as html"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "elérhető html formátumban"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "предлага се като html"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "dostupno kao html"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "disponibile come html"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "disponible en html"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "galima įsigyti kaip html"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "disponible en html"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "verkrijgbaar als html"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "erhältlich als html"
+                }
+            ],
+            "@type": "dcat:Distribution",
+            "dct:format": "HTML",
+            "dct:identifier": "https://data.gov.ie/dataset/2927ae70-551c-4b88-aa7a-4a56bf31d486/resource/7b72d80f-2d4c-4db1-8d67-86e94e15c6e1",
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            "dcat:accessURL": {
+                "@id": "http://airomaps.nuim.ie/publicarcgis/rest/services/Census2011_SAPS/SocialClass/MapServer"
+            }
+        },
+        {
+            "@id": "_:b2",
+            "schema:endDate": {
+                "@value": "2011-04-30T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "@type": "dct:PeriodOfTime",
+            "schema:startDate": {
+                "@value": "2011-04-01T00:00:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        },
+        {
+            "@id": "_:b3",
+            "@type": "dct:RightsStatement",
+            "skos:prefLabel": "['Creative Commons licence conditions apply', 'http://creativecommons.org/licenses/by/4.0/', 'license']"
+        },
+        {
+            "@id": "_:b4",
+            "locn:geometry": [
+                {
+                    "@value": "{\"type\":\"Polygon\",\"coordinates\":[[[-10.5, 51.5],[-10.5, 55.5], [-5.5, 55.5], [-5.5, 51.5], [-10.5, 51.5]]]}",
+                    "@type": "https://replacement.io/assignments/media-types/application/vnd.geo+json"
+                },
+                {
+                    "@value": "POLYGON ((-10.5000 51.5000, -10.5000 55.5000, -5.5000 55.5000, -5.5000 51.5000, -10.5000 51.5000))",
+                    "@type": "http://replacement.io/ont/geosparql#wktLiteral"
+                }
+            ],
+            "@type": "dct:Location"
+        },
+        {
+            "@id": "https://data.gov.ie/organization/all-island-research-observatory",
+            "@type": "foaf:Organization",
+            "foaf:name": "All-Island Research Observatory"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/8d820db5-24a7-4d76-93ff-454de87c9237",
+            "@type": "dcat:Distribution",
+            "dct:title": [
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "Hankige JSON"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "Pobierz JSON"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "Holen Sie sich JSON"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "Obtenez JSON"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "Získat JSON"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "Iegūt JSON"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "Poišči JSON"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "Gauk JSON"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "Obter JSON"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "Szerezd meg JSON-t"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "Skaffa JSON"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "Πάρτε JSON"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "Obtener JSON"
+                },
+                "Get JSON",
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "Get JSON"
+                },
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "Get JSON"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "Obțineți JSON"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "Dobiti JSON"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "Hanki JSON"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "Få JSON"
+                },
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "Haal JSON"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "Získať JSON"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "Ottieni JSON"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "Вземи JSON"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "Отримати JSON"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "nl-t-ga-t0-mtec",
+                    "@value": "beschikbaar als json"
+                },
+                {
+                    "@language": "fr-t-ga-t0-mtec",
+                    "@value": "disponible en json"
+                },
+                {
+                    "@language": "lt-t-ga-t0-mtec",
+                    "@value": "galima įsigyti kaip json"
+                },
+                {
+                    "@language": "bg-t-ga-t0-mtec",
+                    "@value": "предлага се като json"
+                },
+                {
+                    "@language": "lv-t-ga-t0-mtec",
+                    "@value": "pieejams kā json"
+                },
+                {
+                    "@language": "mt-t-ga-t0-mtec",
+                    "@value": "disponibbli bħala json"
+                },
+                {
+                    "@language": "pt-t-ga-t0-mtec",
+                    "@value": "disponível como json"
+                },
+                {
+                    "@language": "sl-t-ga-t0-mtec",
+                    "@value": "na voljo kot json"
+                },
+                {
+                    "@language": "hu-t-ga-t0-mtec",
+                    "@value": "elérhető mint json"
+                },
+                {
+                    "@language": "hr-t-ga-t0-mtec",
+                    "@value": "dostupno kao json"
+                },
+                {
+                    "@language": "cs-t-ga-t0-mtec",
+                    "@value": "dostupné jako json"
+                },
+                {
+                    "@language": "el-t-ga-t0-mtec",
+                    "@value": "διαθέσιμο ως json"
+                },
+                {
+                    "@language": "et-t-ga-t0-mtec",
+                    "@value": "saadaval kui json"
+                },
+                {
+                    "@language": "sk-t-ga-t0-mtec",
+                    "@value": "k dispozícii ako json"
+                },
+                {
+                    "@language": "fi-t-ga-t0-mtec",
+                    "@value": "saatavana jsonina"
+                },
+                {
+                    "@language": "it-t-ga-t0-mtec",
+                    "@value": "disponibile come json"
+                },
+                {
+                    "@language": "uk-t-ga-t0-mtec",
+                    "@value": "доступний як json"
+                },
+                {
+                    "@language": "es-t-ga-t0-mtec",
+                    "@value": "disponible como json"
+                },
+                {
+                    "@language": "da-t-ga-t0-mtec",
+                    "@value": "tilgængelig som json"
+                },
+                "available as json",
+                {
+                    "@language": "en-t-ga-t0-mtec",
+                    "@value": "available as json"
+                },
+                {
+                    "@language": "pl-t-ga-t0-mtec",
+                    "@value": "dostępne jako json"
+                },
+                {
+                    "@language": "de-t-ga-t0-mtec",
+                    "@value": "erhältlich als json"
+                },
+                {
+                    "@language": "ro-t-ga-t0-mtec",
+                    "@value": "disponibil ca json"
+                },
+                {
+                    "@language": "sv-t-ga-t0-mtec",
+                    "@value": "tillgänglig som json"
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "http://airomaps.nuim.ie/publicarcgis/rest/services/Census2011_SAPS/SocialClass/MapServer?f=pjson"
+            },
+            "dct:format": "JSON",
+            "dct:identifier": "https://data.gov.ie/dataset/2927ae70-551c-4b88-aa7a-4a56bf31d486/resource/bd3d00ca-1d21-41f4-9f79-804595b924b7",
+            "dct:license": {
+                "@id": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        }
+    ],
+    "@context": {
+        "edp": "https://europeandataportal.eu/voc#",
+        "schema": "http://schema.org/",
+        "dct": "http://purl.org/dc/terms/",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "dqv": "http://www.w3.org/ns/dqv#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "locn": "http://www.w3.org/ns/locn#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+}

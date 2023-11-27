@@ -15,6 +15,11 @@ PROBLEME :
 
 
 
+Scenario :
+
+Ajout de figshare
+Match title () / date (dcat.created) / subject (default.keyword) -> opendatasoft 
+
 
 
 

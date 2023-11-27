@@ -3,16 +3,12 @@ import {connect} from "react-redux";
 import {Autocomplete,TextField, Button} from "@mui/material";
 import {React, useEffect, useState} from "react";
 import {DataTable} from "mantine-datatable";
-import register_platform from "../tools/register_platform_request";
+
 import get_data from "../tools/get_data";
 import sortBy from "lodash/sortBy";
 
 function ResearchDataPage(props) {
-    // const selectedValues = React.useMemo(
-    //     () => allValues.filter((v) => v.selected),
-    //     [allValues],
-    // );
-    // console.log(props)
+
     const [selectedModelId, setSelectedModelId]= useState();
     const [concept, setConcept]= useState("");
     const [operator, setOperator] = useState("");
@@ -24,7 +20,6 @@ function ResearchDataPage(props) {
     const [newOperand, setNewOperand] = useState({});
     const [logicalOperator, setLogicalOperator] = useState({});
 
-    // const [newConcept, setNewConcept]=useState({});
 
     const [modelConcepts, setModelConcepts] = useState([]);
     const [localResearch, setLocalResearch] = useState([]);
@@ -44,24 +39,11 @@ function ResearchDataPage(props) {
     // }, [sortStatus]);
 
 
-    useEffect((test) => {
-        // console.log(test)
-        // console.log("COUCOU")
-        // console.log(sortExternalStatus)
-        // const data = sortBy(dataFile, sortLocalStatus.columnAccessor);
-        //
-        // setDataFile(sortStatus.direction === 'desc' ? data.reverse() : data);
-    }, [sortExternalStatus]);
-    const [update, setUpdate]=useState(false);
-
 
 
     const [modelsList,setModelsList]=useState([]);
     const [data, setData]= useState({});
-    // console.log("DATA hors bouton")
-    // console.log(data)
-    // console.log(props.config.ID_PLATFORM)
-    // console.log(data[props.config.ID_PLATFORM])
+
     var flatten = function(dict){
         var aux_dict = {}
         function recurse(dict,aux_dict, aux_key){
@@ -114,7 +96,7 @@ function ResearchDataPage(props) {
             }
         }
         recurse(dict,aux_dict,"")
-        // console.log(aux_dict)
+
         return aux_dict
     }
 
@@ -168,6 +150,7 @@ function ResearchDataPage(props) {
                     sortStatus={sortExternalStatus}
                     onSortStatusChange={setSortExternalStatus}
 
+
                 />
             }
         }
@@ -177,13 +160,11 @@ function ResearchDataPage(props) {
 
     }).filter((el)=>el)
     const [newQueryFields, setNewQueryFields] = useState([]);
-    console.log(newQueryFields.length)
     const external_research_table = Object.keys(data).map((el, index)=>{
         if (el !== props.config.ID_PLATFORM){
 
-
             if (Object.keys( data[el]).length){
-                const aux_data = data[el].map((el)=>{return flatten(el)})
+                const aux_data = data[el].map((doc)=>{return flatten(doc)})
                 const columns = Object.keys(aux_data[0]).map((key)=>{return {
                     // Change because of automatic drill of Mantine Datatable ; with point-separated accessor, the
                     // library tries to drill in a flat json while it just have to get the label
@@ -206,7 +187,7 @@ function ResearchDataPage(props) {
                     }
                 );
 
-                return <DataTable
+                return  <DataTable
                     id={el+"/data_table"}
                     className="external_research_table"
                     withBorder
@@ -226,11 +207,6 @@ function ResearchDataPage(props) {
         }
 
         }).filter((el)=>el)
-    // console.log(external_research_table)
-    console.log(logicalOperator)
-    console.log(newOperand)
-    console.log(newOperator)
-    console.log(newConcept)
     return (
         <div className="research_data">
             <div  className="query_div">
@@ -252,7 +228,7 @@ function ResearchDataPage(props) {
                     <Autocomplete
                         disablePortal
                         onChange={(event, value) => {
-                            console.log(value)
+
                             setConcept(value?.label)
                         }
 
@@ -297,7 +273,6 @@ function ResearchDataPage(props) {
                                 <Autocomplete
                                     disablePortal
                                     onChange={(event, value) => {
-                                        // console.log(event.target.id)
                                         const id = event.target.id.split("/")[0];
                                         const ret = {}
                                         ret[event.target.id.split("/")[0]]=value
@@ -341,8 +316,6 @@ function ResearchDataPage(props) {
                                 id={newQueryFields.length+"/combo-box-operator"}
                                 onChange={(event, value) => {
 
-
-                                    // console.log(event.target.id)
                                     const id = event.target.id.split("/")[0];
                                     const ret = {}
 
@@ -367,8 +340,6 @@ function ResearchDataPage(props) {
                             <TextField id={newQueryFields.length+"/outlined-basic"} label="Operand" variant="outlined"
                                        onChange={(event, value) => {
 
-
-                                           // console.log(event.target.id)
                                            const id = event.target.id.split("/")[0];
                                            const ret = {}
                                            ret[event.target.id.split("/")[0]]=event.target.value
@@ -376,36 +347,20 @@ function ResearchDataPage(props) {
                                        }}
                             />
                         </div>]))
-                        setUpdate(!update);
+
                     }}>
                         Add
                     </Button>
                     <Button variant="outlined" onClick={(event) => {
-                        console.log("COUCOU")
-                        console.log(concept)
-                        console.log(operator)
-                        console.log(operand)
-
-
-
-                        console.log(newConcept)
-                        console.log(newOperand)
-                        console.log(newOperator)
-                        console.log(logicalOperator)
-
                         var request_string = concept.toString() + "#_#SEPARATOR#_#" + operator + "#_#SEPARATOR#_#" + operand ;
-                        console.log(request_string)
+
                         for (var i = 0;  i<newQueryFields.length; i++) {
-                            console.log(((newConcept[i]), (newOperand[i]) , (newOperator[i]) , (logicalOperator[i])))
-                            console.log(((newConcept[i]) && (newOperand[i]) && (newOperator[i]) && (logicalOperator[i])))
                             if ((newConcept[i]) && (newOperand[i]) && (newOperator[i]) && (logicalOperator[i])){
-                                console.log("coucou")
                                 request_string += "#_#SEPARATOR#_#" + logicalOperator[i] + "#_#SEPARATOR#_#" + newConcept[i] +"#_#SEPARATOR#_#" + newOperator[i]+ "#_#SEPARATOR#_#"+ newOperand[i]
                             }
 
                         }
-                        console.log(request_string)
-
+                        setData([])
                         get_data(props.config.URL, props.config.ID_PLATFORM, selectedModelId, concept, operator, operand, request_string).then(data => setData(data))
                     }}>
                         Request
@@ -424,7 +379,10 @@ function ResearchDataPage(props) {
                         </div>
                             {local_research_table[0]}
                     </div>
-                        :<p style={{textAlign:"Center"}}>No data from local platform</p>}
+                        :
+                        <div id={"local_reseach"} className="local_research"><div id={"local_reseach_header"} className="local_research_header">
+
+                            <p style={{textAlign:"Center"}}>No data from local platform</p> </div></div>}
                 {/*</div>*/}
                 {external_research_table.map((table,index)=> {
                         return (<div id={index+"_external_research"} className="external_research">

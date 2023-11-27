@@ -1,0 +1,28 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21943/auas.12897083.v1</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">A.M. Kanis</creatorName>
+    <givenName>A.M.</givenName>
+    <familyName>Kanis</familyName>
+  </creator>
+</creators>
+<titles><title>What can we learn from corona times? Fragments from the Internet</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2021</publicationYear>
+<subjects>
+  <subject>Covid</subject>
+  <subject>online communities</subject>
+  <subject>co-well</subject>
+  <subject>mental health</subject>
+  <subject>health</subject>
+  <subject>design</subject>
+  <subject>creativity research</subject>
+  <subject>Social Media Online</subject>
+  <subject>Creative Reasoning</subject>
+</subjects>
+<dates><date dateType="Issued">2021-09-13 12:32:14</date></dates>
+<resourceType resourceTypeGeneral="Other">Online resource</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/online_resource/What_can_we_learn_from_corona_times_Fragments_from_the_Internet/12897083</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">What can we learn from corona times? is a collection of on-line fragments and illustrations from the Internet. It covers a wide range of themes in relation to the period of Covid-19, such as tools for online creativity and remote collaboration, digital suggestions for exercise and social distancing by design.</description></descriptions>
+</resource>

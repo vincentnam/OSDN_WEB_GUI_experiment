@@ -1,0 +1,1 @@
+Preprocess for insertion in distributed registry manually done (i.e. adding type for each key)

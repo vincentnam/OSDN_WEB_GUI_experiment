@@ -1,0 +1,341 @@
+{
+  "id": 4186209,
+  "identifier": "DVN/OMJWNB",
+  "persistentUrl": "https://doi.org/10.7910/DVN/OMJWNB",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2020-11-22",
+  "storageIdentifier": "s3://10.7910/DVN/OMJWNB",
+  "datasetVersion": {
+    "id": 217098,
+    "datasetId": 4186209,
+    "datasetPersistentId": "doi:10.7910/DVN/OMJWNB",
+    "storageIdentifier": "s3://10.7910/DVN/OMJWNB",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "UNF": "UNF:6:FCTI7sdAqjdXpYwDGaBdvQ==",
+    "lastUpdateTime": "2020-11-22T16:59:39Z",
+    "releaseTime": "2020-11-22T16:59:39Z",
+    "createTime": "2020-11-22T16:40:22Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Sociodemographic disparities in energy insecurity among low-income households before and during the COVID-19 pandemic"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Memmott, Trevor"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indiana University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Konisky, David"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indiana University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Carley, Sanya"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indiana University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Graff, Michelle"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indiana University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Memmott, Trevor"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Indiana University"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "tmemmott@iu.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Replication data for loading data, cleaning data, and running regression analysis for \"Sociodemographic disparities in energy insecurity among low-income households before and during the COVID-19 pandemic\""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Memmott, Trevor"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-11-22"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Cleaning_Replication.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186212,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Cleaning_Replication.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 11366,
+          "storageIdentifier": "s3://dvn-cloud:175f0d38ecf-78fbf6a995b9",
+          "rootDataFileId": -1,
+          "md5": "29ed7e7395fa90bd6bdec5a70f46fbf5",
+          "checksum": {
+            "type": "MD5",
+            "value": "29ed7e7395fa90bd6bdec5a70f46fbf5"
+          },
+          "creationDate": "2020-11-22"
+        }
+      },
+      {
+        "label": "INDU0005_OUTPUT_national.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186210,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "INDU0005_OUTPUT_national.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1399191,
+          "storageIdentifier": "s3://dvn-cloud:175f0d3a089-a58aa85067c4",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2571604,
+          "originalFileName": "INDU0005_OUTPUT_national.sav",
+          "UNF": "UNF:6:cJ6K0M3YZoy+ZjoZdAl/3A==",
+          "rootDataFileId": -1,
+          "md5": "55ca18826d5afcbe0abe1ba00e475b59",
+          "checksum": {
+            "type": "MD5",
+            "value": "55ca18826d5afcbe0abe1ba00e475b59"
+          },
+          "creationDate": "2020-11-22"
+        }
+      },
+      {
+        "label": "Nature Energy Read Me.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186213,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Nature Energy Read Me.txt",
+          "contentType": "text/plain",
+          "filesize": 1122,
+          "storageIdentifier": "s3://dvn-cloud:175f0d3a30a-50cc4ea3344f",
+          "rootDataFileId": -1,
+          "md5": "324e78aa09ff8b2178f86f1fd06950fe",
+          "checksum": {
+            "type": "MD5",
+            "value": "324e78aa09ff8b2178f86f1fd06950fe"
+          },
+          "creationDate": "2020-11-22"
+        }
+      },
+      {
+        "label": "Regression_Replication.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186215,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Regression_Replication.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 8814,
+          "storageIdentifier": "s3://dvn-cloud:175f0d3a598-d74e7e774697",
+          "rootDataFileId": -1,
+          "md5": "447d591f75e7a445d15eaa62f07214fb",
+          "checksum": {
+            "type": "MD5",
+            "value": "447d591f75e7a445d15eaa62f07214fb"
+          },
+          "creationDate": "2020-11-22"
+        }
+      },
+      {
+        "label": "Replication_Survey.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186214,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Replication_Survey.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 405045,
+          "storageIdentifier": "s3://dvn-cloud:175f0d3a9dc-e5af23193b19",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 384102,
+          "originalFileName": "Replication_Survey.dta",
+          "UNF": "UNF:6:qxWELUYjvIcpFrdSXplhyA==",
+          "rootDataFileId": -1,
+          "md5": "a01993075b0207fef141c66643898096",
+          "checksum": {
+            "type": "MD5",
+            "value": "a01993075b0207fef141c66643898096"
+          },
+          "creationDate": "2020-11-22"
+        }
+      },
+      {
+        "label": "zcta_urban.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 217098,
+        "dataFile": {
+          "id": 4186211,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "zcta_urban.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 662539,
+          "storageIdentifier": "s3://dvn-cloud:175f0d3ae5a-3fbc0addbcbc",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 433956,
+          "originalFileName": "zcta_urban.dta",
+          "UNF": "UNF:6:+8ffo9Y4g+u4jjrNXohcTw==",
+          "rootDataFileId": -1,
+          "md5": "519c16543bbb70120aa1fd04061710e1",
+          "checksum": {
+            "type": "MD5",
+            "value": "519c16543bbb70120aa1fd04061710e1"
+          },
+          "creationDate": "2020-11-22"
+        }
+      }
+    ],
+    "citation": "Memmott, Trevor; Konisky, David; Carley, Sanya; Graff, Michelle, 2020, \"Replication Data for: Sociodemographic disparities in energy insecurity among low-income households before and during the COVID-19 pandemic\", https://doi.org/10.7910/DVN/OMJWNB, Harvard Dataverse, V1, UNF:6:FCTI7sdAqjdXpYwDGaBdvQ== [fileUNF]"
+  }
+}

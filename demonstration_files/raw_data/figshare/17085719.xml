@@ -1,0 +1,61 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.17085719.v1</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">David Abadi</creatorName>
+    <givenName>David</givenName>
+    <familyName>Abadi</familyName>
+  </creator>
+</creators>
+<titles><title>A Dataset of Social-Psychological and Emotional Reactions during the COVID-19 Pandemic across Four European Countries</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2023</publicationYear>
+<subjects>
+  <subject>Anger</subject>
+  <subject>Anxiety</subject>
+  <subject>emotions in politics</subject>
+  <subject>social identity</subject>
+  <subject>threat cues Fear</subject>
+  <subject>contempt</subject>
+  <subject>populist attitudes</subject>
+  <subject>populism</subject>
+  <subject>need for closure</subject>
+  <subject>political psychology</subject>
+  <subject>Conspiracy Mentality Questionnaire</subject>
+  <subject>conspiracy beliefs</subject>
+  <subject>Subjective Social Status</subject>
+  <subject>Inequality index</subject>
+  <subject>COVID-19 pandemic response</subject>
+  <subject>COVID-19 measures</subject>
+  <subject>COVID-19 anxiety</subject>
+  <subject>Covid-19 fear</subject>
+  <subject>hygiene measures</subject>
+  <subject>coronavirus</subject>
+  <subject>Moral Reasoning</subject>
+  <subject>prosocial behavior</subject>
+  <subject>appraisal theory</subject>
+  <subject>conspiracy mentality</subject>
+  <subject>Threat estimation</subject>
+  <subject>news headlines</subject>
+  <subject>realistic threat</subject>
+  <subject>symbolic threat</subject>
+  <subject>Coronavirus infection</subject>
+</subjects>
+<dates><date dateType="Issued">2023-07-05 08:56:29</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/dataset/A_Dataset_of_Social-Psychological_and_Emotional_Reactions_during_the_COVID-19_Pandemic_across_Four_European_Countries/17085719</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In April 2020, only a few weeks after the COVID-19 pandemic had erupted, we conducted an online survey and collected data from 2031 individuals in four European countries (Germany, the Netherlands, Spain and the United Kingdom) using a cross-sectional design. Participants recruited on &lt;em&gt;Cint&lt;/em&gt; completed new and pre-existing measures of socio-political attitudes, perceived threats, appraisals (anger at the government, anger at transgressors of hygiene measures, anxiety about coronavirus via the appraisals of health-related threats), conspiracy mentality, moral reasoning, threat estimation (coronavirus, climate, symbolic material/safety), news consumption, support for and compliance with governmental hygiene measures, subjective social status and demographics. The dataset is stored on figshare repository. It can be used to study social-psychological, emotional, socio-political and socio-economic factors of the COVID-19 pandemic.&lt;/p&gt;
+&lt;p&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;anger, anxiety, appraisal theory, conspiracy mentality, COVID-19 pandemic, populism, threat&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Citation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Abadi, D., Arnaldo, I., &amp; Fischer, A. (2023). A Dataset of Social Psychological and Emotional Reactions During the COVID-19 Pandemic Across Four European Countries. &lt;em&gt;Journal of Open Psychology Data, &lt;/em&gt;X: X, pp. 1–11. DOI: &lt;a href=&quot;https://doi.org/10.5334/jopd.86&quot; target=&quot;_blank&quot;&gt;https://doi.org/10.5334/jopd.86&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;License &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Our dataset is published under the &lt;strong&gt;CC BY-SA&lt;/strong&gt; license, which allows re-users to distribute, remix, adapt, and build upon the material in any medium or format, as long the creator is credited. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funding statement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This research was funded by the European Union’s H2020 project &lt;em&gt;Democratic Efficacy and the Varieties of Populism in Europe&lt;/em&gt; (DEMOS) under H2020-EU.3.6.1.1. and H2020-EU.3.6.1.2. (grant agreement ID: 822590).&lt;/p&gt;</description></descriptions>
+</resource>

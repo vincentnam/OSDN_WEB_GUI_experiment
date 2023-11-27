@@ -1,0 +1,209 @@
+{
+  "id": 4862481,
+  "identifier": "DVN/XPT7L0",
+  "persistentUrl": "https://doi.org/10.7910/DVN/XPT7L0",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2022-02-14",
+  "storageIdentifier": "s3://10.7910/DVN/XPT7L0",
+  "datasetVersion": {
+    "id": 251284,
+    "datasetId": 4862481,
+    "datasetPersistentId": "doi:10.7910/DVN/XPT7L0",
+    "storageIdentifier": "s3://10.7910/DVN/XPT7L0",
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "UNF": "UNF:6:Btd7exaEgPzei7Qy06SPOw==",
+    "lastUpdateTime": "2022-02-14T22:37:20Z",
+    "releaseTime": "2022-02-14T22:37:20Z",
+    "createTime": "2021-06-27T10:31:32Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Smoking Data of hospitalized Covid-19 patiants"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bagheri Nezhad, Sina"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran University of Science and Technology"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7863-8739"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mozayani, Nasser"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran University of Science and Technology"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Abdi, Elham"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran University of Science and Technology"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rostami, Setareh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran University of Science and Technology"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bagheri Nezhad, Sina"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Iran University of Science and Technology"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "s_bagherinezhad@comp.iust.ac.ir"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data related to 1040 patients with Covid-19 admitted to hospitals in Iran have been collected. These patients were randomly selected from patients admitted to hospitals in Rasht, Tehran, and Bojnord. Of these 1040 patients, 375 of them are female, and 665 of them are male. Also, the age of these people is between 14 and 91 years, and the average age is about 54 years."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bagheri Nezhad, Sina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-27"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Smoking Covid-19 Patients.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 251284,
+        "dataFile": {
+          "id": 4862482,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "Smoking Covid-19 Patients.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 23941,
+          "storageIdentifier": "s3://dvn-cloud:17a4d062a5d-f52a60290b89",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 16679,
+          "originalFileName": "Smoking Covid-19 Patients.csv",
+          "UNF": "UNF:6:Btd7exaEgPzei7Qy06SPOw==",
+          "rootDataFileId": -1,
+          "md5": "4b84984cc16028c1ec53eb5f9c42cdd8",
+          "checksum": {
+            "type": "MD5",
+            "value": "4b84984cc16028c1ec53eb5f9c42cdd8"
+          },
+          "creationDate": "2021-06-27"
+        }
+      }
+    ],
+    "citation": "Bagheri Nezhad, Sina; Mozayani, Nasser; Abdi, Elham; Rostami, Setareh, 2022, \"Smoking Data of hospitalized Covid-19 patiants\", https://doi.org/10.7910/DVN/XPT7L0, Harvard Dataverse, V1, UNF:6:Btd7exaEgPzei7Qy06SPOw== [fileUNF]"
+  }
+}

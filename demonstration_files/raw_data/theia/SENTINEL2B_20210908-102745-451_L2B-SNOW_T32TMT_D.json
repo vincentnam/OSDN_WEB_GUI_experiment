@@ -1,0 +1,518 @@
+{
+  "collection": "theia",
+  "hits": [
+    {
+      "md": {
+        "id": "SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D",
+        "timestamp": 1631096865000,
+        "geometry": {
+          "type": "Polygon",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            [
+              [
+                7.66286516,
+                47.84591293
+              ],
+              [
+                9.13047028,
+                47.85362625
+              ],
+              [
+                9.12805748,
+                46.86562729
+              ],
+              [
+                7.68758869,
+                46.85817719
+              ],
+              [
+                7.66286516,
+                47.84591293
+              ]
+            ]
+          ]
+        },
+        "centroid": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            8.40224298,
+            47.35737243
+          ]
+        }
+      },
+      "data": {
+        "_isWMSEnabled": true,
+        "_sensorType_en": "OPTICAL",
+        "metadata": {
+          "core": {
+            "temporalCoverage": {
+              "end": "2021-09-08T10:27:45Z",
+              "begin": "2021-09-08T10:27:45Z"
+            },
+            "keywords": [
+              {
+                "origin": "embeded",
+                "type": "continent",
+                "value": "Europe"
+              },
+              {
+                "origin": "embeded",
+                "type": "country",
+                "value": "Switzerland"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Zürich"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Aargau"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Lucerne"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Schwyz"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Bern"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Thurgau"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Sankt Gallen"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Glarus"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Basel-Landschaft"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Schaffhausen"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Uri"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Solothurn"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Zug"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Nidwalden"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Obwalden"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Graubünden"
+              },
+              {
+                "origin": "embeded",
+                "type": "country",
+                "value": "Germany"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Baden-Württemberg"
+              },
+              {
+                "origin": "embeded",
+                "type": "location",
+                "value": "Northern"
+              },
+              {
+                "origin": "embeded",
+                "type": "season",
+                "value": "Summer"
+              },
+              {
+                "origin": "embeded",
+                "type": "collection",
+                "value": "Snow"
+              },
+              {
+                "origin": "embeded",
+                "type": "productType",
+                "value": "SNOW_MASK"
+              },
+              {
+                "origin": "embeded",
+                "type": "processingLevel",
+                "value": "L2B-SNOW"
+              },
+              {
+                "origin": "embeded",
+                "type": "platform",
+                "value": "sentinel2b"
+              },
+              {
+                "origin": "embeded",
+                "type": "instrument",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "sensorMode",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "year",
+                "value": "2021"
+              },
+              {
+                "origin": "embeded",
+                "type": "month",
+                "value": "September"
+              },
+              {
+                "origin": "embeded",
+                "type": "day",
+                "value": "08"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Emmen"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Frauenfeld"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Baar"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Schaffhausen"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Winterthur"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Singen"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Dietikon"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Uster"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Luzern"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Rheinfelden"
+              }
+            ],
+            "identity": {
+              "lifecycle": {
+                "updateFrequency_en": "asNeeded",
+                "created": "2021-09-08T10:27:45.000Z",
+                "updateFrequency": "asNeeded",
+                "updated": "2022-06-16T11:05:03.000Z",
+                "updateFrequency_fr": "asNeeded"
+              },
+              "collection_fr": "NEIGE",
+              "identifier": "SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D",
+              "collection_en": "SNOW",
+              "parentIdentifier": "urn:ogc:def:EOP:CNES::Snow:",
+              "collection": "Snow",
+              "source": "https://theia.cnes.fr/atdistrib/resto2/api/collections/Snow/search.json?productIdentifier=SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D"
+            },
+            "description": {
+              "processingLevel_fr": "NIVEAU 2B",
+              "processingLevel": "NIVEAU 2B",
+              "resourceTitle": "SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D",
+              "processingLevel_en": "LEVEL 2B"
+            },
+            "locations": {
+              "footprint": {
+                "coordinates": [
+                  [
+                    [
+                      7.662865161896,
+                      47.84591293335
+                    ],
+                    [
+                      9.130470275879,
+                      47.853626251221
+                    ],
+                    [
+                      9.128057479858,
+                      46.865627288818
+                    ],
+                    [
+                      7.687588691711,
+                      46.858177185059
+                    ],
+                    [
+                      7.662865161896,
+                      47.84591293335
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              }
+            },
+            "availability": {
+              "archiveid": "0",
+              "status": "ONELINE"
+            },
+            "graphics": {
+              "thumbnail": "https://theia.cnes.fr/data//Snow/2021/09/08/SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D_V1-9/SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D_V1-9_THB_ALL.png",
+              "quicklook": "https://theia.cnes.fr/data//Snow/2021/09/08/SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D_V1-9/SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D_V1-9_QKL_ALL.png"
+            },
+            "contacts": {
+              "organisationName": "THEIA"
+            }
+          },
+          "ObservationContext": {
+            "observedProperty_fr": "Couvert Neigeux",
+            "observedProperty_en": "Snow Mask",
+            "phenomenonTime": {
+              "end": "2021-09-08T10:27:45Z",
+              "begin": "2021-09-08T10:27:45Z"
+            },
+            "observedProperty": "SNOW_MASK",
+            "eo": {
+              "opt": {
+                "cloudCoverPercentage": 24.033412172877,
+                "snowCoverPercentage": 0.018712683638647,
+                "waterCoverPercentage": 0
+              },
+              "acquisition": {
+                "relativeOrbitNumber": 65,
+                "orbitNumber": 23543
+              }
+            },
+            "processusUsed": {
+              "platform_fr": "SENTINEL 2",
+              "platform_en": "SENTINEL 2",
+              "sensor": {
+                "resolution": {
+                  "uom": "m",
+                  "value": 20
+                }
+              },
+              "platform": "SENTINEL 2"
+            }
+          },
+          "services": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/Snow/38303d54-9612-52dc-bdd8-cf00e3c018b5/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=1-9&idProjet=Snow&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            },
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/Snow/38303d54-9612-52dc-bdd8-cf00e3c018b5/download"
+            }
+          ]
+        },
+        "_geometry_wkt": "POLYGON ((0.7662865161896e1 0.4784591293335e2,0.9130470275879e1 0.47853626251221e2,0.9128057479858e1 0.46865627288818e2,0.7687588691711e1 0.46858177185059e2,0.7662865161896e1 0.4784591293335e2))",
+        "_isWMTSEnabled": false,
+        "_services": {
+          "download": [
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/Snow/38303d54-9612-52dc-bdd8-cf00e3c018b5/download"
+            }
+          ],
+          "WMS": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/Snow/38303d54-9612-52dc-bdd8-cf00e3c018b5/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=1-9&idProjet=Snow&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            }
+          ]
+        },
+        "_isDataOnLine": true,
+        "harvestuuid": "2188cef6-57b2-4c2a-a211-d6826328b06c",
+        "harvestername": "opensearch-theia.cnes.fr-snow",
+        "_sensorType_fr": "OPTIQUE",
+        "_sensorType": "OPTIQUE",
+        "_isRadar": false,
+        "_attachments": [
+          {
+            "description_fr": "En savoir plus",
+            "description_en": "Learn more",
+            "description": "En savoir plus",
+            "label": "EnSavoirPlus",
+            "url": "https://www.theia-land.fr/neige/"
+          }
+        ],
+        "_centroid_wkt": "POINT(8.40224298117084 47.3573724302641)",
+        "catalogueType": "opensearch",
+        "_textLocation": "T32TMT",
+        "harvestdate": "2022-06-17T03:40:10.391Z",
+        "_isDownloadEnabled": true,
+        "_resolution": 20,
+        "_isVisuEnabled": true,
+        "_keywords": {
+          "continent": [
+            "Europe"
+          ],
+          "country": [
+            "Switzerland",
+            "Germany"
+          ],
+          "year": [
+            "2021"
+          ],
+          "city": [
+            "Emmen",
+            "Frauenfeld",
+            "Baar",
+            "Schaffhausen",
+            "Winterthur",
+            "Singen",
+            "Dietikon",
+            "Uster",
+            "Luzern",
+            "Rheinfelden"
+          ],
+          "theme_en": [
+            "Hydrology"
+          ],
+          "instrument": [
+            ""
+          ],
+          "collection": [
+            "Snow"
+          ],
+          "platform": [
+            "sentinel2b"
+          ],
+          "processingLevel": [
+            "L2B-SNOW"
+          ],
+          "month": [
+            "September"
+          ],
+          "season": [
+            "Summer"
+          ],
+          "theme": [
+            "Hydrologie"
+          ],
+          "location": [
+            "Northern"
+          ],
+          "state": [
+            "Zürich",
+            "Aargau",
+            "Lucerne",
+            "Schwyz",
+            "Bern",
+            "Thurgau",
+            "Sankt Gallen",
+            "Glarus",
+            "Basel-Landschaft",
+            "Schaffhausen",
+            "Uri",
+            "Solothurn",
+            "Zug",
+            "Nidwalden",
+            "Obwalden",
+            "Graubünden",
+            "Baden-Württemberg"
+          ],
+          "theme_fr": [
+            "Hydrologie"
+          ],
+          "day": [
+            "08"
+          ],
+          "sensorMode": [
+            ""
+          ],
+          "productType": [
+            "SNOW_MASK"
+          ]
+        },
+        "_isOptique": true,
+        "id": "SENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D"
+      }
+    }
+  ],
+  "nbhits": 1,
+  "totalnb": 1,
+  "links": {
+    "self": {
+      "href": "https://catalogue.theia-land.fr/arlas/explore/theia/_search?f=metadata.core.identity.identifier%3Aeq%3ASENTINEL2B_20210908-102745-451_L2B-SNOW_T32TMT_D&righthand=false&pretty=false&flat=false&&&size=1&max-age-cache=120",
+      "method": "GET"
+    }
+  }
+}

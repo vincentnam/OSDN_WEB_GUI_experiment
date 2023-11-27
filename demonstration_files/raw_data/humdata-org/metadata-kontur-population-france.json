@@ -1,0 +1,55 @@
+{
+    "id": "f07fce5c-6b9a-4f3e-a3b6-017493a7c8d0",
+    "title": "France: Population Density for 400m H3 Hexagons",
+    "name": "kontur-population-france",
+    "notes": "France population density for 400m H3 hexagons. Built from\u00a0Kontur Population: Global Population Density for 400m H3 Hexagons\u00a0Vector H3 hexagons with population counts at 400m resolution. Fixed up fusion of GHSL, Facebook, Microsoft Buildings, Copernicus Global Land Service Land Cover, Land Information New Zealand, and OpenStreetMap data.",
+    "dataset_source": "kontur",
+    "organization": "Kontur",
+    "dataset_date": "[2023-07-10T00:00:00 TO 2023-11-01T23:59:59]",
+    "last_modified": "2023-10-31T16:32:18.312633",
+    "data_update_frequency": "As needed",
+    "groups": [
+        "France"
+    ],
+    "license_title": "Creative Commons Attribution International",
+    "methodology": "Other",
+    "methodology_other": " Kontur Population dataset was built based on [H3: Hexagonal Hierarchical Spatial Index](https://h3geo.org).\n\nCalculating population is based on overlapping Global Human Settlement Layer ([GHSL](https://ghsl.jrc.ec.europa.eu)) with Facebook High Resolution Settlement Layer ([HRSL](https://research.facebook.com/downloads/high-resolution-settlement-layer-hrsl)) population data where available.\n\nKnown artifacts of both datasets are constrained using OpenStreetMap data as a hint. Quarries and big roads are marked unpopulated, as they are often falsely detected as populated in GHSL. Lakes, rivers, glaciers, sands, forests, and other similar areas are also marked as unpopulated.\n\nWe use Microsoft Building Footprint data, Land Information New Zealand and Copernicus Global Land Service: Land Cover 100m to improve the accuracy of population distribution.\n\nBuilding presence, or otherwise built-up area, implies there\u2019s someone on the ground, which is often missed in HRSL data for Africa.\n\nWe use scale coefficient taking into account the nesting of levels of administrative division in cases when the total population of the administrative area significantly differs from the United Nations population estimates and projections.\n\nOverly hot pixels like 'half a million people in a quarter of square kilometer' are spread out to more realistic surroundings. The population is shifted to neighboring cells to satisfy constraints.\n\nNon-integer populations are fixed up by 'gluing people back together' to keep realistic human beings.",
+    "caveats": " Dataset is primarily designed to support visualization behind https://disaster.ninja project and may not be suitable for your specific needs.\nPlease contact us if you need custom processing or higher resolution version of this dataset.\n\n**Dataset codebook**:\n\n**fid** [integer]: record order in data upload\n\n**h3** [h3index/text]: H3 index of hexagon\n\n**population** [double]: total population inside hexagon\n\n**geom** [geometry]: Polygon, EPSG:3857\n\n**Global version of Kontur Population** is available at [https://data.humdata.org/organization/kontur](https://data.humdata.org/organization/kontur).\n\nFacebook High Resolution Settlement data: Facebook Connectivity Lab and Center for International Earth Science Information Network - CIESIN - Columbia University. 2016. High Resolution Settlement Layer (HRSL). Source imagery for HRSL \u00a9 2016 DigitalGlobe. Licence - Creative Commons Attribution International\n\nGlobal Human Settlement Layer: Dataset: Schiavina M., Freire S., Carioli A., MacManus K. (2023): GHS-POP R2023A - GHS population grid multitemporal (1975-2030).European Commission, Joint Research Centre (JRC) PID: http://data.europa.eu/89h/2ff68a52-5b5b-4a22-8f40-c41da8332cfe, doi:10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE Concept & Methodology: Freire S., MacManus K., Pesaresi M., Doxsey-Whitfield E., Mills J. (2016) Development of new open and free multi-temporal global population grids at 250 m resolution. Geospatial Data in a Changing World; Association of Geographic Information Laboratories in Europe (AGILE), AGILE 2016.\n\nCopernicus Global Land Service: Land Cover 100m: Marcel Buchhorn, Bruno Smets, Luc Bertels, Bert De Roo, Myroslava Lesiv, Nandin-Erdene Tsendbazar, Martin Herold, Steffen Fritz. (2020). Copernicus Global Land Service: Land Cover 100m: collection 3: epoch 2019: Globe (Version V3.0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3939050\n\nMicrosoft Buildings: This data is licensed by Microsoft under the [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl) (ODbL).\n\nLand Information New Zealand (LINZ) NZ Building Outlines: sourced from the sourced from the [LINZ Data Service](https://data.linz.govt.nz) licensed for reuse under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).\n\nOpenStreetMap: Some data (c) OpenStreetMap.org Contributors [Open Data Commons Open Database License](https://opendatacommons.org/licenses/odbl) (ODbL)\n\nGeoalert Urban Mapping: Chechnya, Moscow region, Tyva, Tashkent, Bukhara, Samarkand, Navoi, Chirchiq - https://github.com/Geoalert/urban-mapping (ODbL).\n\n[World Population Prospects, 2023 Revision](https://population.un.org/wpp/). United Nations Department of Economic and Social Affairs, Population Division, Population Estimates and Projections Section. 11 July 2022. Retrieved 10 February 2023.",
+    "tags": [
+        "baseline population",
+        "geodata",
+        "population"
+    ],
+    "resources": [
+        {
+            "created": "2022-06-30T13:42:39.774109",
+            "description": "Release 2022-06-30",
+            "format": "Geopackage",
+            "download_url": "https://geodata-eu-central-1-kontur-public.s3.amazonaws.com/kontur_datasets/kontur_population_FR_20220630.gpkg.gz",
+            "id": "eeb4157f-e5bf-4992-881d-1b18ca54aaf1",
+            "last_modified": "2022-06-30T13:42:39.761182",
+            "metadata_modified": "2022-12-15T12:37:47.473455",
+            "microdata": false,
+            "dataset_id": "f07fce5c-6b9a-4f3e-a3b6-017493a7c8d0",
+            "resource_type": "api",
+            "name": "kontur_population_FR_20220630.gpkg",
+            "mimetype": null,
+            "size": null
+        },
+        {
+            "created": "2023-10-31T16:32:18.338465",
+            "description": "Release 2023-11-01",
+            "format": "Geopackage",
+            "download_url": "https://geodata-eu-central-1-kontur-public.s3.amazonaws.com/kontur_datasets/kontur_population_FR_20231101.gpkg.gz",
+            "id": "a1dd95d6-1f3d-49ef-b3ee-894808551c17",
+            "last_modified": "2023-10-31T16:32:18.312633",
+            "metadata_modified": "2023-10-31T16:59:27.497108",
+            "microdata": false,
+            "dataset_id": "f07fce5c-6b9a-4f3e-a3b6-017493a7c8d0",
+            "resource_type": "api",
+            "name": "kontur_population_FR_20231101.gpkg",
+            "mimetype": null,
+            "size": null
+        }
+    ]
+}

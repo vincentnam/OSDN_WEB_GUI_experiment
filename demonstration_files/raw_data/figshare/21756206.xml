@@ -1,0 +1,44 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.21942/uva.21756206.v3</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">L.P. Brinkhof</creatorName>
+    <givenName>L.P.</givenName>
+    <familyName>Brinkhof</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">J.M.J. Murre</creatorName>
+    <givenName>J.M.J.</givenName>
+    <familyName>Murre</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">S. de Wit</creatorName>
+    <givenName>S.</givenName>
+    <familyName>de Wit</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">H.J. Krugers</creatorName>
+    <givenName>H.J.</givenName>
+    <familyName>Krugers</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">K.R. Ridderinkhof</creatorName>
+    <givenName>K.R.</givenName>
+    <familyName>Ridderinkhof</familyName>
+  </creator>
+</creators>
+<titles><title>METARECORD: Changes in Perceived Ageism during the COVID-19 Pandemic: Impact on Quality of Life and Mental Well-being Among Older Adults</title></titles>
+<publisher>University of Amsterdam / Amsterdam University of Applied Sciences</publisher>
+<publicationYear>2023</publicationYear>
+<subjects>
+  <subject>successful aging</subject>
+  <subject>perceived ageism</subject>
+  <subject>self-perceptions of aging</subject>
+  <subject>mental health</subject>
+  <subject>COVID-19</subject>
+</subjects>
+<dates><date dateType="Issued">2023-08-09 07:35:15</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://uvaauas.figshare.com/articles/dataset/Changes_in_Perceived_Ageism_during_the_COVID-19_Pandemic_Impact_on_Quality_of_Life_and_Mental_Well-being_Among_Older_Adults/21756206</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;p&gt;The datasets presented in this article are not readily available because the datasets used and/or analyzed for the current study will only be made publicly available after completion of the overarching project, and will until that time only be available from the corresponding author on collaboration basis upon reasonable request. Requests to access the datasets should be directed to L.P.B., &lt;a href=&quot;mailto:dev@null&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;l.p.brinkhof@uva.nl&lt;/u&gt;&lt;/a&gt; &lt;/p&gt;</description></descriptions>
+</resource>

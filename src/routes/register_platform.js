@@ -8,8 +8,8 @@ import get_mandatory_platform_to_connect_to from "../tools/get_mandatory_platfor
 function RegisterPlatformPage(props) {
     const [modelComponentDisabled, setModelComponentDisabled] = useState(true);
     const [mandatory_platform, setMandatoryPlatform]= useState([]);
-    const [platformData, setPlatformData] = useState({platform_name:"",platform_URL:"",mandatory_platform_to_connect_to:[],platform_to_connect_to:[], model_cascader:[]});
-
+    const [platformData, setPlatformData] = useState({platform_name:"",platform_URL:"",mandatory_platform_to_connect_to:[],platform_to_connect_to:[], model_cascader:[], id_platform:""});
+    console.log(props)
 
     var options = [];
     var model_options = [];
@@ -25,7 +25,7 @@ function RegisterPlatformPage(props) {
 
 
     if (props.context?.platforms){
-        options = Object.keys(props.context.platforms).filter((el)=> !(mandatory_platform.includes(el)) ).map((key) => {
+        options = Object.keys(props.context.platforms).filter((el)=> !(mandatory_platform?.includes(el)) ).map((key) => {
             return {label: props.context?.platforms[key]?.name, value: key}
         });
     }
@@ -42,10 +42,10 @@ function RegisterPlatformPage(props) {
 
     const onValueChangeForm = (value, allvalues)=>{
 
-        setPlatformData(allvalues);
+        setPlatformData({...platformData,...allvalues});
 
     }
-
+    console.log(props)
     return (
 
         <div className="register_platform">
@@ -107,7 +107,7 @@ function RegisterPlatformPage(props) {
                         label="Platform to connect to"
                         name="platform_to_connect_to"
 
-                        rules={[{  message: 'Select a platform to connect to.' }]}
+                        rules={[{  required: true, message: 'Select a platform to connect to.' }]}
                     >
                         <Cascader
                             options={options}
@@ -138,8 +138,8 @@ function RegisterPlatformPage(props) {
 
                             <Cascader
                                 className="model_used"
-                                name="coucou"
-                                label="coucou"
+                                name="model_cascader"
+                                label="model_cascader"
                                 title="See model register page to define the custom model"
                                 placeholder="See model register page for model not in the registry"
                                 options={model_options}
@@ -148,6 +148,19 @@ function RegisterPlatformPage(props) {
                                 disabled={!modelComponentDisabled}
                             />
 
+
+
+                    </Form.Item>
+                    <Form.Item
+                        label="Platform ID in registry"
+                        name="id_cascader"
+                        className="ID_checkbox_div"
+                        rules={[{ required: true, message: 'Platform ID of the platform' }]}
+                        initialValue={props.config.ID_PLATFORM}
+                    >
+
+
+                        <Input placeholder='Examples : www.platform.com/osdn_api, 192.168.0.1:5000..' />
 
 
                     </Form.Item>

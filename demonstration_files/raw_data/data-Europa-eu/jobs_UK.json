@@ -1,0 +1,1582 @@
+{
+    "@graph": [
+        {
+            "@id": "http://data.europa.eu/88u/distribution/65d40797-571b-40f8-a7b5-ad79e556bb04",
+            "dct:title": [
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobných pracovných ponúk 2016 – údaje na 2015.xlsx"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljni poslovi serije 2016 ažuriranje – podaci za 2015.xlsx"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detaillierte Auftragsreihen 2016 Update – Daten auf 2015.xlsx"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Detaljeret jobserie 2016 opdatering — data til 2015.xlsx"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Detalii de locuri de muncă seria 2016 actualizare – date pentru 2015.xlsx"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizēts darba vietu sērijas 2016 atjauninājums — dati uz 2015.xlsx"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "L-aġġornament tas-serje dettaljata tal-impjiegi tal-2016 — data sal-2015.xlsx"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detaljerad jobbserie 2016 uppdatering – data till 2015.xlsx"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša serija delovnih mest 2016 – podatki za 2015.xlsx"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobných pracovních míst 2016 – data do 2015.xlsx"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalik tööseeria 2016 värskendus – andmed kuni 2015.xlsx"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización detallada de la serie de trabajos 2016 — datos hasta 2015.xlsx"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Szczegółowe oferty pracy series 2016 update – data to 2015.xlsx"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Детальна серія робочих місць 2016 оновлення - дані до 2015.xlsx"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour détaillée de la série d’emplois 2016 — données à 2015.xlsx"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Подробни работни места серия 2016 актуализация — данни до 2015xlsx"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Detailed jobs series 2016 update – data to 2015.xlsx"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletes állássorozat 2016 update – data to 2015.xlsx"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Gedetailleerde vacaturesreeks 2016 update — gegevens naar 2015.xlsx"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Detailed jobs series 2016 update — data to 2015.xlsx"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaiset työpaikat sarja 2016 update – data to 2015.xlsx"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú mionsonraithe ar shraith na bpost 2016 — sonraí go 2015.xx"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamus darbo vietų serijos 2016 atnaujinimas – duomenys iki 2015.xlsx"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento dettagliato della serie di lavori 2016 — dati al 2015.xlsx"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερής σειρά θέσεων εργασίας 2016 ενημέρωση — δεδομένα σε 2015.xlsx"
+                }
+            ],
+            "dct:identifier": "dd8039f5-7dce-4cd8-8713-08d1d6a79731",
+            "@type": "dcat:Distribution",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+            },
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/928eb84f-485c-4110-ae8c-315b97009c61/Detailed%2520jobs%2520series%25202016%2520update%2520_%2520data%2520to%25202015.xlsx"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "spdx:algorithm": {
+                "@id": "spdx:checksumAlgorithm_md5"
+            },
+            "@type": "spdx:Checksum",
+            "spdx:checksumValue": "11afff5e9b3d4eaa3a6ca9f88f7edb1c"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/538530a2-90a1-487c-84a2-c0185b8506f2",
+            "dct:identifier": "ace21dd0-3a16-4090-9bd0-4ddc90aa163e",
+            "dct:description": [
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Ez a tanulmány részletezi a londoni munkahelyek idősorának meghatározásához használt módszertant."
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Această lucrare oferă detalii despre metodologia utilizată pentru a obține seria temporală de locuri de muncă din Londra."
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Este artigo fornece pormenores sobre a metodologia utilizada para derivar a série temporal de empregos em Londres."
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Käesolevas dokumendis on üksikasjalikult kirjeldatud metoodikat, mida kasutatakse Londoni töökohtade ajaseeriate tuletamiseks."
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Тази статия предоставя подробности за методологията, използвана за извличане на времевата серия от работни места в Лондон."
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Este artículo proporciona detalles de la metodología utilizada para derivar la serie temporal de trabajos en Londres."
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detta dokument ger detaljer om den metod som används för att härleda tidsserier av jobb i London."
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Αυτό το έγγραφο παρέχει λεπτομέρειες της μεθοδολογίας που χρησιμοποιείται για την εξαγωγή της χρονοσειράς των θέσεων εργασίας στο Λονδίνο."
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Tugann an páipéar seo mionsonraí ar an modheolaíocht a úsáideadh chun an tsraith ama post i Londain a dhíorthú."
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Dieses Papier enthält detaillierte Informationen über die Methodik zur Ableitung der Zeitreihen von Arbeitsplätzen in London."
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Šajā dokumentā ir sīki izklāstīta metodoloģija, kas izmantota, lai iegūtu darba vietu laikrindas Londonā."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Cet article fournit des détails sur la méthodologie utilisée pour calculer les séries chronologiques d’emplois à Londres."
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "U ovom radu navode se pojedinosti o metodologiji koja se koristi za izvođenje vremenske serije radnih mjesta u Londonu."
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Tato práce poskytuje podrobné informace o metodice použité k odvození časové řady pracovních míst v Londýně."
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Dan id-dokument jipprovdi dettalji tal-metodoloġija użata biex jitnisslu s-serje ta’ żmien ta’ impjiegi f’Londra."
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Niniejszy artykuł zawiera szczegółowe informacje na temat metodologii stosowanej do określenia szeregów czasowych miejsc pracy w Londynie."
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Questo articolo fornisce dettagli sulla metodologia utilizzata per ricavare la serie temporale dei posti di lavoro a Londra."
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Šiame dokumente išsamiai aprašoma metodika, naudojama darbo laiko serijoms Londone nustatyti."
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Ta dokument vsebuje podrobnosti o metodologiji, ki se uporablja za izpeljavo časovnih vrst delovnih mest v Londonu."
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Tässä asiakirjassa esitetään yksityiskohtaisesti menetelmät, joita käytetään Lontoon työpaikkojen aikasarjojen johtamiseen."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "У цій статті детально описано методологію, яка використовується для отримання часової серії робочих місць у Лондоні."
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Dette papir indeholder detaljer om den metode, der anvendes til at udlede tidsserier af job i London."
+                },
+                {
+                    "@language": "en",
+                    "@value": "This paper provides detail of the methodology used to derive the time-series of jobs in London."
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Dit artikel geeft details over de methodologie die wordt gebruikt om de tijdreeksen van banen in Londen af te leiden."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Tento dokument poskytuje podrobné informácie o metodike použitej na odvodenie časového radu pracovných miest v Londýne."
+                }
+            ],
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+            },
+            "dct:title": [
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Serje 2014:\nDokument ta’ metodoloġija tas-setturi ta’ Londra"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "2014-serien:\nLondons sektormetodik"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "2014. gada sērija:\nLondonas nozaru metodoloģijas dokuments"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "2014 sarja:\nLontoon sektorien metodologia-asiakirja"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Σειρά 2014: Έγγραφο μεθοδολογίας τομέων του Λονδίνου"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Seria 2014:\nLondyńska metodologia sektorowa"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "2014-es sorozat:\nLondon ágazati módszertani dokumentuma"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "2014. serija:\nLondonski sektorski metodološki dokument"
+                },
+                {
+                    "@language": "en",
+                    "@value": "2014 series: London's sectors methodology paper"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "2014 sraith:\nPáipéar modheolaíochta earnálacha Londain"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Série 2014:\nDocumento metodológico dos setores de Londres"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Serie 2014: Methodikpapier der Londoner Sektoren"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Série 2014:\nDocument méthodologique des secteurs londoniens"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "2014 serie:\nHet Londense sectormethodologiedocument"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Серия 2014:\nДоклад за методологията на секторите в Лондон"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Serie 2014:\nLa metodologia dei settori di Londra"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Série 2014: Dokument o metodice londýnských sektorů"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "2014 års serie: Londons sektorsmetodikdokument"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "2014 seeria:\nLondoni sektorite metoodikadokument"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "2014 séria:\nMetodologický dokument pre londýnske sektory"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Serija 2014:\nDokument o metodologiji za londonske sektorje"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Serie de 2014:\nDocumento de metodología de los sectores de Londres"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "2014 m. serija: Londono sektorių metodologijos dokumentas"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Серія 2014:\nМетодологічна документація секторів Лондона"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Seria 2014:\nDocument de metodologie pentru sectoarele Londrei"
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/5cd17d76-50cc-42f4-b672-6f9c9ec45866/Methodology-London's%2520sectors%2520-%2520more%2520detailed%2520jobs%2520data.pdf"
+            },
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/9c2562a0-c058-41d8-bae3-1c4a74812bfd",
+            "dct:description": [
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización de series de trabajos más detalladas, con datos de 1998 a 2016. Incorpora nuevos datos BRES, con una población empresarial ampliada."
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Aktualisierung der detaillierteren Auftragsreihen mit Daten von 1998 bis 2016. Nimmt neue BRES-Daten mit einer erweiterten Geschäftsbevölkerung an."
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Opdatering af mere detaljerede jobserier med data fra 1998 til 2016. Tager med i nye BRES data, med udvidet erhvervspopulation."
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento delle serie di lavori più dettagliate, con dati dal 1998 al 2016. Prende a bordo i nuovi dati BRES, con una popolazione di imprese ampliata."
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Actualizarea seriilor de locuri de muncă mai detaliate, cu date din 1998 până în 2016. Ia în considerare noile date BRES, cu o populație de afaceri extinsă."
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Update van meer gedetailleerde banenreeksen, met gegevens van 1998 tot 2016. Neemt nieuwe BRES-gegevens in, met een uitgebreide bedrijfspopulatie."
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobnějších pracovních míst s daty z let 1998 až 2016.\nBere na vědomí nová data BRES, s rozšířenou populací podniků."
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamesnių darbo vietų eilučių atnaujinimas su 1998–2016 m. duomenimis. Atsižvelgia į naujus BRES duomenis su padidėjusia verslo populiacija."
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Uppdatering av mer detaljerade arbetsserier, med uppgifter från 1998 till 2016. Tar med sig nya BRES-data, med utökad företagsbefolkning."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour de séries d’emplois plus détaillées, avec des données de 1998 à 2016. Prend en compte les nouvelles données BRES, avec une population d’affaires élargie."
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Atualização de séries de empregos mais detalhadas, com dados de 1998 a 2016. Incorpora novos dados do BRES, com população de negócios expandida."
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Актуализиране на по-подробни серии за работни места с данни от 1998 г. до 2016 г. Приема нови данни за BRES с разширено бизнес население."
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalikumate tööseeriate ajakohastamine 1998.–2016. aasta andmetega.\nVõtab arvesse uusi BRESi andmeid koos laiendatud äripopulatsiooniga."
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Aktualizacja bardziej szczegółowych serii zadań, z danymi z lat 1998-2016.\nUwzględnia nowe dane BRES, z rozszerzoną populacją biznesową."
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú ar shraith post níos mionsonraithe, le sonraí ó 1998 go 2016. Tugann sonraí nua BRES san áireamh, le daonra gnó leathnaithe."
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Sīkākas darba vietu sērijas atjaunināšana ar datiem par 1998.–2016. gadu. Ņem vērā jaunos BRES datus ar paplašinātu uzņēmumu skaitu."
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Ažuriranje detaljnijih serija poslova, s podacima od 1998. do 2016. Uzima u obzir nove podatke BRES-a, s povećanom poslovnom populacijom."
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Posodobitev podrobnejših serij delovnih mest s podatki od leta 1998 do leta 2016.\nUpošteva nove podatke BRES z razširjeno populacijo podjetij."
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "A részletesebb munkakör-sorozat frissítése 1998 és 2016 között. Új BRES-adatokat vesz fel, bővülő üzleti népességgel."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobnejších radov pracovných miest s údajmi z rokov 1998 až 2016. Berie na vedomie nové údaje BRES s rozšírenou podnikateľskou populáciou."
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Επικαιροποίηση λεπτομερέστερων σειρών θέσεων εργασίας, με στοιχεία από το 1998 έως το 2016. Λαμβάνει υπόψη νέα δεδομένα BRES, με διευρυμένο επιχειρηματικό πληθυσμό."
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Aġġornament ta’ serje ta’ impjiegi aktar dettaljati, b’data mill-1998 sal-2016. Jaċċetta d-data l-ġdida tal-BRES, b’popolazzjoni tan-negozju estiża."
+                },
+                {
+                    "@language": "en",
+                    "@value": "Update of more detailed jobs series, with data from 1998 to 2016. Takes on board new BRES data, with expanded business population."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Оновлення більш детальної серії робочих місць, з даними з 1998 по 2016 рік. Приймає на борт нові дані BRES, з розширеним населенням бізнесу."
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaisempien työpaikkasarjojen päivitys, joka sisältää tiedot vuosilta 1998–2016. Ottaa huomioon uudet BRES-tiedot ja laajentaa yritysten väestöä."
+                }
+            ],
+            "dct:identifier": "494d25f4-a76d-4234-975d-6b4878a7a481",
+            "dct:title": [
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Detailed jobs series 2018 update — data to 2016.xlsx"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detaljerad jobbserie 2018 uppdatering – data till 2016.xlsx"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour détaillée de la série d’emplois 2018 — données à 2016.xlsx"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Serje ta ‘impjiegi dettaljati 2018 aġġornament — data għal 2016.xlsx"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Подробни работни места серия 2018 актуализация — данни до 2016.xlsx"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Detalus darbo vietų serijos 2018 atnaujinimas – duomenys iki 2016.xlsx"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletes állássorozat 2018 update – data to 2016.xlsx"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερής σειρά θέσεων εργασίας 2018 ενημέρωση — δεδομένα σε 2016.xlsx"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detaillierte Auftragsreihen 2018 Update – Daten auf 2016.xlsx"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalik tööseeria 2018 värskendus – andmed kuni 2016.xlsx"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Detaljeret jobserie 2018 opdatering — data til 2016.xlsx"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljni poslovi serije 2018 ažuriranje – podaci za 2016.xlsx"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Detailed jobs series 2018 update – data to 2016.xlsx"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizēts darba vietu sērijas 2018. gada atjauninājums — dati līdz 2016.xlsx"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Detalii de locuri de muncă seria 2018 actualizare – date pentru 2016.xlsx"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobných pracovních míst 2018 – data do 2016.xlsx"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobných pracovných ponúk 2018 – údaje na 2016.xlsx"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Детальна серія робочих місць 2018 оновлення - дані до 2016.xlsx"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Szczegółowe oferty pracy series 2018 update – data to 2016.xlsx"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento dettagliato della serie di lavori 2018 — dati al 2016.xlsx"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobna opravila serije 2018 posodobitev – podatki za 2016.xlsx"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaiset työpaikat series 2018 update – data to 2016.xlsx"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú mionsonraithe ar shraith na bpost 2018 — sonraí go 2016.xlsx"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización detallada de la serie de trabajos 2018 — datos a 2016.xlsx"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Gedetailleerde vacaturesreeks 2018 update — gegevens naar 2016.xlsx"
+                }
+            ],
+            "@type": "dcat:Distribution",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+            },
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/6e812633-35e3-4718-b5bb-b90651a08eb3/Detailed%2520jobs%2520series%25202018%2520update%2520_%2520data%2520to%25202016.xlsx"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/record/londons-sectors-more-detailed-jobs1",
+            "dct:modified": {
+                "@value": "2023-07-27T04:00:02Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dct:issued": {
+                "@value": "2023-03-23T04:00:38Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:transReceived": {
+                "@value": "2023-03-25T05:31:44Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:transStatus": {
+                "@id": "edp:TransCompleted"
+            },
+            "dqv:hasQualityMetadata": {
+                "@id": "http://data.europa.eu/88u/metrics/londons-sectors-more-detailed-jobs1"
+            },
+            "edp:originalLanguage": "en",
+            "foaf:primaryTopic": {
+                "@id": "http://data.europa.eu/88u/dataset/londons-sectors-more-detailed-jobs1"
+            },
+            "spdx:checksum": {
+                "@id": "_:b0"
+            },
+            "dct:creator": {
+                "@id": "http://piveau.io"
+            },
+            "dct:identifier": "londons-sectors-more-detailed-jobs1",
+            "@type": "dcat:CatalogRecord",
+            "edp:transIssued": {
+                "@value": "2023-03-23T04:00:38Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/dataset/londons-sectors-more-detailed-jobs1",
+            "dcat:keyword": [
+                {
+                    "@language": "en",
+                    "@value": "employment"
+                },
+                {
+                    "@language": "en",
+                    "@value": "scientific"
+                },
+                {
+                    "@language": "en",
+                    "@value": "communication"
+                },
+                {
+                    "@language": "en",
+                    "@value": "real estate"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Construction"
+                },
+                {
+                    "@language": "en",
+                    "@value": "jobs"
+                },
+                {
+                    "@language": "en",
+                    "@value": "defence"
+                },
+                {
+                    "@language": "en",
+                    "@value": "health"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Education"
+                },
+                {
+                    "@language": "en",
+                    "@value": "recreation"
+                },
+                {
+                    "@language": "en",
+                    "@value": "entertainment"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Financial"
+                },
+                {
+                    "@language": "en",
+                    "@value": "technical"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Arts"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Public administration"
+                },
+                {
+                    "@language": "en",
+                    "@value": "labour market"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Information"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Transportation"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Manufacturing"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Retail"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "**Più lavori dettagliati**\n\nQuesto set di dati fornisce stime dei posti di lavoro dei dipendenti a Londra fino al livello di classificazione industriale standard a 4 cifre, dal 1998 al 2021. L'ultima versione è stata **marzo 2023**. \n\nLe stime si basano sui dati del registro delle imprese e dell'occupazione (BRES) e dell'occupazione (WFJ) pubblicati dall'Ufficio per le statistiche nazionali (ONS).\n\n\nLe ipotesi sottostanti sono illustrate nel documento metodologico pubblicato accanto a queste tabelle di dati.\n\n\nSi noti che gli aggiornamenti 2014 e 2015 sono stati ripubblicati (nel marzo 2018) a seguito di ulteriori verifiche informative."
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "** Meer gedetailleerde banen**\n\nDeze dataset geeft schattingen van werknemersbanen in Londen tot het niveau van 4-cijferige standaardindustrieclassificatie, van 1998 tot 2021. De laatste release was in maart 2023**.\n\nSchattingen zijn gebaseerd op gegevens van het Office for National Statistics (ONS) en gegevens van het Office for National Statistics (ONS).\n\nDe onderliggende aannames worden geschetst in het methodologiedocument dat naast deze gegevenstabellen wordt gepubliceerd. \n\nDe actualiseringen 2014 en 2015 zijn opnieuw gepubliceerd (in maart 2018) na aanvullende toetsing van de openbaarmaking."
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "**Mer detaljerade jobb**\n\nDetta dataset ger uppskattningar av anställdas jobb i London ner till 4-siffrig Standard Industry Classification nivå, från 1998 till 2021. Den senaste versionen var i **mars 2023**. \n\nUppskattningarna baseras på uppgifter om företagsregister och sysselsättning (BRES) och Workforce Jobs (WFJ) som publiceras av Office for National Statistics (ONS).\n\n\nDe underliggande antagandena beskrivs i det metoddokument som publiceras tillsammans med dessa datatabeller.\n\n\nObservera att uppdateringarna för 2014 och 2015 publicerades på nytt (i mars 2018) efter ytterligare informationskontroll."
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "**Aktar Impjiegi Dettaljati**\n\nDan is-sett ta’ data jipprovdi stimi tal-impjiegi tal-impjegati f’Londra sal-livell ta’ Klassifikazzjoni Standard tal-Industrija b’4 ċifri, mill-1998 sal-2021. L-aħħar ħarġa saret f’**Marzu 2023**. \n\nL-istimi huma bbażati fuq id-data tal-Istħarriġ dwar ir-Reġistru tan-Negozju u l-Impjiegi (BRES) u l-Impjiegi tal-Forza tax-Xogħol (WFJ) ippubblikati mill-Uffiċċju għall-Istatistika Nazzjonali (ONS).\n\n\nIs-suppożizzjonijiet sottostanti huma deskritti fil-qosor fid-dokument ta’ metodoloġija ppubblikat flimkien ma’ dawn it-tabelli tad-data.\n\n\nInnota li l-aġġornamenti tal-2014 u l-2015 ġew ippubblikati mill-ġdid (f’Marzu 2018) wara verifika addizzjonali tad-divulgazzjoni."
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "**Mehr Detaillierte Jobs**\n\nDieser Datensatz liefert Schätzungen der Beschäftigtenjobs in London bis zum 4-stelligen Standard Industry Classification Level von 1998 bis 2021. Die neueste Version war im **März 2023**.\n\nDie Schätzungen basieren auf den vom Office for National Statistics (ONS) veröffentlichten Daten über Unternehmensregister und Beschäftigung (BRES) und Workforce Jobs (WFJ).\n\nDie zugrunde liegenden Annahmen werden in dem neben diesen Datentabellen veröffentlichten Methodenpapier skizziert. \n\nBeachten Sie, dass die Aktualisierungen von 2014 und 2015 (im März 2018) nach einer zusätzlichen Überprüfung der Offenlegung neu veröffentlicht wurden."
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "**Üksikasjalikumad töökohad**\n\nSee andmekogum annab hinnangu töötajate töökohtade kohta Londonis aastatel 1998–2021 kuni neljakohalise standardse tööstusklassifikatsiooni tasemeni. Viimane väljaanne oli ** märts 2023**. \n\nHinnangud põhinevad riikliku statistikaameti (ONS) avaldatud äriregistri ja tööhõive uuringu (BRES) ja töötajate töökohtade (WFJ) andmetel.\n\n\nAluseks olevad eeldused on esitatud metoodikadokumendis, mis avaldatakse koos nende andmetabelitega.\n\n\nPange tähele, et 2014. ja 2015. aasta ajakohastatud andmed avaldati uuesti (2018. aasta märtsis) pärast täiendavat avalikustamist."
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "**Podrobnejša delovna mesta**\n\nTa nabor podatkov zagotavlja ocene delovnih mest zaposlenih v Londonu do 4-mestne ravni klasifikacije standardne industrije, od leta 1998 do leta 2021. Zadnja izdaja je bila v **marcu 2023**.\n\nOcene temeljijo na podatkih poslovnega registra in ankete o zaposlovanju (BRES) ter podatkov o delovnih mestih delovne sile (WFJ), ki jih je objavil Urad za nacionalno statistiko (ONS).\n\nOsnovne predpostavke so opisane v metodološkem dokumentu, objavljenem skupaj s temi podatkovnimi tabelami. \n\nOpozoriti je treba, da so bile posodobitve za leti 2014 in 2015 ponovno objavljene (marca 2018) po dodatnem preverjanju razkritja."
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "**Más Trabajos Detallados**\n\nEste conjunto de datos proporciona estimaciones de los puestos de trabajo de los empleados en Londres hasta el nivel de clasificación estándar de la industria de 4 dígitos, de 1998 a 2021. El último lanzamiento fue en **marzo de 2023**.\n\nLas estimaciones se basan en los datos del Registro de Empresas y la Encuesta de Empleo (BRES) y Trabajos Laborales (WFJ) publicados por la Oficina de Estadísticas Nacionales (ONS).\n\nLos supuestos subyacentes se describen en el documento de metodología publicado junto con estas tablas de datos. \n\nTenga en cuenta que las actualizaciones de 2014 y 2015 se volvieron a publicar (en marzo de 2018) después de la verificación de divulgación adicional."
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "**További részletek\n\nEz az adatkészlet az 1998 és 2021 közötti négyjegyű standard ipari osztályozási szintig becsüli a londoni munkavállalói munkahelyeket. A legutóbbi kiadás ** 2023 márciusa** volt.\n\nA becslések a Nemzeti Statisztikai Hivatal (ONS) által közzétett cégnyilvántartási és foglalkoztatási felmérésen (BRES) és a Munkaerő Munkahely (WFJ) adatain alapulnak.\n\nAz alapul szolgáló feltételezéseket az ezen adattáblák mellett közzétett módszertani dokumentum ismerteti. \n\nMegjegyzendő, hogy a 2014-es és 2015-ös frissítéseket (2018 márciusában) ismét közzétették a nyilvánosságra hozatal további ellenőrzését követően."
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "**Profissões mais detalhadas**\n\nEste conjunto de dados fornece estimativas dos postos de trabalho dos trabalhadores em Londres até ao nível de classificação padrão da indústria de 4 dígitos, de 1998 a 2021. A última versão foi em **março 2023**.\n\nAs estimativas baseiam-se nos dados do Registo Empresarial e do Inquérito ao Emprego (BRES) e do Emprego na Força de Trabalho (WFJ) publicados pelo Serviço de Estatísticas Nacionais (ONS).\n\nOs pressupostos subjacentes são descritos no documento metodológico publicado juntamente com estes quadros de dados. \n\nNote-se que as atualizações de 2014 e 2015 foram republicadas (em março de 2018) na sequência de verificações de divulgação adicionais."
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "** Yksityiskohtaisemmat työpaikat**\n\nTässä aineistossa esitetään arviot työntekijöiden työpaikoista Lontoossa nelinumeroiseen toimialaluokituksen tasoon 1998–2021. Viimeisin julkaisu oli **maaliskuussa 2023**.\n\nArviot perustuvat kansallisen tilastotoimiston (ONS) julkaisemiin yritysrekisteri- ja työllisyystutkimuksiin (BRES) ja työvoima-alan työllisyystutkimukseen (WFJ). \n\nPerusoletukset esitetään näiden tietotaulukoiden yhteydessä julkaistussa menetelmäasiakirjassa.\n\n\nOn huomattava, että vuosien 2014 ja 2015 päivitykset julkaistiin uudelleen (maaliskuussa 2018) ilmoittamista koskevien lisätarkastusten jälkeen."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "**Plus d’emplois détaillés**\n\nCet ensemble de données fournit des estimations des emplois employés à Londres jusqu’au niveau de classification standard des industries à 4 chiffres, de 1998 à 2021. La dernière version date du **mars 2023**.\n\nLes estimations sont basées sur les données du registre des entreprises et de l’enquête sur l’emploi (BRES) et de l’emploi sur la main-d’œuvre (WFJ) publiées par l’Office for National Statistics (ONS).\n\nLes hypothèses sous-jacentes sont décrites dans le document méthodologique publié parallèlement à ces tableaux de données. \n\nNotez que les mises à jour de 2014 et 2015 ont été republiées (en mars 2018) à la suite d’une vérification supplémentaire des informations."
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "** ΠΕΡΙΣΣΟΤΕΡΕΣ ΕΡΓΑΣΙΕΣ **\n\nΑυτό το σύνολο δεδομένων παρέχει εκτιμήσεις των θέσεων εργασίας των εργαζομένων στο Λονδίνο σε τετραψήφιο επίπεδο τυποποιημένης ταξινόμησης βιομηχανίας, από το 1998 έως το 2021. Η τελευταία έκδοση ήταν **Μάρτιος 2023**.\n\nΟι εκτιμήσεις βασίζονται σε στοιχεία του Μητρώου Επιχειρήσεων και της Έρευνας για την Απασχόληση (BRES) και των Εργατικών Δυναμικών (WFJ) που δημοσιεύονται από την Υπηρεσία Εθνικών Στατιστικών (ONS).\n\nΟι υποκείμενες παραδοχές περιγράφονται στο έγγραφο μεθοδολογίας που δημοσιεύεται παράλληλα με αυτούς τους πίνακες δεδομένων. \n\nΣημειώνεται ότι οι επικαιροποιήσεις του 2014 και του 2015 αναδημοσιεύθηκαν (τον Μάρτιο του 2018) μετά από πρόσθετο έλεγχο γνωστοποίησης."
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "**Detaljnije radna mjesta**\n\nOvaj skup podataka pruža procjene radnih mjesta zaposlenika u Londonu na četveroznamenkastu razinu standardne industrijske klasifikacije, od 1998. do 2021. Posljednje izdanje bilo je u ožujku 2023.**.\n\nProcjene se temelje na podacima iz poslovnog registra i istraživanja o zapošljavanju (BRES) i radne snage (WFJ) koje je objavio Ured za nacionalnu statistiku (ONS).\n\nTemeljne pretpostavke navedene su u metodološkom dokumentu objavljenom uz te tablice podataka. \n\nNapominjemo da su ažuriranja za 2014. i 2015. ponovno objavljena (u ožujku 2018.) nakon dodatne provjere objave."
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Cé gurbh iad Avondale rogha na coitianta tháinig buachaillí GCM le plean agus chuireadar I bhfeidhm é.\n\nSoláthraíonn an tacar sonraí seo meastacháin ar phoist fostaithe i Londain síos go leibhéal 4 dhigit Aicmiú Caighdeánach Tionscail, ó 1998 go 2021. Bhí an eisiúint is déanaí i **Márta 2023**.\n\nTá meastacháin bunaithe ar shonraí Clár Gnó agus Suirbhé Fostaíochta (BRES) agus Poist don Lucht Oibre (WFJ) arna bhfoilsiú ag an Oifig um Staidreamh Náisiúnta (ONS).\n\nLeagtar amach na toimhdí bunúsacha sa pháipéar modheolaíochta a fhoilsítear taobh leis na táblaí sonraí sin. \n\nTabhair do d’aire gur athfhoilsíodh nuashonruithe 2014 agus 2015 (i mí an Mhárta 2018) tar éis seiceáil bhreise a dhéanamh ar nochtadh."
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "**Mai multe locuri de muncă detaliate**\n\nAcest set de date oferă estimări ale locurilor de muncă ale angajaților din Londra până la nivelul de clasificare standard a industriei de 4 cifre, din 1998 până în 2021. Cea mai recentă versiune a fost în **martie 2023**.\n\nEstimările se bazează pe datele privind registrul întreprinderilor și ancheta privind ocuparea forței de muncă (BRES) și pe datele privind locurile de muncă din forța de muncă (WFJ) publicate de Oficiul pentru Statistică Națională (ONS).\n\nIpotezele de bază sunt prezentate în documentul metodologic publicat împreună cu aceste tabele de date. \n\nA se lua act de faptul că actualizările din 2014 și 2015 au fost republicate (în martie 2018) în urma verificării suplimentare a informațiilor."
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "**Подробни работни места**\n\nТози набор от данни предоставя оценки за работните места на служителите в Лондон до 4-цифреното ниво на стандартната класификация на индустрията от 1998 до 2021 г. Последното издание е през март 2023 г.**.\n\nОценките се основават на данни от Търговския регистър и заетостта (BRES) и работните места (WFJ), публикувани от Службата за национална статистика (ONS).\n\nОсновните допускания са изложени в документа за методологията, публикуван заедно с тези таблици с данни. \n\nСледва да се отбележи, че актуализациите от 2014 г. и 2015 г. бяха публикувани повторно (през март 2018 г.) след допълнителна проверка на оповестяването."
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "**Mere detaljerede job**\n\nDette datasæt giver skøn over medarbejderjob i London ned til 4-cifret Standard Industry Classification niveau fra 1998 til 2021. Den seneste udgivelse var i **marts 2023**.\n\nEstimaterne er baseret på data fra Business Register and Employment Survey (BRES) og Workforce Jobs (WFJ), som er offentliggjort af Kontoret for National Statistik (ONS).\n\nDe underliggende antagelser er skitseret i det metodedokument, der offentliggøres sammen med disse datatabeller. \n\nBemærk, at opdateringerne for 2014 og 2015 blev offentliggjort på ny (i marts 2018) efter yderligere offentliggørelseskontrol."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "**Більше детальні вакансії**\n\nЦей набір даних дає оцінку робочих місць працівників у Лондоні до 4-значного рівня стандартної класифікації промисловості з 1998 по 2021 рік. Останній реліз був в **березень 2023**. \n\nОцінки базуються на даних Business Register and Employment Survey (BRES) та Workforce Jobs (WFJ), опублікованих Управлінням національної статистики (ONS).\n\n\nОсновні припущення викладені в методологічній роботі, опублікованій поряд з цими таблицями даних.\n\n\nЗауважте, що оновлення 2014 та 2015 років були перевидані (у березні 2018 року) після додаткової перевірки розкриття інформації."
+                },
+                {
+                    "@language": "en",
+                    "@value": "**More Detailed Jobs**\n\nThis dataset provides estimates of employee jobs in London down to 4-digit Standard Industry Classification level, from 1998 to 2021. The latest release was in **March 2023 -** see the [related blog post.](https://data.london.gov.uk/blog/the-jobs-of-london-exploring-the-more-detailed-jobs-data/)\n\nEstimates are based on Business Register and Employment Survey (BRES) and Workforce Jobs (WFJ) data published by the Office for National Statistics (ONS).\n\nThe underlying assumptions are outlined in the methodology paper published alongside these data tables.\n\nNote that the 2014 and 2015 updates were republished (in March 2018) following additional disclosure checking."
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "**Podrobnější pracovní místa**\n\nTento datový soubor poskytuje odhady pracovních míst zaměstnanců v Londýně až na čtyřmístnou úroveň standardní průmyslové klasifikace, od roku 1998 do roku 2021. Poslední verze byla v březnu 2023**.\n\nOdhady vycházejí z údajů o obchodním rejstříku a průzkumu zaměstnanosti (BRES) a pracovních silách (WFJ) zveřejněných Úřadem pro národní statistiku (ONS).\n\nZákladní předpoklady jsou popsány v metodickém dokumentu zveřejněném spolu s těmito tabulkami údajů. \n\nVšimněte si, že aktualizace z let 2014 a 2015 byly znovu zveřejněny (v březnu 2018) po dodatečné kontrole zveřejnění."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "** Podrobnejšie pracovné miesta**\n\nTento súbor údajov poskytuje odhady pracovných miest zamestnancov v Londýne až na 4-miestnu štandardnú odvetvovú klasifikáciu v rokoch 1998 až 2021. Posledná verzia bola **marec 2023**.\n\nOdhady vychádzajú z údajov z obchodného registra a prieskumu zamestnanosti (BRES) a pracovných miest pracovnej sily (WFJ), ktoré uverejnil Úrad pre národnú štatistiku (ONS).\n\nZákladné predpoklady sú uvedené v metodickom dokumente uverejnenom spolu s týmito tabuľkami údajov. \n\nUpozorňujeme, že aktualizácie z rokov 2014 a 2015 boli opätovne uverejnené (v marci 2018) po dodatočnej kontrole zverejňovania informácií."
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "**Detalizētas darbavietas**\n\nŠī datu kopa sniedz aplēses par darbinieku darbavietām Londonā līdz 4 ciparu standarta nozaru klasifikācijas līmenim no 1998. līdz 2021. gadam. Jaunākais izlaidums bija **2023. gada martā**.\n\nAplēses ir balstītas uz Uzņēmumu reģistra un nodarbinātības apsekojuma (BRES) un darbaspēka nodarbinātības (WFJ) datiem, ko publicējis Valsts statistikas birojs (ONS).\n\nPamatā esošie pieņēmumi ir izklāstīti metodikas dokumentā, kas publicēts kopā ar šīm datu tabulām. \n\nJāņem vērā, ka 2014. un 2015. gada atjauninājumi tika atkārtoti publicēti (2018. gada martā) pēc papildu informācijas izpaušanas pārbaudes."
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "**Išsamesnės darbo vietos**\n\nŠiame duomenų rinkinyje pateikiami darbuotojų darbo vietų Londone įverčiai iki 4 skaitmenų standartinio pramonės klasifikatoriaus lygio 1998–2021 m. Naujausia versija buvo **kovo 2023**.\n\nĮverčiai grindžiami Įmonių registro ir užimtumo tyrimo (BRES) ir darbo jėgos darbo vietų (WFJ) duomenimis, paskelbtais Nacionalinės statistikos biuro (ONS).\n\nPagrindinės prielaidos išdėstytos metodikos dokumente, paskelbtame kartu su šiomis duomenų lentelėmis. \n\nPažymėtina, kad po papildomo faktų atskleidimo patikrinimo 2014 ir 2015 m. atnaujinimai buvo pakartotinai paskelbti (2018 m. kovo mėn.)."
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "**Więcej szczegółowych miejsc pracy** \n\nTen zbiór danych zawiera szacunki dotyczące zatrudnienia pracowników w Londynie w dół do 4-cyfrowego standardowego poziomu klasyfikacji przemysłu, od 1998 do 2021 roku.\nOstatnie wydanie miało miejsce w marcu 2023**.\n\n\nSzacunki opierają się na danych z rejestru przedsiębiorstw i zatrudnienia (BRES) i Workforce Jobs (WFJ) opublikowanych przez Urząd Statystyki Krajowej (ONS).\n\n\nPodstawowe założenia przedstawiono w dokumencie metodycznym opublikowanym wraz z tymi tabelami danych.\n\n\nNależy zauważyć, że aktualizacje z 2014 r. i 2015 r. zostały ponownie opublikowane (w marcu 2018 r.) po przeprowadzeniu dodatkowej kontroli ujawniania informacji."
+                }
+            ],
+            "dcat:distribution": [
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/9c2562a0-c058-41d8-bae3-1c4a74812bfd"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/bf814038-0cdd-439e-bd03-6cc5c4dc10fb"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/538530a2-90a1-487c-84a2-c0185b8506f2"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/044d371d-1fa1-45e4-aefd-e115c111aa02"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/65d40797-571b-40f8-a7b5-ad79e556bb04"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/fd1cc472-fe42-4cdb-a44f-4f6a1e8d8ee4"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/0674f0c0-ecdc-43e5-aadf-301a400652b0"
+                }
+            ],
+            "dct:title": [
+                {
+                    "@language": "en",
+                    "@value": "London's sectors - More Detailed Jobs"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Lontoon sektorit – Yksityiskohtaiset työpaikat"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Londýnské sektory – podrobnější pracovní místa"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Лондонските сектори — по-подробни работни места"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Londonas sektori — Detalizētas darbavietas"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Los sectores de Londres — Empleos más detallados"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "London’s sector – Stellen im Detail"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Sectorul Londrei – Locuri de muncă mai detaliate"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Londonski sektori – detaljnija radna mjesta"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "London szektorai – Részletesebb munkahelyek"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Londono sektoriai – išsamesnės darbo vietos"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Setores de Londres — Empregos mais detalhados"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Is-setturi ta’ Londra — Impjiegi Aktar Dettaljati"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Londyńskie sektory – więcej szczegółowych miejsc pracy"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Londons sektorer – mer detaljerade jobb"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Londons sektorer — mere detaljerede job"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "De sectoren van Londen — Meer gedetailleerde banen"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Лондонський сектор - більш детальна робота"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Londoni sektorid – üksikasjalikumad töökohad"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Londonski sektorji – podrobnejša delovna mesta"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Les secteurs londoniens — Emplois plus détaillés"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "I settori di Londra — Lavori più dettagliati"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Earnálacha Londain — Poist Níos Mionsonraithe"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Τομείς του Λονδίνου — Περισσότερες θέσεις εργασίας"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Londýnske sektory – podrobnejšie pracovné miesta"
+                }
+            ],
+            "dct:issued": "2015-04-08T11:23:22",
+            "dct:modified": "2023-07-21T15:14:06.684Z",
+            "dct:publisher": {
+                "@id": "_:b1"
+            },
+            "@type": "dcat:Dataset"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/044d371d-1fa1-45e4-aefd-e115c111aa02",
+            "dct:title": [
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Πιο λεπτομερής ενημέρωση της σειράς θέσεων εργασίας 2023 — δεδομένα έως το 2021"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamesnės darbo vietų serijos 2023 m. atnaujinimas – duomenys iki 2021 m."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Podrobnejšie informácie o sérii pracovných miest 2023 – údaje do roku 2021"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento della serie 2023 dei lavori più dettagliati — dati al 2021"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización de la serie 2023 de trabajos más detallados: datos hasta 2021"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Atualização mais detalhada da série de empregos 2023 — dados para 2021"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Mere detaljerede jobserie 2023 opdatering — data til 2021"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Vairāk Detalizēta darba vietu sērijas 2023. gada atjauninājums — dati par 2021. gadu"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Täpsem teave 2023. aasta töökohtade seeria kohta – andmed aastani 2021"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Повече Подробни работни места серия 2023 актуализация — данни за 2021 г."
+                },
+                {
+                    "@language": "en",
+                    "@value": "More Detailed Jobs series 2023 update - data to 2021"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Mer detaljerade jobbserie 2023 – uppgifter till 2021"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Więcej Szczegółowa aktualizacja serii zadań 2023 – dane do 2021 r."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Plus Detailed Jobs series 2023 mise à jour — données jusqu’en 2021"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljnije ažuriranje serije radnih mjesta 2023. – podaci do 2021."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Більш детальне оновлення вакансій 2023 - дані до 2021 року"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Meer Gedetailleerde Jobs serie 2023 update — gegevens tot 2021"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša posodobitev serije delovnih mest za leto 2023 – podatki do leta 2021"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "További részletes munkahelyek sorozat 2023 frissítés – adatok 2021-ig"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Aġġornament tas-serje ta’ Impjiegi Aktar Dettaljati 2023 — data sal-2021"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Mai multe detalii Seria de locuri de muncă 2023 actualizare – date pentru 2021"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú níos mionsonraithe ar shraith na bpost 2023 — sonraí go dtí 2021"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Detailnější pracovní místa série 2023 aktualizace – data do roku 2021"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Mehr Detailed Jobs series 2023 update – Daten bis 2021"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaisempi työllisyyssarja 2023 päivitys – tiedot vuoteen 2021"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Täpsemad töökohad 1998–2021."
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detailliertere Jobs 1998-2021."
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljnija radna mjesta 1998. – 2021."
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερέστερες θέσεις εργασίας 1998-2021."
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Trabajos más detallados 1998-2021."
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Podrobnější práce 1998–2021."
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Mer detaljerade jobb 1998–2021."
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Lavori più dettagliati 1998-2021."
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Poist níos mionsonraithe 1998-2021."
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletesebb munkahelyek 1998–2021."
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaisempia työpaikkoja 1998–2021."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Emplois plus détaillés 1998-2021."
+                },
+                {
+                    "@language": "en",
+                    "@value": "More detailed jobs 1998-2021."
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Bardziej szczegółowe oferty pracy w latach 1998-2021."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Більш детальна робота 1998-2021 рр."
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Mere detaljerede job 1998-2021."
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Meer gedetailleerde banen 1998-2021."
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Empregos mais detalhados 1998-2021."
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Sīkāks darbs 1998.–2021. gadā."
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša delovna mesta 1998–2021."
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamesnės darbo vietos 1998–2021 m."
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Impjiegi aktar dettaljati 1998–2021."
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Locuri de muncă mai detaliate în perioada 1998-2021."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Podrobnejšie pracovné miesta 1998 – 2021."
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "По-подробни работни места 1998—2021 г."
+                }
+            ],
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+            },
+            "dct:identifier": "7084b63c-cb07-4a81-aaa8-44e261dbef80",
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/fa2b920d-1494-4555-9d25-b50e6eabe583/Detailed%2520jobs%2520series%25201998-2021.xlsx"
+            },
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/bf814038-0cdd-439e-bd03-6cc5c4dc10fb",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+            },
+            "dct:title": [
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "L-aġġornament tas-serje dettaljata tal-impjiegi tal-2015 — data sal-2014.xlsx"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša serija delovnih mest 2015 – podatki za 2014.xlsx"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detaljerad jobbserie 2015 uppdatering – data till 2014.xlsx"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Szczegółowe oferty pracy series 2015 update – data to 2014.xlsx"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερής σειρά θέσεων εργασίας 2015 ενημέρωση — δεδομένα σε 2014.xlsx"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobných pracovních míst 2015 – data do 2014.xlsx"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Детальна серія робочих місць 2015 оновлення - дані до 2014.xlsx"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento dettagliato della serie di lavori 2015 — dati al 2014.xlsx"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Detaljeret jobserie 2015 opdatering — data til 2014.xlsx"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour détaillée de la série d’emplois 2015 — données à 2014.xlsx"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Sraith na bpost mionsonraithe 2015 cothrom le dáta — sonraí a 2014.x"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Detailed jobs series 2015 update — data to 2014.xlsx"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Detalii de locuri de muncă seria 2015 actualizare – date pentru 2014.xlsx"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detaillierte Auftragsreihen 2015 Update – Daten auf 2014.xlsx"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Подробни работни места серия 2015 актуализация — данни до 2014.xlsx"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalik tööseeria 2015 värskendus – andmed 2014xlsx"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobných pracovných ponúk 2015 – údaje na 2014.xlsx"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamus darbo vietų serijos 2015 atnaujinimas – duomenys iki 2014.xlsx"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaiset työpaikat series 2015 update – data to 2014.xlsx"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletes állássorozat 2015 update – data to 2014.xlsx"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Detailed jobs series 2015 update – data to 2014.xlsx"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizēts darba vietu sērijas 2015 atjauninājums — dati uz 2014.xlsx"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Gedetailleerde vacaturesreeks 2015 update — gegevens naar 2014.xlsx"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljni poslovi serije 2015 ažuriranje – podaci za 2014.xlsx"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización detallada de la serie de trabajos 2015 — datos hasta 2014.xlsx"
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/a875212c-c3e3-4319-bb5f-29355c87ab48/Detailed%2520jobs%2520series%25202015%2520update%2520_%2520data%2520to%25202014.xlsx"
+            },
+            "dct:identifier": "6e4608a2-cea3-4ef3-82bb-01bdccee53e8",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/fd1cc472-fe42-4cdb-a44f-4f6a1e8d8ee4",
+            "dct:title": [
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detaillierte Auftragsreihen 2014 Update – Daten auf 2013.xlsx"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobných pracovných ponúk 2014 – údaje na 2013.xlsx"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamus darbo vietų serijos 2014 atnaujinimas – duomenys iki 2013.xlsx"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Aġġornament tas-serje dettaljata tal-impjiegi 2014 — data sa 2013.xlsx"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaiset työpaikat sarja 2014 update – data to 2013.xlsx"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Szczegółowe oferty pracy series 2014 update – data to 2013.xlsx"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Gedetailleerde vacaturesreeks 2014 update — gegevens tot 2013.xlsx"
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Detaliat seria de locuri de muncă 2014 actualizare – date la 2013.xlsx"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobných pracovních míst 2014 – data do 2013.xlsx"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento dettagliato della serie di lavori 2014 — dati al 2013.xlsx"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Detailed jobs series 2014 update – data to 2013.xlsx"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Подробни работни места серия 2014 актуализация — данни до 2013.xlsx"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Детальна серія робочих місць 2014 оновлення - дані до 2013.xlsx"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Sraith na bpost mionsonraithe 2014 nuashonrú — sonraí go 2013.xlsx"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detaljerad jobbserie 2014 uppdatering – data till 2013.xlsx"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletes munkák sorozat 2014 update – data to 2013.xlsx"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša serija delovnih mest 2014 – podatki za 2013.xlsx"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Detaljeret jobserie 2014 opdatering — data til 2013.xlsx"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljni poslovi serije 2014 ažuriranje – podaci za 2013.xlsx"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizēts darba vietu sērijas 2014 atjauninājums — dati uz 2013.xlsx"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalik tööseeria 2014 värskendus – andmed 2013.xlsx"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour détaillée de la série d’emplois 2014 — données à 2013.xlsx"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización detallada de la serie de trabajos 2014 — datos a 2013.xlsx"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Detailed jobs series 2014 update — data to 2013.xlsx"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερής σειρά θέσεων εργασίας ενημέρωση 2014 — δεδομένα σε 2013.xlsx"
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/df6118f5-50e1-4650-8f66-0950951bf9f0/Detailed%2520jobs%2520series%25202014%2520update%2520_%2520data%2520to%25202013.xlsx"
+            },
+            "dct:identifier": "a7faa2a0-706d-43b6-9134-32fda32ba268",
+            "@type": "dcat:Distribution",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLS"
+            }
+        },
+        {
+            "@id": "_:b1",
+            "@type": "foaf:Agent",
+            "foaf:name": "Greater London Authority",
+            "dct:type": {
+                "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/0674f0c0-ecdc-43e5-aadf-301a400652b0",
+            "dct:title": [
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Actualizare detaliată a numărului de locuri de muncă 2022 – date pentru 2020.xlsx"
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour détaillée de la série d’emplois 2022 — données à 2020.xlsx"
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Λεπτομερής σειρά θέσεων εργασίας 2022 ενημέρωση — δεδομένα έως το 2020.xlsx"
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Detaillierte Auftragsreihen 2022 Update – Daten auf 2020.xlsx"
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Detaljni poslovi serije 2022. ažuriranje – podaci za 2020.xlsx"
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalik tööseeria 2022. aasta värskendus – andmed aastani 2020.xlsx"
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Podrobný rad pracovných miest 2022 aktualizácia – údaje do 2020.xlsx"
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Detaljerad jobbserie 2022 uppdatering – data till 2020.xlsx"
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento dettagliato della serie di lavori 2022 — dati al 2020.xlsx"
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Podrobnejša serija delovnih mest 2022 – podatki za 2020.xlsx"
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Детальне оновлення вакансій 2022 - дані до 2020.xlsx"
+                },
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizēts darba vietu sērijas 2022. gada atjauninājums — dati līdz 2020.xlsx"
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Подробни работни места серия 2022 актуализация — данни до 2020xlsx"
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Detailed jobs series 2022 update — data to 2020.xlsx"
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Aġġornament tas-serje dettaljata tal-impjiegi tal-2022 — data sal-2020.xx"
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Szczegółowe oferty pracy series 2022 update – data to 2020.xlsx"
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú mionsonraithe ar shraith na bpost 2022 — sonraí go 2020.xx"
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamus darbo vietų serijos 2022 atnaujinimas – duomenys iki 2020.xlsx"
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaiset työpaikat sarja 2022 update – data to 2020.xlsx"
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Detaljeret jobserie 2022 opdatering — data til 2020.xlsx"
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Gedetailleerde banenreeks 2022-update — gegevens tot 2020.xlsx"
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización detallada de la serie de trabajos 2022 — datos hasta 2020.xlsx"
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "Részletes állásajánlatok sorozat 2022 frissítés – adatok 2020.xlsx"
+                },
+                {
+                    "@language": "en",
+                    "@value": "Detailed jobs series 2022 update – data to 2020.xlsx"
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobných pracovních míst 2022 – data do 2020.xlsx"
+                }
+            ],
+            "dct:description": [
+                {
+                    "@language": "lv-t-en-t0-mtec",
+                    "@value": "Detalizētāku darba vietu sēriju atjaunināšana ar datiem no 1998. līdz 2020. gadam."
+                },
+                {
+                    "@language": "lt-t-en-t0-mtec",
+                    "@value": "Išsamesnių darbo vietų eilučių atnaujinimas su 1998–2020 m. duomenimis."
+                },
+                {
+                    "@language": "da-t-en-t0-mtec",
+                    "@value": "Opdatering af mere detaljerede jobserier med data fra 1998 til 2020."
+                },
+                {
+                    "@language": "cs-t-en-t0-mtec",
+                    "@value": "Aktualizace podrobnějších pracovních míst s údaji z let 1998 až 2020."
+                },
+                {
+                    "@language": "el-t-en-t0-mtec",
+                    "@value": "Επικαιροποίηση λεπτομερέστερων σειρών θέσεων εργασίας, με στοιχεία από το 1998 έως το 2020."
+                },
+                {
+                    "@language": "sv-t-en-t0-mtec",
+                    "@value": "Uppdatering av mer detaljerade arbetsserier, med uppgifter från 1998 till 2020."
+                },
+                {
+                    "@language": "ga-t-en-t0-mtec",
+                    "@value": "Nuashonrú ar shraith post níos mionsonraithe, le sonraí ó 1998 go 2020."
+                },
+                {
+                    "@language": "nl-t-en-t0-mtec",
+                    "@value": "Update van meer gedetailleerde banenreeksen, met gegevens van 1998 tot 2020."
+                },
+                {
+                    "@language": "et-t-en-t0-mtec",
+                    "@value": "Üksikasjalikumate tööseeriate ajakohastamine 1998.–2020. aasta andmetega."
+                },
+                {
+                    "@language": "en",
+                    "@value": "Update of more detailed jobs series, with data from 1998 to 2020."
+                },
+                {
+                    "@language": "es-t-en-t0-mtec",
+                    "@value": "Actualización de series de trabajos más detalladas, con datos de 1998 a 2020."
+                },
+                {
+                    "@language": "hu-t-en-t0-mtec",
+                    "@value": "A részletesebb munkaköri sorozatok frissítése 1998 és 2020 között."
+                },
+                {
+                    "@language": "pl-t-en-t0-mtec",
+                    "@value": "Aktualizacja bardziej szczegółowych serii miejsc pracy, z danymi z lat 1998–2020."
+                },
+                {
+                    "@language": "sl-t-en-t0-mtec",
+                    "@value": "Posodobitev podrobnejših serij delovnih mest s podatki od leta 1998 do leta 2020."
+                },
+                {
+                    "@language": "uk-t-en-t0-mtec",
+                    "@value": "Оновлення більш детальної серії робочих місць, з даними з 1998 по 2020 рік."
+                },
+                {
+                    "@language": "it-t-en-t0-mtec",
+                    "@value": "Aggiornamento delle serie di lavori più dettagliate, con dati dal 1998 al 2020."
+                },
+                {
+                    "@language": "sk-t-en-t0-mtec",
+                    "@value": "Aktualizácia podrobnejších sérií pracovných miest s údajmi z rokov 1998 až 2020."
+                },
+                {
+                    "@language": "bg-t-en-t0-mtec",
+                    "@value": "Актуализиране на по-подробни серии за работни места с данни от 1998 г. до 2020 г."
+                },
+                {
+                    "@language": "fi-t-en-t0-mtec",
+                    "@value": "Yksityiskohtaisempien työpaikkasarjojen päivitys, joka sisältää tiedot vuosilta 1998–2020."
+                },
+                {
+                    "@language": "pt-t-en-t0-mtec",
+                    "@value": "Atualização de séries de empregos mais pormenorizadas, com dados de 1998 a 2020."
+                },
+                {
+                    "@language": "hr-t-en-t0-mtec",
+                    "@value": "Ažuriranje detaljnijih serija poslova, s podacima od 1998. do 2020."
+                },
+                {
+                    "@language": "fr-t-en-t0-mtec",
+                    "@value": "Mise à jour de séries d’emplois plus détaillées, avec des données de 1998 à 2020."
+                },
+                {
+                    "@language": "ro-t-en-t0-mtec",
+                    "@value": "Actualizarea seriilor de locuri de muncă mai detaliate, cu date din 1998 până în 2020."
+                },
+                {
+                    "@language": "de-t-en-t0-mtec",
+                    "@value": "Aktualisierung der detaillierteren Auftragsreihen mit Daten von 1998 bis 2020."
+                },
+                {
+                    "@language": "mt-t-en-t0-mtec",
+                    "@value": "Aġġornament ta’ serje ta’ impjiegi aktar dettaljati, b’data mill-1998 sal-2020."
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "https://data.london.gov.uk/download/london-s-sectors/e012cdbc-7712-4085-a546-e554f75dff0a/Detailed%2520jobs%2520series%25201998-2020.xlsx"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "51852924-3938-4793-94a9-81d778721f86",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+            }
+        }
+    ],
+    "@context": {
+        "edp": "https://europeandataportal.eu/voc#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "dct": "http://purl.org/dc/terms/",
+        "dqv": "http://www.w3.org/ns/dqv#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+}

@@ -1,0 +1,1008 @@
+{
+    "@graph": [
+        {
+            "@id": "http://data.europa.eu/88u/distribution/d815d7e8-3274-438a-b964-f95005537805",
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.tsv"
+            },
+            "dct:title": [
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub.\nISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique.\nISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus. ISTAC: C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas. ISTAC:C00035A_000633 (TSV)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico. ISTAC: C00035A_000633 (TSV)"
+                }
+            ],
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/f39b3585-3d9e-44cb-a460-f7b055d86a5c",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/TSV"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/ad6cfeb7-950a-49f0-b5ec-ea6529070261",
+            "dct:title": [
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico. ISTAC: C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka. ISTAC:C00035A_000633 (XLSX) Statisztikai kocka.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub. ISTAC:C00035A_000633 (XLSX) Statistisk kub.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka.\nISTAC: C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic. ISTAC:C00035A_000633 (XLSX) Cub statistic.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (XLSX) Statistična kocka.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna. ISTAC:C00035A_000633 (XLSX) Kostka statystyczna.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus. ISTAC: C00035A_000633 (XLSX) Statistische kubus.\nISTAC: C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (XLSX) Στατιστικός κύβος.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (XLSX) Statistická kostka.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio. ISTAC:C00035A_000633 (XLSX) Tilastokuutio.\nISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka. ISTAC:C00035A_000633 (XLSX)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (XLSX)"
+                }
+            ],
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.xlsx"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/22a97f33-56c1-4547-9117-857eae4246fb",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+            },
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633",
+            "dct:issued": {
+                "@value": "2023-10-09T23:27:22Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:transReceived": {
+                "@value": "2023-11-19T07:04:53Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dqv:hasQualityMetadata": {
+                "@id": "http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633"
+            },
+            "foaf:primaryTopic": {
+                "@id": "http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633"
+            },
+            "@type": "dcat:CatalogRecord",
+            "dct:creator": {
+                "@id": "http://piveau.io"
+            },
+            "spdx:checksum": {
+                "@id": "_:b0"
+            },
+            "dct:modified": {
+                "@value": "2023-11-19T07:04:53Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:transStatus": {
+                "@id": "edp:TransCompleted"
+            },
+            "edp:transIssued": {
+                "@value": "2023-11-18T23:27:58Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "edp:originalLanguage": "es",
+            "dct:identifier": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633",
+            "dct:publisher": {
+                "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423"
+            },
+            "dct:description": [
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Ce tableau fournit des données comparatives pour 2015 et 2021 sur la population estimée âgée de 1 à 15 ans qui sont considérées comme ne suivant pas un régime alimentaire adéquat aux îles Canaries pour des raisons et des sexes."
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tässä taulukossa esitetään vuosien 2015 ja 2021 vertailutiedot arvioidusta 1–15-vuotiaasta väestöstä, jonka ei katsota noudattavan Kanariansaarilla riittävää ruokavaliota syistä ja sukupuolesta."
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Denne tabel indeholder sammenlignelige data for 2015 og 2021 om den skønnede befolkning i alderen 1-15 år, som af årsager og køn anses for ikke at følge en passende kost på De Kanariske Øer."
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Ez a táblázat a 2015-re és 2021-re vonatkozó összehasonlító adatokat tartalmazza azon 1–15 éves becsült népességről, amelyekről úgy vélik, hogy a Kanári-szigeteken okok és nemek miatt nem követik a megfelelő étrendet."
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Denna tabell innehåller jämförande uppgifter för 2015 och 2021 om den uppskattade befolkningen i åldern 1–15 år som av skäl och kön inte anses följa en adekvat kost på Kanarieöarna."
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Šajā tabulā sniegti salīdzinoši dati par 2015. un 2021. gadu par aplēsto iedzīvotāju skaitu vecumā no 1 līdz 15 gadiem, par kuriem uzskata, ka viņi nelieto pienācīgu uzturu Kanāriju salās iemeslu un dzimuma dēļ."
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Ця таблиця містить порівняльні дані за 2015 і 2021 роки щодо передбачуваного населення віком від 1 до 15 років, які не дотримуються адекватної дієти на Канарських островах з причин і статей."
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Diese Tabelle enthält vergleichende Daten für 2015 und 2021 über die geschätzte Bevölkerung im Alter von 1 bis 15 Jahren, die aus Gründen und Geschlechtern davon ausgegangen werden, dass sie auf den Kanarischen Inseln keine angemessene Ernährung einhalten."
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Este quadro fornece dados comparativos para 2015 e 2021 sobre a população estimada com idades compreendidas entre 1 e 15 anos que se considera não seguirem uma dieta adequada nas Ilhas Canárias por razões e sexos."
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Selles tabelis on esitatud võrdlusandmed 2015. ja 2021. aasta kohta hinnanguliste 1–15-aastaste elanike kohta, kes ei järgi Kanaari saartel põhjustel ja soost põhjustel piisavat dieeti."
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Ta tabela vsebuje primerjalne podatke za leti 2015 in 2021 o ocenjeni populaciji, stari od 1 do 15 let, za katero se šteje, da zaradi razlogov in spola na Kanarskih otokih ne upošteva ustrezne prehrane."
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Acest tabel oferă date comparative pentru 2015 și 2021 privind populația estimată cu vârste cuprinse între 1 și 15 ani despre care se consideră că nu urmează o dietă adecvată în Insulele Canare din motive și sexe."
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "U ovoj su tablici prikazani usporedivi podaci za 2015. i 2021. o procijenjenom stanovništvu u dobi od 1 do 15 godina za koje se smatra da zbog razloga i spola ne slijede odgovarajuću prehranu na Kanarskim otocima."
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "В тази таблица са представени сравнителни данни за 2015 г. и 2021 г. за приблизителното население на възраст от 1 до 15 години, за което се счита, че не следва подходящ хранителен режим на Канарските острови по причини и полове."
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Tugtar sa tábla seo sonraí comparáideacha le haghaidh 2015 agus 2021 maidir leis an daonra measta idir 1 agus 15 bliana d’aois a mheastar nach leanann siad aiste bia leordhóthanach sna hOileáin Chanáracha ar chúiseanna agus ar ghnéas."
+                },
+                {
+                    "@language": "es",
+                    "@value": "En esta tabla se ofrecen datos comparados de 2015 y 2021 sobre la población estimada de 1 a 15 años que se considera que no sigue una alimentación adecuada en Canarias por motivos y sexos."
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Šioje lentelėje pateikiami 2015 m. ir 2021 m. lyginamieji duomenys apie apskaičiuotus 1–15 metų amžiaus gyventojus, kurie dėl priežasčių ir lyties laikomi neatitinkančiais tinkamos mitybos Kanarų salose."
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Din it-tabella tipprovdi data komparattiva għall-2015 u l-2021 dwar il-popolazzjoni stmata bejn sena u 15-il sena li jitqiesu li ma jsegwux dieta adegwata fil-Gżejjer Kanarji għal raġunijiet u sessi."
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Deze tabel bevat vergelijkende gegevens voor 2015 en 2021 over de geschatte bevolking van 1 tot 15 jaar die om redenen en geslachten wordt geacht geen adequate voeding te volgen op de Canarische Eilanden."
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Ο πίνακας αυτός παρέχει συγκριτικά στοιχεία για το 2015 και το 2021 σχετικά με τον εκτιμώμενο πληθυσμό ηλικίας 1 έως 15 ετών που θεωρείται ότι δεν ακολουθούν επαρκή διατροφή στις Κανάριες Νήσους για λόγους και φύλο."
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "W tabeli tej przedstawiono dane porównawcze za lata 2015 i 2021 dotyczące szacowanej populacji w wieku od 1 do 15 lat, w przypadku której uznano, że nie stosuje się odpowiedniej diety na Wyspach Kanaryjskich z powodów i płci."
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Tato tabulka poskytuje srovnávací údaje za roky 2015 a 2021 o odhadované populaci ve věku od 1 do 15 let, u níž se má za to, že z důvodů a pohlaví nedodržuje odpovídající stravu na Kanárských ostrovech."
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Questa tabella fornisce dati comparativi per il 2015 e il 2021 sulla popolazione stimata di età compresa tra 1 e 15 anni che si ritiene non seguire una dieta adeguata nelle Isole Canarie per motivi e sessi."
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "This table provides comparative data for 2015 and 2021 on the estimated population aged 1 to 15 years who are considered not to follow an adequate diet in the Canary Islands for reasons and sexes."
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "V tejto tabuľke sa uvádzajú komparatívne údaje za roky 2015 a 2021 o odhadovanom počte obyvateľov vo veku od 1 do 15 rokov, u ktorých sa predpokladá, že na Kanárskych ostrovoch nedodržiavajú primeranú stravu z dôvodov a pohlaví."
+                }
+            ],
+            "dct:title": [
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Prebivalstvo v starosti od 1 do 15 let, za katerega se šteje, da ne uživa zadostne hrane glede na razlog in spol"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Population aged 1 to 15 who are considered not to be eating adequate food according to reason and sex"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Popolazione di età compresa tra 1 e 15 anni che sono considerati non mangiare cibo adeguato a seconda della ragione e del sesso"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Población de 1 a 15 años que se considera que no sigue una alimentación adecuada según motivos y sexos"
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Населення віком від 1 до 15 років, які не вживають достатньої їжі відповідно до причин і статі"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Πληθυσμός ηλικίας 1 έως 15 ετών που θεωρείται ότι δεν τρώνε επαρκή τροφή ανάλογα με τον λόγο και το φύλο"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Ludność w wieku od 1 do 15 lat, która nie jest uważana za spożywającą odpowiednią żywność w zależności od przyczyny i płci"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "1–15-aastased inimesed, keda ei peeta piisavaks toiduks vastavalt põhjusele ja soole"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "População de 1 a 15 anos que é considerada não estar a comer alimentos adequados de acordo com a razão e o sexo"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Iedzīvotāji vecumā no 1 līdz 15 gadiem, kurus uzskata par tādiem, kas neēd pietiekamu pārtiku atbilstoši iemeslam un dzimumam"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Az 1 és 15 év közötti népesség, akiket úgy tekintenek, hogy nem fogyasztanak megfelelő táplálékot az ok és a nem szerint"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Daonra idir 1 agus 15 bliana d’aois a mheastar nach bhfuil dóthain bia á ithe acu de réir cúise agus gnéis"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Population âgée de 1 à 15 ans qui est considérée comme ne mangeant pas suffisamment d’aliments selon la raison et le sexe"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Bevölkerung im Alter von 1 bis 15 Jahren, die nach Grund und Geschlecht nicht als ausreichend Nahrung gilt"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Stanovništvo u dobi od 1 do 15 godina za koje se smatra da ne jedu adekvatnu hranu prema razlogu i spolu"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Populácia vo veku od 1 do 15 rokov, ktorá sa považuje za osobu, ktorá neje adekvátne jedlo podľa dôvodu a pohlavia"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Populația cu vârste cuprinse între 1 și 15 ani care este considerată a nu consuma alimente adecvate în funcție de motiv și sex"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "1–15 metų amžiaus gyventojai, kurie, kaip manoma, nevalgo tinkamo maisto pagal priežastį ir lytį"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Popolazzjoni bejn 1 u 15-il sena li huma kkunsidrati li mhumiex qed jieklu ikel adegwat skont ir-raġuni u s-sess"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Populace ve věku od 1 do 15 let, u nichž se má za to, že podle důvodu a pohlaví nejí adekvátní potraviny"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Население на възраст от 1 до 15 години, за което се счита, че не яде достатъчно храна според причината и пола"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Bevolking van 1 tot 15 jaar die geacht wordt niet voldoende voedsel te eten op grond van reden en geslacht"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "1–15-vuotias väestö, jonka ei katsota syövän riittävää ruokaa syyn ja sukupuolen mukaan"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Befolkningen i åldern 1 till 15 som inte anses äta tillräckligt med mat beroende på orsak och kön"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Befolkning i alderen 1 til 15 år, der anses for ikke at spise tilstrækkelig mad efter årsag og køn"
+                }
+            ],
+            "dct:language": {
+                "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+            },
+            "dct:issued": {
+                "@value": "2023-09-21T20:33:23+02:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dcat:distribution": [
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/609fd3c8-3346-49e5-bb72-18b1d71db35e"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/d815d7e8-3274-438a-b964-f95005537805"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/ff1c0c59-43af-4328-bf8d-1c25a41b322b"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/1b42b1ec-ea6d-4bd8-9f2c-16e5f1319c4a"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/ad6cfeb7-950a-49f0-b5ec-ea6529070261"
+                },
+                {
+                    "@id": "http://data.europa.eu/88u/distribution/ec3a5351-6ce3-42ab-8fb4-4d14cae4f98e"
+                }
+            ],
+            "dct:modified": {
+                "@value": "2023-09-25T20:07:58+02:00",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "dcat:keyword": {
+                "@language": "es",
+                "@value": "Cubo estadístico"
+            },
+            "@type": "dcat:Dataset",
+            "dct:identifier": "https://datos.canarias.es/catalogos/estadisticas/dataset/urn-siemac-org-siemac-metamac-infomodel-statisticalresources-dataset-istac-c00035a_000633",
+            "dcat:theme": {
+                "@id": "http://publications.europa.eu/resource/authority/data-theme/HEAL"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "spdx:checksumValue": "ba1728f7135c94e77eec74ce5c52d917",
+            "spdx:algorithm": {
+                "@id": "spdx:checksumAlgorithm_md5"
+            },
+            "@type": "spdx:Checksum"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/609fd3c8-3346-49e5-bb72-18b1d71db35e",
+            "dct:title": [
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub.\nISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico. ISTAC: C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus. ISTAC: C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (CSV)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs. ISTAC:C00035A_000633 (CSV)"
+                }
+            ],
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+            },
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.csv"
+            },
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/48401f91-3627-4222-97a3-ac737f4d6a56"
+        },
+        {
+            "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423",
+            "@type": "foaf:Agent",
+            "foaf:name": "Instituto Canario de Estadística"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/ff1c0c59-43af-4328-bf8d-1c25a41b322b",
+            "dct:title": [
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico.\nISTAC: C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub.\nISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (JSON)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus.\nISTAC: C00035A_000633 (JSON)"
+                }
+            ],
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            },
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+            },
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.json"
+            },
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/f832835f-6aad-4c7f-8062-0f6de1930994",
+            "@type": "dcat:Distribution"
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/1b42b1ec-ea6d-4bd8-9f2c-16e5f1319c4a",
+            "dct:title": [
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka. ISTAC: C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico.\nISTAC: C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus. ISTAC: C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (XML) Статистически куб.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka.\nISTAC:C00035A_000633 (XML)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas.\nISTAC:C00035A_000633 (XML)"
+                }
+            ],
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            },
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/e2785f8b-0bb6-478e-964b-5129e990e34d",
+            "@type": "dcat:Distribution",
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/XML"
+            },
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.xml"
+            }
+        },
+        {
+            "@id": "http://data.europa.eu/88u/distribution/ec3a5351-6ce3-42ab-8fb4-4d14cae4f98e",
+            "dct:license": {
+                "@id": "http://www.gobiernodecanarias.org/istac/aviso_legal.html"
+            },
+            "dct:title": [
+                {
+                    "@language": "fr-t-es-t0-mtec",
+                    "@value": "Cube statistique. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "de-t-es-t0-mtec",
+                    "@value": "Statistischer Würfel. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "ro-t-es-t0-mtec",
+                    "@value": "Cub statistic. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "sk-t-es-t0-mtec",
+                    "@value": "Štatistická kocka. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "sl-t-es-t0-mtec",
+                    "@value": "Statistična kocka. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "et-t-es-t0-mtec",
+                    "@value": "Statistiline kuubik. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "uk-t-es-t0-mtec",
+                    "@value": "Статистичний куб. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Cubo estadístico. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "it-t-es-t0-mtec",
+                    "@value": "Cubo statistico. ISTAC: C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "fi-t-es-t0-mtec",
+                    "@value": "Tilastokuutio. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "en-t-es-t0-mtec",
+                    "@value": "Statistical cube. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "nl-t-es-t0-mtec",
+                    "@value": "Statistische kubus. ISTAC: C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "pl-t-es-t0-mtec",
+                    "@value": "Kostka statystyczna. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "mt-t-es-t0-mtec",
+                    "@value": "Kubu tal-istatistika. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "ga-t-es-t0-mtec",
+                    "@value": "Ciúb staidrimh. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "sv-t-es-t0-mtec",
+                    "@value": "Statistisk kub. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "hu-t-es-t0-mtec",
+                    "@value": "Statisztikai kocka. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "lt-t-es-t0-mtec",
+                    "@value": "Statistinis kubas. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "el-t-es-t0-mtec",
+                    "@value": "Στατιστικός κύβος. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "bg-t-es-t0-mtec",
+                    "@value": "Статистически куб. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "cs-t-es-t0-mtec",
+                    "@value": "Statistická kostka. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "hr-t-es-t0-mtec",
+                    "@value": "Statistička kocka. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "lv-t-es-t0-mtec",
+                    "@value": "Statistiskais kubs. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "da-t-es-t0-mtec",
+                    "@value": "Statistisk terning. ISTAC:C00035A_000633 (JSONSTAT)"
+                },
+                {
+                    "@language": "pt-t-es-t0-mtec",
+                    "@value": "Cubo estatístico. ISTAC:C00035A_000633 (JSONSTAT)"
+                }
+            ],
+            "dct:format": {
+                "@id": "http://publications.europa.eu/resource/authority/file-type/JSON"
+            },
+            "dcat:accessURL": {
+                "@id": "https://datos.canarias.es/api/estadisticas/statistical-resources/v1.0/datasets/ISTAC/C00035A_000633/1.0.jsonstat"
+            },
+            "@type": "dcat:Distribution",
+            "dct:identifier": "https://datos.gob.es/catalogo/a05003423-poblacion-de-1-a-15-anos-que-se-considera-que-no-sigue-una-alimentacion-adecuada-segun-motivos-y-sexos/resource/356d156b-b54b-4089-beea-c0f1ebea6a4a"
+        }
+    ],
+    "@context": {
+        "edp": "https://europeandataportal.eu/voc#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "dct": "http://purl.org/dc/terms/",
+        "dqv": "http://www.w3.org/ns/dqv#",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "foaf": "http://xmlns.com/foaf/0.1/"
+    }
+}
