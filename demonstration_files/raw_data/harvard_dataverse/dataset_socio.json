@@ -1,0 +1,1316 @@
+{
+  "id": 3790212,
+  "identifier": "DVN/VO7SUO",
+  "persistentUrl": "https://doi.org/10.7910/DVN/VO7SUO",
+  "protocol": "doi",
+  "authority": "10.7910",
+  "publisher": "Harvard Dataverse",
+  "publicationDate": "2020-04-03",
+  "storageIdentifier": "s3://10.7910/DVN/VO7SUO",
+  "metadataLanguage": "undefined",
+  "datasetVersion": {
+    "id": 333939,
+    "datasetId": 3790212,
+    "datasetPersistentId": "doi:10.7910/DVN/VO7SUO",
+    "storageIdentifier": "s3://10.7910/DVN/VO7SUO",
+    "versionNumber": 17,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "UNF": "UNF:6:aXPEbRxu1sL9TF4TDH4jEQ==",
+    "lastUpdateTime": "2022-10-04T12:22:46Z",
+    "releaseTime": "2022-10-04T12:22:46Z",
+    "createTime": "2022-10-01T00:56:24Z",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Experiences among adults and adolescents during the COVID-19 pandemic from four locations across Kenya"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Abuya, Timothy"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Austrian, Karen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Isaac, Adan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kangwana, Beth"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mbushi, Faith"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Muluve, Eva"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mwanga, Daniel"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ngo, Thoai D."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nzioki, Mercy"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ochako, Rhoune"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinchoff, Jessie"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tidwell, Ben"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "World Vision, Harvard Kennedy School"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "White, Corinne"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Austrian, Karen"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "kaustrian@popcouncil.org"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinchoff, Jessie"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Population Council"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "jpinchoff@popcouncil.org"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>To control the spread of coronavirus, the COVID-19 National Emergency Response Committee (NERC) in Kenya, chaired by the Ministry of Health (MOH), implemented prevention and mitigation measures. To inform the Government of Kenya’s shorter- and longer-term response strategies, the Population Council COVID-19 study team utilized rapid phone-based surveys to collect information on knowledge, attitudes, practices and needs among a longitudinal cohort of heads of household sampled from existing perspective cohort studies. The first was carried out across five Nairobi urban informal settlements; the baseline survey (n=2,009) was conducted March 30–31, 2020 with subsequent follow-up surveys conducted April 13–14, 2020 (n=1,764), May 10-11, 2020 (n=1,750), June 13-16, 2020 (n=1,529), February – March 2021 (n=1118) and March-April 2022 (n=1121). Adolescents in the Nairobi cohort (n=1,425) were interviewed in the June 2020 round of data collection and followed up in February–March 2021 (n= 989) and March–April 2022 (n=911). The survey was expanded to communities with existing prospective cohort studies in Wajir County (adults n=1,322 and adolescents n=1,234), Kilifi County (adults n=1,288 and adolescents n=1,178), and Kisumu County (adults n=858 and adolescents n=973), adapted for rural settings with the first round conducted between July–August 2020, the second between February–March 2021, and the third between March–May 2022.  </p>\n<p>Findings on awareness of COVID-19 symptoms, perceived risk, awareness of and ability to carry out preventive behaviors, misconceptions, and fears, as well as the social, health, education and economic effects, will inform the interventions of NERC and the Executive Office of the President’s Policy and Strategy Unit (PASU).</p>\n<p>In subsequent rounds, new modules may be added to address research questions based on the needs of the MOH or PASU, for specific sites or across. We are committed to openly sharing the latest versions of the study description, questionnaires, datasets, and preliminary results.  </p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "coronavirus"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "urban"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "knowledge"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "attitudes"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19 related knowledge, attitudes,\npractices and needs of households in informal\nsettlements in Nairobi, Kenya (preprint), https://www.who.int/bulletin/online_first/20-260281.pdf. The impact of COVID-19 control measures on social contacts and transmission in Kenyan informal settlements (preprint), https://cmmid.github.io/topics/covid19/kenya-mixing.html."
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Karp, C., Moreau, C., Sheehy, G., Anjur-Dietrich, S., Mbushi, F., Muluve, E., Mwanga, D., Nzioki, M., Pinchoff, J., and Austrian, K. 2021. “Young women’s and adolescent girls’ perspectives on relationships in the era of COVID-19: A mixed-methods study in Kenya.” Journal of Adolescent Health. https://doi.org/10.1016/j.jadohealth.2021.07.017"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Orangi, S., Pinchoff, J., Mwanga, D., Abuya, T., Hamaluba, M., Warimwe, G., Austrian, K., and Barasa, E. 2021. \"Assessing the Level and Determinants of COVID-19 Vaccine Confidence in Kenya.\" Vaccines 9(8): 936. https://doi.org/10.3390/vaccines9080936"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinchoff, J., Austrian, K., Rajshekhar, N., Abuya, T., Kangwana, B., Ochako, R., Tidwell, JB, Mwanga, D., Muluve, E., Mbushi, F., Nzioki, M., Ngo, TD. 2021. “Gendered economic, social and health effects of the COVID-19 pandemic and mitigation policies in Kenya: evidence from a prospective cohort survey in Nairobi informal settlements.” BMJ Open. http://dx.doi.org/10.1136/bmjopen-2020-042749"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinchoff, J., Kraus-Perrotta, C., Austrian, K., Tidwell, JB, Abuya, T., Mwanga, D., Kangwana, B., Ochako, R., Muluve, E., Mbushi, F., Nzioki, M., Ngo, TD. 2021. “Mobility patterns during COVID-19 travel restrictions in Nairobi urban informal settlements: who is leaving home and why.” Journal of Urban Health. https://doi.org/10.1007/s11524-020-00507-w"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bellerose, M., Diaw, M., Pinchoff, J., Kangwana, B., and Austrian, K. 2020. “Pre-pandemic Influences on Kenyan Girls’ Transitions to Adulthood during COVID-19.” Girlhood Studies. 13 (3): 133-150. https://doi.org/10.3167/ghs.2020.130310"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Quaife, M., van Zandvoort, K., Gimma, A., Shah, K., McCreesh, N., Prem, K., Barasa, E., Mwanga, D., Kangwana, B., Pinchoff, J., CMMID COVID-19 Working Group, Edmunds, WJ, Jarvis, CI & Austrian, K. 2020. “The impact of COVID-19 control measures on social contacts and transmission in Kenyan informal settlements.” BMC Medicine. 18, 316. https://doi.org/10.1186/s12916-020-01779-4"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Population Council"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-04-03"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-03"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Quantitative"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Kenya"
+                },
+                "city": {
+                  "typeName": "city",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nairobi"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Kenya"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wajir"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Kenya"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kisumu"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Kenya"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kilifi"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Individual"
+            ]
+          },
+          {
+            "typeName": "samplingProcedure",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stratified random sampling from existing prospective cohorts"
+          },
+          {
+            "typeName": "researchInstrument",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Survey"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "2020PGY_CovidKenyaKAPAdolescentBriefRound4.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3983306,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/0ELXWU",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/0ELXWU",
+          "filename": "2020PGY_CovidKenyaKAPAdolescentBriefRound4.pdf",
+          "contentType": "application/pdf",
+          "filesize": 175046,
+          "storageIdentifier": "s3://dvn-cloud:1734873b6a1-6a5196603aa8",
+          "rootDataFileId": -1,
+          "md5": "b911fcd9ac7f05bf89b8b2f89c42fafb",
+          "checksum": {
+            "type": "MD5",
+            "value": "b911fcd9ac7f05bf89b8b2f89c42fafb"
+          },
+          "creationDate": "2020-07-13"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adolescent_COVID-19_Kilifi_Aug.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174908,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adolescent_COVID-19_Kilifi_Aug.pdf",
+          "contentType": "application/pdf",
+          "filesize": 2414416,
+          "storageIdentifier": "s3://dvn-cloud:175d2196164-86d69fb797e1",
+          "rootDataFileId": -1,
+          "md5": "c32216b8f0b8dae4de7b1a7b625bd185",
+          "checksum": {
+            "type": "MD5",
+            "value": "c32216b8f0b8dae4de7b1a7b625bd185"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adolescent_COVID-19_Kisumu_Aug.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174907,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adolescent_COVID-19_Kisumu_Aug.pdf",
+          "contentType": "application/pdf",
+          "filesize": 2292717,
+          "storageIdentifier": "s3://dvn-cloud:175d21966ee-d8f362349745",
+          "rootDataFileId": -1,
+          "md5": "b9a6c899e018603f64e4a0c335e5c8b3",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9a6c899e018603f64e4a0c335e5c8b3"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adolescent_Nairobi_Jun.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174909,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adolescent_Nairobi_Jun.pdf",
+          "contentType": "application/pdf",
+          "filesize": 2506946,
+          "storageIdentifier": "s3://dvn-cloud:175d2196c56-9687cb694348",
+          "rootDataFileId": -1,
+          "md5": "b752599ffbb7c13d1709ebd130009693",
+          "checksum": {
+            "type": "MD5",
+            "value": "b752599ffbb7c13d1709ebd130009693"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAPAdolescentSurveyTool_Round1_KilifiKisumu_Swahili-Luo.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 4055631,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAPAdolescentSurveyTool_Round1_KilifiKisumu_Swahili-Luo.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 367862,
+          "storageIdentifier": "s3://dvn-cloud:1745004b71a-94bd20b8e0c1",
+          "rootDataFileId": -1,
+          "md5": "edbfc2a776c658596811c7b83eb74d3d",
+          "checksum": {
+            "type": "MD5",
+            "value": "edbfc2a776c658596811c7b83eb74d3d"
+          },
+          "creationDate": "2020-09-02"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adolescent_Wajir_Jul.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174906,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adolescent_Wajir_Jul.pdf",
+          "contentType": "application/pdf",
+          "filesize": 2338841,
+          "storageIdentifier": "s3://dvn-cloud:175d2197128-4cb7686ed11b",
+          "rootDataFileId": -1,
+          "md5": "7aa98d77a984ea30c401121b6878d976",
+          "checksum": {
+            "type": "MD5",
+            "value": "7aa98d77a984ea30c401121b6878d976"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adult_Kilifi_Brief_Sept.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174913,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adult_Kilifi_Brief_Sept.pdf",
+          "contentType": "application/pdf",
+          "filesize": 149276,
+          "storageIdentifier": "s3://dvn-cloud:175d219731f-af271dc227b8",
+          "rootDataFileId": -1,
+          "md5": "57885112302b6273bba807b7b5b889ac",
+          "checksum": {
+            "type": "MD5",
+            "value": "57885112302b6273bba807b7b5b889ac"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adult_Kisumu_Brief_Sept.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174910,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adult_Kisumu_Brief_Sept.pdf",
+          "contentType": "application/pdf",
+          "filesize": 189517,
+          "storageIdentifier": "s3://dvn-cloud:175d21976c9-b7677cdd4c80",
+          "rootDataFileId": -1,
+          "md5": "ad59cf750b0155f092da91063b3be5e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "ad59cf750b0155f092da91063b3be5e5"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAPAdultSurveyTool_Round 1_KilifiKisumu_Swahili-Luo.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 4055630,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAPAdultSurveyTool_Round 1_KilifiKisumu_Swahili-Luo.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 818294,
+          "storageIdentifier": "s3://dvn-cloud:1745004ba8e-ceca407d4a17",
+          "rootDataFileId": -1,
+          "md5": "c0a920610ada7c51108614474abe1ed3",
+          "checksum": {
+            "type": "MD5",
+            "value": "c0a920610ada7c51108614474abe1ed3"
+          },
+          "creationDate": "2020-09-02"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Adult_Wajir_Brief_Sept.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174912,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Adult_Wajir_Brief_Sept.pdf",
+          "contentType": "application/pdf",
+          "filesize": 180002,
+          "storageIdentifier": "s3://dvn-cloud:175d2197acc-ebb2b2c63fa6",
+          "rootDataFileId": -1,
+          "md5": "301ac384a8130aa2f3be1d4035e15dd4",
+          "checksum": {
+            "type": "MD5",
+            "value": "301ac384a8130aa2f3be1d4035e15dd4"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Multisite Brief_Oct.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174914,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Multisite Brief_Oct.pdf",
+          "contentType": "application/pdf",
+          "filesize": 2481956,
+          "storageIdentifier": "s3://dvn-cloud:175d219818b-51f8b5623c55",
+          "rootDataFileId": -1,
+          "md5": "2fdffd1ca544fd29bbcdf6de7ee4f3bf",
+          "checksum": {
+            "type": "MD5",
+            "value": "2fdffd1ca544fd29bbcdf6de7ee4f3bf"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_Round4_GenderResultsBrief_Jun.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4174911,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_Round4_GenderResultsBrief_Jun.pdf",
+          "contentType": "application/pdf",
+          "filesize": 171546,
+          "storageIdentifier": "s3://dvn-cloud:175d219838c-aaba6108d1d4",
+          "rootDataFileId": -1,
+          "md5": "de0590f03ebdf5606d7c485b8786f950",
+          "checksum": {
+            "type": "MD5",
+            "value": "de0590f03ebdf5606d7c485b8786f950"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyAdolesRound4.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3874007,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/QVBATI",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/QVBATI",
+          "filename": "2020PGY_CovidKenyaKAPStudyAdolesRound4.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1332,
+          "storageIdentifier": "s3://dvn-cloud:172bd598c0a-662fc10fa261",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 205783,
+          "originalFileName": "2020PGY_CovidKenyaKAPStudyAdolesRound4.xlsx",
+          "UNF": "UNF:6:w6m7/mtKqQKxzqEexxEKlA==",
+          "rootDataFileId": -1,
+          "md5": "466b06944cd157206eeb1cb7c6387a99",
+          "checksum": {
+            "type": "MD5",
+            "value": "466b06944cd157206eeb1cb7c6387a99"
+          },
+          "creationDate": "2020-06-16"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyBriefRound3.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3849544,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/6YSSED",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/6YSSED",
+          "filename": "2020PGY_CovidKenyaKAPStudyBriefRound3.pdf",
+          "contentType": "application/pdf",
+          "filesize": 386721,
+          "storageIdentifier": "s3://dvn-cloud:172523315da-7bf20b97f83f",
+          "rootDataFileId": -1,
+          "md5": "ee20df7f96540fb3e146c611a9ac1010",
+          "checksum": {
+            "type": "MD5",
+            "value": "ee20df7f96540fb3e146c611a9ac1010"
+          },
+          "creationDate": "2020-05-26"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyBriefRound4.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3983307,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/WMUWHZ",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/WMUWHZ",
+          "filename": "2020PGY_CovidKenyaKAPStudyBriefRound4.pdf",
+          "contentType": "application/pdf",
+          "filesize": 174464,
+          "storageIdentifier": "s3://dvn-cloud:1734873b9a8-6761279e197a",
+          "rootDataFileId": -1,
+          "md5": "f8dd4918f9b9ce273cc2f91b66a28116",
+          "checksum": {
+            "type": "MD5",
+            "value": "f8dd4918f9b9ce273cc2f91b66a28116"
+          },
+          "creationDate": "2020-07-13"
+        }
+      },
+      {
+        "label": "2020PGY_COVIDKenyaKAP_StudyDescription.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 4175148,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2020PGY_COVIDKenyaKAP_StudyDescription.pdf",
+          "contentType": "application/pdf",
+          "filesize": 697295,
+          "storageIdentifier": "s3://dvn-cloud:175d3dd64cc-a6c99d997b18",
+          "rootDataFileId": -1,
+          "md5": "ae188bcf562b27f9f0c739bfba29b5f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "ae188bcf562b27f9f0c739bfba29b5f9"
+          },
+          "creationDate": "2020-11-16"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyPresentationPrelimFindings.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3796682,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/VDVFON",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/VDVFON",
+          "filename": "2020PGY_CovidKenyaKAPStudyPresentationPrelimFindings.pdf",
+          "contentType": "application/pdf",
+          "filesize": 608555,
+          "storageIdentifier": "s3://dvn-cloud:17155d7127d-7f9ac4bae3d0",
+          "rootDataFileId": -1,
+          "md5": "d7d807bd24c633bdd6d90cb1130c9145",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7d807bd24c633bdd6d90cb1130c9145"
+          },
+          "creationDate": "2020-04-07"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyPresentationRound2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3813173,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/IMP9Q9",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/IMP9Q9",
+          "filename": "2020PGY_CovidKenyaKAPStudyPresentationRound2.pdf",
+          "contentType": "application/pdf",
+          "filesize": 877406,
+          "storageIdentifier": "s3://dvn-cloud:171a24f21fe-6e22897c652a",
+          "rootDataFileId": -1,
+          "md5": "1061013cc618e394edea62bbcde66c9e",
+          "checksum": {
+            "type": "MD5",
+            "value": "1061013cc618e394edea62bbcde66c9e"
+          },
+          "creationDate": "2020-04-22"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyPresentationRound3.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3849545,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/J50GQ4",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/J50GQ4",
+          "filename": "2020PGY_CovidKenyaKAPStudyPresentationRound3.pdf",
+          "contentType": "application/pdf",
+          "filesize": 848879,
+          "storageIdentifier": "s3://dvn-cloud:1725239a885-8c42e485bdf0",
+          "rootDataFileId": -1,
+          "md5": "9702ecd3838421f0e3edc11af829452d",
+          "checksum": {
+            "type": "MD5",
+            "value": "9702ecd3838421f0e3edc11af829452d"
+          },
+          "creationDate": "2020-05-26"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyPresentationRound4.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3983305,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/RGVUKX",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/RGVUKX",
+          "filename": "2020PGY_CovidKenyaKAPStudyPresentationRound4.pdf",
+          "contentType": "application/pdf",
+          "filesize": 6544511,
+          "storageIdentifier": "s3://dvn-cloud:1734873b2ee-d64d39641fc5",
+          "rootDataFileId": -1,
+          "md5": "a834d985f73f5e94c98eb4e79832b852",
+          "checksum": {
+            "type": "MD5",
+            "value": "a834d985f73f5e94c98eb4e79832b852"
+          },
+          "creationDate": "2020-07-13"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyResultsBriefRound2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 3813344,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/LJ04JY",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/LJ04JY",
+          "filename": "2020PGY_CovidKenyaKAPStudyResultsBriefRound2.pdf",
+          "contentType": "application/pdf",
+          "filesize": 293418,
+          "storageIdentifier": "s3://dvn-cloud:171a2a06d4c-e7ec1ac54876",
+          "rootDataFileId": -1,
+          "md5": "7da388bce92a36bf1d78ee838f1f6f2d",
+          "checksum": {
+            "type": "MD5",
+            "value": "7da388bce92a36bf1d78ee838f1f6f2d"
+          },
+          "creationDate": "2020-04-22"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyRound1.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3806326,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/XNAJFB",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/XNAJFB",
+          "filename": "2020PGY_CovidKenyaKAPStudyRound1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 16077904,
+          "storageIdentifier": "s3://dvn-cloud:1717f5a37d5-02ead863cde3",
+          "rootDataFileId": -1,
+          "md5": "04227f228f8d12ff81529a0dca6adf3b",
+          "checksum": {
+            "type": "MD5",
+            "value": "04227f228f8d12ff81529a0dca6adf3b"
+          },
+          "creationDate": "2020-04-15"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyRound2.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3806327,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/NMKMVV",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/NMKMVV",
+          "filename": "2020PGY_CovidKenyaKAPStudyRound2.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 259100,
+          "storageIdentifier": "s3://dvn-cloud:1717f5a6a13-3ac7cccba3d7",
+          "rootDataFileId": -1,
+          "md5": "1d54b6cfad7ae3a6e9231c098d93d2dc",
+          "checksum": {
+            "type": "MD5",
+            "value": "1d54b6cfad7ae3a6e9231c098d93d2dc"
+          },
+          "creationDate": "2020-04-15"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyRound3.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3834198,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/PIQYB4",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/PIQYB4",
+          "filename": "2020PGY_CovidKenyaKAPStudyRound3.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1318,
+          "storageIdentifier": "s3://dvn-cloud:17214758068-d238a8ff5c8b",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 305331,
+          "originalFileName": "2020PGY_CovidKenyaKAPStudyRound3.xlsx",
+          "UNF": "UNF:6:w6m7/mtKqQKxzqEexxEKlA==",
+          "rootDataFileId": -1,
+          "md5": "0fbfe85ea4aad41dcace7d6363e6ca74",
+          "checksum": {
+            "type": "MD5",
+            "value": "0fbfe85ea4aad41dcace7d6363e6ca74"
+          },
+          "creationDate": "2020-05-14"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyRound4-1.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3874008,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/BVMWBS",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/BVMWBS",
+          "filename": "2020PGY_CovidKenyaKAPStudyRound4-1.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1218,
+          "storageIdentifier": "s3://dvn-cloud:172bd598fb7-5012c30d7842",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 408668,
+          "originalFileName": "2020PGY_CovidKenyaKAPStudyRound4-1.xlsx",
+          "UNF": "UNF:6:z9m0s7zcR/in3JCwHAJfEA==",
+          "rootDataFileId": -1,
+          "md5": "ea8035e7c8cbf255638baf447fb8128b",
+          "checksum": {
+            "type": "MD5",
+            "value": "ea8035e7c8cbf255638baf447fb8128b"
+          },
+          "creationDate": "2020-06-16"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPStudyRound4.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3873868,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/MEBIBK",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/MEBIBK",
+          "filename": "2020PGY_CovidKenyaKAPStudyRound4.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 1232,
+          "storageIdentifier": "s3://dvn-cloud:172bcb35981-89fdbc9d3a28",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 408873,
+          "originalFileName": "2020PGY_CovidKenyaKAPStudyRound4.xlsx",
+          "UNF": "UNF:6:z9m0s7zcR/in3JCwHAJfEA==",
+          "rootDataFileId": -1,
+          "md5": "52a33522a832ebabd36bec35acbf0093",
+          "checksum": {
+            "type": "MD5",
+            "value": "52a33522a832ebabd36bec35acbf0093"
+          },
+          "creationDate": "2020-06-16"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPWajirAdolescentRound1.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3983314,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/UQTNQY",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/UQTNQY",
+          "filename": "2020PGY_CovidKenyaKAPWajirAdolescentRound1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 216422,
+          "storageIdentifier": "s3://dvn-cloud:17348804ffe-aac1a4ad404d",
+          "rootDataFileId": -1,
+          "md5": "535d43e07e4bddf1fb0669be2f9a39d1",
+          "checksum": {
+            "type": "MD5",
+            "value": "535d43e07e4bddf1fb0669be2f9a39d1"
+          },
+          "creationDate": "2020-07-13"
+        }
+      },
+      {
+        "label": "2020PGY_CovidKenyaKAPWajirAdultRound1.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Survey Tool"
+        ],
+        "dataFile": {
+          "id": 3983313,
+          "persistentId": "doi:10.7910/DVN/VO7SUO/LQZUWG",
+          "pidURL": "https://doi.org/10.7910/DVN/VO7SUO/LQZUWG",
+          "filename": "2020PGY_CovidKenyaKAPWajirAdultRound1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "filesize": 436265,
+          "storageIdentifier": "s3://dvn-cloud:1734880514d-fb67956a5b54",
+          "rootDataFileId": -1,
+          "md5": "9f54d40b3be8f3d4682fabb318ec3135",
+          "checksum": {
+            "type": "MD5",
+            "value": "9f54d40b3be8f3d4682fabb318ec3135"
+          },
+          "creationDate": "2020-07-13"
+        }
+      },
+      {
+        "label": "2021_COVIDKenyaKAP_AdultPlusAdolescent_R5.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 5588962,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2021_COVIDKenyaKAP_AdultPlusAdolescent_R5.tab",
+          "contentType": "text/tab-separated-values",
+          "filesize": 8162674,
+          "storageIdentifier": "s3://dvn-cloud:17d708deb13-6874e083f928",
+          "originalFileFormat": "application/x-stata-14",
+          "originalFormatLabel": "Stata 14 Binary",
+          "originalFileSize": 38118076,
+          "originalFileName": "2021_COVIDKenyaKAP_AdultPlusAdolescent_R5.dta",
+          "UNF": "UNF:6:XggjXGr8xUrtlRo21SCBpg==",
+          "rootDataFileId": -1,
+          "md5": "dffc121c71c4abeeb524c4ccb408fb24",
+          "checksum": {
+            "type": "MD5",
+            "value": "dffc121c71c4abeeb524c4ccb408fb24"
+          },
+          "creationDate": "2021-11-30"
+        }
+      },
+      {
+        "label": "2021_COVIDKenyaKAP_SES Impact of COVID_200721_final.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 5588960,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2021_COVIDKenyaKAP_SES Impact of COVID_200721_final.do",
+          "contentType": "application/x-stata-syntax",
+          "filesize": 38431,
+          "storageIdentifier": "s3://dvn-cloud:17d708ded1f-fdac494be263",
+          "rootDataFileId": -1,
+          "md5": "8adaa9425f87675e51fe3337b10dc7f3",
+          "checksum": {
+            "type": "MD5",
+            "value": "8adaa9425f87675e51fe3337b10dc7f3"
+          },
+          "creationDate": "2021-11-30"
+        }
+      },
+      {
+        "label": "2021_COVIDKenyaKAP_SES Impact of COVID_200721_SupplementalData.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 5588961,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2021_COVIDKenyaKAP_SES Impact of COVID_200721_SupplementalData.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "filesize": 81160,
+          "storageIdentifier": "s3://dvn-cloud:17d708deca6-88c80ccd93af",
+          "rootDataFileId": -1,
+          "md5": "360c55e1c910b691eda68edf27b6e25f",
+          "checksum": {
+            "type": "MD5",
+            "value": "360c55e1c910b691eda68edf27b6e25f"
+          },
+          "creationDate": "2021-11-30"
+        }
+      },
+      {
+        "label": "2022SBSR_COVIDKenya_KAP_Merged_Allsites.dta",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 333939,
+        "dataFile": {
+          "id": 6551062,
+          "persistentId": "",
+          "pidURL": "",
+          "filename": "2022SBSR_COVIDKenya_KAP_Merged_Allsites.dta",
+          "contentType": "application/x-stata-14",
+          "filesize": 348458306,
+          "storageIdentifier": "s3://dvn-cloud:183910d97a8-96c86290af4b",
+          "rootDataFileId": -1,
+          "md5": "7190b83d1b5b5da28bcd37907b5f2aaa",
+          "checksum": {
+            "type": "MD5",
+            "value": "7190b83d1b5b5da28bcd37907b5f2aaa"
+          },
+          "creationDate": "2022-09-30"
+        }
+      }
+    ],
+    "citation": "Abuya, Timothy; Austrian, Karen; Isaac, Adan; Kangwana, Beth; Mbushi, Faith; Muluve, Eva; Mwanga, Daniel; Ngo, Thoai D.; Nzioki, Mercy; Ochako, Rhoune; Pinchoff, Jessie; Tidwell, Ben; White, Corinne, 2020, \"Experiences among adults and adolescents during the COVID-19 pandemic from four locations across Kenya\", https://doi.org/10.7910/DVN/VO7SUO, Harvard Dataverse, V17, UNF:6:aXPEbRxu1sL9TF4TDH4jEQ== [fileUNF]"
+  }
+}

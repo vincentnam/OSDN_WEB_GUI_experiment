@@ -558,8 +558,8 @@ def match_concept_in_query(query, matchs, local_model):
             else:
                 print("JELLU: ",key_var, match_key, app.config["registry"]["models"][local_model]["name"], file=sys.stderr)
                 aux_query += match_key + separator + operator_var + separator + operand_var
-        else :
-            return ""
+        # else :
+        #     return ""
 
         multiple = True
         if len(list_elem_query) == 0:

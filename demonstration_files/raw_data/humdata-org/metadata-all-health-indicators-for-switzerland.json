@@ -1,0 +1,15 @@
+{
+    "created": "2020-03-11T16:23:45.309926",
+    "description": "See resource descriptions below for links to indicator metadata",
+    "format": "CSV",
+    "download_url": "https://data.humdata.org/dataset/e4dc84f3-90af-4109-b7c9-f12129d4bf14/resource/6dba4914-2ebe-42a3-afa4-6c28227442fe/download/health_indicators_che.csv",
+    "id": "6dba4914-2ebe-42a3-afa4-6c28227442fe",
+    "last_modified": "2023-11-16T00:23:10.375827",
+    "metadata_modified": "2023-11-16T02:43:29.126911",
+    "microdata": false,
+    "dataset_id": "e4dc84f3-90af-4109-b7c9-f12129d4bf14",
+    "resource_type": "file.upload",
+    "name": "All Health Indicators for Switzerland",
+    "mimetype": "",
+    "size": "6.0M"
+}

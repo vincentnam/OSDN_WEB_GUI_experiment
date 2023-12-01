@@ -1,0 +1,40 @@
+{
+    "id": "76f85e19-9b9a-45d4-977c-7a563e8f75d3",
+    "title": "COVID-19 Impact Survey",
+    "name": "open_one_time_covid_impact",
+    "notes": "Contains data crowdsourced from Venezuelans through the Premise Data mobile application. The survey is presented only once to users and aims to capture current COVID-19 awareness around testing availability and symptoms, and identifies users who have moved to a different state in the last year. More relevant information below:  The booklet included HERE goes into more details on how Premise's crowdsourcing works.",
+    "dataset_source": "Angostura",
+    "organization": "Code for Venezuela",
+    "dataset_date": "[2020-11-15T00:00:00 TO *]",
+    "last_modified": "2021-12-21T09:18:17.710767",
+    "data_update_frequency": "Every day",
+    "groups": [
+        "Venezuela (Bolivarian Republic of)"
+    ],
+    "license_title": "ODC-ODbL",
+    "methodology": "Sample Survey",
+    "methodology_other": null,
+    "caveats": null,
+    "tags": [
+        "covid-19",
+        "health",
+        "socioeconomics"
+    ],
+    "resources": [
+        {
+            "created": "2021-03-18T04:09:45.812198",
+            "description": "CSV file with a row per each survey response",
+            "format": "CSV",
+            "download_url": "https://data.humdata.org/dataset/76f85e19-9b9a-45d4-977c-7a563e8f75d3/resource/e1826a77-691d-4b2e-a5f5-c1956e283a14/download/open_one_time_covid_impact.csv",
+            "id": "e1826a77-691d-4b2e-a5f5-c1956e283a14",
+            "last_modified": "2021-12-21T09:18:17.710767",
+            "metadata_modified": "2021-12-21T09:18:17.905657",
+            "microdata": false,
+            "dataset_id": "76f85e19-9b9a-45d4-977c-7a563e8f75d3",
+            "resource_type": "file.upload",
+            "name": "open_one_time_covid_impact.csv",
+            "mimetype": "",
+            "size": "2.2M"
+        }
+    ]
+}

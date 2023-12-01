@@ -1,0 +1,51 @@
+{
+    "id": "26584b9b-357a-4234-82f1-deed385ad6e8",
+    "title": "Economic Impact of COVID-19 in Sub-Saharan Africa",
+    "name": "economic-impact-of-covid-19-in-sub-saharan-africa",
+    "notes": "This data looks at the impact of COVID-19 on employment, income, ability to pay expenses, and more in C\u00f4te D'Ivoire, Kenya, Mozambique Nigeria, and South Africa. Data is nationally representative by age, gender, and location, and is broken down by job type and formal or informal workers. Please contact us for data broken down by province or more information on the methodology.",
+    "dataset_source": "Mobile Accord, Inc. (GeoPoll)",
+    "organization": "Mobile Accord, Inc. (GeoPoll)",
+    "dataset_date": "[2020-06-11T00:00:00 TO 2020-07-06T23:59:59]",
+    "last_modified": "2020-07-22T20:52:32.678420",
+    "data_update_frequency": "As needed",
+    "groups": [
+        "C\u00f4te d'Ivoire",
+        "Kenya",
+        "Mozambique",
+        "Nigeria",
+        "South Africa"
+    ],
+    "license_title": "Creative Commons Attribution International",
+    "methodology": "Sample Survey",
+    "methodology_other": null,
+    "caveats": "This survey was conducted by SMS through GeoPoll's SMS survey platform, and so the sample frame consists of those who own mobile phones. ",
+    "tags": [
+        "africa",
+        "covid-19",
+        "demographics",
+        "eastern africa",
+        "economics",
+        "employment",
+        "geodata",
+        "indicators",
+        "socioeconomics",
+        "west africa"
+    ],
+    "resources": [
+        {
+            "created": "2020-07-16T18:27:52.042549",
+            "description": "Excel file containing row-level data and the questionnaire for GeoPoll's economic impact of coronavirus study.",
+            "format": "XLSX",
+            "download_url": "https://data.humdata.org/dataset/26584b9b-357a-4234-82f1-deed385ad6e8/resource/6d20bacf-2334-4f93-b6e0-197873b82c73/download/combined-data_hdx-july22.xlsx",
+            "id": "6d20bacf-2334-4f93-b6e0-197873b82c73",
+            "last_modified": "2020-07-22T20:52:32.678420",
+            "metadata_modified": "2023-03-03T03:45:35.729148",
+            "microdata": false,
+            "dataset_id": "26584b9b-357a-4234-82f1-deed385ad6e8",
+            "resource_type": "file.upload",
+            "name": "Economic Impact of COVID19 Sub Saharan Africa.xlsx",
+            "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "391.3K"
+        }
+    ]
+}
