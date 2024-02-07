@@ -1,186 +1,186 @@
 concept,count,values
-emd.structure_determination_list.structure_determination.singleparticle_processing.startup_model.type_of_model,3,['EMDB MAP']
-emd.interpretation.additional_map_list.additional_map.symmetry.space_group.@value,3,['1']
-emd.map.axis_order.medium.@value,6,['Y']
-emd.interpretation.additional_map_list.additional_map.dimensions.sec.@value,3,['512']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.microscopy_id,6,['1']
-emd.sample.macromolecule_list.protein_or_peptide.macromolecule_id,6,['1']
-emd.interpretation.additional_map_list.additional_map.dimensions.row.@value,3,['512']
-emd.structure_determination_list.structure_determination.singleparticle_processing.particle_selection.number_selected.@value,3,['950136']
-emd.interpretation.additional_map_list.additional_map.cell.beta.units,3,['deg']
-emd.interpretation.additional_map_list.additional_map.cell.gamma.@value,3,['90.0']
-emd.map.cell.beta.@value,6,['90.0']
-emd.map.cell.b.units,6,['Å']
-emd.sample.macromolecule_list.ligand.formula.@value,6,['NAG']
-emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.buffer.ph.@value,6,['8.0']
-emd.map.cell.a.units,6,['Å']
-emd.structure_determination_list.structure_determination.aggregation_state.@value,6,['particle']
-emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.preparation_id,6,['1']
-emd.admin.sites.last_processing.@value,6,['RCSB']
-emd.interpretation.additional_map_list.additional_map.cell.alpha.units,3,['deg']
-emd.sample.macromolecule_list.protein_or_peptide.natural_source.organism.ncbi,6,['2697049']
-emd.map.dimensions.row.@value,6,"['400', '512']"
-emd.map.spacing.x.@value,6,"['400', '512']"
-emd.sample.macromolecule_list.protein_or_peptide.natural_source.organism.@value,6,['Severe acute respiratory syndrome coronavirus 2']
-emd.sample.supramolecule_list.complex_supramolecule.natural_source.organism.@value,6,['Severe acute respiratory syndrome coronavirus 2']
-emd.interpretation.additional_map_list.additional_map.statistics.maximum.@value,3,"['3.1338127', '3.1460764', '3.2823508']"
-emd.structure_determination_list.structure_determination.structure_determination_id,6,['1']
-emd.crossreferences.citation_list.primary_citation.journal_citation.author.@value,6,"['Addetia A', 'Berezuk AM', 'Dimitrov DS', 'Kim A', 'Li W', 'Mannar D', 'Saville JW', 'Srivastava SS', 'Subramaniam S', 'Tuttle KS', 'Veesler D', 'Zhou S', 'Zhu X']"
-emd.admin.key_dates.update.@value,6,"['2022-01-05', '2023-11-15']"
-emd.interpretation.additional_map_list.additional_map.cell.a.units,3,['Å']
-emd.interpretation.additional_map_list.additional_map.format,3,['CCP4']
-emd.structure_determination_list.structure_determination.singleparticle_processing.image_processing_id,6,['1']
-emd.map.cell.c.@value,6,"['400.0', '512.0']"
-emd.interpretation.additional_map_list.additional_map.cell.gamma.units,3,['deg']
-emd.admin.current_status.code.@value,6,['REL']
-emd.map.pixel_spacing.y.@value,6,['1.0']
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.x.@value,3,['1.0']
-emd.admin.current_status.processing_site.@value,6,['RCSB']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.units,6,['Å']
-emd.map.symmetry.space_group.@value,6,['1']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_min.units,3,['µm']
-emd.sample.supramolecule_list.complex_supramolecule.natural_source.organism.ncbi,6,['2697049']
-emd.structure_determination_list.structure_determination.singleparticle_processing.startup_model.emdb_id.@value,3,['EMD-21452']
-emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.recombinant_organism.@value,6,['Homo sapiens']
-emd.sample.macromolecule_list.ligand.macromolecule_id,6,['3']
-emd.map.label.@value,6,"['::::EMDATABANK.org::::EMD-25503::::', '::::EMDATABANK.org::::EMD-26056::::']"
-emd.map.origin.row.@value,6,['0']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.film_or_detector_model.@value,6,"['FEI FALCON IV (4k x 4k)', 'GATAN K3 (6k x 4k)']"
-emd.crossreferences.citation_list.primary_citation.journal_citation.title.@value,6,"['SARS-CoV-2 E406W mutant Spike ectodomain', 'Structural analysis of receptor binding domain mutations in SARS-CoV-2 variants of concern that modulate ACE2 and antibody binding.']"
-emd.map.pixel_spacing.x.units,6,['Å']
-emd.interpretation.additional_map_list.additional_map.contour_list.contour.primary,3,['true']
-emd.admin.authors_list.author.@value,6,"['Addetia A', 'Berezuk AM', 'Dimitrov DS', 'Kim A', 'Li W', 'Mannar D', 'Saville JW', 'Srivastava SS', 'Subramaniam S', 'Tuttle KS', 'Veesler D', 'Zhou S', 'Zhu X']"
-emd.structure_determination_list.structure_determination.singleparticle_processing.image_recording_id.@value,6,['1']
-emd.sample.macromolecule_list.ligand.number_of_copies.@value,6,"['24', '42']"
-emd.map.pixel_spacing.x.@value,6,['1.0']
-emd.interpretation.additional_map_list.additional_map.statistics.average.@value,3,"['0.00048114333', '0.0008248154', '0.00083285285']"
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.acceleration_voltage.units,6,['kV']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.average_electron_dose_per_image.units,6,['e/Å^2']
-emd.interpretation.additional_map_list.additional_map.origin.sec.@value,3,['0']
-emd.sample.macromolecule_list.ligand.molecular_weight.theoretical.units,6,['MDa']
-emd.map.dimensions.col.@value,6,"['400', '512']"
-emd.sample.macromolecule_list.protein_or_peptide.name.@value,6,['Spike glycoprotein']
-emd.crossreferences.pdb_list.pdb_reference.pdb_id.@value,6,"['7sxr', '7tpi']"
-emd.sample.macromolecule_list.protein_or_peptide.sequence.external_references.type,3,['UNIPROTKB']
-emd.admin.sites.deposition.@value,6,['RCSB']
-emd.map.contour_list.contour.primary,6,['true']
-emd.map.origin.sec.@value,6,['0']
-emd.map.dimensions.sec.@value,6,"['400', '512']"
-emd.crossreferences.emdb_list.emdb_reference.emdb_id.@value,3,['EMD-25503']
-emd.crossreferences.citation_list.primary_citation.journal_citation.volume.@value,3,['37']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_angle_assignment.type.@value,6,['MAXIMUM LIKELIHOOD']
-emd.interpretation.additional_map_list.additional_map.cell.c.@value,3,['512.0']
-emd.sample.supramolecule_list.complex_supramolecule.supramolecule_id,6,['1']
-emd.map.pixel_spacing.z.@value,6,['1.0']
-emd.map.cell.b.@value,6,"['400.0', '512.0']"
-emd.interpretation.additional_map_list.additional_map.data_type.@value,3,['IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)']
-emd.interpretation.additional_map_list.additional_map.spacing.y.@value,3,['512']
-emd.sample.supramolecule_list.complex_supramolecule.name.@value,6,"['SARS-CoV-2 D614G mutant spike protein ectodomain', 'Spike glycoprotein trimer of SARS-CoV-2']"
-emd.structure_determination_list.structure_determination.method.@value,6,['singleParticle']
-emd.admin.key_dates.map_release.@value,6,"['2021-12-29', '2023-11-15']"
-emd.map.cell.gamma.@value,6,['90.0']
-emd.interpretation.additional_map_list.additional_map.axis_order.fast.@value,3,['X']
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.z.@value,3,['1.0']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_angle_assignment.software_list.software.name.@value,3,['cryoSPARC']
-emd.map.annotation_details.@value,3,['Overall map of SARS-CoV-2 D614G mutant spike protein ectodomain']
-emd.interpretation.additional_map_list.additional_map.contour_list.contour.source.@value,3,['AUTHOR']
-emd.map.axis_order.slow.@value,6,['Z']
-emd.sample.supramolecule_list.complex_supramolecule.natural_source.database,6,['NCBI']
-emd.interpretation.additional_map_list.additional_map.cell.a.@value,3,['512.0']
-emd.crossreferences.citation_list.primary_citation.journal_citation.published,6,"['false', 'true']"
-emd.sample.macromolecule_list.protein_or_peptide.sequence.string.@value,6,"['MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD\nNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY\nSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT\nLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV\nQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF\nVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC\nNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL\nPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGS\nNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI\nSVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF\nNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG\nTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALN\nTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV\nDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT\nFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL\nQELGKYEQGSGYIPEAPRDGQAYVRKDGEWVLLSTFLGRSLEVLFQGPGHHHHHHHHSAWSHPQFEKGGGSGGGGSGGSA\nWSHPQFEK', 'MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD\nNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY\nSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT\nLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV\nQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF\nVIRGDWVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC\nNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL\nPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS\nNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI\nSVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF\nNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG\nTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALN\nTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV\nDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT\nFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL\nQELGKYEQGSGYIPEAPRDGQAYVRKDGEWVLLSTFLGRSLEVLFQGPGSGGLNDIFEAQKIEWHEGSGHHHHHHHH']"
-emd.interpretation.additional_map_list.additional_map.size_kbytes,3,['536871']
-emd.admin.grant_support.grant_reference.country.@value,6,"['Canada', 'United States']"
-emd.map.statistics.minimum.@value,6,"['-0.36999705', '-9.248217']"
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution_method.@value,6,['FSC 0.143 CUT-OFF']
-emd.sample.macromolecule_list.protein_or_peptide.molecular_weight.theoretical.@value,6,"['0.14155465599999997', '0.14236940599999998']"
-emd.crossreferences.emdb_list.emdb_reference.relationship.other.@value,3,['associated EM volume']
-emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.database,6,['NCBI']
-emd.map.file.@value,6,"['emd_25503.map.gz', 'emd_26056.map.gz']"
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.z.units,3,['Å']
-emd.crossreferences.citation_list.primary_citation.journal_citation.external_references.@value,6,"['0353', '2211-1247', '34914928', 'doi:10.1016/j.celrep.2021.110156']"
-emd.map.spacing.y.@value,6,"['400', '512']"
-emd.admin.grant_support.grant_reference.code.@value,3,"['COVID-19 research', 'Precision Cancer Drug Design']"
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.illumination_mode.@value,6,['FLOOD BEAM']
-emd.map.statistics.maximum.@value,6,"['1.2576979', '12.020519999999999']"
-emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.recombinant_organism.@value,3,['Homo sapiens']
-emd.admin.current_status.date.@value,6,"['2022-01-05', '2023-11-15']"
-emd.crossreferences.pdb_list.pdb_reference.relationship.in_frame.@value,6,['FULLOVERLAP']
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.x.units,3,['Å']
-emd.interpretation.additional_map_list.additional_map.spacing.x.@value,3,['512']
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.y.units,3,['Å']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.res_type,6,['BY AUTHOR']
-emd.crossreferences.citation_list.primary_citation.journal_citation.year.@value,3,['2021']
-emd.map.spacing.z.@value,6,"['400', '512']"
-emd.interpretation.additional_map_list.additional_map.dimensions.col.@value,3,['512']
-emd.interpretation.additional_map_list.additional_map.origin.row.@value,3,['0']
-emd.map.size_kbytes,6,"['256001', '536871']"
-emd.interpretation.additional_map_list.additional_map.file.@value,3,"['emd_26056_additional_1.map.gz', 'emd_26056_additional_2.map.gz', 'emd_26056_additional_3.map.gz']"
-emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.database,3,['NCBI']
-emd.interpretation.additional_map_list.additional_map.pixel_spacing.y.@value,3,['1.0']
-emd.map.cell.gamma.units,6,['deg']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.number_images_used.@value,6,"['120535', '427195']"
-emd.interpretation.additional_map_list.additional_map.axis_order.medium.@value,3,['Y']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.acceleration_voltage.@value,6,['300']
-emd.map.cell.c.units,6,['Å']
-emd.map.contour_list.contour.source.@value,6,['AUTHOR']
-emd.crossreferences.citation_list.primary_citation.journal_citation.last_page.@value,3,['110156']
-emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.@value,6,"['2.3', '3.0']"
-emd.structure_determination_list.structure_determination.singleparticle_processing.initial_angle_assignment.type.@value,6,['MAXIMUM LIKELIHOOD']
-emd.sample.supramolecule_list.complex_supramolecule.parent.@value,6,['0']
-emd.crossreferences.citation_list.primary_citation.journal_citation.first_page.@value,3,['110156']
-emd.interpretation.additional_map_list.additional_map.cell.c.units,3,['Å']
-emd.map.format,6,['CCP4']
-emd.map.pixel_spacing.z.units,6,['Å']
-emd.admin.title.@value,6,"['Cryo-EM structure of the SARS-CoV-2 D614G mutant spike protein ectodomain', 'SARS-CoV-2 E406W mutant Spike ectodomain']"
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.imaging_mode.@value,6,['BRIGHT FIELD']
-emd.map.pixel_spacing.y.units,6,['Å']
-emd.interpretation.additional_map_list.additional_map.cell.b.@value,3,['512.0']
-emd.sample.macromolecule_list.protein_or_peptide.molecular_weight.theoretical.units,6,['MDa']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.average_electron_dose_per_image.@value,6,"['40.0', '63.0']"
-emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.vitrification.cryogen_name.@value,6,['ETHANE']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.electron_source.@value,6,['FIELD EMISSION GUN']
-emd.map.cell.alpha.@value,6,['90.0']
-emd.map.cell.beta.units,6,['deg']
-emd.map.statistics.std.@value,6,"['0.032995224', '0.08873897']"
-emd.interpretation.additional_map_list.additional_map.annotation_details.@value,3,"['Half map A', 'Half map B', 'Unsharpened map']"
-emd.map.origin.col.@value,6,['0']
-emd.map.cell.a.@value,6,"['400.0', '512.0']"
-emd.interpretation.additional_map_list.additional_map.statistics.std.@value,3,"['0.039878007', '0.04969167', '0.049715213']"
-emd.sample.macromolecule_list.ligand.name.@value,6,['2-acetamido-2-deoxy-beta-D-glucopyranose']
-emd.admin.key_dates.header_release.@value,6,"['2021-12-29', '2023-11-15']"
-emd.map.data_type.@value,6,['IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)']
-emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.recombinant_organism.ncbi,6,['9606']
-emd.interpretation.additional_map_list.additional_map.origin.col.@value,3,['0']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_min.@value,3,['0.0']
-emd.map.cell.alpha.units,6,['deg']
-emd.interpretation.additional_map_list.additional_map.cell.b.units,3,['Å']
-emd.admin.grant_support.grant_reference.funding_body.@value,6,"['Canada Excellence Research Chair Award', 'National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)', 'Other government']"
-emd.sample.macromolecule_list.protein_or_peptide.enantiomer.@value,6,['LEVO']
-emd.map.statistics.average.@value,6,"['-0.0005236251', '0.0022108043']"
-emd.interpretation.additional_map_list.additional_map.label.@value,3,['::::EMDATABANK.org::::EMD-26056::::']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.microscope.@value,6,['FEI TITAN KRIOS']
-emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.recombinant_organism.ncbi,3,['9606']
-emd.interpretation.additional_map_list.additional_map.axis_order.slow.@value,3,['Z']
-emd.crossreferences.citation_list.primary_citation.journal_citation.author.order,6,"['1', '10', '11', '2', '3', '4', '5', '6', '7', '8', '9']"
-emd.sample.name.@value,6,"['SARS-CoV-2 D614G mutant spike protein ectodomain', 'Spike glycoprotein trimer of SARS-CoV-2']"
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_max.@value,3,['2.6']
-emd.sample.macromolecule_list.protein_or_peptide.natural_source.database,6,['NCBI']
-emd.sample.macromolecule_list.ligand.molecular_weight.theoretical.@value,6,['0.000221208']
-emd.map.axis_order.fast.@value,6,['X']
-emd.admin.keywords.@value,3,"['viral entry protein, viral glycoprotein, VIRAL PROTEIN']"
-emd.crossreferences.citation_list.primary_citation.journal_citation.country.@value,3,['US']
-emd.interpretation.additional_map_list.additional_map.spacing.z.@value,3,['512']
-emd.sample.supramolecule_list.complex_supramolecule.macromolecule_list.macromolecule.macromolecule_id.@value,6,['1']
-emd.crossreferences.citation_list.primary_citation.journal_citation.journal_abbreviation.@value,6,"['Cell Rep', 'To Be Published']"
-emd.interpretation.additional_map_list.additional_map.cell.beta.@value,3,['90.0']
-emd.crossreferences.emdb_list.emdb_reference.details.@value,3,['Cryo-EM structure of the SARS-CoV-2 D614G mutant spike protein ectodomain']
-emd.crossreferences.citation_list.primary_citation.journal_citation.external_references.type,6,"['CSD', 'DOI', 'ISSN', 'PUBMED']"
-emd.sample.macromolecule_list.protein_or_peptide.number_of_copies.@value,6,['3']
-emd.interpretation.additional_map_list.additional_map.statistics.minimum.@value,3,"['-0.83726454', '-0.84400773', '-0.9536852']"
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.image_recording_id,6,['1']
-emd.interpretation.additional_map_list.additional_map.cell.alpha.@value,3,['90.0']
-emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_max.units,3,['µm']
-emd.sample.macromolecule_list.protein_or_peptide.sequence.external_references.@value,3,['P0DTC2']
-emd.admin.key_dates.deposition.@value,6,"['2021-11-24', '2022-01-25']"
-emd.map.contour_list.contour.level.@value,6,"['0.231', '0.45']"
+emd.interpretation.additional_map_list.additional_map.file.@value,1,"['emd_26056_additional_1.map.gz', 'emd_26056_additional_2.map.gz', 'emd_26056_additional_3.map.gz']"
+emd.interpretation.additional_map_list.additional_map.cell.alpha.units,1,['deg']
+emd.interpretation.additional_map_list.additional_map.dimensions.col.@value,1,['512']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.@value,2,"['2.3', '3.0']"
+emd.sample.macromolecule_list.protein_or_peptide.natural_source.database,2,['NCBI']
+emd.interpretation.additional_map_list.additional_map.origin.row.@value,1,['0']
+emd.map.dimensions.sec.@value,2,"['400', '512']"
+emd.interpretation.additional_map_list.additional_map.contour_list.contour.source.@value,1,['AUTHOR']
+emd.admin.grant_support.grant_reference.funding_body.@value,2,"['Canada Excellence Research Chair Award', 'National Institutes of Health/National Institute of General Medical Sciences (NIH/NIGMS)', 'Other government']"
+emd.sample.macromolecule_list.protein_or_peptide.natural_source.organism.@value,2,['Severe acute respiratory syndrome coronavirus 2']
+emd.map.spacing.x.@value,2,"['400', '512']"
+emd.map.annotation_details.@value,1,['Overall map of SARS-CoV-2 D614G mutant spike protein ectodomain']
+emd.sample.supramolecule_list.complex_supramolecule.natural_source.organism.@value,2,['Severe acute respiratory syndrome coronavirus 2']
+emd.sample.macromolecule_list.protein_or_peptide.molecular_weight.theoretical.units,2,['MDa']
+emd.admin.authors_list.author.@value,2,"['Addetia A', 'Berezuk AM', 'Dimitrov DS', 'Kim A', 'Li W', 'Mannar D', 'Saville JW', 'Srivastava SS', 'Subramaniam S', 'Tuttle KS', 'Veesler D', 'Zhou S', 'Zhu X']"
+emd.interpretation.additional_map_list.additional_map.statistics.std.@value,1,"['0.039878007', '0.04969167', '0.049715213']"
+emd.interpretation.additional_map_list.additional_map.size_kbytes,1,['536871']
+emd.sample.supramolecule_list.complex_supramolecule.macromolecule_list.macromolecule.macromolecule_id.@value,2,['1']
+emd.sample.macromolecule_list.ligand.name.@value,2,['2-acetamido-2-deoxy-beta-D-glucopyranose']
+emd.structure_determination_list.structure_determination.singleparticle_processing.image_recording_id.@value,2,['1']
+emd.interpretation.additional_map_list.additional_map.contour_list.contour.primary,1,['true']
+emd.map.pixel_spacing.z.units,2,['Å']
+emd.map.cell.a.@value,2,"['400.0', '512.0']"
+emd.crossreferences.pdb_list.pdb_reference.pdb_id.@value,2,"['7sxr', '7tpi']"
+emd.map.spacing.y.@value,2,"['400', '512']"
+emd.crossreferences.citation_list.primary_citation.journal_citation.country.@value,1,['US']
+emd.admin.key_dates.update.@value,2,"['2022-01-05', '2023-11-15']"
+emd.sample.name.@value,2,"['SARS-CoV-2 D614G mutant spike protein ectodomain', 'Spike glycoprotein trimer of SARS-CoV-2']"
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.x.units,1,['Å']
+emd.map.pixel_spacing.y.@value,2,['1.0']
+emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.recombinant_organism.@value,2,['Homo sapiens']
+emd.admin.title.@value,2,"['Cryo-EM structure of the SARS-CoV-2 D614G mutant spike protein ectodomain', 'SARS-CoV-2 E406W mutant Spike ectodomain']"
+emd.interpretation.additional_map_list.additional_map.cell.b.units,1,['Å']
+emd.map.statistics.average.@value,2,"['-0.0005236251', '0.0022108043']"
+emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.recombinant_organism.ncbi,2,['9606']
+emd.sample.macromolecule_list.protein_or_peptide.number_of_copies.@value,2,['3']
+emd.structure_determination_list.structure_determination.singleparticle_processing.image_processing_id,2,['1']
+emd.sample.macromolecule_list.protein_or_peptide.sequence.external_references.type,1,['UNIPROTKB']
+emd.sample.macromolecule_list.ligand.molecular_weight.theoretical.@value,2,['0.000221208']
+emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.buffer.ph.@value,2,['8.0']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.imaging_mode.@value,2,['BRIGHT FIELD']
+emd.map.contour_list.contour.level.@value,2,"['0.231', '0.45']"
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.illumination_mode.@value,2,['FLOOD BEAM']
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.y.@value,1,['1.0']
+emd.sample.supramolecule_list.complex_supramolecule.natural_source.organism.ncbi,2,['2697049']
+emd.interpretation.additional_map_list.additional_map.cell.a.units,1,['Å']
+emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.database,1,['NCBI']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_min.@value,1,['0.0']
+emd.sample.macromolecule_list.ligand.macromolecule_id,2,['3']
+emd.map.cell.c.@value,2,"['400.0', '512.0']"
+emd.map.pixel_spacing.z.@value,2,['1.0']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.microscope.@value,2,['FEI TITAN KRIOS']
+emd.crossreferences.citation_list.primary_citation.journal_citation.external_references.type,2,"['CSD', 'DOI', 'ISSN', 'PUBMED']"
+emd.admin.keywords.@value,1,"['viral entry protein, viral glycoprotein, VIRAL PROTEIN']"
+emd.admin.current_status.code.@value,2,['REL']
+emd.interpretation.additional_map_list.additional_map.label.@value,1,['::::EMDATABANK.org::::EMD-26056::::']
+emd.map.pixel_spacing.x.@value,2,['1.0']
+emd.interpretation.additional_map_list.additional_map.dimensions.row.@value,1,['512']
+emd.crossreferences.citation_list.primary_citation.journal_citation.external_references.@value,2,"['0353', '2211-1247', '34914928', 'doi:10.1016/j.celrep.2021.110156']"
+emd.map.origin.sec.@value,2,['0']
+emd.sample.macromolecule_list.protein_or_peptide.recombinant_expression.database,2,['NCBI']
+emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.recombinant_organism.@value,1,['Homo sapiens']
+emd.crossreferences.citation_list.primary_citation.journal_citation.first_page.@value,1,['110156']
+emd.sample.macromolecule_list.ligand.molecular_weight.theoretical.units,2,['MDa']
+emd.interpretation.additional_map_list.additional_map.axis_order.fast.@value,1,['X']
+emd.crossreferences.citation_list.primary_citation.journal_citation.year.@value,1,['2021']
+emd.map.axis_order.medium.@value,2,['Y']
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.x.@value,1,['1.0']
+emd.map.cell.beta.@value,2,['90.0']
+emd.map.dimensions.row.@value,2,"['400', '512']"
+emd.map.origin.row.@value,2,['0']
+emd.sample.macromolecule_list.protein_or_peptide.sequence.string.@value,2,"['MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD\nNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY\nSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT\nLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV\nQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF\nVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC\nNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL\nPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGS\nNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI\nSVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF\nNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG\nTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALN\nTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV\nDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT\nFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL\nQELGKYEQGSGYIPEAPRDGQAYVRKDGEWVLLSTFLGRSLEVLFQGPGHHHHHHHHSAWSHPQFEKGGGSGGGGSGGSA\nWSHPQFEK', 'MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFD\nNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY\nSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT\nLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV\nQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF\nVIRGDWVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC\nNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL\nPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS\nNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPGSASSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI\nSVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF\nNFSQILPDPSKPSKRSPIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG\nTITSGWTFGAGPALQIPFPMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTPSALGKLQDVVNQNAQALN\nTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV\nDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT\nFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL\nQELGKYEQGSGYIPEAPRDGQAYVRKDGEWVLLSTFLGRSLEVLFQGPGSGGLNDIFEAQKIEWHEGSGHHHHHHHH']"
+emd.structure_determination_list.structure_determination.singleparticle_processing.initial_angle_assignment.type.@value,2,['MAXIMUM LIKELIHOOD']
+emd.sample.macromolecule_list.protein_or_peptide.name.@value,2,['Spike glycoprotein']
+emd.map.statistics.std.@value,2,"['0.032995224', '0.08873897']"
+emd.crossreferences.citation_list.primary_citation.journal_citation.volume.@value,1,['37']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.res_type,2,['BY AUTHOR']
+emd.map.cell.gamma.@value,2,['90.0']
+emd.structure_determination_list.structure_determination.method.@value,2,['singleParticle']
+emd.map.format,2,['CCP4']
+emd.map.pixel_spacing.x.units,2,['Å']
+emd.sample.supramolecule_list.complex_supramolecule.name.@value,2,"['SARS-CoV-2 D614G mutant spike protein ectodomain', 'Spike glycoprotein trimer of SARS-CoV-2']"
+emd.map.contour_list.contour.primary,2,['true']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.average_electron_dose_per_image.units,2,['e/Å^2']
+emd.interpretation.additional_map_list.additional_map.format,1,['CCP4']
+emd.map.spacing.z.@value,2,"['400', '512']"
+emd.sample.macromolecule_list.protein_or_peptide.macromolecule_id,2,['1']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.number_images_used.@value,2,"['120535', '427195']"
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.acceleration_voltage.units,2,['kV']
+emd.crossreferences.citation_list.primary_citation.journal_citation.title.@value,2,"['SARS-CoV-2 E406W mutant Spike ectodomain', 'Structural analysis of receptor binding domain mutations in SARS-CoV-2 variants of concern that modulate ACE2 and antibody binding.']"
+emd.interpretation.additional_map_list.additional_map.statistics.average.@value,1,"['0.00048114333', '0.0008248154', '0.00083285285']"
+emd.map.cell.b.@value,2,"['400.0', '512.0']"
+emd.interpretation.additional_map_list.additional_map.spacing.x.@value,1,['512']
+emd.crossreferences.citation_list.primary_citation.journal_citation.published,2,"['false', 'true']"
+emd.sample.macromolecule_list.ligand.number_of_copies.@value,2,"['24', '42']"
+emd.admin.current_status.processing_site.@value,2,['RCSB']
+emd.map.cell.c.units,2,['Å']
+emd.map.cell.alpha.@value,2,['90.0']
+emd.admin.key_dates.deposition.@value,2,"['2021-11-24', '2022-01-25']"
+emd.admin.key_dates.header_release.@value,2,"['2021-12-29', '2023-11-15']"
+emd.interpretation.additional_map_list.additional_map.cell.beta.@value,1,['90.0']
+emd.admin.grant_support.grant_reference.country.@value,2,"['Canada', 'United States']"
+emd.map.cell.beta.units,2,['deg']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_angle_assignment.type.@value,2,['MAXIMUM LIKELIHOOD']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_angle_assignment.software_list.software.name.@value,1,['cryoSPARC']
+emd.sample.supramolecule_list.complex_supramolecule.parent.@value,2,['0']
+emd.interpretation.additional_map_list.additional_map.axis_order.medium.@value,1,['Y']
+emd.crossreferences.pdb_list.pdb_reference.relationship.in_frame.@value,2,['FULLOVERLAP']
+emd.sample.macromolecule_list.protein_or_peptide.enantiomer.@value,2,['LEVO']
+emd.crossreferences.citation_list.primary_citation.journal_citation.journal_abbreviation.@value,2,"['Cell Rep', 'To Be Published']"
+emd.interpretation.additional_map_list.additional_map.cell.gamma.units,1,['deg']
+emd.crossreferences.emdb_list.emdb_reference.relationship.other.@value,1,['associated EM volume']
+emd.crossreferences.emdb_list.emdb_reference.emdb_id.@value,1,['EMD-25503']
+emd.structure_determination_list.structure_determination.structure_determination_id,2,['1']
+emd.interpretation.additional_map_list.additional_map.axis_order.slow.@value,1,['Z']
+emd.map.axis_order.fast.@value,2,['X']
+emd.interpretation.additional_map_list.additional_map.origin.sec.@value,1,['0']
+emd.map.file.@value,2,"['emd_25503.map.gz', 'emd_26056.map.gz']"
+emd.sample.macromolecule_list.protein_or_peptide.sequence.external_references.@value,1,['P0DTC2']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_min.units,1,['µm']
+emd.sample.supramolecule_list.complex_supramolecule.recombinant_expression.recombinant_organism.ncbi,1,['9606']
+emd.admin.sites.last_processing.@value,2,['RCSB']
+emd.sample.macromolecule_list.ligand.formula.@value,2,['NAG']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_max.@value,1,['2.6']
+emd.sample.supramolecule_list.complex_supramolecule.natural_source.database,2,['NCBI']
+emd.sample.macromolecule_list.protein_or_peptide.natural_source.organism.ncbi,2,['2697049']
+emd.structure_determination_list.structure_determination.singleparticle_processing.startup_model.type_of_model,1,['EMDB MAP']
+emd.admin.current_status.date.@value,2,"['2022-01-05', '2023-11-15']"
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.image_recording_id,2,['1']
+emd.map.cell.a.units,2,['Å']
+emd.admin.grant_support.grant_reference.code.@value,1,"['COVID-19 research', 'Precision Cancer Drug Design']"
+emd.interpretation.additional_map_list.additional_map.cell.alpha.@value,1,['90.0']
+emd.map.statistics.maximum.@value,2,"['1.2576979', '12.020519999999999']"
+emd.interpretation.additional_map_list.additional_map.cell.beta.units,1,['deg']
+emd.map.data_type.@value,2,['IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)']
+emd.interpretation.additional_map_list.additional_map.statistics.maximum.@value,1,"['3.1338127', '3.1460764', '3.2823508']"
+emd.map.axis_order.slow.@value,2,['Z']
+emd.interpretation.additional_map_list.additional_map.origin.col.@value,1,['0']
+emd.interpretation.additional_map_list.additional_map.cell.b.@value,1,['512.0']
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.z.@value,1,['1.0']
+emd.map.size_kbytes,2,"['256001', '536871']"
+emd.structure_determination_list.structure_determination.singleparticle_processing.startup_model.emdb_id.@value,1,['EMD-21452']
+emd.interpretation.additional_map_list.additional_map.cell.a.@value,1,['512.0']
+emd.interpretation.additional_map_list.additional_map.annotation_details.@value,1,"['Half map A', 'Half map B', 'Unsharpened map']"
+emd.sample.supramolecule_list.complex_supramolecule.supramolecule_id,2,['1']
+emd.structure_determination_list.structure_determination.singleparticle_processing.particle_selection.number_selected.@value,1,['950136']
+emd.interpretation.additional_map_list.additional_map.dimensions.sec.@value,1,['512']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.nominal_defocus_max.units,1,['µm']
+emd.map.cell.b.units,2,['Å']
+emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.vitrification.cryogen_name.@value,2,['ETHANE']
+emd.map.cell.gamma.units,2,['deg']
+emd.map.origin.col.@value,2,['0']
+emd.structure_determination_list.structure_determination.specimen_preparation_list.single_particle_preparation.preparation_id,2,['1']
+emd.map.label.@value,2,"['::::EMDATABANK.org::::EMD-25503::::', '::::EMDATABANK.org::::EMD-26056::::']"
+emd.map.pixel_spacing.y.units,2,['Å']
+emd.map.symmetry.space_group.@value,2,['1']
+emd.interpretation.additional_map_list.additional_map.cell.c.units,1,['Å']
+emd.interpretation.additional_map_list.additional_map.symmetry.space_group.@value,1,['1']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.average_electron_dose_per_image.@value,2,"['40.0', '63.0']"
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.z.units,1,['Å']
+emd.map.dimensions.col.@value,2,"['400', '512']"
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.image_recording_list.image_recording.film_or_detector_model.@value,2,"['FEI FALCON IV (4k x 4k)', 'GATAN K3 (6k x 4k)']"
+emd.map.statistics.minimum.@value,2,"['-0.36999705', '-9.248217']"
+emd.interpretation.additional_map_list.additional_map.data_type.@value,1,['IMAGE STORED AS FLOATING POINT NUMBER (4 BYTES)']
+emd.map.cell.alpha.units,2,['deg']
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution.units,2,['Å']
+emd.crossreferences.citation_list.primary_citation.journal_citation.author.@value,2,"['Addetia A', 'Berezuk AM', 'Dimitrov DS', 'Kim A', 'Li W', 'Mannar D', 'Saville JW', 'Srivastava SS', 'Subramaniam S', 'Tuttle KS', 'Veesler D', 'Zhou S', 'Zhu X']"
+emd.structure_determination_list.structure_determination.singleparticle_processing.final_reconstruction.resolution_method.@value,2,['FSC 0.143 CUT-OFF']
+emd.crossreferences.emdb_list.emdb_reference.details.@value,1,['Cryo-EM structure of the SARS-CoV-2 D614G mutant spike protein ectodomain']
+emd.interpretation.additional_map_list.additional_map.spacing.z.@value,1,['512']
+emd.admin.key_dates.map_release.@value,2,"['2021-12-29', '2023-11-15']"
+emd.interpretation.additional_map_list.additional_map.cell.gamma.@value,1,['90.0']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.acceleration_voltage.@value,2,['300']
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.electron_source.@value,2,['FIELD EMISSION GUN']
+emd.interpretation.additional_map_list.additional_map.spacing.y.@value,1,['512']
+emd.structure_determination_list.structure_determination.aggregation_state.@value,2,['particle']
+emd.map.contour_list.contour.source.@value,2,['AUTHOR']
+emd.admin.sites.deposition.@value,2,['RCSB']
+emd.interpretation.additional_map_list.additional_map.cell.c.@value,1,['512.0']
+emd.crossreferences.citation_list.primary_citation.journal_citation.author.order,2,"['1', '10', '11', '2', '3', '4', '5', '6', '7', '8', '9']"
+emd.structure_determination_list.structure_determination.microscopy_list.single_particle_microscopy.microscopy_id,2,['1']
+emd.interpretation.additional_map_list.additional_map.pixel_spacing.y.units,1,['Å']
+emd.sample.macromolecule_list.protein_or_peptide.molecular_weight.theoretical.@value,2,"['0.14155465599999997', '0.14236940599999998']"
+emd.interpretation.additional_map_list.additional_map.statistics.minimum.@value,1,"['-0.83726454', '-0.84400773', '-0.9536852']"
+emd.crossreferences.citation_list.primary_citation.journal_citation.last_page.@value,1,['110156']

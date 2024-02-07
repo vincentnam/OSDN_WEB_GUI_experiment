@@ -1,0 +1,57 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.1371/journal.pone.0160613</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">Yuan Jiang</creatorName>
+    <givenName>Yuan</givenName>
+    <familyName>Jiang</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Jin-Liang Wang</creatorName>
+    <givenName>Jin-Liang</givenName>
+    <familyName>Wang</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Jing Chen</creatorName>
+    <givenName>Jing</givenName>
+    <familyName>Chen</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Li-Juan Mao</creatorName>
+    <givenName>Li-Juan</givenName>
+    <familyName>Mao</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Xiao-Xiao Feng</creatorName>
+    <givenName>Xiao-Xiao</givenName>
+    <familyName>Feng</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Chu-Long Zhang</creatorName>
+    <givenName>Chu-Long</givenName>
+    <familyName>Zhang</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Fu-Cheng Lin</creatorName>
+    <givenName>Fu-Cheng</givenName>
+    <familyName>Lin</familyName>
+  </creator>
+</creators>
+<titles><title>&lt;i&gt;Trichoderma&lt;/i&gt; Biodiversity of Agricultural Fields in East China Reveals a Gradient Distribution of Species</title></titles>
+<publisher>Public Library of Science</publisher>
+<publicationYear>2016</publicationYear>
+<subjects>
+  <subject>hamatum</subject>
+  <subject>biodiversity</subject>
+  <subject>haplotype</subject>
+  <subject>Zhejiang Province</subject>
+  <subject>species</subject>
+  <subject>East China</subject>
+  <subject>province</subject>
+  <subject>Trichoderma biocontrol strains</subject>
+</subjects>
+<dates><date dateType="Issued">2016-08-02 17:36:45</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://plos.figshare.com/articles/dataset/_i_Trichoderma_i_Biodiversity_of_Agricultural_Fields_in_East_China_Reveals_a_Gradient_Distribution_of_Species/3510751</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;div&gt;&lt;p&gt;We surveyed the &lt;i&gt;Trichoderma&lt;/i&gt; (Hypocreales, Ascomycota) biodiversity in agricultural fields in four major agricultural provinces of East China. &lt;i&gt;Trichoderma&lt;/i&gt; strains were identified based on molecular approaches and morphological characteristics. In three sampled seasons (spring, summer and autumn), 2078 strains were isolated and identified to 17 known species: &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;harzianum&lt;/i&gt; (429 isolates), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;asperellum&lt;/i&gt; (425), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;hamatum&lt;/i&gt; (397), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;virens&lt;/i&gt; (340), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;koningiopsis&lt;/i&gt; (248), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;brevicompactum&lt;/i&gt; (73), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;atroviride&lt;/i&gt; (73), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;fertile&lt;/i&gt; (26), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;longibrachiatum&lt;/i&gt; (22), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;pleuroticola&lt;/i&gt; (16), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;erinaceum&lt;/i&gt; (16), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;oblongisporum&lt;/i&gt; (2), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;polysporum&lt;/i&gt; (2), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;spirale&lt;/i&gt; (2), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;capillare&lt;/i&gt; (2), &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;velutinum&lt;/i&gt; (2), and &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;saturnisporum&lt;/i&gt; (1). &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;harzianum&lt;/i&gt;, &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;asperellum&lt;/i&gt;, &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;hamatum&lt;/i&gt;, and &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;virens&lt;/i&gt; were identified as the dominant species with dominance (&lt;i&gt;Y&lt;/i&gt;) values of 0.057, 0.052, 0.048, and 0.039, respectively. The species amount, isolate numbers and the dominant species of &lt;i&gt;Trichoderma&lt;/i&gt; varied between provinces. Zhejiang Province has shown the highest diversity, which was reflected in the highest species amount (14) and the highest Shannon–Wiener diversity index of &lt;i&gt;Trichoderma&lt;/i&gt; haplotypes (1.46). We observed that relative frequencies of &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;hamatum&lt;/i&gt; and &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;koningiopsis&lt;/i&gt; under rice soil were higher than those under wheat and maize soil, indicating the preference of &lt;i&gt;Trichoderma&lt;/i&gt; to different crops. Remarkable seasonal variation was shown, with summer exhibiting the highest biodiversity of the studied seasons. These results show that &lt;i&gt;Trichoderma&lt;/i&gt; biodiversity in agricultural fields varies by region, crop, and season. Zhejiang Province (the southernmost province in the investigated area) had more &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;hamatum&lt;/i&gt; than Shandong Province (the northernmost province), not only in isolate amounts but also in haplotype amounts. Furthermore, at haplotype level, only &lt;i&gt;T&lt;/i&gt;. &lt;i&gt;hamatum&lt;/i&gt; showed a gradient distribution from south to north in correspondence analysis among the four dominant species. The above results would contribute to the application of &lt;i&gt;Trichoderma&lt;/i&gt; biocontrol strains.&lt;/p&gt;&lt;/div&gt;</description></descriptions>
+</resource>

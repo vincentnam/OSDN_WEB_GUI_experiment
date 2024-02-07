@@ -30,7 +30,6 @@ app.config["REQUEST-ID-LIST"] = []
 app.config["COLLECTION"] = os.environ["COLLECTION"]
 app.config["MODEL"] = os.environ["MODEL"]
 
-# pprint.pprint(app.config, stream=sys.stderr)
 if app.config["PLATFORM-ID"] == "1":
     app.config["registry"] = pickle.loads(open("registry_ODATIS.dict", "rb").read())
 
@@ -40,15 +39,9 @@ if app.config["PLATFORM-ID"] != "1" and app.config["PLATFORM-ID"] != "3":
 if app.config["PLATFORM-ID"] == "3":
     app.config["registry"] = pickle.loads(open("registry_FHIR.dict", "rb").read())
 
-# pprint.pprint(app.config["registry"],stream=sys.stderr)
-
-# print(app.config["registry"],file=sys.stderr)
 app.config["REGISTRY-VERSION"] = app.config["registry"]["registry-version"]
 
 
-# @app.route("/data")
-# def hello_world():
-#     return
 @app.route("/platform_id", methods=['PUT'])
 def modify_platform_id():
     app.config["PLATFORM-ID"] = request.headers["platform-id"]
@@ -59,12 +52,9 @@ def modify_platform_id():
 
 @app.route("/test_registry")
 def update_state_registry():
-    # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
     # TODO :UPDATE NETWORK
     # TODO :UPDATE MODELS PART
-    print(app.config["registry"]["platforms"], file=sys.stderr)
     for id_plat in app.config["registry"]["platforms"]:
-        # print(id_plat, file=sys.stderr)
         for link in app.config["registry"]["platforms"][id_plat]["links"]:
             if id_plat not in app.config["registry"]["platforms"][link]["links"]:
                 app.config["registry"]["platforms"][link]["links"].append(id_plat)
@@ -79,20 +69,9 @@ def update_state_registry():
     app.config["registry"]["network"]["degrees_distribution"] = new_degree_distrib_list
     app.config["registry"]["network"]["node_number"] = len(app.config["registry"]["platforms"].keys())
 
-    # app.config["registry"]["platforms"]
-    # pprint.pprint('app.config["registry"]["platforms"]', stream=sys.stderr)
-
-    # pprint.pprint(app.config["registry"]["platforms"], stream=sys.stderr)
-    # return "ok"
-
 
 @app.route('/registry', methods=['POST'])
 def overwrite_registry():
-    # pprint.pprint(request, stream=sys.stderr)
-
-    pprint.pprint(request.headers, stream=sys.stderr)
-
-    pprint.pprint(request.get_json(), stream=sys.stderr)
     if request.headers["registry-version"] == app.config["REGISTRY-VERSION"]:
         return flask.Response(status=208)
     else:
@@ -106,14 +85,10 @@ def overwrite_registry():
         else:
             for key in app.config["registry"]:
                 if key != "registry-version" and key != "network" and key != "models":
-                    # pprint.pprint("KEY",stream=sys.stderr)
-                    # pprint.pprint(key,stream=sys.stderr)
-                    # pprint.pprint(data[key],stream=sys.stderr)
                     app.config["registry"][key] = {**app.config["registry"][key], **data[key]}
                     # UPDATE LE REGISTRY AVEC LES LINKS
 
                     update_state_registry()
-    print(data, file=sys.stderr)
     if "models" in data:
         for key in data["models"]:
             if key in app.config["registry"]["models"]:
@@ -123,11 +98,6 @@ def overwrite_registry():
     aux_header = dict(request.headers)
 
     aux_header["Platform-Visited"] = aux_header["Platforms-Visited"] + "," + app.config["PLATFORM-ID"]
-    #     pprint.pprint("COUCOU", stream=sys.stderr)
-    #     pprint.pprint(app.config["registry"], stream=sys.stderr)
-
-    # pprint.pprint(app.config["registry"]["platforms"])
-
     for platform_id in app.config["registry"]["platforms"][app.config["PLATFORM-ID"]]["links"]:
         if platform_id not in request.headers["platforms-visited"] and platform_id != request.headers["platform-id"]:
             req.post(app.config["registry"]["platforms"][platform_id]["URL"][0] + "/registry", headers=aux_header,
@@ -138,10 +108,6 @@ def overwrite_registry():
 
 @app.route('/registry', methods=['GET'])
 def get_registry():
-    #     print(flask.jsonify(open("registry.dict", "r").read()))
-    #     return flask.jsonify(open("registry.dict", "r").read())
-    #     response =  flask.Response(status=200)
-    #     response.set_data(flask.jsonify(app.config["registry"]))
     response = flask.jsonify(data=app.config["registry"])
     response.headers = {"Access-Control-Allow-Origin": "*"}
     return response
@@ -211,8 +177,6 @@ def get_metadata(model, query, dicttoxml=None):
     :return: Results of request as list of objects
     '''
     # TODO: Handle $in operator and other not fully implemented + data type handling
-    # print(query.split("#_#SEPARATOR#_#"), file=sys.stderr)
-
 
 
     # ISO 19115 / ODATIS
@@ -336,17 +300,11 @@ def get_metadata(model, query, dicttoxml=None):
             aux_key = aux_query[0].replace("@", "")
             data = (walk_tree(aux_key, root, operator_list_def(aux_query[1]), aux_query[2]))
             if data != []:
-                # print("coucou \n\n\n", file=sys.stderr)
-                # print(pd.json_normalize(XML_to_dict(root), sep=".").to_dict(), file=sys.stderr)
                 return XML_to_dict(root)
             else:
-                # print((data), file=sys.stderr)
                 return []
-            # print(data,file=sys.stderr)
-            #     return data
         except Exception as e:
             print(e, file=sys.stderr)
-            # print(data, file=sys.stderr)
             return []
     # # FHIR
     if app.config["PLATFORM-ID"] == "3":
@@ -373,7 +331,6 @@ def get_metadata(model, query, dicttoxml=None):
             if len(splitted_query) == 0:
                 break
 
-        print(aux_query, file=sys.stderr)
         db = MySQLdb.connect("database_sql", database="FHIR")
         db_cursor = db.cursor()
         db_cursor.execute("SELECT * FROM Location_hl7east WHERE " + aux_query + " ;")
@@ -384,10 +341,8 @@ def get_metadata(model, query, dicttoxml=None):
             dict_ret = {}
 
             for index, col_name in enumerate(name):
-                # print(col_name,index, file=sys.stderr)
                 dict_ret[col_name] = res_req[index]
             ret_list.append(dict_ret)
-        # print(ret_list, file=sys.stderr)
         return ret_list
     # JSON Database
     # if app.config["PLATFORM-ID"] != "1" and app.config["PLATFORM-ID"] !="3":
@@ -395,7 +350,6 @@ def get_metadata(model, query, dicttoxml=None):
     multiple = False
     logical_operator = ""
     splitted_query = query.split("#_#SEPARATOR#_#")
-    print(query, file=sys.stderr)
     while (True):
 
         if multiple:
@@ -404,37 +358,12 @@ def get_metadata(model, query, dicttoxml=None):
 
         operator = splitted_query.pop(0)
         operand = splitted_query.pop(0)
-
-
-        print("TA MERE", file=sys.stderr)
-
-
-
-        print(key, file=sys.stderr)
-
-        # print(app.config["registry"]["models"][model]["keys"][key], file=sys.stderr)
-        # print(app.config["registry"]["models"][model]["keys"][key].startswith("list"), file=sys.stderr)
-        print("ALOL :", app.config["registry"]["models"][model]["name"], key, file=sys.stderr)
         if operator == "in":
             if multiple:
-                # if isinstance(*aux_query, list):
-                # if app.config["registry"]["models"][model]["keys"][key].startswith("list"):
-                #     if app.config["COLLECTION"] == "opendatasoft":
-                #         key = key.replace(".", "#")
-                #     aux_query = {"$" + logical_operator.lower(): [aux_query, {key: {operator_list_def(operator): operand}}]}
-                # else:
                 if app.config["COLLECTION"] == "opendatasoft":
                     key = key.replace(".", "#")
                 aux_query = {"$" + logical_operator.lower(): [aux_query, {key: {"$regex": operand, "$options": "i"}}]}
-
-
-
             else:
-                # if app.config["registry"]["models"][model]["keys"][key].startswith("list"):
-                #     if app.config["COLLECTION"] == "opendatasoft":
-                #         key = key.replace(".", "#")
-                #     aux_query = {key: {operator_list_def(operator): float(operand)}}
-                # else:
                 if app.config["COLLECTION"] == "opendatasoft":
                     key = key.replace(".", "#")
                 aux_query = {key: {"$regex": operand, "$options": "i"}}
@@ -477,21 +406,13 @@ def get_metadata(model, query, dicttoxml=None):
 
 
         multiple = True
-        print("ON EST Là ", aux_query, file=sys.stderr)
-        print("ON EST Là ", aux_query, file=sys.stderr)
-        print("ON EST Là ", aux_query, file=sys.stderr)
-        print(splitted_query, file=sys.stderr)
-
         if len(splitted_query) == 0:
             break
 
 
-    print("RESULT REQUEST : ", file=sys.stderr)
-    print(app.config["COLLECTION"] + " : " + str(aux_query), file=sys.stderr)
-    return (
-        list(pymongo.MongoClient("193.168.2.20:27017", maxPoolSize=10)[app.config["COLLECTION"]].interop_metadata.find(
-            aux_query, {"_id": False}).limit(100)))
-
+    return_req=list(pymongo.MongoClient("193.168.2.20:27017", maxPoolSize=10)[app.config["COLLECTION"]].interop_metadata.find(
+            aux_query, {"_id": False}).limit(100))
+    return return_req
 
 def match_concept_in_query(query, matchs, local_model):
     '''
@@ -519,14 +440,12 @@ def match_concept_in_query(query, matchs, local_model):
         # For score using, not implemented yet
         # match_score = - math.inf
         if key_var in app.config["registry"]["models"][app.config["MODEL"]]["keys"]:
-            print("TA MERE OUAIS", file=sys.stderr)
             match_found=True
             match_key = key_var
         else :
             for match, match_model, concept, concept_model in matchs:
 
                 if concept == key_var and match_model==local_model:
-                    print(concept, key_var,match, file=sys.stderr)
                     match_found = True
                     # if score > match_score:
                     match_key = match
@@ -543,24 +462,14 @@ def match_concept_in_query(query, matchs, local_model):
                     # if score > match_score:
                     match_key = concept
 
-
-        print("MATCH FOUND : " , match_found,file=sys.stderr)
-
         if match_found:
             if multiple:
-                print("JELLO: ",key_var, match_key, app.config["registry"]["models"][local_model]["name"], file=sys.stderr)
                 if aux_query !="":
-
-
                     aux_query += separator + logical_operator + separator + match_key + separator + operator_var + separator + operand_var
                 else :
                     aux_query += match_key + separator + operator_var + separator + operand_var
             else:
-                print("JELLU: ",key_var, match_key, app.config["registry"]["models"][local_model]["name"], file=sys.stderr)
                 aux_query += match_key + separator + operator_var + separator + operand_var
-        # else :
-        #     return ""
-
         multiple = True
         if len(list_elem_query) == 0:
             break
@@ -660,10 +569,6 @@ def request_metadata():
         request.headers["query"],
         transitive_closure([(keyA, modelA, keyB, modelB) for keyA, modelA, _, keyB, modelB, _, _ in matchs]),
         app.config["MODEL"])
-    print("hello world" , file=sys.stderr)
-    # print(        transitive_closure([(keyA, modelA, keyB, modelB) for keyA, modelA, _, keyB, modelB, _, _ in matchs]),file=sys.stderr)
-    print(request.headers["query"], file=sys.stderr)
-    print(matched_query, file=sys.stderr)
     if matched_query != "":
 
         ret[app.config["PLATFORM-ID"]] = (get_metadata(model=local_model, query= matched_query))
@@ -692,7 +597,6 @@ def request_metadata():
                 ret = {**ret, **json.loads(rep.text)}
             except Exception as e:
                 print(e, file=sys.stderr)
-    print(len(ret),file=sys.stderr)
     return ret
 
 def get_node_nearest_from_distribution():
@@ -735,8 +639,6 @@ def get_node_nearest_from_distribution():
                 if len(aux) > 0:
                     node_degree = degree
 
-    print(app.config["registry"]["network"], file=sys.stderr)
-    print(node_degree, file=sys.stderr)
     list_of_platform_to_connect_to = list(app.config["registry"]["network"]["degrees_distribution"][node_degree - 2])
     #     try :
     #         list_of_platform_to_connect_to.remove(app.config["PLATFORM-ID"])
@@ -756,18 +658,10 @@ def get_node_to_link_to():
     # curl -X GET 193.168.1.10:5000/inscription -H 'platform-id:4'  -H 'Content-Type:application/json'
     # -H 'existing-model:2'
     # -d '{"platforms":{"4":{"name":"DATAVERSE","URL":["http://193.168.1.13:5000"], "links":["2"]}}}'
-
     aux_registry = deepcopy(app.config["registry"])
-    # data = request.get_json()
-    print(request.headers, file=sys.stderr)
     if "Platform-Id" not in request.headers:
         #         return "No platform-id header", 400
         return flask.Response(status=400, response="No platform-id")
-    # if "existing-model-id" not in request.headers:
-    #     if "models" not in data:
-    #         return "No model defined"
-    #     if "matchs" not in data:
-    #         return "No matches defined"
     # Simulate the adding of the platform in the registry to have to list of platform to connect to
     platform_toadd_id = request.headers["platform-id"]
     aux_registry["network"]["node_number"] += 1
@@ -796,7 +690,6 @@ def link_platforms():
     platform_toadd_id = request.headers["platform-id"]
     platform_tolinkto_id = request.headers["platform-tolink"]
     data = request.get_json()
-    # pprint.pprint(app.config["registry"]["models"],stream=sys.stderr)
     app.config["registry"]["platforms"][platform_toadd_id] = data["platforms"][platform_toadd_id]
     if "existing-model-id" in request.headers:
         for model in request.headers["existing-model-id"].split(","):

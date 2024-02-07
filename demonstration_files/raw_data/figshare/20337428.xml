@@ -1,0 +1,97 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<identifier identifierType="DOI">10.6084/m9.figshare.20337428.v2</identifier>
+<creators>
+  <creator>
+    <creatorName nameType="Personal">Claire Pascouau</creatorName>
+    <givenName>Claire</givenName>
+    <familyName>Pascouau</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Corentin Chateau</creatorName>
+    <givenName>Corentin</givenName>
+    <familyName>Chateau</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Franck Bastide</creatorName>
+    <givenName>Franck</givenName>
+    <familyName>Bastide</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">THOMAS le MOULLEC-RIEU</creatorName>
+    <givenName>THOMAS</givenName>
+    <familyName>le MOULLEC-RIEU</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Thomas Guillemette</creatorName>
+    <givenName>Thomas</givenName>
+    <familyName>Guillemette</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Bruno Hamon</creatorName>
+    <givenName>Bruno</givenName>
+    <familyName>Hamon</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Sophie Aligon</creatorName>
+    <givenName>Sophie</givenName>
+    <familyName>Aligon</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Agathe Cailleau</creatorName>
+    <givenName>Agathe</givenName>
+    <familyName>Cailleau</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Daniel Sochard</creatorName>
+    <givenName>Daniel</givenName>
+    <familyName>Sochard</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Julie Gombert</creatorName>
+    <givenName>Julie</givenName>
+    <familyName>Gombert</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Elise Morel</creatorName>
+    <givenName>Elise</givenName>
+    <familyName>Morel</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Emmanuelle Laurent</creatorName>
+    <givenName>Emmanuelle</givenName>
+    <familyName>Laurent</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Isabelle Sérandat</creatorName>
+    <givenName>Isabelle</givenName>
+    <familyName>Sérandat</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Romain Berruyer</creatorName>
+    <givenName>Romain</givenName>
+    <familyName>Berruyer</familyName>
+  </creator>
+  <creator>
+    <creatorName nameType="Personal">Pascal Poupard</creatorName>
+    <givenName>Pascal</givenName>
+    <familyName>Poupard</familyName>
+  </creator>
+</creators>
+<titles><title>Characterization and pathogenicity of &lt;i&gt;Fusarium&lt;/i&gt; spp. isolates causing root and collar rot on carrot</title></titles>
+<publisher>Taylor &amp; Francis Group</publisher>
+<publicationYear>2022</publicationYear>
+<subjects>
+  <subject>Daucus carota subsp. sativus</subject>
+  <subject>Fusarium</subject>
+  <subject>plant protection</subject>
+  <subject>species identification</subject>
+  <subject>Trichoderma</subject>
+  <subject>Triticum turgidum subsp. durum</subject>
+  <subject>protection des végétaux</subject>
+  <subject>identification des espèces</subject>
+</subjects>
+<dates><date dateType="Issued">2022-08-18 13:40:20</date></dates>
+<resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+<alternateIdentifiers>  <alternateIdentifier alternateIdentifierType="URL">https://tandf.figshare.com/articles/dataset/Characterization_and_pathogenicity_of_i_Fusarium_i_spp_isolates_causing_root_and_collar_rot_on_carrot/20337428</alternateIdentifier></alternateIdentifiers>
+<descriptions><description descriptionType="Abstract">&lt;p&gt;Since 2015, necrosis caused by &lt;i&gt;Fusarium&lt;/i&gt; spp. has been regularly observed in carrot seed crops in France. A collection of 53 &lt;i&gt;Fusarium&lt;/i&gt; isolates was gathered from lesions on carrot between 2016 and 2019. Morphological characterization at both the macroscopic and microscopic levels and molecular typing based on the &lt;i&gt;ACL1, RPB2&lt;/i&gt; and &lt;i&gt;EF1-α&lt;/i&gt; partial gene sequences resulted in the identification of two main groups, corresponding to 22 &lt;i&gt;F. avenaceum&lt;/i&gt; and 22 &lt;i&gt;F. tricinctum&lt;/i&gt; isolates. In addition, three isolates of &lt;i&gt;F. graminearum&lt;/i&gt;, two each of &lt;i&gt;F. oxysporum&lt;/i&gt; and &lt;i&gt;F. acuminatum&lt;/i&gt;, and one isolate of &lt;i&gt;F. solani&lt;/i&gt; were also identified. Dual cultures of &lt;i&gt;Trichoderma&lt;/i&gt; spp. (&lt;i&gt;T. atroviride&lt;/i&gt; and &lt;i&gt;T. harzianum&lt;/i&gt;) and &lt;i&gt;Fusarium&lt;/i&gt; spp. (&lt;i&gt;F. tricinctum&lt;/i&gt; isolate FT001 and &lt;i&gt;F. avenaceum&lt;/i&gt; isolate FA002) did not indicate any antibiosis capabilities of &lt;i&gt;Trichoderma&lt;/i&gt;. The &lt;i&gt;in vitro&lt;/i&gt; sensitivity of isolates FT001 and FA002 to two fungicides and one natural product was similar, with an efficacy depending on the active ingredient. Prothioconazole + tebuconazole was more effective (mycelial growth reduced by 97% for FT001 and 99.8% for FA002) than fluopyram + trifloxystrobin (mycelial growth reduced by 58% and 56%, respectively). &lt;i&gt;Allium&lt;/i&gt; extracts seemed to be a promising alternative to fungicides, since they were almost as efficient as prothioconazole + tebuconazole. Artificial inoculation of durum wheat using three isolates from carrot lesions (FT001, FA002 and &lt;i&gt;F. graminearum&lt;/i&gt; FG001) induced plant necrosis. This result suggests that &lt;i&gt;Fusarium&lt;/i&gt; pathogens of carrot seed crops may be transmitted to wheat, which is commonly used in rotation with carrot.&lt;/p&gt;</description></descriptions>
+</resource>

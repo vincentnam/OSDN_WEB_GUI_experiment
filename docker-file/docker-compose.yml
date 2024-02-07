@@ -261,7 +261,7 @@ services:
 
     environment:
       - PLATFORM-ID=harvard-dataverse
-      - COLLECTION=harvard-dataverse
+      - COLLECTION=harvard_dataverse
       - MODEL=d86dc3ee-b851-525c-a621-210c5cc95af7
     volumes:
       - ./:/code
