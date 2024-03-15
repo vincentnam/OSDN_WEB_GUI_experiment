@@ -1,1 +1,462 @@
-{"collection":"theia","hits":[{"md":{"id":"SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D","timestamp":1631096908000,"geometry":{"type":"Polygon","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"coordinates":[[[7.72745037,45.14674759],[9.12416649,45.15377045],[9.12207413,44.16530228],[7.74888277,44.15851593],[7.72745037,45.14674759]]]},"centroid":{"type":"Point","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"coordinates":[8.43064367,44.65748321]}},"data":{"_isWMSEnabled":true,"_sensorType_en":"OPTICAL","metadata":{"core":{"temporalCoverage":{"end":"2021-09-08T10:28:28Z","begin":"2021-09-08T10:28:28Z"},"keywords":[{"origin":"embeded","type":"continent","value":"Europe"},{"origin":"embeded","type":"country","value":"Italy"},{"origin":"embeded","type":"region","value":"Piemonte"},{"origin":"embeded","type":"state","value":"Alessandria"},{"origin":"embeded","type":"region","value":"Liguria"},{"origin":"embeded","type":"state","value":"Savona"},{"origin":"embeded","type":"region","value":"Lombardia"},{"origin":"embeded","type":"state","value":"Pavia"},{"origin":"embeded","type":"sea","value":"Ligurian Sea"},{"origin":"embeded","type":"location","value":"Northern"},{"origin":"embeded","type":"location","value":"Coastal"},{"origin":"embeded","type":"season","value":"Summer"},{"origin":"embeded","type":"collection","value":"SENTINEL2"},{"origin":"embeded","type":"productType","value":"REFLECTANCE"},{"origin":"embeded","type":"processingLevel","value":"LEVEL2A"},{"origin":"embeded","type":"platform","value":"sentinel2b"},{"origin":"embeded","type":"instrument","value":""},{"origin":"embeded","type":"sensorMode","value":""},{"origin":"embeded","type":"year","value":"2021"},{"origin":"embeded","type":"month","value":"September"},{"origin":"embeded","type":"day","value":"08"},{"origin":"geonames","type":"city","value":"Voghera"},{"origin":"geonames","type":"city","value":"Chieri"},{"origin":"geonames","type":"city","value":"Casale Monferrato"},{"origin":"geonames","type":"city","value":"Tortona"},{"origin":"geonames","type":"city","value":"Mondovì"},{"origin":"geonames","type":"city","value":"Bra"},{"origin":"geonames","type":"city","value":"Genoa"},{"origin":"geonames","type":"city","value":"Valenza"},{"origin":"geonames","type":"city","value":"Asti"},{"origin":"geonames","type":"city","value":"Alba"}],"identity":{"lifecycle":{"updateFrequency_en":"asNeeded","created":"2021-09-08T10:28:28.000Z","updateFrequency":"asNeeded","updated":"2022-06-18T09:06:57.000Z","updateFrequency_fr":"asNeeded"},"collection_fr":"SENTINEL2","identifier":"SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D","collection_en":"SENTINEL2","parentIdentifier":"urn:ogc:def:EOP:CNES::SENTINEL2:","collection":"SENTINEL2","source":"https://theia.cnes.fr/atdistrib/resto2/api/collections/SENTINEL2/search.json?productIdentifier=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D"},"description":{"processingLevel_fr":"NIVEAU 2A","processingLevel":"NIVEAU 2A","resourceTitle":"SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D","processingLevel_en":"LEVEL 2A"},"locations":{"footprint":{"coordinates":[[[7.727450370789,45.146747589111],[9.124166488647,45.153770446777],[9.122074127197,44.165302276611],[7.748882770538,44.158515930176],[7.727450370789,45.146747589111]]],"type":"Polygon"}},"availability":{"archiveid":"0","status":"ONELINE"},"graphics":{"thumbnail":"https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0_THB_ALL.png","quicklook":"https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0_QKL_ALL.png"},"contacts":{"organisationName":"THEIA"}},"ObservationContext":{"observedProperty_fr":"Reflectance","observedProperty_en":"Reflectance","phenomenonTime":{"end":"2021-09-08T10:28:28Z","begin":"2021-09-08T10:28:28Z"},"observedProperty":"Reflectance","eo":{"opt":{"cloudCoverPercentage":48,"snowCoverPercentage":0,"waterCoverPercentage":0},"acquisition":{"relativeOrbitNumber":65,"orbitNumber":23543}},"processusUsed":{"platform_fr":"SENTINEL 2","platform_en":"SENTINEL 2","sensor":{"resolution":{"uom":"m","value":10}},"platform":"SENTINEL 2"}},"services":[{"protocol":"WMS","name":"no_name","description":"Display full resolution product on map","url":"https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"},{"protocol":"download","name":"download","description":"download","mimeType":"application/zip","url":"https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/download"}]},"_geometry_wkt":"POLYGON ((0.7727450370789e1 0.45146747589111e2,0.9124166488647e1 0.45153770446777e2,0.9122074127197e1 0.44165302276611e2,0.7748882770538e1 0.44158515930176e2,0.7727450370789e1 0.45146747589111e2))","_isWMTSEnabled":false,"_services":{"download":[{"protocol":"download","name":"download","description":"download","mimeType":"application/zip","url":"https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/download"}],"WMS":[{"protocol":"WMS","name":"no_name","description":"Display full resolution product on map","url":"https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"}]},"_isDataOnLine":true,"harvestuuid":"ca6be0cd-35e5-4ecc-8c63-f65871022a88","harvestername":"opensearch-theia.cnes.fr-sentinel2-l2a","_sensorType_fr":"OPTIQUE","_sensorType":"OPTIQUE","_isRadar":false,"_attachments":[{"description_fr":"En savoir plus","description_en":"Learn more","description":"En savoir plus","label":"EnSavoirPlus","url":"https://www.theia-land.fr/donnees-satellitaires/reflectance-sentinelle-2/"}],"_centroid_wkt":"POINT(8.43064367292867 44.6574832050061)","catalogueType":"opensearch","_textLocation":"T32TMQ","harvestdate":"2022-06-19T04:01:08.929Z","_isDownloadEnabled":true,"_resolution":10,"_isVisuEnabled":true,"_keywords":{"continent":["Europe"],"country":["Italy"],"year":["2021"],"city":["Voghera","Chieri","Casale Monferrato","Tortona","Mondovì","Bra","Genoa","Valenza","Asti","Alba"],"theme_en":["Reflectance"],"instrument":[""],"collection":["SENTINEL2"],"platform":["sentinel2b"],"sea":["Ligurian Sea"],"processingLevel":["LEVEL2A"],"month":["September"],"season":["Summer"],"theme":["Reflectance"],"location":["Northern","Coastal"],"state":["Alessandria","Savona","Pavia"],"theme_fr":["Reflectance"],"region":["Piemonte","Liguria","Lombardia"],"day":["08"],"sensorMode":[""],"productType":["REFLECTANCE"]},"_isOptique":true,"id":"SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D"}}],"nbhits":1,"totalnb":1,"links":{"self":{"href":"https://catalogue.theia-land.fr/arlas/explore/theia/_search?f=metadata.core.identity.identifier%3Aeq%3ASENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&righthand=false&pretty=false&flat=false&&&size=1&max-age-cache=120","method":"GET"}}}
+{
+  "collection": "theia",
+  "hits": [
+    {
+      "md": {
+        "id": "SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D",
+        "timestamp": 1631096908000,
+        "geometry": {
+          "type": "Polygon",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            [
+              [
+                7.72745037,
+                45.14674759
+              ],
+              [
+                9.12416649,
+                45.15377045
+              ],
+              [
+                9.12207413,
+                44.16530228
+              ],
+              [
+                7.74888277,
+                44.15851593
+              ],
+              [
+                7.72745037,
+                45.14674759
+              ]
+            ]
+          ]
+        },
+        "centroid": {
+          "type": "Point",
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:4326"
+            }
+          },
+          "coordinates": [
+            8.43064367,
+            44.65748321
+          ]
+        }
+      },
+      "data": {
+        "_isWMSEnabled": true,
+        "_sensorType_en": "OPTICAL",
+        "metadata": {
+          "core": {
+            "temporalCoverage": {
+              "end": "2021-09-08T10:28:28Z",
+              "begin": "2021-09-08T10:28:28Z"
+            },
+            "keywords": [
+              {
+                "origin": "embeded",
+                "type": "continent",
+                "value": "Europe"
+              },
+              {
+                "origin": "embeded",
+                "type": "country",
+                "value": "Italy"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Piemonte"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Alessandria"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Liguria"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Savona"
+              },
+              {
+                "origin": "embeded",
+                "type": "region",
+                "value": "Lombardia"
+              },
+              {
+                "origin": "embeded",
+                "type": "state",
+                "value": "Pavia"
+              },
+              {
+                "origin": "embeded",
+                "type": "sea",
+                "value": "Ligurian Sea"
+              },
+              {
+                "origin": "embeded",
+                "type": "location",
+                "value": "Northern"
+              },
+              {
+                "origin": "embeded",
+                "type": "location",
+                "value": "Coastal"
+              },
+              {
+                "origin": "embeded",
+                "type": "season",
+                "value": "Summer"
+              },
+              {
+                "origin": "embeded",
+                "type": "collection",
+                "value": "SENTINEL2"
+              },
+              {
+                "origin": "embeded",
+                "type": "productType",
+                "value": "REFLECTANCE"
+              },
+              {
+                "origin": "embeded",
+                "type": "processingLevel",
+                "value": "LEVEL2A"
+              },
+              {
+                "origin": "embeded",
+                "type": "platform",
+                "value": "sentinel2b"
+              },
+              {
+                "origin": "embeded",
+                "type": "instrument",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "sensorMode",
+                "value": ""
+              },
+              {
+                "origin": "embeded",
+                "type": "year",
+                "value": "2021"
+              },
+              {
+                "origin": "embeded",
+                "type": "month",
+                "value": "September"
+              },
+              {
+                "origin": "embeded",
+                "type": "day",
+                "value": "08"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Voghera"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Chieri"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Casale Monferrato"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Tortona"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Mondovì"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Bra"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Genoa"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Valenza"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Asti"
+              },
+              {
+                "origin": "geonames",
+                "type": "city",
+                "value": "Alba"
+              }
+            ],
+            "identity": {
+              "lifecycle": {
+                "updateFrequency_en": "asNeeded",
+                "created": "2021-09-08T10:28:28.000Z",
+                "updateFrequency": "asNeeded",
+                "updated": "2022-06-18T09:06:57.000Z",
+                "updateFrequency_fr": "asNeeded"
+              },
+              "collection_fr": "SENTINEL2",
+              "identifier": "SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D",
+              "collection_en": "SENTINEL2",
+              "parentIdentifier": "urn:ogc:def:EOP:CNES::SENTINEL2:",
+              "collection": "SENTINEL2",
+              "source": "https://theia.cnes.fr/atdistrib/resto2/api/collections/SENTINEL2/search.json?productIdentifier=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D"
+            },
+            "description": {
+              "processingLevel_fr": "NIVEAU 2A",
+              "processingLevel": "NIVEAU 2A",
+              "resourceTitle": "SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D",
+              "processingLevel_en": "LEVEL 2A"
+            },
+            "locations": {
+              "footprint": {
+                "coordinates": [
+                  [
+                    [
+                      7.727450370789,
+                      45.146747589111
+                    ],
+                    [
+                      9.124166488647,
+                      45.153770446777
+                    ],
+                    [
+                      9.122074127197,
+                      44.165302276611
+                    ],
+                    [
+                      7.748882770538,
+                      44.158515930176
+                    ],
+                    [
+                      7.727450370789,
+                      45.146747589111
+                    ]
+                  ]
+                ],
+                "type": "Polygon"
+              }
+            },
+            "availability": {
+              "archiveid": "0",
+              "status": "ONELINE"
+            },
+            "graphics": {
+              "thumbnail": "https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0_THB_ALL.png",
+              "quicklook": "https://theia.cnes.fr/data//SENTINEL2/2021/09/08/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0/SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D_V3-0_QKL_ALL.png"
+            },
+            "contacts": {
+              "organisationName": "THEIA"
+            }
+          },
+          "ObservationContext": {
+            "observedProperty_fr": "Reflectance",
+            "observedProperty_en": "Reflectance",
+            "phenomenonTime": {
+              "end": "2021-09-08T10:28:28Z",
+              "begin": "2021-09-08T10:28:28Z"
+            },
+            "observedProperty": "Reflectance",
+            "eo": {
+              "opt": {
+                "cloudCoverPercentage": 48,
+                "snowCoverPercentage": 0,
+                "waterCoverPercentage": 0
+              },
+              "acquisition": {
+                "relativeOrbitNumber": 65,
+                "orbitNumber": 23543
+              }
+            },
+            "processusUsed": {
+              "platform_fr": "SENTINEL 2",
+              "platform_en": "SENTINEL 2",
+              "sensor": {
+                "resolution": {
+                  "uom": "m",
+                  "value": 10
+                }
+              },
+              "platform": "SENTINEL 2"
+            }
+          },
+          "services": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            },
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/download"
+            }
+          ]
+        },
+        "_geometry_wkt": "POLYGON ((0.7727450370789e1 0.45146747589111e2,0.9124166488647e1 0.45153770446777e2,0.9122074127197e1 0.44165302276611e2,0.7748882770538e1 0.44158515930176e2,0.7727450370789e1 0.45146747589111e2))",
+        "_isWMTSEnabled": false,
+        "_services": {
+          "download": [
+            {
+              "protocol": "download",
+              "name": "download",
+              "description": "download",
+              "mimeType": "application/zip",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/download"
+            }
+          ],
+          "WMS": [
+            {
+              "protocol": "WMS",
+              "name": "no_name",
+              "description": "Display full resolution product on map",
+              "url": "https://theia.cnes.fr/atdistrib/resto2/collections/SENTINEL2/65832149-b7d8-5971-a0be-5b2400428410/wms?map=/nfs/muscate_data//muscate.map&idProduit=SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&versionProduit=3-0&idProjet=SENTINEL2&LAYERS=muscate&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&bbox={bbox-epsg-3857}{:bbox3857:}&WIDTH=256&HEIGHT=256"
+            }
+          ]
+        },
+        "_isDataOnLine": true,
+        "harvestuuid": "ca6be0cd-35e5-4ecc-8c63-f65871022a88",
+        "harvestername": "opensearch-theia.cnes.fr-sentinel2-l2a",
+        "_sensorType_fr": "OPTIQUE",
+        "_sensorType": "OPTIQUE",
+        "_isRadar": false,
+        "_attachments": [
+          {
+            "description_fr": "En savoir plus",
+            "description_en": "Learn more",
+            "description": "En savoir plus",
+            "label": "EnSavoirPlus",
+            "url": "https://www.theia-land.fr/donnees-satellitaires/reflectance-sentinelle-2/"
+          }
+        ],
+        "_centroid_wkt": "POINT(8.43064367292867 44.6574832050061)",
+        "catalogueType": "opensearch",
+        "_textLocation": "T32TMQ",
+        "harvestdate": "2022-06-19T04:01:08.929Z",
+        "_isDownloadEnabled": true,
+        "_resolution": 10,
+        "_isVisuEnabled": true,
+        "_keywords": {
+          "continent": [
+            "Europe"
+          ],
+          "country": [
+            "Italy"
+          ],
+          "year": [
+            "2021"
+          ],
+          "city": [
+            "Voghera",
+            "Chieri",
+            "Casale Monferrato",
+            "Tortona",
+            "Mondovì",
+            "Bra",
+            "Genoa",
+            "Valenza",
+            "Asti",
+            "Alba"
+          ],
+          "theme_en": [
+            "Reflectance"
+          ],
+          "instrument": [
+            ""
+          ],
+          "collection": [
+            "SENTINEL2"
+          ],
+          "platform": [
+            "sentinel2b"
+          ],
+          "sea": [
+            "Ligurian Sea"
+          ],
+          "processingLevel": [
+            "LEVEL2A"
+          ],
+          "month": [
+            "September"
+          ],
+          "season": [
+            "Summer"
+          ],
+          "theme": [
+            "Reflectance"
+          ],
+          "location": [
+            "Northern",
+            "Coastal"
+          ],
+          "state": [
+            "Alessandria",
+            "Savona",
+            "Pavia"
+          ],
+          "theme_fr": [
+            "Reflectance"
+          ],
+          "region": [
+            "Piemonte",
+            "Liguria",
+            "Lombardia"
+          ],
+          "day": [
+            "08"
+          ],
+          "sensorMode": [
+            ""
+          ],
+          "productType": [
+            "REFLECTANCE"
+          ]
+        },
+        "_isOptique": true,
+        "id": "SENTINEL2B_20210908-102828-850_L2A_T32TMQ_D"
+      }
+    }
+  ],
+  "nbhits": 1,
+  "totalnb": 1,
+  "links": {
+    "self": {
+      "href": "https://catalogue.theia-land.fr/arlas/explore/theia/_search?f=metadata.core.identity.identifier%3Aeq%3ASENTINEL2B_20210908-102828-850_L2A_T32TMQ_D&righthand=false&pretty=false&flat=false&&&size=1&max-age-cache=120",
+      "method": "GET"
+    }
+  }
+}

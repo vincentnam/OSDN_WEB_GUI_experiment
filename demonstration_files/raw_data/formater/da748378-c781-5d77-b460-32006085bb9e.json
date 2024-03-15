@@ -1,1 +1,327 @@
-{"type":"Feature","id":"da748378-c781-5d77-b460-32006085bb9e","geometry":{"type":"Polygon","coordinates":[[[-99.300972457,38.414859772],[-95.308747041,38.414859772],[-95.308747041,32.807077508],[-99.300972457,32.807077508],[-99.300972457,38.414859772]]]},"properties":{"collection":"SHOWCASE","license":{"licenseId":"unlicensed","hasToBeSigned":"never","grantedCountries":null,"grantedOrganizationCountries":null,"grantedFlags":null,"viewService":"public","signatureQuota":-1,"description":{"shortName":"No license"}},"productIdentifier":"NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29","parentIdentifier":"urn:ogc:def:EOP:CNES::SHOWCASE:","title":"NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29","description":null,"organisationName":"CNES","startDate":"2021-02-21T00:27:56Z","completionDate":"2021-03-29T00:27:56Z","productType":"INTERFEROGRAM","productValidity":"VALID","processingLevel":"INT-PKG","processingMode":"CONSOLIDATED","platform":"SENTINEL1","instrument":"SENTINEL-1 C-SAR","resolution":320,"sensorMode":"IW","polarisation":"VV","subswath":"IW1_IW2_IW3","nbCols":3593,"nbRows":5047,"orbitNumber":null,"relativeOrbitNumber":34,"orbitDirection":"ASCENDING","quicklook":"https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_QKL_ALL.png","thumbnail":"https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_THB_ALL.png","legend":"https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_LGD_ALL.png","updated":"2023-11-17T15:37:22Z","published":"2023-11-17T15:37:22Z","produced":"2021-12-14T20:53:31Z","waterCover":"0","snowCover":null,"cloudCover":null,"keywords":[{"id":"772e93bb1d09234","name":"North America","normalized":"north-america","type":"continent","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22North%20America%22"},{"id":"1a5360854a016c9","name":"United States of America","normalized":"united-states-of-america","type":"country","parentHash":"772e93bb1d09234","value":100,"gcover":2.38,"href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22United%20States%20of%20America%22"},{"id":"b1bd83dbedb661c","name":"South","normalized":"south","type":"region","parentHash":"1a5360854a016c9","value":54.27,"gcover":67.58,"href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=South"},{"id":"16ba1fe621da166","name":"Oklahoma","normalized":"oklahoma","type":"state","parentHash":"b1bd83dbedb661c","value":54.27,"gcover":67.58,"href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Oklahoma"},{"id":"a51ef38723afbff","name":"Midwest","normalized":"midwest","type":"region","parentHash":"1a5360854a016c9","value":24.75,"gcover":26.18,"href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Midwest"},{"id":"d3984cb515de301","name":"Kansas","normalized":"kansas","type":"state","parentHash":"a51ef38723afbff","value":24.75,"gcover":26.18,"href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Kansas"},{"id":"a0e4a10aa754ab4","name":"Northern","type":"location","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Northern"},{"id":"12ea3ae8c42bdf2","name":"Winter","type":"season","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Winter"},{"id":"a0953b56ab43ddf","name":"SHOWCASE","type":"collection","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SHOWCASE"},{"id":"354645f86821044","name":"INTERFEROGRAM","type":"productType","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=INTERFEROGRAM"},{"id":"26d36db2370527a","name":"2.1.15","type":"version","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=2.1.15"},{"id":"e3aceeda64e9035","name":"VALID","type":"productValidity","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=VALID"},{"id":"a9bca31795f4564","name":"INT-PKG","type":"processingLevel","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=INT-PKG"},{"id":"c63cbdca85f9c2e","name":"OZARK-A034SUD-VV","type":"processingSite","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=OZARK-A034SUD-VV"},{"id":"2f4987ace48d7b2","name":"OZARK-A034SUD-VV-2014-2021","type":"processingContext","parentHash":"c63cbdca85f9c2e","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=OZARK-A034SUD-VV-2014-2021"},{"id":"0ff695ea046a59b","name":"CONSOLIDATED","type":"processingMode","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=CONSOLIDATED"},{"id":"76a5acbcaa8a672","name":"SD-ERA","type":"correction","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SD-ERA"},{"id":"8f43f01f9586bac","name":"ASCENDING","type":"orbitDirection","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=ASCENDING"},{"id":"7b7e4f2e3af6185","name":"IW1_IW2_IW3","type":"subswath","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=IW1_IW2_IW3"},{"id":"a79d36dd833540d","name":"SENTINEL1","type":"platform","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SENTINEL1"},{"id":"5b233c88bcdfbd9","name":"SENTINEL-1 C-SAR","type":"instrument","parentHash":"a79d36dd833540d","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22SENTINEL-1%20C-SAR%22"},{"id":"0ef226ac8b22377","name":"IW","type":"sensorMode","parentHash":"5b233c88bcdfbd9","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=IW"},{"id":"e1b71d99878ab96","name":"VV","type":"polarisation","parentHash":"0ef226ac8b22377","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=VV"},{"id":"8b5a58e0260f96d","name":"320","type":"resolution","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=320"},{"id":"ef5bc506e8bc6b8","name":"CNES","type":"organisationName","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=CNES"},{"id":"d8c5d929951e445","name":"2021","type":"year","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=2021"},{"id":"37b6d22fe6814f3","name":"February","type":"month","parentHash":"d8c5d929951e445","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=February"},{"id":"9c7619f981ffe3a","name":"21","type":"day","parentHash":"37b6d22fe6814f3","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=21"}],"centroid":{"type":"Point","coordinates":[-97.304859749,35.61096864]},"version":"2.1.15","processingSite":"OZARK-A034SUD-VV","processingContext":"OZARK-A034SUD-VV-2014-2021","correction":"SD-ERA","oragnisationName":"CNES","services":{"browse":{"title":"Display full resolution product on map","layers":[{"name":"Wrapped","type":"WMS","url":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/Wrapped?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"},{"name":"Unwrapped","type":"WMS","url":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/Unwrapped?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"},{"name":"AtmosphericPhase","type":"WMS","url":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/AtmosphericPhase?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"}]},"download":{"url":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/download","mimeType":"application\/zip","checksum":"7cd9b92765803d73dffbf7adccfe1fb5"}},"links":[{"rel":"self","type":"application\/json","title":"GeoJSON link for da748378-c781-5d77-b460-32006085bb9e","href":"https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e.json?&lang=en"},{"rel":"via","type":"application\/unknown","title":"Metadata link for da748378-c781-5d77-b460-32006085bb9e","href":"https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/ANNEEPRODUIT\/MOISPRODUIT\/JOURPRODUIT\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_MTD_ALL.xml"}]}}
+{
+  "type": "Feature",
+  "id": "da748378-c781-5d77-b460-32006085bb9e",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -99.300972457,
+          38.414859772
+        ],
+        [
+          -95.308747041,
+          38.414859772
+        ],
+        [
+          -95.308747041,
+          32.807077508
+        ],
+        [
+          -99.300972457,
+          32.807077508
+        ],
+        [
+          -99.300972457,
+          38.414859772
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "collection": "SHOWCASE",
+    "license": {
+      "licenseId": "unlicensed",
+      "hasToBeSigned": "never",
+      "grantedCountries": null,
+      "grantedOrganizationCountries": null,
+      "grantedFlags": null,
+      "viewService": "public",
+      "signatureQuota": -1,
+      "description": {
+        "shortName": "No license"
+      }
+    },
+    "productIdentifier": "NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29",
+    "parentIdentifier": "urn:ogc:def:EOP:CNES::SHOWCASE:",
+    "title": "NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29",
+    "description": null,
+    "organisationName": "CNES",
+    "startDate": "2021-02-21T00:27:56Z",
+    "completionDate": "2021-03-29T00:27:56Z",
+    "productType": "INTERFEROGRAM",
+    "productValidity": "VALID",
+    "processingLevel": "INT-PKG",
+    "processingMode": "CONSOLIDATED",
+    "platform": "SENTINEL1",
+    "instrument": "SENTINEL-1 C-SAR",
+    "resolution": 320,
+    "sensorMode": "IW",
+    "polarisation": "VV",
+    "subswath": "IW1_IW2_IW3",
+    "nbCols": 3593,
+    "nbRows": 5047,
+    "orbitNumber": null,
+    "relativeOrbitNumber": 34,
+    "orbitDirection": "ASCENDING",
+    "quicklook": "https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_QKL_ALL.png",
+    "thumbnail": "https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_THB_ALL.png",
+    "legend": "https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/2021\/02\/21\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_LGD_ALL.png",
+    "updated": "2023-11-17T15:37:22Z",
+    "published": "2023-11-17T15:37:22Z",
+    "produced": "2021-12-14T20:53:31Z",
+    "waterCover": "0",
+    "snowCover": null,
+    "cloudCover": null,
+    "keywords": [
+      {
+        "id": "772e93bb1d09234",
+        "name": "North America",
+        "normalized": "north-america",
+        "type": "continent",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22North%20America%22"
+      },
+      {
+        "id": "1a5360854a016c9",
+        "name": "United States of America",
+        "normalized": "united-states-of-america",
+        "type": "country",
+        "parentHash": "772e93bb1d09234",
+        "value": 100,
+        "gcover": 2.38,
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22United%20States%20of%20America%22"
+      },
+      {
+        "id": "b1bd83dbedb661c",
+        "name": "South",
+        "normalized": "south",
+        "type": "region",
+        "parentHash": "1a5360854a016c9",
+        "value": 54.27,
+        "gcover": 67.58,
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=South"
+      },
+      {
+        "id": "16ba1fe621da166",
+        "name": "Oklahoma",
+        "normalized": "oklahoma",
+        "type": "state",
+        "parentHash": "b1bd83dbedb661c",
+        "value": 54.27,
+        "gcover": 67.58,
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Oklahoma"
+      },
+      {
+        "id": "a51ef38723afbff",
+        "name": "Midwest",
+        "normalized": "midwest",
+        "type": "region",
+        "parentHash": "1a5360854a016c9",
+        "value": 24.75,
+        "gcover": 26.18,
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Midwest"
+      },
+      {
+        "id": "d3984cb515de301",
+        "name": "Kansas",
+        "normalized": "kansas",
+        "type": "state",
+        "parentHash": "a51ef38723afbff",
+        "value": 24.75,
+        "gcover": 26.18,
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Kansas"
+      },
+      {
+        "id": "a0e4a10aa754ab4",
+        "name": "Northern",
+        "type": "location",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Northern"
+      },
+      {
+        "id": "12ea3ae8c42bdf2",
+        "name": "Winter",
+        "type": "season",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=Winter"
+      },
+      {
+        "id": "a0953b56ab43ddf",
+        "name": "SHOWCASE",
+        "type": "collection",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SHOWCASE"
+      },
+      {
+        "id": "354645f86821044",
+        "name": "INTERFEROGRAM",
+        "type": "productType",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=INTERFEROGRAM"
+      },
+      {
+        "id": "26d36db2370527a",
+        "name": "2.1.15",
+        "type": "version",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=2.1.15"
+      },
+      {
+        "id": "e3aceeda64e9035",
+        "name": "VALID",
+        "type": "productValidity",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=VALID"
+      },
+      {
+        "id": "a9bca31795f4564",
+        "name": "INT-PKG",
+        "type": "processingLevel",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=INT-PKG"
+      },
+      {
+        "id": "c63cbdca85f9c2e",
+        "name": "OZARK-A034SUD-VV",
+        "type": "processingSite",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=OZARK-A034SUD-VV"
+      },
+      {
+        "id": "2f4987ace48d7b2",
+        "name": "OZARK-A034SUD-VV-2014-2021",
+        "type": "processingContext",
+        "parentHash": "c63cbdca85f9c2e",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=OZARK-A034SUD-VV-2014-2021"
+      },
+      {
+        "id": "0ff695ea046a59b",
+        "name": "CONSOLIDATED",
+        "type": "processingMode",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=CONSOLIDATED"
+      },
+      {
+        "id": "76a5acbcaa8a672",
+        "name": "SD-ERA",
+        "type": "correction",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SD-ERA"
+      },
+      {
+        "id": "8f43f01f9586bac",
+        "name": "ASCENDING",
+        "type": "orbitDirection",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=ASCENDING"
+      },
+      {
+        "id": "7b7e4f2e3af6185",
+        "name": "IW1_IW2_IW3",
+        "type": "subswath",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=IW1_IW2_IW3"
+      },
+      {
+        "id": "a79d36dd833540d",
+        "name": "SENTINEL1",
+        "type": "platform",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=SENTINEL1"
+      },
+      {
+        "id": "5b233c88bcdfbd9",
+        "name": "SENTINEL-1 C-SAR",
+        "type": "instrument",
+        "parentHash": "a79d36dd833540d",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=%22SENTINEL-1%20C-SAR%22"
+      },
+      {
+        "id": "0ef226ac8b22377",
+        "name": "IW",
+        "type": "sensorMode",
+        "parentHash": "5b233c88bcdfbd9",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=IW"
+      },
+      {
+        "id": "e1b71d99878ab96",
+        "name": "VV",
+        "type": "polarisation",
+        "parentHash": "0ef226ac8b22377",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=VV"
+      },
+      {
+        "id": "8b5a58e0260f96d",
+        "name": "320",
+        "type": "resolution",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=320"
+      },
+      {
+        "id": "ef5bc506e8bc6b8",
+        "name": "CNES",
+        "type": "organisationName",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=CNES"
+      },
+      {
+        "id": "d8c5d929951e445",
+        "name": "2021",
+        "type": "year",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=2021"
+      },
+      {
+        "id": "37b6d22fe6814f3",
+        "name": "February",
+        "type": "month",
+        "parentHash": "d8c5d929951e445",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=February"
+      },
+      {
+        "id": "9c7619f981ffe3a",
+        "name": "21",
+        "type": "day",
+        "parentHash": "37b6d22fe6814f3",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/api\/collections\/SHOWCASE\/search.json?&lang=en&q=21"
+      }
+    ],
+    "centroid": {
+      "type": "Point",
+      "coordinates": [
+        -97.304859749,
+        35.61096864
+      ]
+    },
+    "version": "2.1.15",
+    "processingSite": "OZARK-A034SUD-VV",
+    "processingContext": "OZARK-A034SUD-VV-2014-2021",
+    "correction": "SD-ERA",
+    "oragnisationName": "CNES",
+    "services": {
+      "browse": {
+        "title": "Display full resolution product on map",
+        "layers": [
+          {
+            "name": "Wrapped",
+            "type": "WMS",
+            "url": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/Wrapped?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"
+          },
+          {
+            "name": "Unwrapped",
+            "type": "WMS",
+            "url": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/Unwrapped?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"
+          },
+          {
+            "name": "AtmosphericPhase",
+            "type": "WMS",
+            "url": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/wms\/AtmosphericPhase?map=\/nfs\/flatsim_data_prod\/\/flatsim.map&idProduit=NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29&idProjet=SHOWCASE&anneeProduit=ANNEEPRODUIT&moisProduit=MOISPRODUIT&jourProduit=JOURPRODUIT&LAYERS=flatsim&nomLayer=NOMLAYER&FORMAT=image%2Fpng&TRANSITIONEFFECT=resize&TRANSPARENT=true&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&STYLES=&SRS=EPSG%3A3857&BBOX={:bbox3857:}&WIDTH=256&HEIGHT=256"
+          }
+        ]
+      },
+      "download": {
+        "url": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e\/download",
+        "mimeType": "application\/zip",
+        "checksum": "7cd9b92765803d73dffbf7adccfe1fb5"
+      }
+    },
+    "links": [
+      {
+        "rel": "self",
+        "type": "application\/json",
+        "title": "GeoJSON link for da748378-c781-5d77-b460-32006085bb9e",
+        "href": "https:\/\/flatsim.cnes.fr\/atdistrib\/resto2\/collections\/SHOWCASE\/da748378-c781-5d77-b460-32006085bb9e.json?&lang=en"
+      },
+      {
+        "rel": "via",
+        "type": "application\/unknown",
+        "title": "Metadata link for da748378-c781-5d77-b460-32006085bb9e",
+        "href": "https:\/\/flatsim.cnes.fr\/data\/SHOWCASE\/ANNEEPRODUIT\/MOISPRODUIT\/JOURPRODUIT\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29\/NSBAS_INT-PKG_S1_OZARK-A034SUD-VV-2014-2021_IW123_2021-02-21_2021-03-29_MTD_ALL.xml"
+      }
+    ]
+  }
+}
